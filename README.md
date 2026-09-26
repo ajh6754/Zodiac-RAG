@@ -1,3 +1,7 @@
+# NOTE: not the original Zodiac
+
+This is an attempt at using Zodiac's semantic context as a RAG knowledge base for LLM code generation.
+
 # Zodiac: Unearthing Semantic Checks for Cloud Infrastructure-as-Code Programs
 
 Zodiac is an automated tool that unearthes possible cloud IaC semantic checks (invariants) through a combination of mining and validation techniques.
