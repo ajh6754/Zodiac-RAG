@@ -1,0 +1,9 @@
+{
+    "CountChild####azurerm_virtual_hub_connection.PLACEHOLDER == String####azurerm_virtual_hub.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_virtual_hub.sku == Enum####azurerm_virtual_hub_connection.PLACEHOLDER == String####azurerm_virtual_hub.PLACEHOLDER == String",
+            "If azurerm_virtual_hub.b.sku is of certain value, Then the number of azurerm_virtual_hub_connection that could depend on azurerm_virtual_hub.b is restricted to certain value",
+            null
+        ]
+    ]
+}

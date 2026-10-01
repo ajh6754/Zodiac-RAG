@@ -1,0 +1,14 @@
+{
+    "ATTR####EnumThenCIDRMask####azurerm_virtual_hub.sku == Enum####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_hub.sku == None####azurerm_virtual_hub.address_prefix == CIDR",
+            "If the value of azurerm_virtual_hub.sku is None, then what is the maximum CIDR mask length azurerm_virtual_hub.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_hub.sku == Standard####azurerm_virtual_hub.address_prefix == CIDR",
+            "If the value of azurerm_virtual_hub.sku is Standard, then what is the maximum CIDR mask length azurerm_virtual_hub.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

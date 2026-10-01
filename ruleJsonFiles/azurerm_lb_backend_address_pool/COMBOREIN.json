@@ -1,0 +1,14 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_lb.sku == Enum####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_lb.sku == Basic####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If the value of azurerm_lb.sku is Basic, then what is the maximum amount of azurerm_lb_backend_address_pool that could depend on azurerm_lb? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_lb.sku == Standard####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If the value of azurerm_lb.sku is Standard, then what is the maximum amount of azurerm_lb_backend_address_pool that could depend on azurerm_lb? Please answer with an integer",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,610 @@
+{
+    "AbsenceComboDown####azurerm_virtual_network_gateway_connection.authorization_key == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.authorization_key == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.authorization_key is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.authorization_key == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.authorization_key is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.authorization_key == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.authorization_key is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.custom_bgp_addresses is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.custom_bgp_addresses is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.custom_bgp_addresses is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.ipsec_policy is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.ipsec_policy is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id is null (i.e. it does not refer to azurerm_local_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.ipsec_policy is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.ipsec_policy is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.ipsec_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.traffic_selector_policy is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.traffic_selector_policy is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.traffic_selector_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_local_network_gateway.bgp_settings == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.bgp_settings == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_local_network_gateway.b.bgp_settings is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network_gateway.custom_route == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.custom_route is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network_gateway.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.edge_zone == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network_gateway.policy_group == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.policy_group == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.policy_group is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network_gateway.vpn_client_configuration == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_client_configuration == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.vpn_client_configuration is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_client_configuration == Absence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.vpn_client_configuration is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_local_network_gateway.address_space == CIDR####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "COMBO####AssociateThenCIDRExcludeCombo####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_local_network_gateway.address_space == CIDR####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If azurerm_local_network_gateway.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then the CIDR range of azurerm_virtual_network_gateway.b.vpn_client_configuration.address_space does not overlap with the CIDR range of azurerm_local_network_gateway.a.address_space",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####AncestorAssociateThenCIDRExcludeCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet.b and azurerm_subnet.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_virtual_network.address_space == CIDR####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####AncestorAssociateThenCIDRExcludeCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.address_space == CIDR####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_virtual_network.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then the CIDR range of azurerm_virtual_network.b.address_space does not overlap with the CIDR range of azurerm_virtual_network.a.address_space",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_local_network_gateway.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.address_space == CIDR",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_local_network_gateway.b.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_local_network_gateway.gateway_address == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.gateway_address == CIDR",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_local_network_gateway.b.gateway_address has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.vpn_client_configuration.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_network_gateway_connection.enable_bgp == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_subnet.b, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_network_gateway_connection.enable_bgp == true": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.enable_bgp == true",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == true",
+            null
+        ],
+        [
+            "COMBO####NegationThenConstantComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.enable_bgp == true",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then there is azurerm_virtual_network_gateway_connection.a.enable_bgp == true",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_network_gateway_connection.type == IPsec": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.type == IPsec",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then there is azurerm_virtual_network_gateway_connection.a.type == IPsec",
+            null
+        ],
+        [
+            "COMBO####NegationThenConstantComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.type == IPsec",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then there is azurerm_virtual_network_gateway_connection.a.type == IPsec",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway_connection.a.type == Vnet2Vnet",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_network_gateway.active_active == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.active_active == false",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.active_active == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.active_active == false",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.active_active == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_network_gateway.enable_bgp == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.enable_bgp == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.enable_bgp == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_network_gateway.sku == VpnGw1": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.sku == VpnGw1",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.sku == VpnGw1",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_network_gateway.type == Vpn": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.type == Vpn",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.type == Vpn",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_network_gateway.vpn_type == RouteBased": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then there is azurerm_virtual_network_gateway.b.vpn_type == RouteBased",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_local_network_gateway.location == String####azurerm_virtual_network_gateway.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_local_network_gateway.location == String####azurerm_virtual_network_gateway.location == String",
+            "If azurerm_local_network_gateway.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_local_network_gateway.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.allocation_method == azurerm_public_ip.b.allocation_method",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.ddos_protection_mode == azurerm_public_ip.b.ddos_protection_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.ip_version == azurerm_public_ip.b.ip_version",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_public_ip.location == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_resource_group.location == String",
+            "If azurerm_public_ip.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network_gateway.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network_gateway.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.sku == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_public_ip.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_resource_group.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_resource_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_resource_group.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_resource_group.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_virtual_network_gateway.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_virtual_network_gateway.location == String",
+            "If azurerm_resource_group.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_resource_group.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_subnet.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.name == String####azurerm_subnet.name == String",
+            "If azurerm_subnet.b and azurerm_subnet.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_subnet.a.name == azurerm_subnet.b.name",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_virtual_network.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network.location == String####azurerm_virtual_network_gateway.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_virtual_network.location == String####azurerm_virtual_network_gateway.location == String",
+            "If azurerm_virtual_network.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_virtual_network_gateway.id == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway.location == String####azurerm_resource_group.location == String",
+            "If azurerm_virtual_network_gateway.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway.location == String####azurerm_virtual_network_gateway.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.location == String####azurerm_virtual_network_gateway.location == String",
+            "If both azurerm_virtual_network_gateway.b and azurerm_virtual_network_gateway.c are directly connected to azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway.sku == String####azurerm_virtual_network_gateway.sku == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.sku == String####azurerm_virtual_network_gateway.sku == String",
+            "If both azurerm_virtual_network_gateway.b and azurerm_virtual_network_gateway.c are directly connected to azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.sku == azurerm_virtual_network_gateway.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway.type == String####azurerm_virtual_network_gateway.type == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.type == String####azurerm_virtual_network_gateway.type == String",
+            "If both azurerm_virtual_network_gateway.b and azurerm_virtual_network_gateway.c are directly connected to azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.type == azurerm_virtual_network_gateway.b.type",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway.vpn_type == String####azurerm_virtual_network_gateway.vpn_type == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_type == String####azurerm_virtual_network_gateway.vpn_type == String",
+            "If both azurerm_virtual_network_gateway.b and azurerm_virtual_network_gateway.c are directly connected to azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.vpn_type == azurerm_virtual_network_gateway.b.vpn_type",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.connection_mode == String####azurerm_virtual_network_gateway_connection.connection_mode == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.connection_mode == String####azurerm_virtual_network_gateway_connection.connection_mode == String",
+            "If both azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id and azurerm_virtual_network_gateway_connection.b.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.c, Then azurerm_virtual_network_gateway_connection.a.connection_mode == azurerm_virtual_network_gateway_connection.b.connection_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.location == String####azurerm_local_network_gateway.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_local_network_gateway.location == String",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_local_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_public_ip.location == String",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_public_ip.b, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_resource_group.location == String",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_resource_group.b, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_resource_group.b.location",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_resource_group.location == String",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_virtual_network_gateway_connection.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network_gateway.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network_gateway.location == String",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network_gateway.location == String",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_virtual_network_gateway.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network_gateway_connection.location == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.location == String####azurerm_virtual_network_gateway_connection.location == String",
+            "If both azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id and azurerm_virtual_network_gateway_connection.b.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.c, Then azurerm_virtual_network_gateway_connection.a.location == azurerm_virtual_network_gateway_connection.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.shared_key == String####azurerm_virtual_network_gateway_connection.shared_key == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.shared_key == String####azurerm_virtual_network_gateway_connection.shared_key == String",
+            "If both azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id and azurerm_virtual_network_gateway_connection.b.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.c, Then azurerm_virtual_network_gateway_connection.a.shared_key == azurerm_virtual_network_gateway_connection.b.shared_key",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network_gateway_connection.type == String####azurerm_virtual_network_gateway_connection.type == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.type == String####azurerm_virtual_network_gateway_connection.type == String",
+            "If both azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id and azurerm_virtual_network_gateway_connection.b.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.c, Then azurerm_virtual_network_gateway_connection.a.type == azurerm_virtual_network_gateway_connection.b.type",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_network_gateway_connection.connection_protocol == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.connection_protocol == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.connection_protocol == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id is null (i.e. it does not refer to azurerm_virtual_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.connection_protocol == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_network_gateway_connection.routing_weight == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id is null (i.e. it does not refer to azurerm_local_network_gateway.id), Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_network_gateway_connection.shared_key == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_local_network_gateway.gateway_address == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.gateway_address == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_local_network_gateway.b.gateway_address is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_virtual_network_gateway.bgp_settings == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.bgp_settings == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.bgp_settings is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_virtual_network_gateway.generation == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.generation == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b.generation is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_local_network_gateway.name == String####azurerm_virtual_network_gateway.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_local_network_gateway.name == String####azurerm_virtual_network_gateway.name == String",
+            "If azurerm_local_network_gateway.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_local_network_gateway.a.name != azurerm_virtual_network_gateway.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_network_gateway.name == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_virtual_network_gateway.id == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway.name == String####azurerm_resource_group.name == String",
+            "If azurerm_virtual_network_gateway.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.name != azurerm_resource_group.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_network_gateway.name == String####azurerm_virtual_network_gateway.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.name == String####azurerm_virtual_network_gateway.name == String",
+            "If both azurerm_virtual_network_gateway.b and azurerm_virtual_network_gateway.c are directly connected to azurerm_virtual_network_gateway_connection.a, Then azurerm_virtual_network_gateway.a.name != azurerm_virtual_network_gateway.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_network_gateway_connection.name == String####azurerm_virtual_network_gateway_connection.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.name == String####azurerm_virtual_network_gateway_connection.name == String",
+            "If both azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id and azurerm_virtual_network_gateway_connection.b.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.c, Then azurerm_virtual_network_gateway_connection.a.name != azurerm_virtual_network_gateway_connection.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_network_gateway_connection.name == String####azurerm_virtual_network_gateway_connection.name == String",
+            "If both azurerm_virtual_network_gateway_connection.a.resource_group_name and azurerm_virtual_network_gateway_connection.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_network_gateway_connection.a.name != azurerm_virtual_network_gateway_connection.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.name == String####azurerm_virtual_network_gateway_connection.name == String",
+            "If both azurerm_virtual_network_gateway_connection.a.virtual_network_gateway_id and azurerm_virtual_network_gateway_connection.b.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.c, Then azurerm_virtual_network_gateway_connection.a.name != azurerm_virtual_network_gateway_connection.b.name",
+            null
+        ]
+    ]
+}

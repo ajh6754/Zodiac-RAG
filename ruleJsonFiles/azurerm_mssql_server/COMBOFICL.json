@@ -1,0 +1,30 @@
+{
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_mssql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_mssql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_mssql_server.outbound_network_restriction_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_mssql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_mssql_server.outbound_network_restriction_enabled == false",
+            "If azurerm_mssql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_mssql_server.a.outbound_network_restriction_enabled == false",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_server.administrator_login == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_mssql_server.administrator_login == Existence",
+            "If azurerm_mssql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_mssql_server.a.administrator_login is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_mssql_server.name == String####azurerm_mssql_server.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_mssql_server.resource_group_name == String####azurerm_mssql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_mssql_server.name == String####azurerm_mssql_server.name == String",
+            "If both azurerm_mssql_server.a.resource_group_name and azurerm_mssql_server.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_mssql_server.a.name != azurerm_mssql_server.b.name",
+            null
+        ]
+    ]
+}

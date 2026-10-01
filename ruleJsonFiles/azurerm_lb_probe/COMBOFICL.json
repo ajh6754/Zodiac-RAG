@@ -1,0 +1,98 @@
+{
+    "AbsenceComboUp####azurerm_lb.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb_probe.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_lb_probe.protocol == Tcp": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_lb_probe.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_lb_probe.protocol == Tcp",
+            "If azurerm_lb_probe.a has an ancestor resource azurerm_subnet.b, Then there is azurerm_lb_probe.a.protocol == Tcp",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_lb_probe.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_lb_probe.protocol == Tcp",
+            "If azurerm_lb_probe.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_lb_probe.a.protocol == Tcp",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_lb.sku_tier == Regional": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb_probe.a.loadbalancer_id depends on azurerm_lb.b.id, Then there is azurerm_lb.b.sku_tier == Regional",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_lb_probe.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_lb_probe.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_probe.interval_in_seconds == String####azurerm_lb_probe.interval_in_seconds == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.interval_in_seconds == String####azurerm_lb_probe.interval_in_seconds == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.interval_in_seconds == azurerm_lb_probe.b.interval_in_seconds",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_probe.number_of_probes == String####azurerm_lb_probe.number_of_probes == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.number_of_probes == String####azurerm_lb_probe.number_of_probes == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.number_of_probes == azurerm_lb_probe.b.number_of_probes",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_probe.probe_threshold == String####azurerm_lb_probe.probe_threshold == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.probe_threshold == String####azurerm_lb_probe.probe_threshold == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.probe_threshold == azurerm_lb_probe.b.probe_threshold",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_probe.protocol == String####azurerm_lb_probe.protocol == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.protocol == String####azurerm_lb_probe.protocol == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.protocol == azurerm_lb_probe.b.protocol",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_probe.request_path == String####azurerm_lb_probe.request_path == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.request_path == String####azurerm_lb_probe.request_path == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.request_path == azurerm_lb_probe.b.request_path",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_probe.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_public_ip.location == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_probe.a, Then azurerm_public_ip.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_lb.frontend_ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb_probe.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.frontend_ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_probe.name == String####azurerm_lb_probe.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.name == String####azurerm_lb_probe.name == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.name != azurerm_lb_probe.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_probe.port == String####azurerm_lb_probe.port == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_probe.port == String####azurerm_lb_probe.port == String",
+            "If both azurerm_lb_probe.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_probe.a.port != azurerm_lb_probe.b.port",
+            null
+        ]
+    ]
+}

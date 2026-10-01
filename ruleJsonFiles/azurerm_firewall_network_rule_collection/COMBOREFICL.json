@@ -1,0 +1,19 @@
+{
+    "CountChild####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_firewall.sku_tier == Enum####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If azurerm_firewall.b.sku_tier is of certain value, Then the number of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall.b is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_firewall.name == Enum####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If azurerm_firewall.b.name is of certain value, Then the number of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall.b is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_firewall.sku_name == Enum####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If azurerm_firewall.b.sku_name is of certain value, Then the number of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall.b is restricted to certain value",
+            null
+        ]
+    ]
+}

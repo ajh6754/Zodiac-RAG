@@ -1,0 +1,30 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub_connection.remote_virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_hub_connection.routing.static_vnet_route.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub_connection.remote_virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_hub_connection.routing.static_vnet_route.address_prefixes == CIDR",
+            "If the value of azurerm_virtual_hub_connection.remote_virtual_network_id depends on azurerm_virtual_network.id, then what is the maximum CIDR mask length azurerm_virtual_hub_connection.routing.static_vnet_route.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub_connection.virtual_hub_id == String####azurerm_virtual_hub.id == String####azurerm_virtual_hub_connection.routing.static_vnet_route.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub_connection.virtual_hub_id == String####azurerm_virtual_hub.id == String####azurerm_virtual_hub_connection.routing.static_vnet_route.address_prefixes == CIDR",
+            "If the value of azurerm_virtual_hub_connection.virtual_hub_id depends on azurerm_virtual_hub.id, then what is the maximum CIDR mask length azurerm_virtual_hub_connection.routing.static_vnet_route.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_hub_connection.remote_virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_hub_connection.remote_virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR",
+            "If the value of azurerm_virtual_hub_connection.remote_virtual_network_id depends on azurerm_virtual_network.id, then what is the maximum CIDR mask length azurerm_virtual_network.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_hub_connection.virtual_hub_id == String####azurerm_virtual_hub.id == String####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_hub_connection.virtual_hub_id == String####azurerm_virtual_hub.id == String####azurerm_virtual_hub.address_prefix == CIDR",
+            "If the value of azurerm_virtual_hub_connection.virtual_hub_id depends on azurerm_virtual_hub.id, then what is the maximum CIDR mask length azurerm_virtual_hub.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

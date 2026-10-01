@@ -1,0 +1,78 @@
+{
+    "CIDRExcludeCombo####azurerm_route.address_prefix == CIDR####azurerm_route.address_prefix == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_route.resource_group_name == String####azurerm_route.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_route.address_prefix == CIDR####azurerm_route.address_prefix == CIDR",
+            "If both azurerm_route.a.resource_group_name and azurerm_route.b.resource_group_name depends on azurerm_resource_group.c, Then the CIDR range of azurerm_route.b.address_prefix does not overlap with the CIDR range of azurerm_route.a.address_prefix",
+            null
+        ],
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_route.route_table_name == String####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.name == String####azurerm_route.address_prefix == CIDR####azurerm_route.address_prefix == CIDR",
+            "If both azurerm_route.a.route_table_name and azurerm_route.b.route_table_name depends on azurerm_route_table.c, Then the CIDR range of azurerm_route.b.address_prefix does not overlap with the CIDR range of azurerm_route.a.address_prefix",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_route.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_route.resource_group_name == String####azurerm_resource_group.name == String####azurerm_route.address_prefix == CIDR",
+            "If azurerm_route.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_route.a.address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route.address_prefix == CIDR",
+            "If azurerm_route.a.route_table_name depends on azurerm_route_table.b.name, Then azurerm_route.a.address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_route.next_hop_in_ip_address == String####azurerm_route.next_hop_in_ip_address == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_route.route_table_name == String####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.name == String####azurerm_route.next_hop_in_ip_address == String####azurerm_route.next_hop_in_ip_address == String",
+            "If both azurerm_route.a.route_table_name and azurerm_route.b.route_table_name depends on azurerm_route_table.c, Then azurerm_route.a.next_hop_in_ip_address == azurerm_route.b.next_hop_in_ip_address",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_route.next_hop_type == String####azurerm_route.next_hop_type == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_route.route_table_name == String####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.name == String####azurerm_route.next_hop_type == String####azurerm_route.next_hop_type == String",
+            "If both azurerm_route.a.route_table_name and azurerm_route.b.route_table_name depends on azurerm_route_table.c, Then azurerm_route.a.next_hop_type == azurerm_route.b.next_hop_type",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_route_table.bgp_route_propagation_enabled == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.bgp_route_propagation_enabled == Existence",
+            "If azurerm_route.a.route_table_name depends on azurerm_route_table.b.name, Then azurerm_route_table.b.bgp_route_propagation_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_route.address_prefix == String####azurerm_route.address_prefix == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_route.resource_group_name == String####azurerm_route.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_route.address_prefix == String####azurerm_route.address_prefix == String",
+            "If both azurerm_route.a.resource_group_name and azurerm_route.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_route.a.address_prefix != azurerm_route.b.address_prefix",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_route.route_table_name == String####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.name == String####azurerm_route.address_prefix == String####azurerm_route.address_prefix == String",
+            "If both azurerm_route.a.route_table_name and azurerm_route.b.route_table_name depends on azurerm_route_table.c, Then azurerm_route.a.address_prefix != azurerm_route.b.address_prefix",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_route.name == String####azurerm_route.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_route.route_table_name == String####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.name == String####azurerm_route.name == String####azurerm_route.name == String",
+            "If both azurerm_route.a.route_table_name and azurerm_route.b.route_table_name depends on azurerm_route_table.c, Then azurerm_route.a.name != azurerm_route.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_route.resource_group_name == String####azurerm_route.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_route.name == String####azurerm_route.name == String",
+            "If both azurerm_route.a.resource_group_name and azurerm_route.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_route.a.name != azurerm_route.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_route.next_hop_type == String####azurerm_route.next_hop_type == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_route.route_table_name == String####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route_table.name == String####azurerm_route.next_hop_type == String####azurerm_route.next_hop_type == String",
+            "If both azurerm_route.a.route_table_name and azurerm_route.b.route_table_name depends on azurerm_route_table.c, Then azurerm_route.a.next_hop_type != azurerm_route.b.next_hop_type",
+            null
+        ]
+    ]
+}

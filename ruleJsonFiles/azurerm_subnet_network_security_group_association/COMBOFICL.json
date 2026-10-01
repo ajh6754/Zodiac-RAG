@@ -1,0 +1,51 @@
+{
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet_network_security_group_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_subnet_network_security_group_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_network_security_group.security_rule.source_address_prefix == CIDR####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####AssociateThenCIDRExcludeCombo####azurerm_subnet_network_security_group_association.network_security_group_id == String####azurerm_subnet_network_security_group_association.subnet_id == String####azurerm_network_security_group.id == String####azurerm_subnet.id == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_network_security_group.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_network_security_group_association.a, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefix",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet_network_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If azurerm_subnet_network_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b.security_rule.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet_network_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_subnet_network_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b.security_rule.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet_network_security_group_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet_network_security_group_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_network_security_group.security_rule == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_subnet_network_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_security_group.security_rule == Existence",
+            "If azurerm_subnet_network_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b.security_rule is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_security_group.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_subnet_network_security_group_association.network_security_group_id == String####azurerm_subnet_network_security_group_association.subnet_id == String####azurerm_network_security_group.id == String####azurerm_subnet.id == String####azurerm_network_security_group.name == String####azurerm_subnet.name == String",
+            "If azurerm_network_security_group.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_network_security_group_association.a, Then azurerm_network_security_group.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ]
+}

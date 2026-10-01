@@ -1,0 +1,252 @@
+{
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_cosmosdb_account.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_cosmosdb_account.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id, Then azurerm_cosmosdb_account.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_mssql_server.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_mssql_server.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_server.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_postgresql_server.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_postgresql_server.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id, Then azurerm_postgresql_server.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_private_link_service.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_link_service.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_private_link_service.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_private_link_service.b.id, Then azurerm_private_link_service.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_redis_cache.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_redis_cache.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id, Then azurerm_redis_cache.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_storage_account.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_storage_account.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_private_endpoint.resource_group_name == String####azurerm_private_endpoint.subnet_id == String####azurerm_resource_group.name == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_endpoint.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_endpoint.resource_group_name == String####azurerm_private_endpoint.subnet_id == String####azurerm_resource_group.name == String####azurerm_subnet.id == String",
+            "If azurerm_private_endpoint.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_cosmosdb_account.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_cosmosdb_account.id == String####azurerm_subnet.id == String####azurerm_cosmosdb_account.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_cosmosdb_account.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_cosmosdb_account.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_mssql_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_mssql_server.id == String####azurerm_subnet.id == String####azurerm_mssql_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_mssql_server.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_mssql_server.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_postgresql_flexible_server.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_postgresql_flexible_server.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_postgresql_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_postgresql_server.id == String####azurerm_subnet.id == String####azurerm_postgresql_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_postgresql_server.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_postgresql_server.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_cosmosdb_account.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_mssql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_mssql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_mssql_server.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_postgresql_flexible_server.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_postgresql_server.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_private_link_service.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_link_service.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_private_link_service.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_private_link_service.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_private_link_service.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_redis_cache.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_storage_account.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_endpoint.subnet_id == String####azurerm_subnet.id == String####azurerm_private_endpoint.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a.subnet_id depends on azurerm_subnet.b.id, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ],
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_private_endpoint.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a has an ancestor resource azurerm_subnet.b, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_endpoint.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_endpoint.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_endpoint.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_private_endpoint.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_link_service.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_private_link_service.id == String####azurerm_subnet.id == String####azurerm_private_link_service.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_link_service.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_private_link_service.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_redis_cache.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_redis_cache.id == String####azurerm_subnet.id == String####azurerm_redis_cache.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_redis_cache.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_redis_cache.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_storage_account.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_endpoint.subnet_id == String####azurerm_storage_account.id == String####azurerm_subnet.id == String####azurerm_storage_account.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_storage_account.b and azurerm_subnet.c connected or associated with each other via azurerm_private_endpoint.a, Then both azurerm_storage_account.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_cosmosdb_account.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_cosmosdb_account.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id, Then azurerm_cosmosdb_account.b could only have a single azurerm_private_endpoint that is azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_mssql_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_mssql_server.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_server.b could only have a single azurerm_private_endpoint that is azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.b could only have a single azurerm_private_endpoint that is azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_server.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id, Then azurerm_postgresql_server.b could only have a single azurerm_private_endpoint that is azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_private_link_service.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_link_service.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_private_link_service.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_private_link_service.b.id, Then azurerm_private_link_service.b could only have a single azurerm_private_endpoint that is azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_redis_cache.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_redis_cache.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id, Then azurerm_redis_cache.b could only have a single azurerm_private_endpoint that is azurerm_private_endpoint.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_cosmosdb_account.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_cosmosdb_account.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id, Then azurerm_private_endpoint.a is the only resource that directly depends on azurerm_cosmosdb_account.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_private_endpoint.a is the only resource that directly depends on azurerm_postgresql_flexible_server.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_postgresql_server.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id, Then azurerm_private_endpoint.a is the only resource that directly depends on azurerm_postgresql_server.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_private_link_service.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_link_service.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_private_link_service.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_private_link_service.b.id, Then azurerm_private_endpoint.a is the only resource that directly depends on azurerm_private_link_service.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_redis_cache.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_redis_cache.PLACEHOLDER == String",
+            "If azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id, Then azurerm_private_endpoint.a is the only resource that directly depends on azurerm_redis_cache.b",
+            null
+        ]
+    ]
+}

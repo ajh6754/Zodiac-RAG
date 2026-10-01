@@ -1,0 +1,23 @@
+{
+    "Branch####azurerm_lb_nat_rule.resource_group_name == String####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_network_interface_nat_rule_association.nat_rule_id == String####azurerm_network_interface_nat_rule_association.network_interface_id == String####azurerm_lb_nat_rule.id == String####azurerm_network_interface.id == String####azurerm_lb_nat_rule.resource_group_name == String####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_nat_rule.b and azurerm_network_interface.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then both azurerm_lb_nat_rule.b.resource_group_name and azurerm_network_interface.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_network_interface_nat_rule_association.nat_rule_id == String####azurerm_lb_nat_rule.id == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String",
+            "If azurerm_network_interface_nat_rule_association.a.nat_rule_id depends on azurerm_lb_nat_rule.b.id, Then azurerm_lb_nat_rule.b could only have a single azurerm_network_interface_nat_rule_association that is azurerm_network_interface_nat_rule_association.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_network_interface_nat_rule_association.nat_rule_id == String####azurerm_lb_nat_rule.id == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String",
+            "If azurerm_network_interface_nat_rule_association.a.nat_rule_id depends on azurerm_lb_nat_rule.b.id, Then azurerm_network_interface_nat_rule_association.a is the only resource that directly depends on azurerm_lb_nat_rule.b",
+            null
+        ]
+    ]
+}

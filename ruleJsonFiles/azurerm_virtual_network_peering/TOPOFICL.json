@@ -1,0 +1,23 @@
+{
+    "Associate####azurerm_virtual_network_peering.remote_virtual_network_id == String####azurerm_virtual_network_peering.resource_group_name == String####azurerm_virtual_network.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_virtual_network_peering.remote_virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network_peering.remote_virtual_network_id == String####azurerm_virtual_network_peering.resource_group_name == String####azurerm_virtual_network.id == String####azurerm_resource_group.name == String",
+            "If azurerm_virtual_network_peering.a.remote_virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_network_peering.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_virtual_network_peering.remote_virtual_network_id == String####azurerm_virtual_network_peering.virtual_network_name == String####azurerm_virtual_network.id == String####azurerm_virtual_network.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_virtual_network_peering.remote_virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network_peering.remote_virtual_network_id == String####azurerm_virtual_network_peering.virtual_network_name == String####azurerm_virtual_network.id == String####azurerm_virtual_network.name == String",
+            "If azurerm_virtual_network_peering.a.remote_virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_network_peering.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_virtual_network_peering.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_virtual_network_peering.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network_peering.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_virtual_network_peering.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then both azurerm_virtual_network_peering.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ]
+}

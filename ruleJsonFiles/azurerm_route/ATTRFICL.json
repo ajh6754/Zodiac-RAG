@@ -1,0 +1,9 @@
+{
+    "CIDRMask####azurerm_route.address_prefix == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_route.next_hop_type == Enum####azurerm_route.address_prefix == CIDR",
+            "If azurerm_route.a.next_hop_type is of certain value, Then azurerm_route.a.address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ]
+}

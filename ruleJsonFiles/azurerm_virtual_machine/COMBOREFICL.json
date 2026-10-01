@@ -1,0 +1,88 @@
+{
+    "CountParent####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_machine.delete_os_disk_on_termination == Enum####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If azurerm_virtual_machine.a.delete_os_disk_on_termination is of certain value, Then the number of azurerm_network_interface that azurerm_virtual_machine.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_machine.vm_size == Enum####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If azurerm_virtual_machine.a.vm_size is of certain value, Then the number of azurerm_network_interface that azurerm_virtual_machine.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_machine.delete_data_disks_on_termination == Enum####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If azurerm_virtual_machine.a.delete_data_disks_on_termination is of certain value, Then the number of azurerm_network_interface that azurerm_virtual_machine.a could depend on is restricted to certain value",
+            null
+        ]
+    ],
+    "Negation####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String": [
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_virtual_machine.additional_capabilities == Absence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.additional_capabilities is null or empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_virtual_machine.os_profile_linux_config == Existence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_virtual_machine.storage_image_reference == Existence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.storage_image_reference is not null nor empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_virtual_machine.boot_diagnostics == Absence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.boot_diagnostics is null or empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_virtual_machine.os_profile_secrets == Absence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.os_profile_secrets is null or empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_virtual_machine.zones == Absence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.zones is null or empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_virtual_machine.delete_data_disks_on_termination == false####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_virtual_machine.os_profile_windows_config == Absence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.os_profile_windows_config is null or empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_virtual_machine.plan == Absence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.plan is null or empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_virtual_machine.os_profile == Existence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.os_profile is not null nor empty, Then azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id)",
+            null
+        ]
+    ],
+    "Reference####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_virtual_machine.boot_diagnostics == Existence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.boot_diagnostics is not null nor empty, Then azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_virtual_machine.zones == Existence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.zones is not null nor empty, Then azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_virtual_machine.plan == Existence####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String",
+            "If azurerm_virtual_machine.a.plan is not null nor empty, Then azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id",
+            null
+        ]
+    ]
+}

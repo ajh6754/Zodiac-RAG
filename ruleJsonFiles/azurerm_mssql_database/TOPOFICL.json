@@ -1,0 +1,16 @@
+{
+    "ConflictChild####azurerm_mssql_database.PLACEHOLDER == String####azurerm_mssql_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.PLACEHOLDER == String####azurerm_mssql_server.PLACEHOLDER == String",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_server.b could only have a single azurerm_mssql_database that is azurerm_mssql_database.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_mssql_database.PLACEHOLDER == String####azurerm_mssql_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.PLACEHOLDER == String####azurerm_mssql_server.PLACEHOLDER == String",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a is the only resource that directly depends on azurerm_mssql_server.b",
+            null
+        ]
+    ]
+}

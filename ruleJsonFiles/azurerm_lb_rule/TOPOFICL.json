@@ -1,0 +1,86 @@
+{
+    "AncestorBranch####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####AssociateThenAncestorBranch####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_rule.probe_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_probe.id == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_lb_backend_address_pool.b and azurerm_lb_probe.c connected or associated with each other via azurerm_lb_rule.a, Then some azurerm_public_ip.d has both azurerm_lb_backend_address_pool.b and azurerm_lb_probe.c",
+            null
+        ]
+    ],
+    "AncestorBranch####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String": [
+        [
+            "TOPO####AssociateThenAncestorBranch####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_rule.probe_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_probe.id == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String",
+            "If azurerm_lb_backend_address_pool.b and azurerm_lb_probe.c connected or associated with each other via azurerm_lb_rule.a, Then some azurerm_resource_group.d has both azurerm_lb_backend_address_pool.b and azurerm_lb_probe.c",
+            null
+        ]
+    ],
+    "Associate####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_rule.probe_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_probe.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_rule.probe_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_probe.id == String",
+            "If azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id, Then azurerm_lb_backend_address_pool.b and azurerm_lb_probe.c connected or associated with each other via azurerm_lb_rule.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_lb_rule.frontend_ip_configuration_name == String####azurerm_lb_rule.probe_id == String####azurerm_public_ip.name == String####azurerm_lb_probe.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_lb_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_lb_rule.frontend_ip_configuration_name == String####azurerm_lb_rule.probe_id == String####azurerm_public_ip.name == String####azurerm_lb_probe.id == String",
+            "If azurerm_lb_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then azurerm_public_ip.b and azurerm_lb_probe.c connected or associated with each other via azurerm_lb_rule.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_rule.probe_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_probe.id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String",
+            "If azurerm_lb_backend_address_pool.b and azurerm_lb_probe.c connected or associated with each other via azurerm_lb_rule.a, Then both azurerm_lb_backend_address_pool.b.loadbalancer_id and azurerm_lb_probe.c.loadbalancer_id depends on azurerm_lb.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_lb_rule.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_rule.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String",
+            "If azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id, Then both azurerm_lb_rule.a.loadbalancer_id and azurerm_lb_backend_address_pool.b.loadbalancer_id depends on azurerm_lb.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_lb_rule.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String####azurerm_lb_rule.loadbalancer_id == String####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String",
+            "If azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id, Then both azurerm_lb_rule.a.loadbalancer_id and azurerm_lb_probe.b.loadbalancer_id depends on azurerm_lb.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb_rule.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b could only have a single azurerm_lb_rule that is azurerm_lb_rule.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String",
+            "If azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id, Then azurerm_lb_backend_address_pool.b could only have a single azurerm_lb_rule that is azurerm_lb_rule.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String",
+            "If azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id, Then azurerm_lb_probe.b could only have a single azurerm_lb_rule that is azurerm_lb_rule.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_lb_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_lb_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then azurerm_public_ip.b could only have a single azurerm_lb_rule that is azurerm_lb_rule.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String",
+            "If azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id, Then azurerm_lb_rule.a is the only resource that directly depends on azurerm_lb_probe.b",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_storage_account.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.id, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

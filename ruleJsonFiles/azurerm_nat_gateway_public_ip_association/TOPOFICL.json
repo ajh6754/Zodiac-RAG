@@ -1,0 +1,30 @@
+{
+    "Associate####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_nat_gateway.id == String####azurerm_public_ip.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway.id == String####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_nat_gateway.id == String####azurerm_public_ip.id == String",
+            "If azurerm_nat_gateway_public_ip_association.a.nat_gateway_id depends on azurerm_nat_gateway.b.id, Then azurerm_nat_gateway.b and azurerm_public_ip.c connected or associated with each other via azurerm_nat_gateway_public_ip_association.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_nat_gateway_public_ip_association.PLACEHOLDER == String####azurerm_nat_gateway.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway.id == String####azurerm_nat_gateway_public_ip_association.PLACEHOLDER == String####azurerm_nat_gateway.PLACEHOLDER == String",
+            "If azurerm_nat_gateway_public_ip_association.a.nat_gateway_id depends on azurerm_nat_gateway.b.id, Then azurerm_nat_gateway.b could only have a single azurerm_nat_gateway_public_ip_association that is azurerm_nat_gateway_public_ip_association.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_nat_gateway_public_ip_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_nat_gateway_public_ip_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_nat_gateway_public_ip_association.a.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b could only have a single azurerm_nat_gateway_public_ip_association that is azurerm_nat_gateway_public_ip_association.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_nat_gateway_public_ip_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_nat_gateway_public_ip_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_nat_gateway_public_ip_association.a.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_nat_gateway_public_ip_association.a is the only resource that directly depends on azurerm_public_ip.b",
+            null
+        ]
+    ]
+}

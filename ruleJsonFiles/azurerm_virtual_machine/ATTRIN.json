@@ -1,0 +1,1595 @@
+{
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.delete_data_disks_on_termination == Enum####azurerm_virtual_machine.storage_image_reference.offer == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.delete_data_disks_on_termination == Enum####azurerm_virtual_machine.storage_image_reference.publisher == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.delete_data_disks_on_termination == Enum####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == False####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is False, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_data_disks_on_termination == True####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.delete_data_disks_on_termination is True, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.delete_os_disk_on_termination == Enum####azurerm_virtual_machine.storage_image_reference.offer == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.delete_os_disk_on_termination == Enum####azurerm_virtual_machine.storage_image_reference.publisher == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.delete_os_disk_on_termination == Enum####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == True####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is True, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.delete_os_disk_on_termination == False####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.delete_os_disk_on_termination is False, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.storage_image_reference.sku == Enum####azurerm_virtual_machine.storage_image_reference.offer == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.offer == WindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.offer == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.offer cannot be ? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.storage_image_reference.sku == Enum####azurerm_virtual_machine.storage_image_reference.publisher == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 22_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 16.04.0-LTS####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 16.04.0-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 18.04-LTS####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 18.04-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2016-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2016-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fpx-vm-byol####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fpx-vm-byol, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-23h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-23h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-Datacenter####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-Datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == gen1####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is gen1, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == kali####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is kali, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 20_04-lts-gen2####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == Standard####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is Standard, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2023_g2####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2023_g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2019-datacenter####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2019-datacenter, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 94_gen2####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 94_gen2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == win11-21h2-pro####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is win11-21h2-pro, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == minimal-20_04-lts####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is minimal-20_04-lts, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == server####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is server, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 2022-datacenter-g2####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 17_2_1-payg-sec####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 17_2_1-payg-sec, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 19.04####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 19.04, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == fortinet_fg-vm_payg_2022####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is fortinet_fg-vm_payg_2022, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.publisher == Canonical",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.publisher == fortinet",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be fortinet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.storage_image_reference.sku == 14.04.5-LTS####azurerm_virtual_machine.storage_image_reference.publisher == ",
+            "If the value of azurerm_virtual_machine.storage_image_reference.sku is 14.04.5-LTS, then the value of azurerm_virtual_machine.storage_image_reference.publisher cannot be ? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_machine.vm_size == Enum####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B1s####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B1s, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B1s####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B1s, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B1s####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B1s, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D4s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D4s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D4s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D4s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D4s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D4s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B2s####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B2s, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B2s####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B2s, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B2s####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B2s, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DS2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DS2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DS2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DS2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DS2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DS2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == BANANARAMA####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is BANANARAMA, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == BANANARAMA####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is BANANARAMA, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == BANANARAMA####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is BANANARAMA, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B1ms####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B1ms, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B1ms####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B1ms, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_B1ms####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_B1ms, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_F2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_F2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_F2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_F2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_F2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_F2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_A1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_A1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_A1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_A1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_A1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_A1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_F4s_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_F4s_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_F4s_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_F4s_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_F4s_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_F4s_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_A2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_A2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_A2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_A2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_A2_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_A2_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v4####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v4, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v4####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v4, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v4####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v4, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DS3_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DS3_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DS3_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DS3_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DS3_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DS3_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2ads_v7####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2ads_v7, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2ads_v7####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2ads_v7, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2ads_v7####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2ads_v7, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DC1s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DC1s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DC1s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DC1s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_DC1s_v3####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_DC1s_v3, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_ds1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_ds1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_ds1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_ds1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_ds1_v2####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_ds1_v2, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v5####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v5, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v5####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v5, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_machine.vm_size == Standard_D2s_v5####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS",
+            "If the value of azurerm_virtual_machine.vm_size is Standard_D2s_v5, then the value of azurerm_virtual_machine.storage_os_disk.managed_disk_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ]
+    ]
+}

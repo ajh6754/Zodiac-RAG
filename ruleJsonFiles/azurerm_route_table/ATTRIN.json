@@ -1,0 +1,144 @@
+{
+    "ATTR####EnumThenCIDRMask####azurerm_route_table.disable_bgp_route_propagation == Enum####azurerm_route_table.route.address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.disable_bgp_route_propagation == True####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.disable_bgp_route_propagation is True, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.disable_bgp_route_propagation == False####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.disable_bgp_route_propagation is False, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_route_table.name == Enum####azurerm_route_table.route.address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.name == RouteTable####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.name is RouteTable, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_route_table.name == Enum####azurerm_route_table.route.next_hop_in_ip_address == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.name == RouteTable####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.name is RouteTable, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_route_table.route.next_hop_type == Enum####azurerm_route_table.route.address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == Internet####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is Internet, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == VirtualAppliance####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is VirtualAppliance, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == VirtualNetworkGateway####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is VirtualNetworkGateway, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == VnetLocal####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is VnetLocal, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == None####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is None, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_route_table.route.next_hop_type == Enum####azurerm_route_table.route.next_hop_in_ip_address == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == Internet####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is Internet, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == VirtualAppliance####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is VirtualAppliance, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == VirtualNetworkGateway####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is VirtualNetworkGateway, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == VnetLocal####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is VnetLocal, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route_table.route.next_hop_type == None####azurerm_route_table.route.next_hop_in_ip_address == CIDR",
+            "If the value of azurerm_route_table.route.next_hop_type is None, then what is the maximum CIDR mask length azurerm_route_table.route.next_hop_in_ip_address could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_route_table.name == Enum####azurerm_route_table.route.next_hop_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == RouteTable####azurerm_route_table.route.next_hop_type == Internet",
+            "If the value of azurerm_route_table.name is RouteTable, then the value of azurerm_route_table.route.next_hop_type cannot be Internet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == RouteTable####azurerm_route_table.route.next_hop_type == VirtualAppliance",
+            "If the value of azurerm_route_table.name is RouteTable, then the value of azurerm_route_table.route.next_hop_type cannot be VirtualAppliance? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == RouteTable####azurerm_route_table.route.next_hop_type == VirtualNetworkGateway",
+            "If the value of azurerm_route_table.name is RouteTable, then the value of azurerm_route_table.route.next_hop_type cannot be VirtualNetworkGateway? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == RouteTable####azurerm_route_table.route.next_hop_type == VnetLocal",
+            "If the value of azurerm_route_table.name is RouteTable, then the value of azurerm_route_table.route.next_hop_type cannot be VnetLocal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == RouteTable####azurerm_route_table.route.next_hop_type == None",
+            "If the value of azurerm_route_table.name is RouteTable, then the value of azurerm_route_table.route.next_hop_type cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.next_hop_type == Internet",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then the value of azurerm_route_table.route.next_hop_type cannot be Internet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.next_hop_type == VirtualAppliance",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then the value of azurerm_route_table.route.next_hop_type cannot be VirtualAppliance? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.next_hop_type == VirtualNetworkGateway",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then the value of azurerm_route_table.route.next_hop_type cannot be VirtualNetworkGateway? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.next_hop_type == VnetLocal",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then the value of azurerm_route_table.route.next_hop_type cannot be VnetLocal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.route.next_hop_type == None",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then the value of azurerm_route_table.route.next_hop_type cannot be None? Please answer with True or False",
+            null
+        ]
+    ]
+}

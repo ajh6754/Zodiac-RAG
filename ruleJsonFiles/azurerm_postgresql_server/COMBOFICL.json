@@ -1,0 +1,58 @@
+{
+    "AbsenceComboDown####azurerm_postgresql_server.restore_point_in_time == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.restore_point_in_time == Absence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.restore_point_in_time is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_postgresql_server.threat_detection_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.threat_detection_policy == Absence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.threat_detection_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_server.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.location == String####azurerm_resource_group.location == String",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_server.administrator_login == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.administrator_login == Existence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.administrator_login is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_server.administrator_login_password == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.administrator_login_password == Existence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.administrator_login_password is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_server.backup_retention_days == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.backup_retention_days is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_server.storage_mb == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_server.storage_mb == Existence",
+            "If azurerm_postgresql_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_server.a.storage_mb is not null nor empty",
+            null
+        ]
+    ]
+}

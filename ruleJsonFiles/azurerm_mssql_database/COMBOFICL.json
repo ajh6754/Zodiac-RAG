@@ -1,0 +1,145 @@
+{
+    "ConstantComboDown####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then there is azurerm_mssql_database.a.collation == SQL_Latin1_General_CP1_CI_AS",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_mssql_database.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If azurerm_mssql_database.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_mssql_database.a.collation == SQL_Latin1_General_CP1_CI_AS",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_mssql_database.license_type == LicenseIncluded": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_mssql_database.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If azurerm_mssql_database.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_mssql_database.a.license_type == LicenseIncluded",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then there is azurerm_mssql_database.a.license_type == LicenseIncluded",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_mssql_server.outbound_network_restriction_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.outbound_network_restriction_enabled == false",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then there is azurerm_mssql_server.b.outbound_network_restriction_enabled == false",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.collation == String####azurerm_mssql_database.collation == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.collation == String####azurerm_mssql_database.collation == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.collation == azurerm_mssql_database.b.collation",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.create_mode == String####azurerm_mssql_database.create_mode == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.create_mode == String####azurerm_mssql_database.create_mode == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.create_mode == azurerm_mssql_database.b.create_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.create_mode == String####azurerm_mssql_server.connection_policy == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.create_mode == String####azurerm_mssql_server.connection_policy == String",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.create_mode == azurerm_mssql_server.b.connection_policy",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.license_type == String####azurerm_mssql_database.license_type == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.license_type == String####azurerm_mssql_database.license_type == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.license_type == azurerm_mssql_database.b.license_type",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.max_size_gb == String####azurerm_mssql_database.max_size_gb == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.max_size_gb == String####azurerm_mssql_database.max_size_gb == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.max_size_gb == azurerm_mssql_database.b.max_size_gb",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.sku_name == String####azurerm_mssql_database.sku_name == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.sku_name == String####azurerm_mssql_database.sku_name == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.sku_name == azurerm_mssql_database.b.sku_name",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_mssql_database.storage_account_type == String####azurerm_mssql_database.storage_account_type == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.storage_account_type == String####azurerm_mssql_database.storage_account_type == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.storage_account_type == azurerm_mssql_database.b.storage_account_type",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.enclave_type == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.enclave_type == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.enclave_type is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.max_size_gb == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.max_size_gb == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.max_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.min_capacity == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.min_capacity == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.min_capacity is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.read_replica_count == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.read_replica_count == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.read_replica_count is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.read_scale == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.read_scale == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.read_scale is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_mssql_database.short_term_retention_policy == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.short_term_retention_policy == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_database.a.short_term_retention_policy is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_mssql_server.administrator_login == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.administrator_login == Existence",
+            "If azurerm_mssql_database.a.server_id depends on azurerm_mssql_server.b.id, Then azurerm_mssql_server.b.administrator_login is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_mssql_database.name == String####azurerm_mssql_database.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_mssql_database.server_id == String####azurerm_mssql_database.server_id == String####azurerm_mssql_server.id == String####azurerm_mssql_server.id == String####azurerm_mssql_database.name == String####azurerm_mssql_database.name == String",
+            "If both azurerm_mssql_database.a.server_id and azurerm_mssql_database.b.server_id depends on azurerm_mssql_server.c, Then azurerm_mssql_database.a.name != azurerm_mssql_database.b.name",
+            null
+        ]
+    ]
+}

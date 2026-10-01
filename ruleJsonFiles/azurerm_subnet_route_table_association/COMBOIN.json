@@ -1,0 +1,16 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_subnet_route_table_association.route_table_id == String####azurerm_route_table.id == String####azurerm_route_table.route.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_subnet_route_table_association.route_table_id == String####azurerm_route_table.id == String####azurerm_route_table.route.address_prefix == CIDR",
+            "If the value of azurerm_subnet_route_table_association.route_table_id depends on azurerm_route_table.id, then what is the maximum CIDR mask length azurerm_route_table.route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_subnet_route_table_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_subnet_route_table_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_subnet_route_table_association.subnet_id depends on azurerm_subnet.id, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

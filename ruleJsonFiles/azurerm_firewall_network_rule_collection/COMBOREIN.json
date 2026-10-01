@@ -1,0 +1,48 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_firewall.name == Enum####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.name == AZFirewall####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is AZFirewall, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.name == ContosoFirewall####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is ContosoFirewall, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.name == AzureFirewall####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is AzureFirewall, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_firewall.sku_name == Enum####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.sku_name == AZFW_VNet####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_name is AZFW_VNet, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.sku_name == AZFW_Hub####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_name is AZFW_Hub, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_firewall.sku_tier == Enum####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.sku_tier == Standard####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Standard, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.sku_tier == Basic####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Basic, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_firewall.sku_tier == Premium####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Premium, then what is the maximum amount of azurerm_firewall_network_rule_collection that could depend on azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ]
+}

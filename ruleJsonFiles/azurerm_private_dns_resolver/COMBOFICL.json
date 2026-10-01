@@ -1,0 +1,23 @@
+{
+    "CIDRMaskComboUp####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_private_dns_resolver.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_private_dns_resolver.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_dns_resolver.location == String####azurerm_resource_group.location == String",
+            "If azurerm_private_dns_resolver.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_private_dns_resolver.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_dns_resolver.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_private_dns_resolver.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ]
+}

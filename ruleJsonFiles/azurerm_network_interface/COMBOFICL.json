@@ -1,0 +1,144 @@
+{
+    "AbsenceComboDown####azurerm_network_interface.auxiliary_mode == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_interface.auxiliary_mode == Absence",
+            "If azurerm_network_interface.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_interface.a.auxiliary_mode is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_network_interface.auxiliary_mode == Absence",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_network_interface.a.auxiliary_mode is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_network_interface.auxiliary_sku == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_network_interface.auxiliary_sku == Absence",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_network_interface.a.auxiliary_sku is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_interface.auxiliary_sku == Absence",
+            "If azurerm_network_interface.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_interface.a.auxiliary_sku is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_network_interface.dns_servers == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_interface.dns_servers == Absence",
+            "If azurerm_network_interface.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_interface.a.dns_servers is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_network_interface.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_network_interface.edge_zone == Absence",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_network_interface.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_interface.edge_zone == Absence",
+            "If azurerm_network_interface.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_interface.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_public_ip.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.edge_zone == Absence",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_public_ip.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.zones == Absence",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_network_interface.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_public_ip.b.ddos_protection_mode == VirtualNetworkInherited",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_network_interface.location == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_network_interface.location == String####azurerm_network_interface.location == String",
+            "If both azurerm_network_interface.a.ip_configuration.0.subnet_id and azurerm_network_interface.b.ip_configuration.0.subnet_id depends on azurerm_subnet.c, Then azurerm_network_interface.a.location == azurerm_network_interface.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_network_interface.location == String####azurerm_public_ip.location == String",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_network_interface.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_interface.location == String####azurerm_resource_group.location == String",
+            "If azurerm_network_interface.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_interface.a.location == azurerm_resource_group.b.location",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_network_interface.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_network_interface.location == String####azurerm_resource_group.location == String",
+            "If azurerm_network_interface.a has an ancestor resource azurerm_resource_group.b, Then azurerm_network_interface.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_network_interface.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_network_interface.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_network_interface.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_network_interface.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_interface.ip_configuration.name == String####azurerm_network_interface.ip_configuration.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_network_interface.resource_group_name == String####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_network_interface.ip_configuration.name == String####azurerm_network_interface.ip_configuration.name == String",
+            "If both azurerm_network_interface.a.resource_group_name and azurerm_network_interface.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_network_interface.a.ip_configuration.name != azurerm_network_interface.b.ip_configuration.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_network_interface.ip_configuration.name == String####azurerm_network_interface.ip_configuration.name == String",
+            "If both azurerm_network_interface.a.ip_configuration.0.subnet_id and azurerm_network_interface.b.ip_configuration.0.subnet_id depends on azurerm_subnet.c, Then azurerm_network_interface.a.ip_configuration.name != azurerm_network_interface.b.ip_configuration.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_interface.name == String####azurerm_network_interface.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_network_interface.name == String####azurerm_network_interface.name == String",
+            "If both azurerm_network_interface.a.ip_configuration.0.subnet_id and azurerm_network_interface.b.ip_configuration.0.subnet_id depends on azurerm_subnet.c, Then azurerm_network_interface.a.name != azurerm_network_interface.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_network_interface.resource_group_name == String####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_network_interface.name == String####azurerm_network_interface.name == String",
+            "If both azurerm_network_interface.a.resource_group_name and azurerm_network_interface.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_network_interface.a.name != azurerm_network_interface.b.name",
+            null
+        ]
+    ]
+}

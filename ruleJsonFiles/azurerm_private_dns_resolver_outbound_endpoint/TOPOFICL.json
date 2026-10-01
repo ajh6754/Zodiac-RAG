@@ -1,0 +1,44 @@
+{
+    "Associate####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_private_dns_resolver.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver.id == String####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_private_dns_resolver.id == String####azurerm_subnet.id == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.private_dns_resolver_id depends on azurerm_private_dns_resolver.b.id, Then azurerm_private_dns_resolver.b and azurerm_subnet.c connected or associated with each other via azurerm_private_dns_resolver_outbound_endpoint.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_private_dns_resolver.id == String####azurerm_subnet.id == String####azurerm_private_dns_resolver.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver.b and azurerm_subnet.c connected or associated with each other via azurerm_private_dns_resolver_outbound_endpoint.a, Then both azurerm_private_dns_resolver.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.id == String####azurerm_virtual_network.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_private_dns_resolver.id == String####azurerm_subnet.id == String####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.id == String####azurerm_virtual_network.name == String",
+            "If azurerm_private_dns_resolver.b and azurerm_subnet.c connected or associated with each other via azurerm_private_dns_resolver_outbound_endpoint.a, Then both azurerm_private_dns_resolver.b.virtual_network_id and azurerm_subnet.c.virtual_network_name depends on azurerm_virtual_network.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver.id == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.private_dns_resolver_id depends on azurerm_private_dns_resolver.b.id, Then azurerm_private_dns_resolver.b could only have a single azurerm_private_dns_resolver_outbound_endpoint that is azurerm_private_dns_resolver_outbound_endpoint.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_subnet.id == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_private_dns_resolver_outbound_endpoint that is azurerm_private_dns_resolver_outbound_endpoint.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_subnet.id == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_private_dns_resolver_outbound_endpoint.a is the only resource that directly depends on azurerm_subnet.b",
+            null
+        ]
+    ]
+}

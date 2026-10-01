@@ -1,0 +1,16 @@
+{
+    "CountParent####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_lb.sku == Enum####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_lb.a.sku is of certain value, Then the number of azurerm_public_ip that azurerm_lb.a could depend on is restricted to certain value",
+            null
+        ]
+    ],
+    "Reference####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String": [
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb.sku == Basic####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If there is azurerm_lb.a.sku == Basic, Then azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,754 @@
+{
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == True####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is True, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.auto_grow_enabled == False####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.auto_grow_enabled is False, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == False####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == True####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == True####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is True, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.public_network_access_enabled == False####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.public_network_access_enabled is False, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.ssl_enforcement_enabled == True",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.ssl_enforcement_enabled == False",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.ssl_enforcement_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_2####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_2, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_2####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_2, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == B_Gen5_1####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.sku_name is B_Gen5_1, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_4####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_4, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.sku_name == GP_Gen5_8####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.sku_name is GP_Gen5_8, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.auto_grow_enabled == True",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.auto_grow_enabled == False",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.auto_grow_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLS1_2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.ssl_minimal_tls_version_enforced cannot be TLSEnforcementDisabled? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == True####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is True, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.version == 11",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.version cannot be 11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_server.ssl_enforcement_enabled == False####azurerm_postgresql_server.version == 10",
+            "If the value of azurerm_postgresql_server.ssl_enforcement_enabled is False, then the value of azurerm_postgresql_server.version cannot be 10? Please answer with True or False",
+            null
+        ]
+    ]
+}

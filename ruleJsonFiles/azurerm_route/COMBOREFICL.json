@@ -1,0 +1,9 @@
+{
+    "CountChild####azurerm_route.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_route_table.name == Enum####azurerm_route.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If azurerm_route_table.b.name is of certain value, Then the number of azurerm_route that could depend on azurerm_route_table.b is restricted to certain value",
+            null
+        ]
+    ]
+}

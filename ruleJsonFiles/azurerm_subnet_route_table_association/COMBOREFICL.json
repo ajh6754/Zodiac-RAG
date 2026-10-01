@@ -1,0 +1,14 @@
+{
+    "CountChild####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_route_table.name == Enum####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If azurerm_route_table.b.name is of certain value, Then the number of azurerm_subnet_route_table_association that could depend on azurerm_route_table.b is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_route_table.disable_bgp_route_propagation == Enum####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If azurerm_route_table.b.disable_bgp_route_propagation is of certain value, Then the number of azurerm_subnet_route_table_association that could depend on azurerm_route_table.b is restricted to certain value",
+            null
+        ]
+    ]
+}

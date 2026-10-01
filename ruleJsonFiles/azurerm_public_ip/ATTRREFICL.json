@@ -1,0 +1,21 @@
+{
+    "Absence####azurerm_public_ip.zones == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_public_ip.sku == Basic####azurerm_public_ip.zones == Absence",
+            "If there is azurerm_public_ip.a.sku == Basic, Then azurerm_public_ip.a.zones is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_public_ip.allocation_method == Static": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_public_ip.sku == Standard####azurerm_public_ip.allocation_method == Static",
+            "If there is azurerm_public_ip.a.sku == Standard, Then there is azurerm_public_ip.a.allocation_method == Static",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_public_ip.ddos_protection_mode == Enabled####azurerm_public_ip.allocation_method == Static",
+            "If there is azurerm_public_ip.a.ddos_protection_mode == Enabled, Then there is azurerm_public_ip.a.allocation_method == Static",
+            null
+        ]
+    ]
+}

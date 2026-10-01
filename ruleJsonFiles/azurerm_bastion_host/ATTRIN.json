@@ -1,0 +1,34 @@
+{
+    "ATTR####EnumThenEnum####azurerm_bastion_host.sku == Enum####azurerm_bastion_host.name == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_bastion_host.sku == Basic####azurerm_bastion_host.name == AzureBastionHost",
+            "If the value of azurerm_bastion_host.sku is Basic, then the value of azurerm_bastion_host.name cannot be AzureBastionHost? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_bastion_host.sku == Basic####azurerm_bastion_host.name == BastionHost",
+            "If the value of azurerm_bastion_host.sku is Basic, then the value of azurerm_bastion_host.name cannot be BastionHost? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_bastion_host.sku == Standard####azurerm_bastion_host.name == AzureBastionHost",
+            "If the value of azurerm_bastion_host.sku is Standard, then the value of azurerm_bastion_host.name cannot be AzureBastionHost? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_bastion_host.sku == Standard####azurerm_bastion_host.name == BastionHost",
+            "If the value of azurerm_bastion_host.sku is Standard, then the value of azurerm_bastion_host.name cannot be BastionHost? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_bastion_host.sku == Developer####azurerm_bastion_host.name == AzureBastionHost",
+            "If the value of azurerm_bastion_host.sku is Developer, then the value of azurerm_bastion_host.name cannot be AzureBastionHost? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_bastion_host.sku == Developer####azurerm_bastion_host.name == BastionHost",
+            "If the value of azurerm_bastion_host.sku is Developer, then the value of azurerm_bastion_host.name cannot be BastionHost? Please answer with True or False",
+            null
+        ]
+    ]
+}

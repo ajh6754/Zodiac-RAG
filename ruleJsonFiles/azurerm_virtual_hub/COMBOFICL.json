@@ -1,0 +1,133 @@
+{
+    "AbsenceComboDown####azurerm_virtual_hub.route == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.route == Absence",
+            "If azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id, Then azurerm_virtual_hub.a.route is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.route == Absence",
+            "If azurerm_virtual_hub.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_hub.a.route is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_virtual_hub.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_virtual_hub.address_prefix == CIDR####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.address_prefix == CIDR####azurerm_virtual_hub.address_prefix == CIDR",
+            "If both azurerm_virtual_hub.a.resource_group_name and azurerm_virtual_hub.b.resource_group_name depends on azurerm_resource_group.c, Then the CIDR range of azurerm_virtual_hub.b.address_prefix does not overlap with the CIDR range of azurerm_virtual_hub.a.address_prefix",
+            null
+        ],
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.address_prefix == CIDR####azurerm_virtual_hub.address_prefix == CIDR",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then the CIDR range of azurerm_virtual_hub.b.address_prefix does not overlap with the CIDR range of azurerm_virtual_hub.a.address_prefix",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.address_prefix == CIDR",
+            "If azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id, Then azurerm_virtual_hub.a.address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.address_prefix == CIDR",
+            "If azurerm_virtual_hub.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_hub.a.address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_hub.hub_routing_preference == ExpressRoute": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_virtual_hub.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_hub.hub_routing_preference == ExpressRoute",
+            "If azurerm_virtual_hub.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_virtual_hub.a.hub_routing_preference == ExpressRoute",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.hub_routing_preference == ExpressRoute",
+            "If azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id, Then there is azurerm_virtual_hub.a.hub_routing_preference == ExpressRoute",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.hub_routing_preference == ExpressRoute",
+            "If azurerm_virtual_hub.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_virtual_hub.a.hub_routing_preference == ExpressRoute",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_wan.office365_local_breakout_category == None": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.office365_local_breakout_category == None",
+            "If azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id, Then there is azurerm_virtual_wan.b.office365_local_breakout_category == None",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_hub.hub_routing_preference == String####azurerm_virtual_hub.hub_routing_preference == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.hub_routing_preference == String####azurerm_virtual_hub.hub_routing_preference == String",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then azurerm_virtual_hub.a.hub_routing_preference == azurerm_virtual_hub.b.hub_routing_preference",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_hub.sku == String####azurerm_virtual_hub.sku == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.sku == String####azurerm_virtual_hub.sku == String",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then azurerm_virtual_hub.a.sku == azurerm_virtual_hub.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_hub.virtual_router_auto_scale_min_capacity == String####azurerm_virtual_hub.virtual_router_auto_scale_min_capacity == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.virtual_router_auto_scale_min_capacity == String####azurerm_virtual_hub.virtual_router_auto_scale_min_capacity == String",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then azurerm_virtual_hub.a.virtual_router_auto_scale_min_capacity == azurerm_virtual_hub.b.virtual_router_auto_scale_min_capacity",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_resource_group.name == String####azurerm_virtual_wan.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_resource_group.name == String####azurerm_virtual_wan.id == String####azurerm_resource_group.name == String####azurerm_virtual_wan.name == String",
+            "If azurerm_resource_group.b and azurerm_virtual_wan.c connected or associated with each other via azurerm_virtual_hub.a, Then azurerm_resource_group.a.name != azurerm_virtual_wan.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_hub.address_prefix == String####azurerm_virtual_hub.address_prefix == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.address_prefix == String####azurerm_virtual_hub.address_prefix == String",
+            "If both azurerm_virtual_hub.a.resource_group_name and azurerm_virtual_hub.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_hub.a.address_prefix != azurerm_virtual_hub.b.address_prefix",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.address_prefix == String####azurerm_virtual_hub.address_prefix == String",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then azurerm_virtual_hub.a.address_prefix != azurerm_virtual_hub.b.address_prefix",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_hub.location == String####azurerm_virtual_hub.location == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.location == String####azurerm_virtual_hub.location == String",
+            "If both azurerm_virtual_hub.a.resource_group_name and azurerm_virtual_hub.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_hub.a.location != azurerm_virtual_hub.b.location",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.location == String####azurerm_virtual_hub.location == String",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then azurerm_virtual_hub.a.location != azurerm_virtual_hub.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_hub.name == String####azurerm_virtual_hub.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.name == String####azurerm_virtual_hub.name == String",
+            "If both azurerm_virtual_hub.a.virtual_wan_id and azurerm_virtual_hub.b.virtual_wan_id depends on azurerm_virtual_wan.c, Then azurerm_virtual_hub.a.name != azurerm_virtual_hub.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.name == String####azurerm_virtual_hub.name == String",
+            "If both azurerm_virtual_hub.a.resource_group_name and azurerm_virtual_hub.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_hub.a.name != azurerm_virtual_hub.b.name",
+            null
+        ]
+    ]
+}

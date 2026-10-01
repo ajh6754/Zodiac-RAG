@@ -1,0 +1,19 @@
+{
+    "CountParent####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_peering.use_remote_gateways == Enum####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_virtual_network_peering.a.use_remote_gateways is of certain value, Then the number of azurerm_virtual_network that azurerm_virtual_network_peering.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_peering.allow_gateway_transit == Enum####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_virtual_network_peering.a.allow_gateway_transit is of certain value, Then the number of azurerm_virtual_network that azurerm_virtual_network_peering.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_peering.allow_forwarded_traffic == Enum####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_virtual_network_peering.a.allow_forwarded_traffic is of certain value, Then the number of azurerm_virtual_network that azurerm_virtual_network_peering.a could depend on is restricted to certain value",
+            null
+        ]
+    ]
+}

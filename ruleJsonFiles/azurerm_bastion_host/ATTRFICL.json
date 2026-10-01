@@ -1,0 +1,125 @@
+{
+    "Constant####azurerm_bastion_host.ip_connect_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.file_copy_enabled == false####azurerm_bastion_host.ip_connect_enabled == false",
+            "If there is azurerm_bastion_host.a.file_copy_enabled == false, Then there is azurerm_bastion_host.a.ip_connect_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.shareable_link_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.file_copy_enabled == false####azurerm_bastion_host.shareable_link_enabled == false",
+            "If there is azurerm_bastion_host.a.file_copy_enabled == false, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.name == BastionHost####azurerm_bastion_host.shareable_link_enabled == false",
+            "If there is azurerm_bastion_host.a.name == BastionHost, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.ip_connect_enabled == false####azurerm_bastion_host.shareable_link_enabled == false",
+            "If there is azurerm_bastion_host.a.ip_connect_enabled == false, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.shareable_link_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.ip_connect_enabled == true####azurerm_bastion_host.shareable_link_enabled == true",
+            "If there is azurerm_bastion_host.a.ip_connect_enabled == true, Then there is azurerm_bastion_host.a.shareable_link_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.file_copy_enabled == true####azurerm_bastion_host.shareable_link_enabled == true",
+            "If there is azurerm_bastion_host.a.file_copy_enabled == true, Then there is azurerm_bastion_host.a.shareable_link_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.name == AzureBastionHost####azurerm_bastion_host.shareable_link_enabled == true",
+            "If there is azurerm_bastion_host.a.name == AzureBastionHost, Then there is azurerm_bastion_host.a.shareable_link_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.sku == Basic": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.name == BastionHost####azurerm_bastion_host.sku == Basic",
+            "If there is azurerm_bastion_host.a.name == BastionHost, Then there is azurerm_bastion_host.a.sku == Basic",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.sku == Developer": [
+        [
+            "ATTR####AbsenceThenConstant####azurerm_bastion_host.ip_configuration == Absence####azurerm_bastion_host.sku == Developer",
+            "If azurerm_bastion_host.a.ip_configuration is null or empty, Then there is azurerm_bastion_host.a.sku == Developer",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.sku == Standard": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.name == AzureBastionHost####azurerm_bastion_host.sku == Standard",
+            "If there is azurerm_bastion_host.a.name == AzureBastionHost, Then there is azurerm_bastion_host.a.sku == Standard",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.file_copy_enabled == true####azurerm_bastion_host.sku == Standard",
+            "If there is azurerm_bastion_host.a.file_copy_enabled == true, Then there is azurerm_bastion_host.a.sku == Standard",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.shareable_link_enabled == true####azurerm_bastion_host.sku == Standard",
+            "If there is azurerm_bastion_host.a.shareable_link_enabled == true, Then there is azurerm_bastion_host.a.sku == Standard",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.ip_connect_enabled == true####azurerm_bastion_host.sku == Standard",
+            "If there is azurerm_bastion_host.a.ip_connect_enabled == true, Then there is azurerm_bastion_host.a.sku == Standard",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.tunneling_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.name == BastionHost####azurerm_bastion_host.tunneling_enabled == false",
+            "If there is azurerm_bastion_host.a.name == BastionHost, Then there is azurerm_bastion_host.a.tunneling_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.sku == Developer####azurerm_bastion_host.tunneling_enabled == false",
+            "If there is azurerm_bastion_host.a.sku == Developer, Then there is azurerm_bastion_host.a.tunneling_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.sku == Basic####azurerm_bastion_host.tunneling_enabled == false",
+            "If there is azurerm_bastion_host.a.sku == Basic, Then there is azurerm_bastion_host.a.tunneling_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_bastion_host.tunneling_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.file_copy_enabled == true####azurerm_bastion_host.tunneling_enabled == true",
+            "If there is azurerm_bastion_host.a.file_copy_enabled == true, Then there is azurerm_bastion_host.a.tunneling_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.name == AzureBastionHost####azurerm_bastion_host.tunneling_enabled == true",
+            "If there is azurerm_bastion_host.a.name == AzureBastionHost, Then there is azurerm_bastion_host.a.tunneling_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.shareable_link_enabled == true####azurerm_bastion_host.tunneling_enabled == true",
+            "If there is azurerm_bastion_host.a.shareable_link_enabled == true, Then there is azurerm_bastion_host.a.tunneling_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_bastion_host.ip_connect_enabled == true####azurerm_bastion_host.tunneling_enabled == true",
+            "If there is azurerm_bastion_host.a.ip_connect_enabled == true, Then there is azurerm_bastion_host.a.tunneling_enabled == true",
+            null
+        ]
+    ],
+    "Enum####azurerm_bastion_host.name == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_bastion_host.sku == Enum####azurerm_bastion_host.name == Enum",
+            "If azurerm_bastion_host.a.sku is of certain value, Then azurerm_bastion_host.a.name cannot use certain value",
+            null
+        ]
+    ]
+}

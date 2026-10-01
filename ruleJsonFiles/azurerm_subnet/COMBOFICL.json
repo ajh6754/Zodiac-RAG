@@ -1,0 +1,120 @@
+{
+    "AbsenceComboDown####azurerm_subnet.service_endpoints == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_subnet.service_endpoints == Absence",
+            "If azurerm_subnet.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_subnet.a.service_endpoints is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_subnet.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.bgp_community == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.bgp_community == Absence",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_virtual_network.b.bgp_community is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.ddos_protection_plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.ddos_protection_plan == Absence",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_virtual_network.b.ddos_protection_plan is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.edge_zone == Absence",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_virtual_network.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.encryption == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.encryption == Absence",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_virtual_network.b.encryption is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_subnet.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If both azurerm_subnet.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ],
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_subnet.virtual_network_name == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.name == String####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If both azurerm_subnet.a.virtual_network_name and azurerm_subnet.b.virtual_network_name depends on azurerm_virtual_network.c, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ]
+    ],
+    "CIDRIncludeCombo####azurerm_subnet.address_prefixes == CIDR####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRIncludeCombo####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_subnet.address_prefixes == CIDR####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then the CIDR range of azurerm_virtual_network.b.address_space contains the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_subnet.a.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_subnet.a.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_virtual_network.b.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_subnet.private_endpoint_network_policies == String####azurerm_subnet.private_endpoint_network_policies == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_subnet.virtual_network_name == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.name == String####azurerm_subnet.private_endpoint_network_policies == String####azurerm_subnet.private_endpoint_network_policies == String",
+            "If both azurerm_subnet.a.virtual_network_name and azurerm_subnet.b.virtual_network_name depends on azurerm_virtual_network.c, Then azurerm_subnet.a.private_endpoint_network_policies == azurerm_subnet.b.private_endpoint_network_policies",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_virtual_network.dns_servers == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.dns_servers == Existence",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then azurerm_virtual_network.b.dns_servers is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_subnet.address_prefixes == String####azurerm_subnet.address_prefixes == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_subnet.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_subnet.address_prefixes == String####azurerm_subnet.address_prefixes == String",
+            "If both azurerm_subnet.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_subnet.a.address_prefixes != azurerm_subnet.b.address_prefixes",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_subnet.virtual_network_name == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.name == String####azurerm_subnet.address_prefixes == String####azurerm_subnet.address_prefixes == String",
+            "If both azurerm_subnet.a.virtual_network_name and azurerm_subnet.b.virtual_network_name depends on azurerm_virtual_network.c, Then azurerm_subnet.a.address_prefixes != azurerm_subnet.b.address_prefixes",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_subnet.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_subnet.virtual_network_name == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.name == String####azurerm_subnet.name == String####azurerm_subnet.name == String",
+            "If both azurerm_subnet.a.virtual_network_name and azurerm_subnet.b.virtual_network_name depends on azurerm_virtual_network.c, Then azurerm_subnet.a.name != azurerm_subnet.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_subnet.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_subnet.name == String####azurerm_subnet.name == String",
+            "If both azurerm_subnet.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_subnet.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ]
+}

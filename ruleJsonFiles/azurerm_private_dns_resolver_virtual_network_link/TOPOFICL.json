@@ -1,0 +1,51 @@
+{
+    "Associate####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_virtual_network.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_virtual_network.id == String",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then both azurerm_private_dns_resolver_dns_forwarding_ruleset.b.resource_group_name and azurerm_virtual_network.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.id == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.id == String",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_private_dns_resolver.b, Then both azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id and azurerm_private_dns_resolver.b.virtual_network_id depends on azurerm_virtual_network.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.id == String####azurerm_virtual_network.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.id == String####azurerm_virtual_network.name == String",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_subnet.b, Then both azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id and azurerm_subnet.b.virtual_network_name depends on azurerm_virtual_network.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.b could only have a single azurerm_private_dns_resolver_virtual_network_link that is azurerm_private_dns_resolver_virtual_network_link.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b could only have a single azurerm_private_dns_resolver_virtual_network_link that is azurerm_private_dns_resolver_virtual_network_link.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then azurerm_private_dns_resolver_virtual_network_link.a is the only resource that directly depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b",
+            null
+        ]
+    ]
+}

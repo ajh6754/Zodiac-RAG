@@ -1,0 +1,21 @@
+{
+    "Constant####azurerm_virtual_network_peering.allow_gateway_transit == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_peering.allow_forwarded_traffic == false####azurerm_virtual_network_peering.allow_gateway_transit == false",
+            "If there is azurerm_virtual_network_peering.a.allow_forwarded_traffic == false, Then there is azurerm_virtual_network_peering.a.allow_gateway_transit == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_peering.use_remote_gateways == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_peering.allow_gateway_transit == true####azurerm_virtual_network_peering.use_remote_gateways == false",
+            "If there is azurerm_virtual_network_peering.a.allow_gateway_transit == true, Then there is azurerm_virtual_network_peering.a.use_remote_gateways == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_peering.allow_forwarded_traffic == false####azurerm_virtual_network_peering.use_remote_gateways == false",
+            "If there is azurerm_virtual_network_peering.a.allow_forwarded_traffic == false, Then there is azurerm_virtual_network_peering.a.use_remote_gateways == false",
+            null
+        ]
+    ]
+}

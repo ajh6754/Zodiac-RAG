@@ -1,0 +1,296 @@
+{
+    "Constant####azurerm_postgresql_flexible_server.authentication.password_auth_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.authentication.active_directory_auth_enabled == true####azurerm_postgresql_flexible_server.authentication.password_auth_enabled == false",
+            "If there is azurerm_postgresql_flexible_server.a.authentication.active_directory_auth_enabled == true, Then there is azurerm_postgresql_flexible_server.a.authentication.password_auth_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_flexible_server.authentication.password_auth_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.authentication.active_directory_auth_enabled == false####azurerm_postgresql_flexible_server.authentication.password_auth_enabled == true",
+            "If there is azurerm_postgresql_flexible_server.a.authentication.active_directory_auth_enabled == false, Then there is azurerm_postgresql_flexible_server.a.authentication.password_auth_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_flexible_server.high_availability.mode == SameZone": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == true####azurerm_postgresql_flexible_server.high_availability.mode == SameZone",
+            "If there is azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled == true, Then there is azurerm_postgresql_flexible_server.a.high_availability.mode == SameZone",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_flexible_server.high_availability.mode == ZoneRedundant": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == false####azurerm_postgresql_flexible_server.high_availability.mode == ZoneRedundant",
+            "If there is azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled == false, Then there is azurerm_postgresql_flexible_server.a.high_availability.mode == ZoneRedundant",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.auto_grow_enabled == true####azurerm_postgresql_flexible_server.high_availability.mode == ZoneRedundant",
+            "If there is azurerm_postgresql_flexible_server.a.auto_grow_enabled == true, Then there is azurerm_postgresql_flexible_server.a.high_availability.mode == ZoneRedundant",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_flexible_server.public_network_access_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == true####azurerm_postgresql_flexible_server.public_network_access_enabled == false",
+            "If there is azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled == true, Then there is azurerm_postgresql_flexible_server.a.public_network_access_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.auto_grow_enabled == true####azurerm_postgresql_flexible_server.public_network_access_enabled == false",
+            "If there is azurerm_postgresql_flexible_server.a.auto_grow_enabled == true, Then there is azurerm_postgresql_flexible_server.a.public_network_access_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_flexible_server.version == 16": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == true####azurerm_postgresql_flexible_server.version == 16",
+            "If there is azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled == true, Then there is azurerm_postgresql_flexible_server.a.version == 16",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_flexible_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.zone == Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_flexible_server.a.zone is of certain value, Then azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_flexible_server.a.sku_name is of certain value, Then azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_flexible_server.a.sku_name is of certain value, Then azurerm_postgresql_flexible_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.zone == Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_flexible_server.a.zone is of certain value, Then azurerm_postgresql_flexible_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_flexible_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_flexible_server.version == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum####azurerm_postgresql_flexible_server.version == Enum",
+            "If azurerm_postgresql_flexible_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_flexible_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.version == Enum",
+            "If azurerm_postgresql_flexible_server.a.sku_name is of certain value, Then azurerm_postgresql_flexible_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_flexible_server.version == Enum",
+            "If azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_flexible_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.zone == Enum####azurerm_postgresql_flexible_server.version == Enum",
+            "If azurerm_postgresql_flexible_server.a.zone is of certain value, Then azurerm_postgresql_flexible_server.a.version cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_flexible_server.zone == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum####azurerm_postgresql_flexible_server.zone == Enum",
+            "If azurerm_postgresql_flexible_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_flexible_server.a.zone cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_flexible_server.zone == Enum",
+            "If azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_flexible_server.a.zone cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.zone == Enum",
+            "If azurerm_postgresql_flexible_server.a.sku_name is of certain value, Then azurerm_postgresql_flexible_server.a.zone cannot use certain value",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.administrator_login == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence####azurerm_postgresql_flexible_server.administrator_login == Existence",
+            "If azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty, Then azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.customer_managed_key == Absence####azurerm_postgresql_flexible_server.administrator_login == Existence",
+            "If azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty, Then azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.replication_role == Absence####azurerm_postgresql_flexible_server.administrator_login == Existence",
+            "If azurerm_postgresql_flexible_server.a.replication_role is null or empty, Then azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.authentication == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.high_availability == Absence####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.high_availability is null or empty, Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.customer_managed_key == Absence####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty, Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.administrator_login == Existence####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty, Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.replication_role == Absence####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.replication_role is null or empty, Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.backup_retention_days == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.authentication == Existence####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.authentication is not null nor empty, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.replication_role == Absence####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.replication_role is null or empty, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.administrator_login == Existence####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.customer_managed_key == Absence####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.administrator_password == Existence####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.administrator_password is not null nor empty, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.maintenance_window.start_hour == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.maintenance_window.day_of_week == Existence####azurerm_postgresql_flexible_server.maintenance_window.start_hour == Existence",
+            "If azurerm_postgresql_flexible_server.a.maintenance_window.day_of_week is not null nor empty, Then azurerm_postgresql_flexible_server.a.maintenance_window.start_hour is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.maintenance_window.start_minute == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.maintenance_window.day_of_week == Existence####azurerm_postgresql_flexible_server.maintenance_window.start_minute == Existence",
+            "If azurerm_postgresql_flexible_server.a.maintenance_window.day_of_week is not null nor empty, Then azurerm_postgresql_flexible_server.a.maintenance_window.start_minute is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.maintenance_window.start_hour == Existence####azurerm_postgresql_flexible_server.maintenance_window.start_minute == Existence",
+            "If azurerm_postgresql_flexible_server.a.maintenance_window.start_hour is not null nor empty, Then azurerm_postgresql_flexible_server.a.maintenance_window.start_minute is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.storage_mb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.administrator_login == Existence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.replication_role == Absence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.replication_role is null or empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.administrator_password == Existence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.administrator_password is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.customer_managed_key == Absence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.authentication == Existence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.authentication is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.backup_retention_days == Existence####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_flexible_server.storage_tier == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.replication_role == Absence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.replication_role is null or empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.backup_retention_days == Existence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.customer_managed_key == Absence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.authentication == Existence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.authentication is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.storage_mb == Existence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_flexible_server.administrator_login == Existence####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ]
+    ]
+}

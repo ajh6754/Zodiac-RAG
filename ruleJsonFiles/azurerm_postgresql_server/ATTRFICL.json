@@ -1,0 +1,290 @@
+{
+    "Constant####azurerm_postgresql_server.geo_redundant_backup_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.auto_grow_enabled == false####azurerm_postgresql_server.geo_redundant_backup_enabled == false",
+            "If there is azurerm_postgresql_server.a.auto_grow_enabled == false, Then there is azurerm_postgresql_server.a.geo_redundant_backup_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_server.public_network_access_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.geo_redundant_backup_enabled == true####azurerm_postgresql_server.public_network_access_enabled == false",
+            "If there is azurerm_postgresql_server.a.geo_redundant_backup_enabled == true, Then there is azurerm_postgresql_server.a.public_network_access_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_server.public_network_access_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.auto_grow_enabled == false####azurerm_postgresql_server.public_network_access_enabled == true",
+            "If there is azurerm_postgresql_server.a.auto_grow_enabled == false, Then there is azurerm_postgresql_server.a.public_network_access_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_server.ssl_enforcement_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.public_network_access_enabled == false####azurerm_postgresql_server.ssl_enforcement_enabled == true",
+            "If there is azurerm_postgresql_server.a.public_network_access_enabled == false, Then there is azurerm_postgresql_server.a.ssl_enforcement_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.ssl_enforcement_enabled == true####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If there is azurerm_postgresql_server.a.ssl_enforcement_enabled == true, Then there is azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced == TLS1_2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.public_network_access_enabled == false####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2",
+            "If there is azurerm_postgresql_server.a.public_network_access_enabled == false, Then there is azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced == TLS1_2",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.ssl_enforcement_enabled == false####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            "If there is azurerm_postgresql_server.a.ssl_enforcement_enabled == false, Then there is azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled",
+            null
+        ]
+    ],
+    "Constant####azurerm_postgresql_server.version == 11": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.ssl_enforcement_enabled == false####azurerm_postgresql_server.version == 11",
+            "If there is azurerm_postgresql_server.a.ssl_enforcement_enabled == false, Then there is azurerm_postgresql_server.a.version == 11",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.public_network_access_enabled == false####azurerm_postgresql_server.version == 11",
+            "If there is azurerm_postgresql_server.a.public_network_access_enabled == false, Then there is azurerm_postgresql_server.a.version == 11",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.auto_grow_enabled == false####azurerm_postgresql_server.version == 11",
+            "If there is azurerm_postgresql_server.a.auto_grow_enabled == false, Then there is azurerm_postgresql_server.a.version == 11",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled####azurerm_postgresql_server.version == 11",
+            "If there is azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced == TLSEnforcementDisabled, Then there is azurerm_postgresql_server.a.version == 11",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_server.auto_grow_enabled == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum",
+            "If azurerm_postgresql_server.a.ssl_enforcement_enabled is of certain value, Then azurerm_postgresql_server.a.auto_grow_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum",
+            "If azurerm_postgresql_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_server.a.auto_grow_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum",
+            "If azurerm_postgresql_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_server.a.auto_grow_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.auto_grow_enabled == Enum",
+            "If azurerm_postgresql_server.a.sku_name is of certain value, Then azurerm_postgresql_server.a.auto_grow_enabled cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_server.a.auto_grow_enabled is of certain value, Then azurerm_postgresql_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_server.a.sku_name is of certain value, Then azurerm_postgresql_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum",
+            "If azurerm_postgresql_server.a.ssl_enforcement_enabled is of certain value, Then azurerm_postgresql_server.a.geo_redundant_backup_enabled cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_server.a.ssl_enforcement_enabled is of certain value, Then azurerm_postgresql_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_server.a.sku_name is of certain value, Then azurerm_postgresql_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.public_network_access_enabled == Enum",
+            "If azurerm_postgresql_server.a.auto_grow_enabled is of certain value, Then azurerm_postgresql_server.a.public_network_access_enabled cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum",
+            "If azurerm_postgresql_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_enforcement_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum",
+            "If azurerm_postgresql_server.a.sku_name is of certain value, Then azurerm_postgresql_server.a.ssl_enforcement_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum",
+            "If azurerm_postgresql_server.a.auto_grow_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_enforcement_enabled cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum",
+            "If azurerm_postgresql_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_enforcement_enabled cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum",
+            "If azurerm_postgresql_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum",
+            "If azurerm_postgresql_server.a.auto_grow_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum",
+            "If azurerm_postgresql_server.a.ssl_enforcement_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum",
+            "If azurerm_postgresql_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == Enum",
+            "If azurerm_postgresql_server.a.sku_name is of certain value, Then azurerm_postgresql_server.a.ssl_minimal_tls_version_enforced cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_postgresql_server.version == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.sku_name == Enum####azurerm_postgresql_server.version == Enum",
+            "If azurerm_postgresql_server.a.sku_name is of certain value, Then azurerm_postgresql_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.auto_grow_enabled == Enum####azurerm_postgresql_server.version == Enum",
+            "If azurerm_postgresql_server.a.auto_grow_enabled is of certain value, Then azurerm_postgresql_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.ssl_enforcement_enabled == Enum####azurerm_postgresql_server.version == Enum",
+            "If azurerm_postgresql_server.a.ssl_enforcement_enabled is of certain value, Then azurerm_postgresql_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_server.version == Enum",
+            "If azurerm_postgresql_server.a.geo_redundant_backup_enabled is of certain value, Then azurerm_postgresql_server.a.version cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_postgresql_server.public_network_access_enabled == Enum####azurerm_postgresql_server.version == Enum",
+            "If azurerm_postgresql_server.a.public_network_access_enabled is of certain value, Then azurerm_postgresql_server.a.version cannot use certain value",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_server.administrator_login == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_server.restore_point_in_time == Absence####azurerm_postgresql_server.administrator_login == Existence",
+            "If azurerm_postgresql_server.a.restore_point_in_time is null or empty, Then azurerm_postgresql_server.a.administrator_login is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_server.administrator_login_password == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.administrator_login == Existence####azurerm_postgresql_server.administrator_login_password == Existence",
+            "If azurerm_postgresql_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_server.a.administrator_login_password is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_server.restore_point_in_time == Absence####azurerm_postgresql_server.administrator_login_password == Existence",
+            "If azurerm_postgresql_server.a.restore_point_in_time is null or empty, Then azurerm_postgresql_server.a.administrator_login_password is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_server.backup_retention_days == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.administrator_login_password == Existence####azurerm_postgresql_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_server.a.administrator_login_password is not null nor empty, Then azurerm_postgresql_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_server.restore_point_in_time == Absence####azurerm_postgresql_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_server.a.restore_point_in_time is null or empty, Then azurerm_postgresql_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.administrator_login == Existence####azurerm_postgresql_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_server.a.backup_retention_days is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_server.storage_mb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.backup_retention_days == Existence####azurerm_postgresql_server.storage_mb == Existence",
+            "If azurerm_postgresql_server.a.backup_retention_days is not null nor empty, Then azurerm_postgresql_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.administrator_login_password == Existence####azurerm_postgresql_server.storage_mb == Existence",
+            "If azurerm_postgresql_server.a.administrator_login_password is not null nor empty, Then azurerm_postgresql_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_postgresql_server.restore_point_in_time == Absence####azurerm_postgresql_server.storage_mb == Existence",
+            "If azurerm_postgresql_server.a.restore_point_in_time is null or empty, Then azurerm_postgresql_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.administrator_login == Existence####azurerm_postgresql_server.storage_mb == Existence",
+            "If azurerm_postgresql_server.a.administrator_login is not null nor empty, Then azurerm_postgresql_server.a.storage_mb is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_server.threat_detection_policy.enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.threat_detection_policy.email_addresses == Existence####azurerm_postgresql_server.threat_detection_policy.enabled == Existence",
+            "If azurerm_postgresql_server.a.threat_detection_policy.email_addresses is not null nor empty, Then azurerm_postgresql_server.a.threat_detection_policy.enabled is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_postgresql_server.threat_detection_policy.retention_days == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.threat_detection_policy.email_addresses == Existence####azurerm_postgresql_server.threat_detection_policy.retention_days == Existence",
+            "If azurerm_postgresql_server.a.threat_detection_policy.email_addresses is not null nor empty, Then azurerm_postgresql_server.a.threat_detection_policy.retention_days is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_postgresql_server.threat_detection_policy.enabled == Existence####azurerm_postgresql_server.threat_detection_policy.retention_days == Existence",
+            "If azurerm_postgresql_server.a.threat_detection_policy.enabled is not null nor empty, Then azurerm_postgresql_server.a.threat_detection_policy.retention_days is not null nor empty",
+            null
+        ]
+    ]
+}

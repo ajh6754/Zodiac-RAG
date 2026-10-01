@@ -1,0 +1,225 @@
+{
+    "AbsenceComboDown####azurerm_bastion_host.ip_configuration == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.ip_configuration == Absence",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_bastion_host.a.ip_configuration is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_public_ip.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.zones == Absence",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.service_endpoints == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.service_endpoints == Absence",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.service_endpoints is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.ddos_protection_plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.ddos_protection_plan == Absence",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.ddos_protection_plan is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_bastion_host.file_copy_enabled == false": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_bastion_host.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_bastion_host.file_copy_enabled == false",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_bastion_host.a.file_copy_enabled == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.resource_group_name == String####azurerm_resource_group.name == String####azurerm_bastion_host.file_copy_enabled == false",
+            "If azurerm_bastion_host.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_bastion_host.a.file_copy_enabled == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_bastion_host.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_bastion_host.file_copy_enabled == false",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_bastion_host.a.file_copy_enabled == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.file_copy_enabled == false",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then there is azurerm_bastion_host.a.file_copy_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_bastion_host.ip_connect_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.ip_connect_enabled == false",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then there is azurerm_bastion_host.a.ip_connect_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_bastion_host.shareable_link_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.resource_group_name == String####azurerm_resource_group.name == String####azurerm_bastion_host.shareable_link_enabled == false",
+            "If azurerm_bastion_host.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_bastion_host.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_bastion_host.shareable_link_enabled == false",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.shareable_link_enabled == false",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_bastion_host.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_bastion_host.shareable_link_enabled == false",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_bastion_host.a.shareable_link_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_bastion_host.sku == Developer": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.sku == Developer",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then there is azurerm_bastion_host.a.sku == Developer",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_bastion_host.tunneling_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.tunneling_enabled == false",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then there is azurerm_bastion_host.a.tunneling_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.sku == Standard": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.sku == Standard",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_public_ip.b.sku == Standard",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_bastion_host.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_bastion_host.location == String####azurerm_public_ip.location == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_bastion_host.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_bastion_host.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_bastion_host.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_bastion_host.location == String####azurerm_resource_group.location == String",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_resource_group.b, Then azurerm_bastion_host.a.location == azurerm_resource_group.b.location",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_bastion_host.resource_group_name == String####azurerm_resource_group.name == String####azurerm_bastion_host.location == String####azurerm_resource_group.location == String",
+            "If azurerm_bastion_host.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_bastion_host.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_bastion_host.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_bastion_host.a.location == azurerm_virtual_network.b.location",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_bastion_host.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_bastion_host.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_bastion_host.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_bastion_host.resource_group_name == String####azurerm_public_ip.id == String####azurerm_resource_group.name == String####azurerm_public_ip.location == String####azurerm_resource_group.location == String",
+            "If azurerm_public_ip.b and azurerm_resource_group.c connected or associated with each other via azurerm_bastion_host.a, Then azurerm_public_ip.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_bastion_host.PLACEHOLDER == String####azurerm_bastion_host.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_resource_group.b and azurerm_resource_group.c connected or associated with each other via azurerm_bastion_host.a, Then azurerm_resource_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_bastion_host.ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_bastion_host.resource_group_name == String####azurerm_resource_group.name == String####azurerm_bastion_host.ip_configuration == Existence",
+            "If azurerm_bastion_host.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_bastion_host.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.ip_configuration == Existence",
+            "If azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id), Then azurerm_bastion_host.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_bastion_host.ip_configuration == Existence",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_bastion_host.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_bastion_host.ip_configuration == Existence",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_bastion_host.a.ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_bastion_host.ip_configuration.name == String####azurerm_bastion_host.ip_configuration.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_bastion_host.resource_group_name == String####azurerm_bastion_host.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_bastion_host.ip_configuration.name == String####azurerm_bastion_host.ip_configuration.name == String",
+            "If both azurerm_bastion_host.a.resource_group_name and azurerm_bastion_host.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_bastion_host.a.ip_configuration.name != azurerm_bastion_host.b.ip_configuration.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_bastion_host.name == String####azurerm_bastion_host.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_bastion_host.resource_group_name == String####azurerm_bastion_host.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_bastion_host.name == String####azurerm_bastion_host.name == String",
+            "If both azurerm_bastion_host.a.resource_group_name and azurerm_bastion_host.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_bastion_host.a.name != azurerm_bastion_host.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_public_ip.name == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_bastion_host.resource_group_name == String####azurerm_public_ip.id == String####azurerm_resource_group.name == String####azurerm_public_ip.name == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.b and azurerm_resource_group.c connected or associated with each other via azurerm_bastion_host.a, Then azurerm_public_ip.a.name != azurerm_resource_group.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_public_ip.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String####azurerm_public_ip.name == String####azurerm_subnet.name == String",
+            "If azurerm_public_ip.b and azurerm_subnet.c connected or associated with each other via azurerm_bastion_host.a, Then azurerm_public_ip.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_subnet.name == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_bastion_host.resource_group_name == String####azurerm_subnet.id == String####azurerm_resource_group.name == String####azurerm_subnet.name == String####azurerm_resource_group.name == String",
+            "If azurerm_subnet.b and azurerm_resource_group.c connected or associated with each other via azurerm_bastion_host.a, Then azurerm_subnet.a.name != azurerm_resource_group.b.name",
+            null
+        ]
+    ]
+}

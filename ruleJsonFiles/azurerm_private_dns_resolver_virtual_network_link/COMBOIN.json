@@ -1,0 +1,9 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR",
+            "If the value of azurerm_private_dns_resolver_virtual_network_link.virtual_network_id depends on azurerm_virtual_network.id, then what is the maximum CIDR mask length azurerm_virtual_network.address_space could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "CountChild####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_public_ip.sku == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_public_ip.b.sku is of certain value, Then the number of azurerm_virtual_network_gateway that could depend on azurerm_public_ip.b is restricted to certain value",
+            null
+        ]
+    ],
+    "CountChild####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_subnet.name == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_subnet.b.name is of certain value, Then the number of azurerm_virtual_network_gateway that could depend on azurerm_subnet.b is restricted to certain value",
+            null
+        ]
+    ],
+    "CountParent####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway.sku == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway.a.sku is of certain value, Then the number of azurerm_public_ip that azurerm_virtual_network_gateway.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway.type == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway.a.type is of certain value, Then the number of azurerm_public_ip that azurerm_virtual_network_gateway.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway.vpn_type == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway.a.vpn_type is of certain value, Then the number of azurerm_public_ip that azurerm_virtual_network_gateway.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway.enable_bgp == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway.a.enable_bgp is of certain value, Then the number of azurerm_public_ip that azurerm_virtual_network_gateway.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway.active_active == Enum####azurerm_virtual_network_gateway.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway.a.active_active is of certain value, Then the number of azurerm_public_ip that azurerm_virtual_network_gateway.a could depend on is restricted to certain value",
+            null
+        ]
+    ]
+}

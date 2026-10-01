@@ -1,0 +1,44 @@
+{
+    "Associate####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then azurerm_private_dns_resolver_outbound_endpoint.b and azurerm_resource_group.c connected or associated with each other via azurerm_private_dns_resolver_dns_forwarding_ruleset.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_private_dns_resolver.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_private_dns_resolver.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_private_dns_resolver.b, Then both azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name and azurerm_private_dns_resolver.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_subnet.b, Then both azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then azurerm_private_dns_resolver_outbound_endpoint.b could only have a single azurerm_private_dns_resolver_dns_forwarding_ruleset that is azurerm_private_dns_resolver_dns_forwarding_ruleset.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a is the only resource that directly depends on azurerm_private_dns_resolver_outbound_endpoint.b",
+            null
+        ]
+    ]
+}

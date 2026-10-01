@@ -1,0 +1,23 @@
+{
+    "CountChild####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_lb.sku == Enum####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb.b.sku is of certain value, Then the number of azurerm_lb_nat_rule that could depend on azurerm_lb.b is restricted to certain value",
+            null
+        ]
+    ],
+    "CountChild####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_public_ip.sku == Enum####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_public_ip.b.sku is of certain value, Then the number of azurerm_lb_nat_rule that could depend on azurerm_public_ip.b is restricted to certain value",
+            null
+        ]
+    ],
+    "Reference####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_lb_nat_rule.enable_floating_ip == Existence####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String",
+            "If azurerm_lb_nat_rule.a.enable_floating_ip is not null nor empty, Then azurerm_lb_nat_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "Branch####azurerm_route.resource_group_name == String####azurerm_route_table.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route.resource_group_name == String####azurerm_route_table.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_route.a.route_table_name depends on azurerm_route_table.b.name, Then both azurerm_route.a.resource_group_name and azurerm_route_table.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ]
+}

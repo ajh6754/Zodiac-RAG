@@ -1,0 +1,93 @@
+{
+    "AbsenceComboDown####azurerm_public_ip.edge_zone == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.edge_zone == Absence",
+            "If azurerm_public_ip.a.domain_name_label is null (i.e. it does not refer to azurerm_resource_group.name), Then azurerm_public_ip.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_public_ip.edge_zone == Absence",
+            "If azurerm_public_ip.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_public_ip.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_public_ip.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_public_ip.zones == Absence",
+            "If azurerm_public_ip.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_public_ip.a.zones is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.zones == Absence",
+            "If azurerm_public_ip.a.domain_name_label is null (i.e. it does not refer to azurerm_resource_group.name), Then azurerm_public_ip.a.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_public_ip.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_public_ip.a.domain_name_label depends on azurerm_resource_group.b.name, Then there is azurerm_public_ip.a.allocation_method == Static",
+            null
+        ],
+        [
+            "COMBO####IntraThenConstantComboDown####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_public_ip.allocation_method == Static",
+            "If both azurerm_public_ip.a.domain_name_label and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c, Then there is azurerm_public_ip.a.allocation_method == Static",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited": [
+        [
+            "COMBO####NegationThenConstantComboDown####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited",
+            "If azurerm_public_ip.a.domain_name_label is null (i.e. it does not refer to azurerm_resource_group.name), Then there is azurerm_public_ip.a.ddos_protection_mode == VirtualNetworkInherited",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited",
+            "If azurerm_public_ip.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_public_ip.a.ddos_protection_mode == VirtualNetworkInherited",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_public_ip.sku == Basic": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.sku == Basic",
+            "If azurerm_public_ip.a.domain_name_label depends on azurerm_resource_group.b.name, Then there is azurerm_public_ip.a.sku == Basic",
+            null
+        ],
+        [
+            "COMBO####IntraThenConstantComboDown####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_public_ip.sku == Basic",
+            "If both azurerm_public_ip.a.domain_name_label and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c, Then there is azurerm_public_ip.a.sku == Basic",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_public_ip.location == String####azurerm_resource_group.location == String",
+            "If azurerm_public_ip.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_public_ip.a.location == azurerm_resource_group.b.location",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.location == String####azurerm_resource_group.location == String",
+            "If azurerm_public_ip.a.domain_name_label depends on azurerm_resource_group.b.name, Then azurerm_public_ip.a.location == azurerm_resource_group.b.location",
+            null
+        ],
+        [
+            "COMBO####IntraThenEqualCombo####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_public_ip.location == String####azurerm_resource_group.location == String",
+            "If both azurerm_public_ip.a.domain_name_label and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_public_ip.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_public_ip.name == String####azurerm_public_ip.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_public_ip.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_public_ip.name == String####azurerm_public_ip.name == String",
+            "If both azurerm_public_ip.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_public_ip.a.name != azurerm_public_ip.b.name",
+            null
+        ]
+    ]
+}

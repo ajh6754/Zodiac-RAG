@@ -1,0 +1,283 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_linux_virtual_machine.disable_password_authentication == Enum####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.disable_password_authentication == True####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.disable_password_authentication is True, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.disable_password_authentication == False####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.disable_password_authentication is False, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_linux_virtual_machine.size == Enum####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B2s####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2s, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_DS1_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS1_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_D2s_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B1s####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1s, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B1ms####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ms, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_A8_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_A8_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_D2s_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B4as_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B4as_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B1ls####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ls, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_F2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_F4s_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F4s_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_D2ds_v4####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2ds_v4, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_F1s####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F1s, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B2MS####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2MS, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B2ats_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2ats_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_D4ds_v4####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D4ds_v4, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_B2as_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2as_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_DS2_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS2_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_linux_virtual_machine.size == Standard_L8s_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_L8s_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_linux_virtual_machine? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_windows_virtual_machine.size == Enum####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2as_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_DS3_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS3_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2s_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B1ls####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ls, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D4lds_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4lds_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B1s####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1s, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_DS1_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS1_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2s_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_Ds2_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_Ds2_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B1ms####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ms, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D4s_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_DS2_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS2_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B4ms####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B4ms, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B2ms####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2ms, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_DC2as_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC2as_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B2as_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2as_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_E4s_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_E4s_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D4s_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D48s_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48s_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_DC1s_v3####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC1s_v3, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2as_v4####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v4, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D4s_v6####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v6, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D48as_v7####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48as_v7, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_F2s_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_F2s_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2ads_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ads_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2_v4####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v4, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_NV6_Promo####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_NV6_Promo, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D8s_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D8s_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_B2s_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2s_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2ls_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ls_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D2ds_v4####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ds_v4, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_A4_v2####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_A4_v2, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_windows_virtual_machine.size == Standard_D16s_v5####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D16s_v5, then what is the maximum amount of azurerm_virtual_machine_data_disk_attachment that could depend on azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ]
+    ]
+}

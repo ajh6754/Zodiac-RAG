@@ -1,0 +1,435 @@
+{
+    "Absence####azurerm_windows_virtual_machine.additional_capabilities == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.additional_unattend_content == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.custom_data == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.custom_data is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.boot_diagnostics == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.boot_diagnostics is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.vtpm_enabled == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.eviction_policy == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_capabilities == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_capabilities is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.secure_boot_enabled == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.winrm_listener == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.winrm_listener is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.zone == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.zone is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.license_type == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.license_type is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.additional_unattend_content is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_unattend_content == Existence####azurerm_windows_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_unattend_content is not null nor empty, Then azurerm_windows_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.custom_data == Existence####azurerm_windows_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_windows_virtual_machine.a.custom_data is not null nor empty, Then azurerm_windows_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.winrm_listener == Existence####azurerm_windows_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_windows_virtual_machine.a.winrm_listener is not null nor empty, Then azurerm_windows_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.eviction_policy == Existence####azurerm_windows_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_windows_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_windows_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.custom_data == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.custom_data == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.custom_data is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.edge_zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.edge_zone == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.eviction_policy == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.eviction_policy == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.eviction_policy is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.gallery_application == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.gallery_application == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.gallery_application is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.license_type == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.winrm_listener == Existence####azurerm_windows_virtual_machine.license_type == Absence",
+            "If azurerm_windows_virtual_machine.a.winrm_listener is not null nor empty, Then azurerm_windows_virtual_machine.a.license_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.custom_data == Existence####azurerm_windows_virtual_machine.license_type == Absence",
+            "If azurerm_windows_virtual_machine.a.custom_data is not null nor empty, Then azurerm_windows_virtual_machine.a.license_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.eviction_policy == Existence####azurerm_windows_virtual_machine.license_type == Absence",
+            "If azurerm_windows_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_windows_virtual_machine.a.license_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.timezone == Existence####azurerm_windows_virtual_machine.license_type == Absence",
+            "If azurerm_windows_virtual_machine.a.timezone is not null nor empty, Then azurerm_windows_virtual_machine.a.license_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_unattend_content == Existence####azurerm_windows_virtual_machine.license_type == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_unattend_content is not null nor empty, Then azurerm_windows_virtual_machine.a.license_type is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.os_image_notification == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.os_image_notification == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.os_image_notification is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.plan == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.plan == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.plan is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.reboot_setting == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.reboot_setting == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.reboot_setting is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.secret == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.secret == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.secret is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.timezone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_capabilities == Existence####azurerm_windows_virtual_machine.timezone == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_capabilities is not null nor empty, Then azurerm_windows_virtual_machine.a.timezone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.license_type == Existence####azurerm_windows_virtual_machine.timezone == Absence",
+            "If azurerm_windows_virtual_machine.a.license_type is not null nor empty, Then azurerm_windows_virtual_machine.a.timezone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.winrm_listener == Existence####azurerm_windows_virtual_machine.timezone == Absence",
+            "If azurerm_windows_virtual_machine.a.winrm_listener is not null nor empty, Then azurerm_windows_virtual_machine.a.timezone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.zone == Existence####azurerm_windows_virtual_machine.timezone == Absence",
+            "If azurerm_windows_virtual_machine.a.zone is not null nor empty, Then azurerm_windows_virtual_machine.a.timezone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.custom_data == Existence####azurerm_windows_virtual_machine.timezone == Absence",
+            "If azurerm_windows_virtual_machine.a.custom_data is not null nor empty, Then azurerm_windows_virtual_machine.a.timezone is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.user_data == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.source_image_reference == Existence####azurerm_windows_virtual_machine.user_data == Absence",
+            "If azurerm_windows_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_windows_virtual_machine.a.user_data is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.winrm_listener == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.eviction_policy == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.secure_boot_enabled == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.license_type == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.license_type is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_capabilities == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_capabilities is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.timezone == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.timezone is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.boot_diagnostics == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.boot_diagnostics is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.zone == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.zone is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.vtpm_enabled == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_unattend_content == Existence####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_unattend_content is not null nor empty, Then azurerm_windows_virtual_machine.a.winrm_listener is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_windows_virtual_machine.zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.timezone == Existence####azurerm_windows_virtual_machine.zone == Absence",
+            "If azurerm_windows_virtual_machine.a.timezone is not null nor empty, Then azurerm_windows_virtual_machine.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.additional_unattend_content == Existence####azurerm_windows_virtual_machine.zone == Absence",
+            "If azurerm_windows_virtual_machine.a.additional_unattend_content is not null nor empty, Then azurerm_windows_virtual_machine.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.winrm_listener == Existence####azurerm_windows_virtual_machine.zone == Absence",
+            "If azurerm_windows_virtual_machine.a.winrm_listener is not null nor empty, Then azurerm_windows_virtual_machine.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.eviction_policy == Existence####azurerm_windows_virtual_machine.zone == Absence",
+            "If azurerm_windows_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_windows_virtual_machine.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_windows_virtual_machine.custom_data == Existence####azurerm_windows_virtual_machine.zone == Absence",
+            "If azurerm_windows_virtual_machine.a.custom_data is not null nor empty, Then azurerm_windows_virtual_machine.a.zone is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.additional_unattend_content.setting == FirstLogonCommands": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS####azurerm_windows_virtual_machine.additional_unattend_content.setting == FirstLogonCommands",
+            "If there is azurerm_windows_virtual_machine.a.os_disk.storage_account_type == Standard_LRS, Then there is azurerm_windows_virtual_machine.a.additional_unattend_content.setting == FirstLogonCommands",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadWrite####azurerm_windows_virtual_machine.additional_unattend_content.setting == FirstLogonCommands",
+            "If there is azurerm_windows_virtual_machine.a.os_disk.caching == ReadWrite, Then there is azurerm_windows_virtual_machine.a.additional_unattend_content.setting == FirstLogonCommands",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.allow_extension_operations == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS####azurerm_windows_virtual_machine.allow_extension_operations == true",
+            "If there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByOS, Then there is azurerm_windows_virtual_machine.a.allow_extension_operations == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.enable_automatic_updates == true####azurerm_windows_virtual_machine.allow_extension_operations == true",
+            "If there is azurerm_windows_virtual_machine.a.enable_automatic_updates == true, Then there is azurerm_windows_virtual_machine.a.allow_extension_operations == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.priority == Regular####azurerm_windows_virtual_machine.allow_extension_operations == true",
+            "If there is azurerm_windows_virtual_machine.a.priority == Regular, Then there is azurerm_windows_virtual_machine.a.allow_extension_operations == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false####azurerm_windows_virtual_machine.allow_extension_operations == true",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == false, Then there is azurerm_windows_virtual_machine.a.allow_extension_operations == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.hotpatching_enabled == false####azurerm_windows_virtual_machine.allow_extension_operations == true",
+            "If there is azurerm_windows_virtual_machine.a.hotpatching_enabled == false, Then there is azurerm_windows_virtual_machine.a.allow_extension_operations == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.enable_automatic_updates == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false####azurerm_windows_virtual_machine.enable_automatic_updates == true",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == false, Then there is azurerm_windows_virtual_machine.a.enable_automatic_updates == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.priority == Regular####azurerm_windows_virtual_machine.enable_automatic_updates == true",
+            "If there is azurerm_windows_virtual_machine.a.priority == Regular, Then there is azurerm_windows_virtual_machine.a.enable_automatic_updates == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS####azurerm_windows_virtual_machine.enable_automatic_updates == true",
+            "If there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByOS, Then there is azurerm_windows_virtual_machine.a.enable_automatic_updates == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.hotpatching_enabled == false####azurerm_windows_virtual_machine.enable_automatic_updates == true",
+            "If there is azurerm_windows_virtual_machine.a.hotpatching_enabled == false, Then there is azurerm_windows_virtual_machine.a.enable_automatic_updates == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.hotpatching_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false####azurerm_windows_virtual_machine.hotpatching_enabled == false",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == false, Then there is azurerm_windows_virtual_machine.a.hotpatching_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.priority == Regular####azurerm_windows_virtual_machine.hotpatching_enabled == false",
+            "If there is azurerm_windows_virtual_machine.a.priority == Regular, Then there is azurerm_windows_virtual_machine.a.hotpatching_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS####azurerm_windows_virtual_machine.hotpatching_enabled == false",
+            "If there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByOS, Then there is azurerm_windows_virtual_machine.a.hotpatching_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.hotpatching_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == true####azurerm_windows_virtual_machine.hotpatching_enabled == true",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == true, Then there is azurerm_windows_virtual_machine.a.hotpatching_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.patch_mode == AutomaticByPlatform####azurerm_windows_virtual_machine.hotpatching_enabled == true",
+            "If there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByPlatform, Then there is azurerm_windows_virtual_machine.a.hotpatching_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.os_disk.caching == ReadWrite": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS####azurerm_windows_virtual_machine.os_disk.caching == ReadWrite",
+            "If there is azurerm_windows_virtual_machine.a.os_disk.storage_account_type == Premium_LRS, Then there is azurerm_windows_virtual_machine.a.os_disk.caching == ReadWrite",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.priority == Regular####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS",
+            "If there is azurerm_windows_virtual_machine.a.priority == Regular, Then there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByOS",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == false, Then there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByOS",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.priority == Spot####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS",
+            "If there is azurerm_windows_virtual_machine.a.priority == Spot, Then there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByOS",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.patch_mode == AutomaticByPlatform": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == true####azurerm_windows_virtual_machine.patch_mode == AutomaticByPlatform",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == true, Then there is azurerm_windows_virtual_machine.a.patch_mode == AutomaticByPlatform",
+            null
+        ]
+    ],
+    "Constant####azurerm_windows_virtual_machine.priority == Regular": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false####azurerm_windows_virtual_machine.priority == Regular",
+            "If there is azurerm_windows_virtual_machine.a.vm_agent_platform_updates_enabled == false, Then there is azurerm_windows_virtual_machine.a.priority == Regular",
+            null
+        ]
+    ],
+    "Existence####azurerm_windows_virtual_machine.additional_unattend_content == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_windows_virtual_machine.additional_unattend_content.setting == FirstLogonCommands####azurerm_windows_virtual_machine.additional_unattend_content == Existence",
+            "If there is azurerm_windows_virtual_machine.a.additional_unattend_content.setting == FirstLogonCommands, Then azurerm_windows_virtual_machine.a.additional_unattend_content is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_windows_virtual_machine.boot_diagnostics == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_windows_virtual_machine.zone == Existence####azurerm_windows_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_windows_virtual_machine.a.zone is not null nor empty, Then azurerm_windows_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_windows_virtual_machine.license_type == Existence####azurerm_windows_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_windows_virtual_machine.a.license_type is not null nor empty, Then azurerm_windows_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_windows_virtual_machine.os_disk.disk_size_gb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_windows_virtual_machine.os_disk.name == Existence####azurerm_windows_virtual_machine.os_disk.disk_size_gb == Existence",
+            "If azurerm_windows_virtual_machine.a.os_disk.name is not null nor empty, Then azurerm_windows_virtual_machine.a.os_disk.disk_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_windows_virtual_machine.secure_boot_enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_windows_virtual_machine.vtpm_enabled == Existence####azurerm_windows_virtual_machine.secure_boot_enabled == Existence",
+            "If azurerm_windows_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_windows_virtual_machine.a.secure_boot_enabled is not null nor empty",
+            null
+        ]
+    ]
+}

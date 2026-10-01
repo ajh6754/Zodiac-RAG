@@ -1,0 +1,208 @@
+{
+    "CIDRInclude####azurerm_network_security_group.security_rule.source_address_prefix == CIDR####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "ATTR####UnequalThenCIDRInclude####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.destination_port_range != azurerm_network_security_group.a.security_rule.destination_port_range, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefix contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefix",
+            null
+        ]
+    ],
+    "CIDRInclude####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR": [
+        [
+            "ATTR####EqualThenCIDRInclude####azurerm_network_security_group.security_rule.direction == String####azurerm_network_security_group.security_rule.direction == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.direction == azurerm_network_security_group.a.security_rule.direction, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRInclude####azurerm_network_security_group.security_rule.source_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.source_address_prefix == azurerm_network_security_group.a.security_rule.source_address_prefix, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenCIDRInclude####azurerm_network_security_group.security_rule == Existence####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule is not null nor empty, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRInclude####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.destination_port_range != azurerm_network_security_group.a.security_rule.destination_port_range, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRInclude####azurerm_network_security_group.security_rule.protocol == String####azurerm_network_security_group.security_rule.protocol == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.protocol == azurerm_network_security_group.a.security_rule.protocol, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRInclude####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.name != azurerm_network_security_group.a.security_rule.name, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRInclude####azurerm_network_security_group.security_rule.access == String####azurerm_network_security_group.security_rule.access == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.access == azurerm_network_security_group.a.security_rule.access, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRInclude####azurerm_network_security_group.security_rule.description == String####azurerm_network_security_group.security_rule.description == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.description == azurerm_network_security_group.a.security_rule.description, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRInclude####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.priority != azurerm_network_security_group.a.security_rule.priority, Then the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes contains the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefixes",
+            null
+        ]
+    ],
+    "CIDRMask####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.access == Enum####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.access is of certain value, Then azurerm_network_security_group.a.security_rule.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.direction == Enum####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.direction is of certain value, Then azurerm_network_security_group.a.security_rule.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.protocol == Enum####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.protocol is of certain value, Then azurerm_network_security_group.a.security_rule.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMask####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.direction == Enum####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.direction is of certain value, Then azurerm_network_security_group.a.security_rule.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.access == Enum####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.access is of certain value, Then azurerm_network_security_group.a.security_rule.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.protocol == Enum####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.security_rule.protocol is of certain value, Then azurerm_network_security_group.a.security_rule.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMask####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.protocol == Enum####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.protocol is of certain value, Then azurerm_network_security_group.a.security_rule.source_address_prefixes has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.direction == Enum####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.direction is of certain value, Then azurerm_network_security_group.a.security_rule.source_address_prefixes has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_group.security_rule.access == Enum####azurerm_network_security_group.security_rule.source_address_prefixes == CIDR",
+            "If azurerm_network_security_group.a.security_rule.access is of certain value, Then azurerm_network_security_group.a.security_rule.source_address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "Constant####azurerm_network_security_group.security_rule.direction == Inbound": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_security_group.security_rule.access == Deny####azurerm_network_security_group.security_rule.direction == Inbound",
+            "If there is azurerm_network_security_group.a.security_rule.access == Deny, Then there is azurerm_network_security_group.a.security_rule.direction == Inbound",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_security_group.security_rule.access == Allow####azurerm_network_security_group.security_rule.direction == Inbound",
+            "If there is azurerm_network_security_group.a.security_rule.access == Allow, Then there is azurerm_network_security_group.a.security_rule.direction == Inbound",
+            null
+        ]
+    ],
+    "Equal####azurerm_network_security_group.security_rule.destination_address_prefixes == String####azurerm_network_security_group.security_rule.destination_address_prefixes == String": [
+        [
+            "ATTR####EqualThenEqual####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.destination_address_prefixes == String####azurerm_network_security_group.security_rule.destination_address_prefixes == String",
+            "If azurerm_network_security_group.a.security_rule.destination_address_prefix == azurerm_network_security_group.a.security_rule.destination_address_prefix, Then azurerm_network_security_group.a.security_rule.destination_address_prefixes == azurerm_network_security_group.a.security_rule.destination_address_prefixes",
+            null
+        ]
+    ],
+    "Equal####azurerm_network_security_group.security_rule.protocol == String####azurerm_network_security_group.security_rule.protocol == String": [
+        [
+            "ATTR####EqualThenEqual####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.protocol == String####azurerm_network_security_group.security_rule.protocol == String",
+            "If azurerm_network_security_group.a.security_rule.destination_port_range == azurerm_network_security_group.a.security_rule.destination_port_range, Then azurerm_network_security_group.a.security_rule.protocol == azurerm_network_security_group.a.security_rule.protocol",
+            null
+        ]
+    ],
+    "Unequal####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String": [
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String",
+            "If azurerm_network_security_group.a.security_rule.priority == azurerm_network_security_group.a.security_rule.priority, Then azurerm_network_security_group.a.security_rule.destination_port_range != azurerm_network_security_group.a.security_rule.destination_port_range",
+            null
+        ],
+        [
+            "ATTR####UnequalThenUnequal####azurerm_network_security_group.security_rule.description == String####azurerm_network_security_group.security_rule.description == String####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String",
+            "If azurerm_network_security_group.a.security_rule.description != azurerm_network_security_group.a.security_rule.description, Then azurerm_network_security_group.a.security_rule.destination_port_range != azurerm_network_security_group.a.security_rule.destination_port_range",
+            null
+        ]
+    ],
+    "Unequal####azurerm_network_security_group.security_rule.direction == String####azurerm_network_security_group.security_rule.direction == String": [
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.direction == String####azurerm_network_security_group.security_rule.direction == String",
+            "If azurerm_network_security_group.a.security_rule.priority == azurerm_network_security_group.a.security_rule.priority, Then azurerm_network_security_group.a.security_rule.direction != azurerm_network_security_group.a.security_rule.direction",
+            null
+        ]
+    ],
+    "Unequal####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String": [
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String",
+            "If azurerm_network_security_group.a.security_rule.destination_address_prefix == azurerm_network_security_group.a.security_rule.destination_address_prefix, Then azurerm_network_security_group.a.security_rule.name != azurerm_network_security_group.a.security_rule.name",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenUnequal####azurerm_network_security_group.security_rule == Existence####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String",
+            "If azurerm_network_security_group.a.security_rule is not null nor empty, Then azurerm_network_security_group.a.security_rule.name != azurerm_network_security_group.a.security_rule.name",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.destination_address_prefixes == String####azurerm_network_security_group.security_rule.destination_address_prefixes == String####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String",
+            "If azurerm_network_security_group.a.security_rule.destination_address_prefixes == azurerm_network_security_group.a.security_rule.destination_address_prefixes, Then azurerm_network_security_group.a.security_rule.name != azurerm_network_security_group.a.security_rule.name",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.source_port_range == String####azurerm_network_security_group.security_rule.source_port_range == String####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String",
+            "If azurerm_network_security_group.a.security_rule.source_port_range == azurerm_network_security_group.a.security_rule.source_port_range, Then azurerm_network_security_group.a.security_rule.name != azurerm_network_security_group.a.security_rule.name",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.source_address_prefixes == String####azurerm_network_security_group.security_rule.source_address_prefixes == String####azurerm_network_security_group.security_rule.name == String####azurerm_network_security_group.security_rule.name == String",
+            "If azurerm_network_security_group.a.security_rule.source_address_prefixes == azurerm_network_security_group.a.security_rule.source_address_prefixes, Then azurerm_network_security_group.a.security_rule.name != azurerm_network_security_group.a.security_rule.name",
+            null
+        ]
+    ],
+    "Unequal####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.priority == String": [
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.priority == String",
+            "If azurerm_network_security_group.a.security_rule.destination_address_prefix == azurerm_network_security_group.a.security_rule.destination_address_prefix, Then azurerm_network_security_group.a.security_rule.priority != azurerm_network_security_group.a.security_rule.priority",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_security_group.security_rule.source_port_range == String####azurerm_network_security_group.security_rule.source_port_range == String####azurerm_network_security_group.security_rule.priority == String####azurerm_network_security_group.security_rule.priority == String",
+            "If azurerm_network_security_group.a.security_rule.source_port_range == azurerm_network_security_group.a.security_rule.source_port_range, Then azurerm_network_security_group.a.security_rule.priority != azurerm_network_security_group.a.security_rule.priority",
+            null
+        ]
+    ],
+    "Unequal####azurerm_network_security_group.security_rule.source_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefix == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_network_security_group.security_rule.destination_port_ranges == String####azurerm_network_security_group.security_rule.destination_port_ranges == String####azurerm_network_security_group.security_rule.source_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefix == String",
+            "If azurerm_network_security_group.a.security_rule.destination_port_ranges != azurerm_network_security_group.a.security_rule.destination_port_ranges, Then azurerm_network_security_group.a.security_rule.source_address_prefix != azurerm_network_security_group.a.security_rule.source_address_prefix",
+            null
+        ],
+        [
+            "ATTR####UnequalThenUnequal####azurerm_network_security_group.security_rule.access == String####azurerm_network_security_group.security_rule.access == String####azurerm_network_security_group.security_rule.source_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefix == String",
+            "If azurerm_network_security_group.a.security_rule.access != azurerm_network_security_group.a.security_rule.access, Then azurerm_network_security_group.a.security_rule.source_address_prefix != azurerm_network_security_group.a.security_rule.source_address_prefix",
+            null
+        ],
+        [
+            "ATTR####UnequalThenUnequal####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.destination_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefix == String####azurerm_network_security_group.security_rule.source_address_prefix == String",
+            "If azurerm_network_security_group.a.security_rule.destination_address_prefix != azurerm_network_security_group.a.security_rule.destination_address_prefix, Then azurerm_network_security_group.a.security_rule.source_address_prefix != azurerm_network_security_group.a.security_rule.source_address_prefix",
+            null
+        ]
+    ]
+}

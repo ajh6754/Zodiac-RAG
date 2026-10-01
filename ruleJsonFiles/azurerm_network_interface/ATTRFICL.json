@@ -1,0 +1,35 @@
+{
+    "Constant####azurerm_network_interface.ip_configuration.private_ip_address_allocation == Dynamic": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_interface.ip_configuration.primary == true####azurerm_network_interface.ip_configuration.private_ip_address_allocation == Dynamic",
+            "If there is azurerm_network_interface.a.ip_configuration.primary == true, Then there is azurerm_network_interface.a.ip_configuration.private_ip_address_allocation == Dynamic",
+            null
+        ]
+    ],
+    "Constant####azurerm_network_interface.ip_configuration.private_ip_address_allocation == Static": [
+        [
+            "ATTR####ExistenceThenConstant####azurerm_network_interface.ip_configuration.private_ip_address == Existence####azurerm_network_interface.ip_configuration.private_ip_address_allocation == Static",
+            "If azurerm_network_interface.a.ip_configuration.private_ip_address is not null nor empty, Then there is azurerm_network_interface.a.ip_configuration.private_ip_address_allocation == Static",
+            null
+        ]
+    ],
+    "Equal####azurerm_network_interface.ip_configuration.private_ip_address_version == String####azurerm_network_interface.ip_configuration.private_ip_address_version == String": [
+        [
+            "ATTR####EqualThenEqual####azurerm_network_interface.ip_configuration.private_ip_address_allocation == String####azurerm_network_interface.ip_configuration.private_ip_address_allocation == String####azurerm_network_interface.ip_configuration.private_ip_address_version == String####azurerm_network_interface.ip_configuration.private_ip_address_version == String",
+            "If azurerm_network_interface.a.ip_configuration.private_ip_address_allocation == azurerm_network_interface.a.ip_configuration.private_ip_address_allocation, Then azurerm_network_interface.a.ip_configuration.private_ip_address_version == azurerm_network_interface.a.ip_configuration.private_ip_address_version",
+            null
+        ]
+    ],
+    "Unequal####azurerm_network_interface.ip_configuration.name == String####azurerm_network_interface.ip_configuration.name == String": [
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_interface.ip_configuration.private_ip_address_allocation == String####azurerm_network_interface.ip_configuration.private_ip_address_allocation == String####azurerm_network_interface.ip_configuration.name == String####azurerm_network_interface.ip_configuration.name == String",
+            "If azurerm_network_interface.a.ip_configuration.private_ip_address_allocation == azurerm_network_interface.a.ip_configuration.private_ip_address_allocation, Then azurerm_network_interface.a.ip_configuration.name != azurerm_network_interface.a.ip_configuration.name",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_network_interface.ip_configuration.private_ip_address_version == String####azurerm_network_interface.ip_configuration.private_ip_address_version == String####azurerm_network_interface.ip_configuration.name == String####azurerm_network_interface.ip_configuration.name == String",
+            "If azurerm_network_interface.a.ip_configuration.private_ip_address_version == azurerm_network_interface.a.ip_configuration.private_ip_address_version, Then azurerm_network_interface.a.ip_configuration.name != azurerm_network_interface.a.ip_configuration.name",
+            null
+        ]
+    ]
+}

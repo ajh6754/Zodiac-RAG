@@ -1,0 +1,23 @@
+{
+    "Branch####azurerm_lb_nat_pool.resource_group_name == String####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_lb_nat_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_nat_pool.resource_group_name == String####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_nat_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then both azurerm_lb_nat_pool.a.resource_group_name and azurerm_lb.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_lb_nat_pool.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_lb_nat_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_lb_nat_pool.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_nat_pool.a has an ancestor resource azurerm_public_ip.b, Then both azurerm_lb_nat_pool.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_nat_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_nat_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_nat_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb_nat_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b could only have a single azurerm_lb_nat_pool that is azurerm_lb_nat_pool.a",
+            null
+        ]
+    ]
+}

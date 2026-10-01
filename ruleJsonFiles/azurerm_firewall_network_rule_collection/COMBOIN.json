@@ -1,0 +1,30 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If the value of azurerm_firewall_network_rule_collection.azure_firewall_name depends on azurerm_firewall.name, then what is the maximum CIDR mask length azurerm_firewall_network_rule_collection.rule.destination_addresses could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If the value of azurerm_firewall_network_rule_collection.azure_firewall_name depends on azurerm_firewall.name, then what is the maximum CIDR mask length azurerm_firewall_network_rule_collection.rule.source_addresses could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If the value of azurerm_firewall_network_rule_collection.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_firewall_network_rule_collection.rule.destination_addresses could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If the value of azurerm_firewall_network_rule_collection.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_firewall_network_rule_collection.rule.source_addresses could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

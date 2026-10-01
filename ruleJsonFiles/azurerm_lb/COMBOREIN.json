@@ -1,0 +1,14 @@
+{
+    "COMBO####EnumComboDownThenCountParent####azurerm_lb.sku == Enum####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_lb.sku == Basic####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_lb.sku is Basic, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_lb? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_lb.sku == Standard####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_lb.sku is Standard, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_lb? Please answer with an integer",
+            null
+        ]
+    ]
+}

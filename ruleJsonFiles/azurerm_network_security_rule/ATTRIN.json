@@ -1,0 +1,125 @@
+{
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.access == Enum####azurerm_network_security_rule.destination_address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.access == Allow####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.access is Allow, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.access == Deny####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.access is Deny, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.access == Enum####azurerm_network_security_rule.destination_address_prefixes == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.access == Allow####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.access is Allow, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.access == Deny####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.access is Deny, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.access == Enum####azurerm_network_security_rule.source_address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.access == Allow####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.access is Allow, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.access == Deny####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.access is Deny, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.direction == Enum####azurerm_network_security_rule.destination_address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.direction == Inbound####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.direction is Inbound, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.direction == Outbound####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.direction is Outbound, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.direction == Enum####azurerm_network_security_rule.destination_address_prefixes == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.direction == Inbound####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.direction is Inbound, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.direction == Outbound####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.direction is Outbound, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.direction == Enum####azurerm_network_security_rule.source_address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.direction == Inbound####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.direction is Inbound, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.direction == Outbound####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.direction is Outbound, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.protocol == Enum####azurerm_network_security_rule.destination_address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Tcp####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Tcp, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Icmp####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Icmp, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Udp####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Udp, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.protocol == Enum####azurerm_network_security_rule.destination_address_prefixes == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Tcp####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Tcp, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Icmp####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Icmp, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Udp####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Udp, then what is the maximum CIDR mask length azurerm_network_security_rule.destination_address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.protocol == Enum####azurerm_network_security_rule.source_address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Tcp####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Tcp, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Icmp####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Icmp, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_network_security_rule.protocol == Udp####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_rule.protocol is Udp, then what is the maximum CIDR mask length azurerm_network_security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

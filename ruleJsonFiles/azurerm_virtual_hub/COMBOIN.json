@@ -1,0 +1,16 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.address_prefix == CIDR",
+            "If the value of azurerm_virtual_hub.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_virtual_hub.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String####azurerm_virtual_hub.address_prefix == CIDR",
+            "If the value of azurerm_virtual_hub.virtual_wan_id depends on azurerm_virtual_wan.id, then what is the maximum CIDR mask length azurerm_virtual_hub.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

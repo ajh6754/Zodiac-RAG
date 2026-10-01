@@ -1,0 +1,394 @@
+{
+    "ATTR####EnumThenEnum####azurerm_redis_cache.enable_non_ssl_port == Enum####azurerm_redis_cache.family == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == False####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is False, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == False####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is False, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == True####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is True, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == True####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is True, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.enable_non_ssl_port == Enum####azurerm_redis_cache.non_ssl_port_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == False####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is False, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == False####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is False, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == True####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is True, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == True####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is True, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.enable_non_ssl_port == Enum####azurerm_redis_cache.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == False####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is False, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == False####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is False, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == True####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is True, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.enable_non_ssl_port == True####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.enable_non_ssl_port is True, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.family == Enum####azurerm_redis_cache.enable_non_ssl_port == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.family is P, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.family is P, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == C####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.family is C, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == C####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.family is C, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.family == Enum####azurerm_redis_cache.non_ssl_port_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.family is P, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.family is P, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == C####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.family is C, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == C####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.family is C, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.family == Enum####azurerm_redis_cache.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.family is P, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.family is P, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == C####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.family is C, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.family == C####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.family is C, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.non_ssl_port_enabled == Enum####azurerm_redis_cache.enable_non_ssl_port == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == False####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is False, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == False####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is False, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == True####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is True, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == True####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is True, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.non_ssl_port_enabled == Enum####azurerm_redis_cache.family == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == False####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is False, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == False####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is False, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == True####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is True, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == True####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is True, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.non_ssl_port_enabled == Enum####azurerm_redis_cache.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == False####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is False, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == False####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is False, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == True####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is True, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.non_ssl_port_enabled == True####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.non_ssl_port_enabled is True, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.public_network_access_enabled == Enum####azurerm_redis_cache.enable_non_ssl_port == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == True####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is True, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == True####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is True, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == False####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is False, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == False####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is False, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.public_network_access_enabled == Enum####azurerm_redis_cache.family == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == True####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is True, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == True####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is True, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == False####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is False, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == False####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is False, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.public_network_access_enabled == Enum####azurerm_redis_cache.non_ssl_port_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == True####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is True, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == True####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is True, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == False####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is False, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.public_network_access_enabled == False####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.public_network_access_enabled is False, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.sku_name == Enum####azurerm_redis_cache.enable_non_ssl_port == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.enable_non_ssl_port == False",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.enable_non_ssl_port == True",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.enable_non_ssl_port cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.sku_name == Enum####azurerm_redis_cache.family == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.family == P",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.family cannot be P? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.family == C",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.family cannot be C? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.sku_name == Enum####azurerm_redis_cache.non_ssl_port_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.non_ssl_port_enabled == False",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.non_ssl_port_enabled == True",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.non_ssl_port_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_redis_cache.sku_name == Enum####azurerm_redis_cache.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Premium####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.sku_name is Premium, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Standard####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.sku_name is Standard, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.public_network_access_enabled == True",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_redis_cache.sku_name == Basic####azurerm_redis_cache.public_network_access_enabled == False",
+            "If the value of azurerm_redis_cache.sku_name is Basic, then the value of azurerm_redis_cache.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "Absence####azurerm_storage_account.allowed_copy_scope == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.allowed_copy_scope == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.allowed_copy_scope is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.allowed_copy_scope == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.allowed_copy_scope is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.allowed_copy_scope == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.allowed_copy_scope is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.allowed_copy_scope == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.allowed_copy_scope is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.azure_files_authentication == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.azure_files_authentication == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.azure_files_authentication is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.azure_files_authentication == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.azure_files_authentication is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.azure_files_authentication == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.azure_files_authentication is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.azure_files_authentication == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.azure_files_authentication is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.custom_domain == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.custom_domain == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.custom_domain is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.custom_domain == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.custom_domain is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.custom_domain == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.custom_domain is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.custom_domain == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.custom_domain is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.customer_managed_key == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.customer_managed_key == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.customer_managed_key is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.customer_managed_key == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.customer_managed_key is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.customer_managed_key == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.customer_managed_key is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.customer_managed_key == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.customer_managed_key is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.edge_zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.edge_zone == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.edge_zone == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.edge_zone == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.edge_zone == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.immutability_policy == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.immutability_policy == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.immutability_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.immutability_policy == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.immutability_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.immutability_policy == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.immutability_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.immutability_policy == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.immutability_policy is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.sas_policy == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.sas_policy == Absence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.sas_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.sas_policy == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.sas_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.blob_properties == Existence####azurerm_storage_account.sas_policy == Absence",
+            "If azurerm_storage_account.a.blob_properties is not null nor empty, Then azurerm_storage_account.a.sas_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.sas_policy == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.sas_policy is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_storage_account.static_website == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.static_website == Absence",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.static_website is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_storage_account.access_tier == Existence####azurerm_storage_account.static_website == Absence",
+            "If azurerm_storage_account.a.access_tier is not null nor empty, Then azurerm_storage_account.a.static_website is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_storage_account.account_replication_type == GRS": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.public_network_access_enabled == false####azurerm_storage_account.account_replication_type == GRS",
+            "If there is azurerm_storage_account.a.public_network_access_enabled == false, Then there is azurerm_storage_account.a.account_replication_type == GRS",
+            null
+        ]
+    ],
+    "Constant####azurerm_storage_account.account_replication_type == LRS": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.cross_tenant_replication_enabled == false####azurerm_storage_account.account_replication_type == LRS",
+            "If there is azurerm_storage_account.a.cross_tenant_replication_enabled == false, Then there is azurerm_storage_account.a.account_replication_type == LRS",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.allow_nested_items_to_be_public == false####azurerm_storage_account.account_replication_type == LRS",
+            "If there is azurerm_storage_account.a.allow_nested_items_to_be_public == false, Then there is azurerm_storage_account.a.account_replication_type == LRS",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.blob_properties.change_feed_enabled == true####azurerm_storage_account.account_replication_type == LRS",
+            "If there is azurerm_storage_account.a.blob_properties.change_feed_enabled == true, Then there is azurerm_storage_account.a.account_replication_type == LRS",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.is_hns_enabled == true####azurerm_storage_account.account_replication_type == LRS",
+            "If there is azurerm_storage_account.a.is_hns_enabled == true, Then there is azurerm_storage_account.a.account_replication_type == LRS",
+            null
+        ]
+    ],
+    "Constant####azurerm_storage_account.allow_nested_items_to_be_public == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.cross_tenant_replication_enabled == false####azurerm_storage_account.allow_nested_items_to_be_public == false",
+            "If there is azurerm_storage_account.a.cross_tenant_replication_enabled == false, Then there is azurerm_storage_account.a.allow_nested_items_to_be_public == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_storage_account.allow_nested_items_to_be_public == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.is_hns_enabled == true####azurerm_storage_account.allow_nested_items_to_be_public == true",
+            "If there is azurerm_storage_account.a.is_hns_enabled == true, Then there is azurerm_storage_account.a.allow_nested_items_to_be_public == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.blob_properties.versioning_enabled == false####azurerm_storage_account.allow_nested_items_to_be_public == true",
+            "If there is azurerm_storage_account.a.blob_properties.versioning_enabled == false, Then there is azurerm_storage_account.a.allow_nested_items_to_be_public == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_storage_account.cross_tenant_replication_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.is_hns_enabled == true####azurerm_storage_account.cross_tenant_replication_enabled == true",
+            "If there is azurerm_storage_account.a.is_hns_enabled == true, Then there is azurerm_storage_account.a.cross_tenant_replication_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.public_network_access_enabled == false####azurerm_storage_account.cross_tenant_replication_enabled == true",
+            "If there is azurerm_storage_account.a.public_network_access_enabled == false, Then there is azurerm_storage_account.a.cross_tenant_replication_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_storage_account.is_hns_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_storage_account.public_network_access_enabled == false####azurerm_storage_account.is_hns_enabled == false",
+            "If there is azurerm_storage_account.a.public_network_access_enabled == false, Then there is azurerm_storage_account.a.is_hns_enabled == false",
+            null
+        ]
+    ],
+    "Existence####azurerm_storage_account.blob_properties == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_storage_account.blob_properties == Existence",
+            "If azurerm_storage_account.a.enable_https_traffic_only is not null nor empty, Then azurerm_storage_account.a.blob_properties is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_storage_account.blob_properties.versioning_enabled == false####azurerm_storage_account.blob_properties == Existence",
+            "If there is azurerm_storage_account.a.blob_properties.versioning_enabled == false, Then azurerm_storage_account.a.blob_properties is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_storage_account.blob_properties.container_delete_retention_policy == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_storage_account.blob_properties.delete_retention_policy == Existence####azurerm_storage_account.blob_properties.container_delete_retention_policy == Existence",
+            "If azurerm_storage_account.a.blob_properties.delete_retention_policy is not null nor empty, Then azurerm_storage_account.a.blob_properties.container_delete_retention_policy is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_storage_account.network_rules.bypass == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_storage_account.network_rules.ip_rules == Existence####azurerm_storage_account.network_rules.bypass == Existence",
+            "If azurerm_storage_account.a.network_rules.ip_rules is not null nor empty, Then azurerm_storage_account.a.network_rules.bypass is not null nor empty",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "CountParent####azurerm_storage_account_network_rules.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_storage_account_network_rules.default_action == Enum####azurerm_storage_account_network_rules.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_storage_account_network_rules.a.default_action is of certain value, Then the number of azurerm_subnet that azurerm_storage_account_network_rules.a could depend on is restricted to certain value",
+            null
+        ]
+    ],
+    "Negation####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_storage_account_network_rules.default_action == Allow####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String",
+            "If there is azurerm_storage_account_network_rules.a.default_action == Allow, Then azurerm_storage_account_network_rules.a.virtual_network_subnet_ids is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ]
+    ],
+    "Reference####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_subnet.private_endpoint_network_policies_enabled == Existence####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String",
+            "If azurerm_subnet.b.private_endpoint_network_policies_enabled is not null nor empty, Then azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_subnet.service_endpoints == Existence####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String",
+            "If azurerm_subnet.b.service_endpoints is not null nor empty, Then azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_storage_account_network_rules.ip_rules == Existence####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String",
+            "If azurerm_storage_account_network_rules.a.ip_rules is not null nor empty, Then azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id",
+            null
+        ]
+    ]
+}

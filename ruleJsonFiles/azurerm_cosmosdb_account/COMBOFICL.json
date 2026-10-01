@@ -1,0 +1,121 @@
+{
+    "AbsenceComboDown####azurerm_cosmosdb_account.cors_rule == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_cosmosdb_account.restore == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_cosmosdb_account.network_acl_bypass_for_azure_services == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.network_acl_bypass_for_azure_services == false",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_cosmosdb_account.a.network_acl_bypass_for_azure_services == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_cosmosdb_account.public_network_access_enabled == true": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.public_network_access_enabled == true",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_cosmosdb_account.a.public_network_access_enabled == true",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_cosmosdb_account.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.location == String####azurerm_resource_group.location == String",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.automatic_failover_enabled == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.capabilities == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.capacity == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.capacity == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.capacity is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.enable_automatic_failover == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.enable_automatic_failover == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.enable_free_tier == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.enable_free_tier == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.free_tier_enabled == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.free_tier_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_cosmosdb_account.mongo_server_version == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.mongo_server_version == Existence",
+            "If azurerm_cosmosdb_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_cosmosdb_account.consistency_policy.consistency_level == String####azurerm_cosmosdb_account.consistency_policy.consistency_level == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_cosmosdb_account.resource_group_name == String####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.consistency_policy.consistency_level == String####azurerm_cosmosdb_account.consistency_policy.consistency_level == String",
+            "If both azurerm_cosmosdb_account.a.resource_group_name and azurerm_cosmosdb_account.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_cosmosdb_account.a.consistency_policy.consistency_level != azurerm_cosmosdb_account.b.consistency_policy.consistency_level",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_cosmosdb_account.kind == String####azurerm_cosmosdb_account.kind == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_cosmosdb_account.resource_group_name == String####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.kind == String####azurerm_cosmosdb_account.kind == String",
+            "If both azurerm_cosmosdb_account.a.resource_group_name and azurerm_cosmosdb_account.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_cosmosdb_account.a.kind != azurerm_cosmosdb_account.b.kind",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_cosmosdb_account.name == String####azurerm_cosmosdb_account.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_cosmosdb_account.resource_group_name == String####azurerm_cosmosdb_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_cosmosdb_account.name == String####azurerm_cosmosdb_account.name == String",
+            "If both azurerm_cosmosdb_account.a.resource_group_name and azurerm_cosmosdb_account.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_cosmosdb_account.a.name != azurerm_cosmosdb_account.b.name",
+            null
+        ]
+    ]
+}

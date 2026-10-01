@@ -1,0 +1,186 @@
+{
+    "AbsenceComboDown####azurerm_storage_account.allowed_copy_scope == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.allowed_copy_scope == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.allowed_copy_scope is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.azure_files_authentication == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.azure_files_authentication == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.azure_files_authentication is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.custom_domain == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.custom_domain == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.custom_domain is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.customer_managed_key == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.customer_managed_key == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.customer_managed_key is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.edge_zone == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.immutability_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.immutability_policy == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.immutability_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.sas_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.sas_policy == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.sas_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account.static_website == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.static_website == Absence",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_storage_account.a.static_website is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_storage_account.account_replication_type == LRS": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_storage_account.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_storage_account.account_replication_type == LRS",
+            "If azurerm_storage_account.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_storage_account.a.account_replication_type == LRS",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.account_replication_type == LRS",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then there is azurerm_storage_account.a.account_replication_type == LRS",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_storage_account.cross_tenant_replication_enabled == true": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.cross_tenant_replication_enabled == true",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then there is azurerm_storage_account.a.cross_tenant_replication_enabled == true",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_storage_account.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_storage_account.cross_tenant_replication_enabled == true",
+            "If azurerm_storage_account.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_storage_account.a.cross_tenant_replication_enabled == true",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.cross_tenant_replication_enabled == true",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_storage_account.a.cross_tenant_replication_enabled == true",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_storage_account.infrastructure_encryption_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.infrastructure_encryption_enabled == false",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_storage_account.a.infrastructure_encryption_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_storage_account.public_network_access_enabled == true": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.public_network_access_enabled == true",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then there is azurerm_storage_account.a.public_network_access_enabled == true",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_storage_account.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_storage_account.public_network_access_enabled == true",
+            "If azurerm_storage_account.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_storage_account.a.public_network_access_enabled == true",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.public_network_access_enabled == true",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_storage_account.a.public_network_access_enabled == true",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_storage_account.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.location == String####azurerm_resource_group.location == String",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_storage_account.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_storage_account.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_storage_account.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_storage_account.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_storage_account.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_storage_account.enable_https_traffic_only == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.enable_https_traffic_only == Existence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.enable_https_traffic_only is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_storage_account.network_rules == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_storage_account.network_rules == Existence",
+            "If azurerm_storage_account.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_storage_account.a.network_rules is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.network_rules == Existence",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_storage_account.a.network_rules is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_subnet.service_endpoints == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.service_endpoints == Existence",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.service_endpoints is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_storage_account.account_replication_type == String####azurerm_storage_account.account_replication_type == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_storage_account.resource_group_name == String####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_storage_account.account_replication_type == String####azurerm_storage_account.account_replication_type == String",
+            "If both azurerm_storage_account.a.resource_group_name and azurerm_storage_account.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_storage_account.a.account_replication_type != azurerm_storage_account.b.account_replication_type",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_storage_account.name == String####azurerm_storage_account.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_storage_account.resource_group_name == String####azurerm_storage_account.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_storage_account.name == String####azurerm_storage_account.name == String",
+            "If both azurerm_storage_account.a.resource_group_name and azurerm_storage_account.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_storage_account.a.name != azurerm_storage_account.b.name",
+            null
+        ]
+    ]
+}

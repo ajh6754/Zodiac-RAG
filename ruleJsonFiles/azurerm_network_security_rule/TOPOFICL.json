@@ -1,0 +1,9 @@
+{
+    "Branch####azurerm_network_security_rule.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_network_security_rule.network_security_group_name == String####azurerm_network_security_group.name == String####azurerm_network_security_rule.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_network_security_rule.a.network_security_group_name depends on azurerm_network_security_group.b.name, Then both azurerm_network_security_rule.a.resource_group_name and azurerm_network_security_group.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ]
+}

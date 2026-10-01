@@ -1,0 +1,42 @@
+{
+    "Associate####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.resource_group_name == String####azurerm_lb_backend_address_pool.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.resource_group_name == String####azurerm_lb_backend_address_pool.id == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_nat_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id, Then azurerm_lb_backend_address_pool.b and azurerm_resource_group.c connected or associated with each other via azurerm_lb_nat_rule.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String",
+            "If azurerm_lb_nat_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id, Then both azurerm_lb_nat_rule.a.loadbalancer_id and azurerm_lb_backend_address_pool.b.loadbalancer_id depends on azurerm_lb.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_lb_nat_rule.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_lb_nat_rule.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_nat_rule.a has an ancestor resource azurerm_public_ip.b, Then both azurerm_lb_nat_rule.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ],
+        [
+            "TOPO####ReferenceThenBranch####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_lb_nat_rule.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_nat_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then both azurerm_lb_nat_rule.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String",
+            "If azurerm_lb_nat_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id, Then azurerm_lb_backend_address_pool.b could only have a single azurerm_lb_nat_rule that is azurerm_lb_nat_rule.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_lb_nat_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then azurerm_public_ip.b could only have a single azurerm_lb_nat_rule that is azurerm_lb_nat_rule.a",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "Constant####azurerm_mssql_database.geo_backup_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.geo_backup_enabled == true",
+            "If there is azurerm_mssql_database.a.collation == Japanese_CI_AS, Then there is azurerm_mssql_database.a.geo_backup_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.collation == Latin1_General_CI_AS####azurerm_mssql_database.geo_backup_enabled == true",
+            "If there is azurerm_mssql_database.a.collation == Latin1_General_CI_AS, Then there is azurerm_mssql_database.a.geo_backup_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_mssql_database.license_type == LicenseIncluded": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If there is azurerm_mssql_database.a.collation == SQL_Latin1_General_CP1_CI_AS, Then there is azurerm_mssql_database.a.license_type == LicenseIncluded",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If there is azurerm_mssql_database.a.collation == Japanese_CI_AS, Then there is azurerm_mssql_database.a.license_type == LicenseIncluded",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.geo_backup_enabled == false####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If there is azurerm_mssql_database.a.geo_backup_enabled == false, Then there is azurerm_mssql_database.a.license_type == LicenseIncluded",
+            null
+        ]
+    ],
+    "Constant####azurerm_mssql_database.storage_account_type == Geo": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.license_type == BasePrice####azurerm_mssql_database.storage_account_type == Geo",
+            "If there is azurerm_mssql_database.a.license_type == BasePrice, Then there is azurerm_mssql_database.a.storage_account_type == Geo",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.collation == Latin1_General_CI_AS####azurerm_mssql_database.storage_account_type == Geo",
+            "If there is azurerm_mssql_database.a.collation == Latin1_General_CI_AS, Then there is azurerm_mssql_database.a.storage_account_type == Geo",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.storage_account_type == Geo",
+            "If there is azurerm_mssql_database.a.collation == Japanese_CI_AS, Then there is azurerm_mssql_database.a.storage_account_type == Geo",
+            null
+        ]
+    ],
+    "Enum####azurerm_mssql_database.collation == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.zone_redundant == Enum####azurerm_mssql_database.collation == Enum",
+            "If azurerm_mssql_database.a.zone_redundant is of certain value, Then azurerm_mssql_database.a.collation cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.license_type == Enum####azurerm_mssql_database.collation == Enum",
+            "If azurerm_mssql_database.a.license_type is of certain value, Then azurerm_mssql_database.a.collation cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.sku_name == Enum####azurerm_mssql_database.collation == Enum",
+            "If azurerm_mssql_database.a.sku_name is of certain value, Then azurerm_mssql_database.a.collation cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_mssql_database.license_type == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.collation == Enum####azurerm_mssql_database.license_type == Enum",
+            "If azurerm_mssql_database.a.collation is of certain value, Then azurerm_mssql_database.a.license_type cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.sku_name == Enum####azurerm_mssql_database.license_type == Enum",
+            "If azurerm_mssql_database.a.sku_name is of certain value, Then azurerm_mssql_database.a.license_type cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.zone_redundant == Enum####azurerm_mssql_database.license_type == Enum",
+            "If azurerm_mssql_database.a.zone_redundant is of certain value, Then azurerm_mssql_database.a.license_type cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_mssql_database.zone_redundant == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.sku_name == Enum####azurerm_mssql_database.zone_redundant == Enum",
+            "If azurerm_mssql_database.a.sku_name is of certain value, Then azurerm_mssql_database.a.zone_redundant cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.collation == Enum####azurerm_mssql_database.zone_redundant == Enum",
+            "If azurerm_mssql_database.a.collation is of certain value, Then azurerm_mssql_database.a.zone_redundant cannot use certain value",
+            null
+        ],
+        [
+            "ATTR####EnumThenEnum####azurerm_mssql_database.license_type == Enum####azurerm_mssql_database.zone_redundant == Enum",
+            "If azurerm_mssql_database.a.license_type is of certain value, Then azurerm_mssql_database.a.zone_redundant cannot use certain value",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.max_size_gb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence####azurerm_mssql_database.max_size_gb == Existence",
+            "If azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty, Then azurerm_mssql_database.a.max_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.min_capacity == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.max_size_gb == Existence####azurerm_mssql_database.min_capacity == Existence",
+            "If azurerm_mssql_database.a.max_size_gb is not null nor empty, Then azurerm_mssql_database.a.min_capacity is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence####azurerm_mssql_database.min_capacity == Existence",
+            "If azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty, Then azurerm_mssql_database.a.min_capacity is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.read_replica_count == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence####azurerm_mssql_database.read_replica_count == Existence",
+            "If azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty, Then azurerm_mssql_database.a.read_replica_count is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.max_size_gb == Existence####azurerm_mssql_database.read_replica_count == Existence",
+            "If azurerm_mssql_database.a.max_size_gb is not null nor empty, Then azurerm_mssql_database.a.read_replica_count is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.min_capacity == Existence####azurerm_mssql_database.read_replica_count == Existence",
+            "If azurerm_mssql_database.a.min_capacity is not null nor empty, Then azurerm_mssql_database.a.read_replica_count is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.read_scale == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.read_replica_count == Existence####azurerm_mssql_database.read_scale == Existence",
+            "If azurerm_mssql_database.a.read_replica_count is not null nor empty, Then azurerm_mssql_database.a.read_scale is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence####azurerm_mssql_database.read_scale == Existence",
+            "If azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty, Then azurerm_mssql_database.a.read_scale is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.min_capacity == Existence####azurerm_mssql_database.read_scale == Existence",
+            "If azurerm_mssql_database.a.min_capacity is not null nor empty, Then azurerm_mssql_database.a.read_scale is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.enclave_type == Existence####azurerm_mssql_database.read_scale == Existence",
+            "If azurerm_mssql_database.a.enclave_type is not null nor empty, Then azurerm_mssql_database.a.read_scale is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.max_size_gb == Existence####azurerm_mssql_database.read_scale == Existence",
+            "If azurerm_mssql_database.a.max_size_gb is not null nor empty, Then azurerm_mssql_database.a.read_scale is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.short_term_retention_policy == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.min_capacity == Existence####azurerm_mssql_database.short_term_retention_policy == Existence",
+            "If azurerm_mssql_database.a.min_capacity is not null nor empty, Then azurerm_mssql_database.a.short_term_retention_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence####azurerm_mssql_database.short_term_retention_policy == Existence",
+            "If azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty, Then azurerm_mssql_database.a.short_term_retention_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.max_size_gb == Existence####azurerm_mssql_database.short_term_retention_policy == Existence",
+            "If azurerm_mssql_database.a.max_size_gb is not null nor empty, Then azurerm_mssql_database.a.short_term_retention_policy is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.threat_detection_policy == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.min_capacity == Existence####azurerm_mssql_database.threat_detection_policy == Existence",
+            "If azurerm_mssql_database.a.min_capacity is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.auto_pause_delay_in_minutes == Existence####azurerm_mssql_database.threat_detection_policy == Existence",
+            "If azurerm_mssql_database.a.auto_pause_delay_in_minutes is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.read_replica_count == Existence####azurerm_mssql_database.threat_detection_policy == Existence",
+            "If azurerm_mssql_database.a.read_replica_count is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.max_size_gb == Existence####azurerm_mssql_database.threat_detection_policy == Existence",
+            "If azurerm_mssql_database.a.max_size_gb is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.read_scale == Existence####azurerm_mssql_database.threat_detection_policy == Existence",
+            "If azurerm_mssql_database.a.read_scale is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.threat_detection_policy.retention_days == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.threat_detection_policy.email_account_admins == Existence####azurerm_mssql_database.threat_detection_policy.retention_days == Existence",
+            "If azurerm_mssql_database.a.threat_detection_policy.email_account_admins is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy.retention_days is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_database.threat_detection_policy.state == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.threat_detection_policy.email_account_admins == Existence####azurerm_mssql_database.threat_detection_policy.state == Existence",
+            "If azurerm_mssql_database.a.threat_detection_policy.email_account_admins is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy.state is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_database.threat_detection_policy.retention_days == Existence####azurerm_mssql_database.threat_detection_policy.state == Existence",
+            "If azurerm_mssql_database.a.threat_detection_policy.retention_days is not null nor empty, Then azurerm_mssql_database.a.threat_detection_policy.state is not null nor empty",
+            null
+        ]
+    ]
+}

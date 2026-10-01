@@ -1,0 +1,16 @@
+{
+    "Branch####azurerm_private_dns_resolver.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then both azurerm_private_dns_resolver.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_dns_resolver.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_private_dns_resolver.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b could only have a single azurerm_private_dns_resolver that is azurerm_private_dns_resolver.a",
+            null
+        ]
+    ]
+}

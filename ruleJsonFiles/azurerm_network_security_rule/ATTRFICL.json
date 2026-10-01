@@ -1,0 +1,53 @@
+{
+    "CIDRMask####azurerm_network_security_rule.destination_address_prefix == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.direction == Enum####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_rule.a.direction is of certain value, Then azurerm_network_security_rule.a.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.protocol == Enum####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_rule.a.protocol is of certain value, Then azurerm_network_security_rule.a.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.access == Enum####azurerm_network_security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_rule.a.access is of certain value, Then azurerm_network_security_rule.a.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMask####azurerm_network_security_rule.destination_address_prefixes == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.direction == Enum####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If azurerm_network_security_rule.a.direction is of certain value, Then azurerm_network_security_rule.a.destination_address_prefixes has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.access == Enum####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If azurerm_network_security_rule.a.access is of certain value, Then azurerm_network_security_rule.a.destination_address_prefixes has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.protocol == Enum####azurerm_network_security_rule.destination_address_prefixes == CIDR",
+            "If azurerm_network_security_rule.a.protocol is of certain value, Then azurerm_network_security_rule.a.destination_address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMask####azurerm_network_security_rule.source_address_prefix == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.protocol == Enum####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_rule.a.protocol is of certain value, Then azurerm_network_security_rule.a.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.access == Enum####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_rule.a.access is of certain value, Then azurerm_network_security_rule.a.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_network_security_rule.direction == Enum####azurerm_network_security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_rule.a.direction is of certain value, Then azurerm_network_security_rule.a.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ]
+}

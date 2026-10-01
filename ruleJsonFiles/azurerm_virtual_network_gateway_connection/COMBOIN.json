@@ -1,0 +1,23 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway_connection.local_network_gateway_id depends on azurerm_local_network_gateway.id, then what is the maximum CIDR mask length azurerm_local_network_gateway.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.gateway_address == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_local_network_gateway.gateway_address == CIDR",
+            "If the value of azurerm_virtual_network_gateway_connection.local_network_gateway_id depends on azurerm_local_network_gateway.id, then what is the maximum CIDR mask length azurerm_local_network_gateway.gateway_address could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway_connection.virtual_network_gateway_id depends on azurerm_virtual_network_gateway.id, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

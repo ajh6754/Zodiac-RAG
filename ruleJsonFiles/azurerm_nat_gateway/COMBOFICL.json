@@ -1,0 +1,23 @@
+{
+    "EqualCombo####azurerm_nat_gateway.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_nat_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_nat_gateway.location == String####azurerm_resource_group.location == String",
+            "If azurerm_nat_gateway.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_nat_gateway.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_nat_gateway.location == String####azurerm_nat_gateway.location == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_nat_gateway.resource_group_name == String####azurerm_nat_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_nat_gateway.location == String####azurerm_nat_gateway.location == String",
+            "If both azurerm_nat_gateway.a.resource_group_name and azurerm_nat_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_nat_gateway.a.location != azurerm_nat_gateway.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_nat_gateway.name == String####azurerm_nat_gateway.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_nat_gateway.resource_group_name == String####azurerm_nat_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_nat_gateway.name == String####azurerm_nat_gateway.name == String",
+            "If both azurerm_nat_gateway.a.resource_group_name and azurerm_nat_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_nat_gateway.a.name != azurerm_nat_gateway.b.name",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_network_interface_nat_rule_association.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_network_interface.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String####azurerm_lb.location == String####azurerm_network_interface.location == String",
+            "If azurerm_lb.b and azurerm_network_interface.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_lb.a.location == azurerm_network_interface.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_lb.location == String####azurerm_public_ip.location == String",
+            "If azurerm_lb.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_lb.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_lb.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_lb.b and azurerm_virtual_network.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_lb.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.sku == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_lb.sku == String####azurerm_public_ip.sku == String",
+            "If azurerm_lb.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_lb.a.sku == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_lb.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_lb.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_lb.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface_nat_rule_association.ip_configuration_name == String####azurerm_network_interface.ip_configuration.name == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_network_interface_nat_rule_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface_nat_rule_association.ip_configuration_name == String####azurerm_network_interface.ip_configuration.name == String",
+            "If azurerm_network_interface_nat_rule_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface_nat_rule_association.a.ip_configuration_name == azurerm_network_interface.b.ip_configuration.name",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface_nat_rule_association.ip_configuration_name == String####azurerm_network_interface_nat_rule_association.ip_configuration_name == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_network_interface_nat_rule_association.network_interface_id == String####azurerm_network_interface_nat_rule_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_network_interface_nat_rule_association.ip_configuration_name == String####azurerm_network_interface_nat_rule_association.ip_configuration_name == String",
+            "If both azurerm_network_interface_nat_rule_association.a.network_interface_id and azurerm_network_interface_nat_rule_association.b.network_interface_id depends on azurerm_network_interface.c, Then azurerm_network_interface_nat_rule_association.a.ip_configuration_name == azurerm_network_interface_nat_rule_association.b.ip_configuration_name",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.allocation_method == azurerm_public_ip.b.allocation_method",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.ddos_protection_mode == azurerm_public_ip.b.ddos_protection_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.ip_version == azurerm_public_ip.b.ip_version",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_public_ip.location == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.sku == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_network_interface_nat_rule_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_public_ip.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_network_interface.dns_servers == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_network_interface_nat_rule_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.dns_servers == Existence",
+            "If azurerm_network_interface_nat_rule_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.dns_servers is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_nat_rule.name == String####azurerm_network_interface.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_network_interface_nat_rule_association.nat_rule_id == String####azurerm_network_interface_nat_rule_association.network_interface_id == String####azurerm_lb_nat_rule.id == String####azurerm_network_interface.id == String####azurerm_lb_nat_rule.name == String####azurerm_network_interface.name == String",
+            "If azurerm_lb_nat_rule.b and azurerm_network_interface.c connected or associated with each other via azurerm_network_interface_nat_rule_association.a, Then azurerm_lb_nat_rule.a.name != azurerm_network_interface.b.name",
+            null
+        ]
+    ]
+}

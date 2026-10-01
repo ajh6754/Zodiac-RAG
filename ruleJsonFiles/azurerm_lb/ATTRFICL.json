@@ -1,0 +1,40 @@
+{
+    "Constant####azurerm_lb.sku == Basic": [
+        [
+            "ATTR####AbsenceThenConstant####azurerm_lb.frontend_ip_configuration == Absence####azurerm_lb.sku == Basic",
+            "If azurerm_lb.a.frontend_ip_configuration is null or empty, Then there is azurerm_lb.a.sku == Basic",
+            null
+        ]
+    ],
+    "Constant####azurerm_lb.sku_tier == Regional": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb.sku == Basic####azurerm_lb.sku_tier == Regional",
+            "If there is azurerm_lb.a.sku == Basic, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenConstant####azurerm_lb.frontend_ip_configuration == Absence####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb.a.frontend_ip_configuration is null or empty, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenConstant####azurerm_lb.frontend_ip_configuration == Existence####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb.a.frontend_ip_configuration is not null nor empty, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ]
+    ],
+    "Existence####azurerm_lb.frontend_ip_configuration.private_ip_address_allocation == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_lb.frontend_ip_configuration.private_ip_address == Existence####azurerm_lb.frontend_ip_configuration.private_ip_address_allocation == Existence",
+            "If azurerm_lb.a.frontend_ip_configuration.private_ip_address is not null nor empty, Then azurerm_lb.a.frontend_ip_configuration.private_ip_address_allocation is not null nor empty",
+            null
+        ]
+    ],
+    "Unequal####azurerm_lb.frontend_ip_configuration.name == String####azurerm_lb.frontend_ip_configuration.name == String": [
+        [
+            "ATTR####ExistenceThenUnequal####azurerm_lb.frontend_ip_configuration == Existence####azurerm_lb.frontend_ip_configuration.name == String####azurerm_lb.frontend_ip_configuration.name == String",
+            "If azurerm_lb.a.frontend_ip_configuration is not null nor empty, Then azurerm_lb.a.frontend_ip_configuration.name != azurerm_lb.a.frontend_ip_configuration.name",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "AbsenceComboUp####azurerm_firewall.dns_servers == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.dns_servers == Absence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.dns_servers is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_firewall.management_ip_configuration == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.management_ip_configuration == Absence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.management_ip_configuration is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_firewall.private_ip_ranges == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.private_ip_ranges == Absence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.private_ip_ranges is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_firewall.virtual_hub == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.virtual_hub == Absence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.virtual_hub is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_firewall.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.zones == Absence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.zones is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.destination_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.source_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.destination_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.source_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####AncestorAssociateThenCIDRExcludeCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet.b and azurerm_subnet.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ]
+    ],
+    "CIDRIncludeCombo####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRIncludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.destination_addresses contains the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ]
+    ],
+    "CIDRIncludeCombo####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRIncludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.source_addresses contains the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ]
+    ],
+    "CIDRIncludeCombo####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####BranchThenCIDRIncludeCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then the CIDR range of azurerm_firewall_network_rule_collection.b.rule.source_addresses contains the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall_network_rule_collection.a.rule.destination_addresses has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_firewall_network_rule_collection.a.rule.destination_addresses has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_resource_group.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_firewall_network_rule_collection.a.rule.source_addresses has certain CIDR mask length restrictions",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall_network_rule_collection.a.rule.source_addresses has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_firewall_network_rule_collection.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.sku == Standard": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku == Standard",
+            "If azurerm_firewall_network_rule_collection.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.sku == Standard",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_firewall_network_rule_collection.action == String####azurerm_firewall_network_rule_collection.action == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.action == String####azurerm_firewall_network_rule_collection.action == String",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then azurerm_firewall_network_rule_collection.a.action == azurerm_firewall_network_rule_collection.b.action",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.allocation_method == azurerm_public_ip.b.allocation_method",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.ddos_protection_mode == azurerm_public_ip.b.ddos_protection_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.ip_version == azurerm_public_ip.b.ip_version",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_public_ip.location == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.sku == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_firewall_network_rule_collection.a, Then azurerm_public_ip.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_firewall.ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.ip_configuration == Existence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_firewall.threat_intel_mode == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.threat_intel_mode == Existence",
+            "If azurerm_firewall_network_rule_collection.a.azure_firewall_name depends on azurerm_firewall.b.name, Then azurerm_firewall.b.threat_intel_mode is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_firewall_network_rule_collection.name == String####azurerm_firewall_network_rule_collection.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.name == String####azurerm_firewall_network_rule_collection.name == String",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then azurerm_firewall_network_rule_collection.a.name != azurerm_firewall_network_rule_collection.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_firewall_network_rule_collection.priority == String####azurerm_firewall_network_rule_collection.priority == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.priority == String####azurerm_firewall_network_rule_collection.priority == String",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then azurerm_firewall_network_rule_collection.a.priority != azurerm_firewall_network_rule_collection.b.priority",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then azurerm_firewall_network_rule_collection.a.rule.destination_addresses != azurerm_firewall_network_rule_collection.b.rule.destination_addresses",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_firewall_network_rule_collection.rule.name == String####azurerm_firewall_network_rule_collection.rule.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.name == String####azurerm_firewall_network_rule_collection.rule.name == String",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then azurerm_firewall_network_rule_collection.a.rule.name != azurerm_firewall_network_rule_collection.b.rule.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.protocols == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall_network_rule_collection.azure_firewall_name == String####azurerm_firewall.name == String####azurerm_firewall.name == String####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.protocols == String",
+            "If both azurerm_firewall_network_rule_collection.a.azure_firewall_name and azurerm_firewall_network_rule_collection.b.azure_firewall_name depends on azurerm_firewall.c, Then azurerm_firewall_network_rule_collection.a.rule.protocols != azurerm_firewall_network_rule_collection.b.rule.protocols",
+            null
+        ]
+    ]
+}

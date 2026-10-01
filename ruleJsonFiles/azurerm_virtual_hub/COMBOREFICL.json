@@ -1,0 +1,19 @@
+{
+    "Reference####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String": [
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_virtual_hub.route == Absence####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String",
+            "If azurerm_virtual_hub.a.route is null or empty, Then azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_virtual_wan.office365_local_breakout_category == None####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String",
+            "If there is azurerm_virtual_wan.b.office365_local_breakout_category == None, Then azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_virtual_hub.hub_routing_preference == ExpressRoute####azurerm_virtual_hub.virtual_wan_id == String####azurerm_virtual_wan.id == String",
+            "If there is azurerm_virtual_hub.a.hub_routing_preference == ExpressRoute, Then azurerm_virtual_hub.a.virtual_wan_id depends on azurerm_virtual_wan.b.id",
+            null
+        ]
+    ]
+}

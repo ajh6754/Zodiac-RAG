@@ -1,0 +1,9 @@
+{
+    "CountChild####azurerm_lb_probe.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_lb.sku == Enum####azurerm_lb_probe.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb.b.sku is of certain value, Then the number of azurerm_lb_probe that could depend on azurerm_lb.b is restricted to certain value",
+            null
+        ]
+    ]
+}

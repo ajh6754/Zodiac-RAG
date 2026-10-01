@@ -1,0 +1,94 @@
+{
+    "COMBO####EnumComboDownThenCountParent####azurerm_firewall.name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.name == AZFirewall####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is AZFirewall, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.name == ContosoFirewall####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is ContosoFirewall, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.name == AzureFirewall####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is AzureFirewall, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_firewall.name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.name == AZFirewall####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is AZFirewall, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.name == ContosoFirewall####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is ContosoFirewall, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.name == AzureFirewall####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.name is AzureFirewall, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_name == AZFW_VNet####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_name is AZFW_VNet, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_name == AZFW_Hub####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_name is AZFW_Hub, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_name == AZFW_VNet####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_name is AZFW_VNet, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_name == AZFW_Hub####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_name is AZFW_Hub, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_tier == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_tier == Standard####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Standard, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_tier == Basic####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Basic, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_tier == Premium####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Premium, then what is the maximum amount of azurerm_public_ip that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_tier == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_tier == Standard####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Standard, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_tier == Basic####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Basic, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_firewall.sku_tier == Premium####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_firewall.sku_tier is Premium, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_firewall? Please answer with an integer",
+            null
+        ]
+    ]
+}

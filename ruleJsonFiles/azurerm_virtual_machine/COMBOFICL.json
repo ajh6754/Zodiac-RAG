@@ -1,0 +1,352 @@
+{
+    "AbsenceComboDown####azurerm_virtual_machine.additional_capabilities == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id), Then azurerm_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_machine.os_profile_secrets == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id), Then azurerm_virtual_machine.a.os_profile_secrets is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.os_profile_secrets is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.os_profile_secrets is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_machine.os_profile_windows_config == Absence": [
+        [
+            "COMBO####IntraThenAbsenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_machine.plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.plan == Absence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.plan is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.plan == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.plan is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_virtual_machine.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.zones == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.zones is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.zones == Absence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_network_interface.auxiliary_mode == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_network_interface.auxiliary_mode == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.auxiliary_mode is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_network_interface.auxiliary_sku == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_network_interface.auxiliary_sku == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.auxiliary_sku is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_network_interface.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_network_interface.edge_zone == Absence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####AncestorAssociateThenCIDRExcludeCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet.b and azurerm_subnet.c connected or associated with each other via azurerm_virtual_machine.a, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_machine.delete_data_disks_on_termination == true": [
+        [
+            "COMBO####IntraThenConstantComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.delete_data_disks_on_termination == true",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == true",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.delete_data_disks_on_termination == true",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == true",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_machine.delete_os_disk_on_termination == true": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.delete_os_disk_on_termination == true",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == true",
+            null
+        ],
+        [
+            "COMBO####IntraThenConstantComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.delete_os_disk_on_termination == true",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == true",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited",
+            "If azurerm_virtual_machine.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.ddos_protection_mode == VirtualNetworkInherited",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_network_interface.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_network_interface.location == String####azurerm_network_interface.location == String",
+            "If both azurerm_network_interface.b and azurerm_network_interface.c are directly connected to azurerm_virtual_machine.a, Then azurerm_network_interface.a.location == azurerm_network_interface.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.resource_group_name == String####azurerm_network_interface.id == String####azurerm_resource_group.name == String####azurerm_network_interface.location == String####azurerm_resource_group.location == String",
+            "If azurerm_network_interface.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_machine.a, Then azurerm_network_interface.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_resource_group.location == String",
+            "If azurerm_public_ip.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_machine.a, Then azurerm_public_ip.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_machine.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_resource_group.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_machine.a, Then azurerm_resource_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine.location == String####azurerm_network_interface.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.location == String####azurerm_network_interface.location == String",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.location == azurerm_network_interface.b.location",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.location == String####azurerm_network_interface.location == String",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.location == azurerm_network_interface.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_machine.location == String####azurerm_public_ip.location == String",
+            "If azurerm_virtual_machine.a has an ancestor resource azurerm_public_ip.b, Then azurerm_virtual_machine.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.location == String####azurerm_resource_group.location == String",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.location == azurerm_resource_group.b.location",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_machine.location == String####azurerm_resource_group.location == String",
+            "If azurerm_virtual_machine.a has an ancestor resource azurerm_resource_group.b, Then azurerm_virtual_machine.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine.location == String####azurerm_virtual_machine.location == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.location == String####azurerm_virtual_machine.location == String",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.network_interface_ids depends on azurerm_network_interface.c, Then azurerm_virtual_machine.a.location == azurerm_virtual_machine.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_virtual_machine.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_machine.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_virtual_machine.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_virtual_machine.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.boot_diagnostics == Existence": [
+        [
+            "COMBO####IntraThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.boot_diagnostics == Existence",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then azurerm_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.os_profile == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile == Existence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id), Then azurerm_virtual_machine.a.os_profile is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile == Existence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.os_profile is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.os_profile == Existence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.os_profile is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.os_profile_linux_config == Existence": [
+        [
+            "COMBO####IntraThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile_linux_config == Existence",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.os_profile_linux_config == Existence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.plan == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.plan == Existence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.plan is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####IntraThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.plan == Existence",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then azurerm_virtual_machine.a.plan is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.storage_data_disk == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.storage_data_disk == Existence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.storage_data_disk is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.storage_data_disk == Existence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.storage_data_disk is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.storage_image_reference == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.storage_image_reference == Existence",
+            "If azurerm_virtual_machine.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_machine.a.storage_image_reference is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_virtual_machine.storage_image_reference == Existence",
+            "If azurerm_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.storage_image_reference is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.storage_image_reference == Existence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id is null (i.e. it does not refer to azurerm_network_interface.id), Then azurerm_virtual_machine.a.storage_image_reference is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_virtual_machine.zones == Existence": [
+        [
+            "COMBO####IntraThenExistenceComboDown####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.zones == Existence",
+            "If both azurerm_virtual_machine.a.network_interface_ids and azurerm_virtual_machine.b.primary_network_interface_id depends on azurerm_network_interface.c, Then azurerm_virtual_machine.a.zones is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_virtual_machine.primary_network_interface_id == String####azurerm_network_interface.id == String####azurerm_virtual_machine.zones == Existence",
+            "If azurerm_virtual_machine.a.primary_network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_virtual_machine.a.zones is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_interface.name == String####azurerm_network_interface.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_network_interface.id == String####azurerm_network_interface.name == String####azurerm_network_interface.name == String",
+            "If both azurerm_network_interface.b and azurerm_network_interface.c are directly connected to azurerm_virtual_machine.a, Then azurerm_network_interface.a.name != azurerm_network_interface.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_interface.name == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_machine.network_interface_ids == String####azurerm_virtual_machine.resource_group_name == String####azurerm_network_interface.id == String####azurerm_resource_group.name == String####azurerm_network_interface.name == String####azurerm_resource_group.name == String",
+            "If azurerm_network_interface.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_machine.a, Then azurerm_network_interface.a.name != azurerm_resource_group.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_machine.name == String####azurerm_virtual_machine.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_machine.resource_group_name == String####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.name == String####azurerm_virtual_machine.name == String",
+            "If both azurerm_virtual_machine.a.resource_group_name and azurerm_virtual_machine.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_machine.a.name != azurerm_virtual_machine.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_machine.storage_os_disk.name == String####azurerm_virtual_machine.storage_os_disk.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_machine.resource_group_name == String####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_machine.storage_os_disk.name == String####azurerm_virtual_machine.storage_os_disk.name == String",
+            "If both azurerm_virtual_machine.a.resource_group_name and azurerm_virtual_machine.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_machine.a.storage_os_disk.name != azurerm_virtual_machine.b.storage_os_disk.name",
+            null
+        ]
+    ]
+}

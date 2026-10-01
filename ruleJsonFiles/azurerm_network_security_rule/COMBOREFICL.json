@@ -1,0 +1,24 @@
+{
+    "Negation####azurerm_network_security_rule.source_application_security_group_ids == String####azurerm_network_security_group.id == String": [
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_network_security_rule.protocol == Tcp####azurerm_network_security_rule.source_application_security_group_ids == String####azurerm_network_security_group.id == String",
+            "If there is azurerm_network_security_rule.a.protocol == Tcp, Then azurerm_network_security_rule.a.source_application_security_group_ids is null (i.e. it does not refer to azurerm_network_security_group.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_network_security_rule.direction == Inbound####azurerm_network_security_rule.source_application_security_group_ids == String####azurerm_network_security_group.id == String",
+            "If there is azurerm_network_security_rule.a.direction == Inbound, Then azurerm_network_security_rule.a.source_application_security_group_ids is null (i.e. it does not refer to azurerm_network_security_group.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_network_security_rule.description == Absence####azurerm_network_security_rule.source_application_security_group_ids == String####azurerm_network_security_group.id == String",
+            "If azurerm_network_security_rule.a.description is null or empty, Then azurerm_network_security_rule.a.source_application_security_group_ids is null (i.e. it does not refer to azurerm_network_security_group.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_network_security_rule.access == Allow####azurerm_network_security_rule.source_application_security_group_ids == String####azurerm_network_security_group.id == String",
+            "If there is azurerm_network_security_rule.a.access == Allow, Then azurerm_network_security_rule.a.source_application_security_group_ids is null (i.e. it does not refer to azurerm_network_security_group.id)",
+            null
+        ]
+    ]
+}

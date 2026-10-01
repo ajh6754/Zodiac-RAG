@@ -1,0 +1,37 @@
+{
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_subnet_nat_gateway_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet_nat_gateway_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_resource_group.b and azurerm_resource_group.c connected or associated with each other via azurerm_subnet_nat_gateway_association.a, Then azurerm_resource_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_resource_group.b and azurerm_virtual_network.c connected or associated with each other via azurerm_subnet_nat_gateway_association.a, Then azurerm_resource_group.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_nat_gateway.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_subnet_nat_gateway_association.nat_gateway_id == String####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_nat_gateway.id == String####azurerm_subnet.id == String####azurerm_nat_gateway.name == String####azurerm_subnet.name == String",
+            "If azurerm_nat_gateway.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_nat_gateway_association.a, Then azurerm_nat_gateway.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ]
+}

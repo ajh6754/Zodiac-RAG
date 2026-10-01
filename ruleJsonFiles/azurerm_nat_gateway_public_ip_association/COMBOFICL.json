@@ -1,0 +1,37 @@
+{
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_nat_gateway_public_ip_association.a.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.sku == Standard": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.sku == Standard",
+            "If azurerm_nat_gateway_public_ip_association.a.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_public_ip.b.sku == Standard",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_nat_gateway.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_nat_gateway.id == String####azurerm_public_ip.id == String####azurerm_nat_gateway.location == String####azurerm_public_ip.location == String",
+            "If azurerm_nat_gateway.b and azurerm_public_ip.c connected or associated with each other via azurerm_nat_gateway_public_ip_association.a, Then azurerm_nat_gateway.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_nat_gateway.sku_name == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_nat_gateway.id == String####azurerm_public_ip.id == String####azurerm_nat_gateway.sku_name == String####azurerm_public_ip.sku == String",
+            "If azurerm_nat_gateway.b and azurerm_public_ip.c connected or associated with each other via azurerm_nat_gateway_public_ip_association.a, Then azurerm_nat_gateway.a.sku_name == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_nat_gateway.name == String####azurerm_public_ip.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_nat_gateway_public_ip_association.nat_gateway_id == String####azurerm_nat_gateway_public_ip_association.public_ip_address_id == String####azurerm_nat_gateway.id == String####azurerm_public_ip.id == String####azurerm_nat_gateway.name == String####azurerm_public_ip.name == String",
+            "If azurerm_nat_gateway.b and azurerm_public_ip.c connected or associated with each other via azurerm_nat_gateway_public_ip_association.a, Then azurerm_nat_gateway.a.name != azurerm_public_ip.b.name",
+            null
+        ]
+    ]
+}

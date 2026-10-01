@@ -1,0 +1,9 @@
+{
+    "Constant####azurerm_lb_outbound_rule.enable_tcp_reset == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_outbound_rule.protocol == Tcp####azurerm_lb_outbound_rule.enable_tcp_reset == false",
+            "If there is azurerm_lb_outbound_rule.a.protocol == Tcp, Then there is azurerm_lb_outbound_rule.a.enable_tcp_reset == false",
+            null
+        ]
+    ]
+}

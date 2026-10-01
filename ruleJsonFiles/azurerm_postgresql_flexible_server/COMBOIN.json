@@ -1,0 +1,9 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_postgresql_flexible_server.delegated_subnet_id depends on azurerm_subnet.id, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

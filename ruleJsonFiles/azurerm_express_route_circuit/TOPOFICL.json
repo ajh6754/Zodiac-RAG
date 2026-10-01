@@ -1,0 +1,9 @@
+{
+    "Exclusive####azurerm_express_route_circuit.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_express_route_circuit.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_express_route_circuit.a is the only resource that directly depends on azurerm_resource_group.b",
+            null
+        ]
+    ]
+}

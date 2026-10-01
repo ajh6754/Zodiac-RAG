@@ -1,0 +1,9 @@
+{
+    "Branch####azurerm_subnet.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_subnet.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_subnet.a.virtual_network_name depends on azurerm_virtual_network.b.name, Then both azurerm_subnet.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ]
+}

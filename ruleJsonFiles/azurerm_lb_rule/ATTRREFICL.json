@@ -1,0 +1,28 @@
+{
+    "Constant####azurerm_lb_rule.disable_outbound_snat == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_rule.enable_floating_ip == true####azurerm_lb_rule.disable_outbound_snat == false",
+            "If there is azurerm_lb_rule.a.enable_floating_ip == true, Then there is azurerm_lb_rule.a.disable_outbound_snat == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_rule.protocol == Udp####azurerm_lb_rule.disable_outbound_snat == false",
+            "If there is azurerm_lb_rule.a.protocol == Udp, Then there is azurerm_lb_rule.a.disable_outbound_snat == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_lb_rule.disable_outbound_snat == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_rule.protocol == All####azurerm_lb_rule.disable_outbound_snat == true",
+            "If there is azurerm_lb_rule.a.protocol == All, Then there is azurerm_lb_rule.a.disable_outbound_snat == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_lb_rule.enable_floating_ip == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_rule.protocol == Tcp####azurerm_lb_rule.enable_floating_ip == false",
+            "If there is azurerm_lb_rule.a.protocol == Tcp, Then there is azurerm_lb_rule.a.enable_floating_ip == false",
+            null
+        ]
+    ]
+}

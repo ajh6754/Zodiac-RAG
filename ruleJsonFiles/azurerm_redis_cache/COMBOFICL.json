@@ -1,0 +1,220 @@
+{
+    "AbsenceComboDown####azurerm_redis_cache.patch_schedule == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.patch_schedule == Absence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.patch_schedule is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.patch_schedule == Absence",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_redis_cache.a.patch_schedule is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.patch_schedule == Absence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.patch_schedule is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_redis_cache.shard_count == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.shard_count == Absence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.shard_count is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.shard_count == Absence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.shard_count is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.shard_count == Absence",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_redis_cache.a.shard_count is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_redis_cache.tenant_settings == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.tenant_settings == Absence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.tenant_settings is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.tenant_settings == Absence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.tenant_settings is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_redis_cache.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.zones == Absence",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_redis_cache.a.zones is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.zones == Absence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.zones is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.zones == Absence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.service_endpoints == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.service_endpoints == Absence",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.service_endpoints is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_redis_cache.enable_non_ssl_port == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.enable_non_ssl_port == false",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then there is azurerm_redis_cache.a.enable_non_ssl_port == false",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_redis_cache.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_redis_cache.enable_non_ssl_port == false",
+            "If azurerm_redis_cache.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_redis_cache.a.enable_non_ssl_port == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_redis_cache.family == C": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.family == C",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_redis_cache.a.family == C",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_redis_cache.family == P": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.family == P",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then there is azurerm_redis_cache.a.family == P",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_redis_cache.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_redis_cache.family == P",
+            "If azurerm_redis_cache.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_redis_cache.a.family == P",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_redis_cache.non_ssl_port_enabled == false": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_redis_cache.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If azurerm_redis_cache.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ],
+        [
+            "COMBO####NegationThenConstantComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_redis_cache.public_network_access_enabled == true": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_redis_cache.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_redis_cache.public_network_access_enabled == true",
+            "If azurerm_redis_cache.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_redis_cache.a.public_network_access_enabled == true",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.public_network_access_enabled == true",
+            "If azurerm_redis_cache.a.subnet_id depends on azurerm_subnet.b.id, Then there is azurerm_redis_cache.a.public_network_access_enabled == true",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.public_network_access_enabled == true",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_redis_cache.a.public_network_access_enabled == true",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_redis_cache.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.location == String####azurerm_resource_group.location == String",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_redis_cache.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_redis_cache.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_redis_cache.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_redis_cache.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_redis_cache.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_redis_cache.redis_configuration == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.redis_configuration == Existence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.redis_configuration is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.redis_configuration == Existence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.redis_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_redis_cache.replicas_per_master == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.replicas_per_master == Existence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.replicas_per_master is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.replicas_per_master == Existence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.replicas_per_master is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_redis_cache.replicas_per_primary == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_redis_cache.replicas_per_primary == Existence",
+            "If azurerm_redis_cache.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_redis_cache.a.replicas_per_primary is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_redis_cache.subnet_id == String####azurerm_subnet.id == String####azurerm_redis_cache.replicas_per_primary == Existence",
+            "If azurerm_redis_cache.a.subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_redis_cache.a.replicas_per_primary is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_redis_cache.name == String####azurerm_redis_cache.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_redis_cache.resource_group_name == String####azurerm_redis_cache.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_redis_cache.name == String####azurerm_redis_cache.name == String",
+            "If both azurerm_redis_cache.a.resource_group_name and azurerm_redis_cache.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_redis_cache.a.name != azurerm_redis_cache.b.name",
+            null
+        ]
+    ]
+}

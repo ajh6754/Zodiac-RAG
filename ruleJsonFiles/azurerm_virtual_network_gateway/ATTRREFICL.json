@@ -1,0 +1,288 @@
+{
+    "Absence####azurerm_virtual_network_gateway.custom_route == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw1AZ, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == Basic, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.bgp_settings == Existence####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If azurerm_virtual_network_gateway.a.bgp_settings is not null nor empty, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.generation == Existence####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If azurerm_virtual_network_gateway.a.generation is not null nor empty, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == Standard, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2AZ, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.custom_route == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw3, Then azurerm_virtual_network_gateway.a.custom_route is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_network_gateway.edge_zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.generation == Existence####azurerm_virtual_network_gateway.edge_zone == Absence",
+            "If azurerm_virtual_network_gateway.a.generation is not null nor empty, Then azurerm_virtual_network_gateway.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.bgp_settings == Existence####azurerm_virtual_network_gateway.edge_zone == Absence",
+            "If azurerm_virtual_network_gateway.a.bgp_settings is not null nor empty, Then azurerm_virtual_network_gateway.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_network_gateway.policy_group == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.bgp_settings == Existence####azurerm_virtual_network_gateway.policy_group == Absence",
+            "If azurerm_virtual_network_gateway.a.bgp_settings is not null nor empty, Then azurerm_virtual_network_gateway.a.policy_group is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.generation == Existence####azurerm_virtual_network_gateway.policy_group == Absence",
+            "If azurerm_virtual_network_gateway.a.generation is not null nor empty, Then azurerm_virtual_network_gateway.a.policy_group is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_network_gateway.vpn_client_configuration == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.vpn_client_configuration == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2AZ, Then azurerm_virtual_network_gateway.a.vpn_client_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_network_gateway.bgp_settings == Existence####azurerm_virtual_network_gateway.vpn_client_configuration == Absence",
+            "If azurerm_virtual_network_gateway.a.bgp_settings is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.vpn_client_configuration == Absence",
+            "If there is azurerm_virtual_network_gateway.a.sku == Basic, Then azurerm_virtual_network_gateway.a.vpn_client_configuration is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.active_active == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2AZ, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.vpn_type == PolicyBased, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == Standard, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw1AZ, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw3, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == Basic, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.enable_bgp == false####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.enable_bgp == false, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.active_active == false",
+            "If there is azurerm_virtual_network_gateway.a.type == ExpressRoute, Then there is azurerm_virtual_network_gateway.a.active_active == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.active_active == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.enable_bgp == true####azurerm_virtual_network_gateway.active_active == true",
+            "If there is azurerm_virtual_network_gateway.a.enable_bgp == true, Then there is azurerm_virtual_network_gateway.a.active_active == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.active_active == true",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2, Then there is azurerm_virtual_network_gateway.a.active_active == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.enable_bgp == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == Basic, Then there is azurerm_virtual_network_gateway.a.enable_bgp == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw1AZ, Then there is azurerm_virtual_network_gateway.a.enable_bgp == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw1, Then there is azurerm_virtual_network_gateway.a.enable_bgp == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2AZ, Then there is azurerm_virtual_network_gateway.a.enable_bgp == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw3, Then there is azurerm_virtual_network_gateway.a.enable_bgp == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.enable_bgp == false",
+            "If there is azurerm_virtual_network_gateway.a.vpn_type == PolicyBased, Then there is azurerm_virtual_network_gateway.a.enable_bgp == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.enable_bgp == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.enable_bgp == true",
+            "If there is azurerm_virtual_network_gateway.a.sku == Standard, Then there is azurerm_virtual_network_gateway.a.enable_bgp == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.enable_bgp == true",
+            "If there is azurerm_virtual_network_gateway.a.type == ExpressRoute, Then there is azurerm_virtual_network_gateway.a.enable_bgp == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.enable_bgp == true",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2, Then there is azurerm_virtual_network_gateway.a.enable_bgp == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.sku == Basic": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.sku == Basic",
+            "If there is azurerm_virtual_network_gateway.a.vpn_type == PolicyBased, Then there is azurerm_virtual_network_gateway.a.sku == Basic",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.sku == Standard": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.sku == Standard",
+            "If there is azurerm_virtual_network_gateway.a.type == ExpressRoute, Then there is azurerm_virtual_network_gateway.a.sku == Standard",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway.type == Vpn": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.type == Vpn",
+            "If there is azurerm_virtual_network_gateway.a.vpn_type == PolicyBased, Then there is azurerm_virtual_network_gateway.a.type == Vpn",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway.type == Vpn",
+            "If there is azurerm_virtual_network_gateway.a.vpn_type == RouteBased, Then there is azurerm_virtual_network_gateway.a.type == Vpn",
+            null
+        ]
+    ],
+    "Equal####azurerm_virtual_network_gateway.ip_configuration.private_ip_address_allocation == String####azurerm_virtual_network_gateway.ip_configuration.private_ip_address_allocation == String": [
+        [
+            "ATTR####UnequalThenEqual####azurerm_virtual_network_gateway.ip_configuration.name == String####azurerm_virtual_network_gateway.ip_configuration.name == String####azurerm_virtual_network_gateway.ip_configuration.private_ip_address_allocation == String####azurerm_virtual_network_gateway.ip_configuration.private_ip_address_allocation == String",
+            "If azurerm_virtual_network_gateway.a.ip_configuration.name != azurerm_virtual_network_gateway.a.ip_configuration.name, Then azurerm_virtual_network_gateway.a.ip_configuration.private_ip_address_allocation == azurerm_virtual_network_gateway.a.ip_configuration.private_ip_address_allocation",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway.bgp_settings == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.generation == Existence####azurerm_virtual_network_gateway.bgp_settings == Existence",
+            "If azurerm_virtual_network_gateway.a.generation is not null nor empty, Then azurerm_virtual_network_gateway.a.bgp_settings is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway.vpn_client_configuration == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.vpn_client_configuration == Existence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw2, Then azurerm_virtual_network_gateway.a.vpn_client_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.vpn_client_configuration == Existence",
+            "If there is azurerm_virtual_network_gateway.a.sku == VpnGw3, Then azurerm_virtual_network_gateway.a.vpn_client_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.vpn_client_configuration == Existence",
+            "If there is azurerm_virtual_network_gateway.a.sku == Standard, Then azurerm_virtual_network_gateway.a.vpn_client_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_audience == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_tenant == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_audience == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_tenant is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_audience is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_issuer == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_audience == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_issuer is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_audience is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.vpn_auth_types == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_audience == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.vpn_auth_types is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_audience is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_issuer == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_tenant == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_issuer == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_tenant is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_issuer is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.vpn_auth_types == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_issuer == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.vpn_auth_types is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_issuer is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_tenant == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.vpn_auth_types == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.aad_tenant == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.vpn_auth_types is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.aad_tenant is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway.vpn_client_configuration.vpn_auth_types == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway.vpn_client_configuration.vpn_client_protocols == Existence####azurerm_virtual_network_gateway.vpn_client_configuration.vpn_auth_types == Existence",
+            "If azurerm_virtual_network_gateway.a.vpn_client_configuration.vpn_client_protocols is not null nor empty, Then azurerm_virtual_network_gateway.a.vpn_client_configuration.vpn_auth_types is not null nor empty",
+            null
+        ]
+    ]
+}

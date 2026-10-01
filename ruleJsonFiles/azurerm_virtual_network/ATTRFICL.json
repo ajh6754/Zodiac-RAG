@@ -1,0 +1,70 @@
+{
+    "CIDRExclude####azurerm_virtual_network.subnet.address_prefix == CIDR####azurerm_virtual_network.subnet.address_prefix == CIDR": [
+        [
+            "ATTR####ExistenceThenCIDRExclude####azurerm_virtual_network.subnet == Existence####azurerm_virtual_network.subnet.address_prefix == CIDR####azurerm_virtual_network.subnet.address_prefix == CIDR",
+            "If azurerm_virtual_network.a.subnet is not null nor empty, Then the CIDR range of azurerm_virtual_network.a.subnet.address_prefix does not overlap with the CIDR range of azurerm_virtual_network.a.subnet.address_prefix",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRExclude####azurerm_virtual_network.subnet.name == String####azurerm_virtual_network.subnet.name == String####azurerm_virtual_network.subnet.address_prefix == CIDR####azurerm_virtual_network.subnet.address_prefix == CIDR",
+            "If azurerm_virtual_network.a.subnet.name != azurerm_virtual_network.a.subnet.name, Then the CIDR range of azurerm_virtual_network.a.subnet.address_prefix does not overlap with the CIDR range of azurerm_virtual_network.a.subnet.address_prefix",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRExclude####azurerm_virtual_network.subnet.security_group == String####azurerm_virtual_network.subnet.security_group == String####azurerm_virtual_network.subnet.address_prefix == CIDR####azurerm_virtual_network.subnet.address_prefix == CIDR",
+            "If azurerm_virtual_network.a.subnet.security_group == azurerm_virtual_network.a.subnet.security_group, Then the CIDR range of azurerm_virtual_network.a.subnet.address_prefix does not overlap with the CIDR range of azurerm_virtual_network.a.subnet.address_prefix",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network.subnet == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network.edge_zone == Absence####azurerm_virtual_network.subnet == Existence",
+            "If azurerm_virtual_network.a.edge_zone is null or empty, Then azurerm_virtual_network.a.subnet is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network.encryption == Absence####azurerm_virtual_network.subnet == Existence",
+            "If azurerm_virtual_network.a.encryption is null or empty, Then azurerm_virtual_network.a.subnet is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network.bgp_community == Absence####azurerm_virtual_network.subnet == Existence",
+            "If azurerm_virtual_network.a.bgp_community is null or empty, Then azurerm_virtual_network.a.subnet is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network.ddos_protection_plan == Absence####azurerm_virtual_network.subnet == Existence",
+            "If azurerm_virtual_network.a.ddos_protection_plan is null or empty, Then azurerm_virtual_network.a.subnet is not null nor empty",
+            null
+        ]
+    ],
+    "Unequal####azurerm_virtual_network.subnet.address_prefix == String####azurerm_virtual_network.subnet.address_prefix == String": [
+        [
+            "ATTR####ExistenceThenUnequal####azurerm_virtual_network.subnet == Existence####azurerm_virtual_network.subnet.address_prefix == String####azurerm_virtual_network.subnet.address_prefix == String",
+            "If azurerm_virtual_network.a.subnet is not null nor empty, Then azurerm_virtual_network.a.subnet.address_prefix != azurerm_virtual_network.a.subnet.address_prefix",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_virtual_network.subnet.security_group == String####azurerm_virtual_network.subnet.security_group == String####azurerm_virtual_network.subnet.address_prefix == String####azurerm_virtual_network.subnet.address_prefix == String",
+            "If azurerm_virtual_network.a.subnet.security_group == azurerm_virtual_network.a.subnet.security_group, Then azurerm_virtual_network.a.subnet.address_prefix != azurerm_virtual_network.a.subnet.address_prefix",
+            null
+        ]
+    ],
+    "Unequal####azurerm_virtual_network.subnet.name == String####azurerm_virtual_network.subnet.name == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_virtual_network.subnet.address_prefix == String####azurerm_virtual_network.subnet.address_prefix == String####azurerm_virtual_network.subnet.name == String####azurerm_virtual_network.subnet.name == String",
+            "If azurerm_virtual_network.a.subnet.address_prefix != azurerm_virtual_network.a.subnet.address_prefix, Then azurerm_virtual_network.a.subnet.name != azurerm_virtual_network.a.subnet.name",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_virtual_network.subnet.security_group == String####azurerm_virtual_network.subnet.security_group == String####azurerm_virtual_network.subnet.name == String####azurerm_virtual_network.subnet.name == String",
+            "If azurerm_virtual_network.a.subnet.security_group == azurerm_virtual_network.a.subnet.security_group, Then azurerm_virtual_network.a.subnet.name != azurerm_virtual_network.a.subnet.name",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenUnequal####azurerm_virtual_network.subnet == Existence####azurerm_virtual_network.subnet.name == String####azurerm_virtual_network.subnet.name == String",
+            "If azurerm_virtual_network.a.subnet is not null nor empty, Then azurerm_virtual_network.a.subnet.name != azurerm_virtual_network.a.subnet.name",
+            null
+        ]
+    ]
+}

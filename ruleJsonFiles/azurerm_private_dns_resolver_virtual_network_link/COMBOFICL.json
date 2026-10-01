@@ -1,0 +1,158 @@
+{
+    "AbsenceComboDown####azurerm_private_dns_resolver_virtual_network_link.metadata == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_virtual_network_link.metadata == Absence",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then azurerm_private_dns_resolver_virtual_network_link.a.metadata is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver_virtual_network_link.metadata == Absence",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_private_dns_resolver_virtual_network_link.a.metadata is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.bgp_community == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.bgp_community == Absence",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.bgp_community is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.ddos_protection_plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.ddos_protection_plan == Absence",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.ddos_protection_plan is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.edge_zone == Absence",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.encryption == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.encryption == Absence",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.encryption is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_virtual_network.address_space == CIDR####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####AncestorAssociateThenCIDRExcludeCombo####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.address_space == CIDR####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_virtual_network.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then the CIDR range of azurerm_virtual_network.b.address_space does not overlap with the CIDR range of azurerm_virtual_network.a.address_space",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_private_dns_resolver_outbound_endpoint.b, Then there is azurerm_private_dns_resolver_virtual_network_link.a.name == link-hub-ruleset-tf",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_private_dns_resolver.b, Then there is azurerm_private_dns_resolver_virtual_network_link.a.name == link-hub-ruleset-tf",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then there is azurerm_private_dns_resolver_virtual_network_link.a.name == link-hub-ruleset-tf",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_subnet.b, Then there is azurerm_private_dns_resolver_virtual_network_link.a.name == link-hub-ruleset-tf",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then there is azurerm_private_dns_resolver_virtual_network_link.a.name == link-hub-ruleset-tf",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.name == link-hub-ruleset-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_resource_group.b, Then there is azurerm_private_dns_resolver_virtual_network_link.a.name == link-hub-ruleset-tf",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.b.name == rslv-forwarding-ruleset",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.b.id, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.b.name == ruleset-lab-corp-tf",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_private_dns_resolver_outbound_endpoint.name == outbound-lab-tf": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.name == outbound-lab-tf",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_private_dns_resolver_outbound_endpoint.b, Then there is azurerm_private_dns_resolver_outbound_endpoint.b.name == outbound-lab-tf",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_private_dns_resolver_outbound_endpoint.name == rslv-outbound-endpoint": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.name == rslv-outbound-endpoint",
+            "If azurerm_private_dns_resolver_virtual_network_link.a has an ancestor resource azurerm_private_dns_resolver_outbound_endpoint.b, Then there is azurerm_private_dns_resolver_outbound_endpoint.b.name == rslv-outbound-endpoint",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_dns_resolver.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then azurerm_private_dns_resolver.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then azurerm_private_dns_resolver_outbound_endpoint.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_network.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_private_dns_resolver_virtual_network_link.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_virtual_network.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_virtual_network.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then azurerm_virtual_network.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == String####azurerm_virtual_network.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_virtual_network_link.virtual_network_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_virtual_network.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == String####azurerm_virtual_network.name == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.b and azurerm_virtual_network.c connected or associated with each other via azurerm_private_dns_resolver_virtual_network_link.a, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name != azurerm_virtual_network.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_private_dns_resolver_virtual_network_link.name == String####azurerm_private_dns_resolver_virtual_network_link.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_virtual_network_link.dns_forwarding_ruleset_id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.id == String####azurerm_private_dns_resolver_virtual_network_link.name == String####azurerm_private_dns_resolver_virtual_network_link.name == String",
+            "If both azurerm_private_dns_resolver_virtual_network_link.a.dns_forwarding_ruleset_id and azurerm_private_dns_resolver_virtual_network_link.b.dns_forwarding_ruleset_id depends on azurerm_private_dns_resolver_dns_forwarding_ruleset.c, Then azurerm_private_dns_resolver_virtual_network_link.a.name != azurerm_private_dns_resolver_virtual_network_link.b.name",
+            null
+        ]
+    ]
+}

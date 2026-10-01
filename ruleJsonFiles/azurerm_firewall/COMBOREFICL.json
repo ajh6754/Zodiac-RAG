@@ -1,0 +1,142 @@
+{
+    "CountParent####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_firewall.name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_firewall.a.name is of certain value, Then the number of azurerm_public_ip that azurerm_firewall.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_firewall.a.sku_name is of certain value, Then the number of azurerm_public_ip that azurerm_firewall.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_tier == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_firewall.a.sku_tier is of certain value, Then the number of azurerm_public_ip that azurerm_firewall.a could depend on is restricted to certain value",
+            null
+        ]
+    ],
+    "CountParent####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_firewall.name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_firewall.a.name is of certain value, Then the number of azurerm_subnet that azurerm_firewall.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_tier == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_firewall.a.sku_tier is of certain value, Then the number of azurerm_subnet that azurerm_firewall.a could depend on is restricted to certain value",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_firewall.sku_name == Enum####azurerm_firewall.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_firewall.a.sku_name is of certain value, Then the number of azurerm_subnet that azurerm_firewall.a could depend on is restricted to certain value",
+            null
+        ]
+    ],
+    "Negation####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_firewall.virtual_hub == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.virtual_hub is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id is null (i.e. it does not refer to azurerm_public_ip.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id is null (i.e. it does not refer to azurerm_public_ip.id)",
+            null
+        ]
+    ],
+    "Reference####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.zones == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.zones is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_firewall.virtual_hub == Absence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.virtual_hub is null or empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.ip_configuration == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.ip_configuration is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.name == AZFirewall####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If there is azurerm_firewall.a.name == AZFirewall, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.sku_tier == Premium####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.name == AzureFirewall####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If there is azurerm_firewall.a.name == AzureFirewall, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.sku_tier == Basic####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.dns_servers == Existence####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_firewall.a.dns_servers is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.name == ContosoFirewall####azurerm_firewall.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If there is azurerm_firewall.a.name == ContosoFirewall, Then azurerm_firewall.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.sku_tier == Basic####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.sku_tier == Premium####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.name == AZFirewall####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If there is azurerm_firewall.a.name == AZFirewall, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_firewall.name == ContosoFirewall####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If there is azurerm_firewall.a.name == ContosoFirewall, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_subnet.enforce_private_link_endpoint_network_policies == Existence####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_subnet.b.enforce_private_link_endpoint_network_policies is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_firewall.dns_servers == Existence####azurerm_firewall.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_firewall.a.dns_servers is not null nor empty, Then azurerm_firewall.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "Constant####azurerm_route_table.disable_bgp_route_propagation == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route_table.disable_bgp_route_propagation == false",
+            "If there is azurerm_route_table.a.name == AzfwRouteTableMasters, Then there is azurerm_route_table.a.disable_bgp_route_propagation == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_route_table.route.next_hop_type == VnetLocal####azurerm_route_table.disable_bgp_route_propagation == false",
+            "If there is azurerm_route_table.a.route.next_hop_type == VnetLocal, Then there is azurerm_route_table.a.disable_bgp_route_propagation == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_route_table.route.next_hop_type == Internet####azurerm_route_table.disable_bgp_route_propagation == false",
+            "If there is azurerm_route_table.a.route.next_hop_type == Internet, Then there is azurerm_route_table.a.disable_bgp_route_propagation == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_route_table.disable_bgp_route_propagation == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_route_table.route.next_hop_type == None####azurerm_route_table.disable_bgp_route_propagation == true",
+            "If there is azurerm_route_table.a.route.next_hop_type == None, Then there is azurerm_route_table.a.disable_bgp_route_propagation == true",
+            null
+        ]
+    ],
+    "Equal####azurerm_route_table.route.next_hop_in_ip_address == String####azurerm_route_table.route.next_hop_in_ip_address == String": [
+        [
+            "ATTR####EqualThenEqual####azurerm_route_table.route.next_hop_type == String####azurerm_route_table.route.next_hop_type == String####azurerm_route_table.route.next_hop_in_ip_address == String####azurerm_route_table.route.next_hop_in_ip_address == String",
+            "If azurerm_route_table.a.route.next_hop_type == azurerm_route_table.a.route.next_hop_type, Then azurerm_route_table.a.route.next_hop_in_ip_address == azurerm_route_table.a.route.next_hop_in_ip_address",
+            null
+        ],
+        [
+            "ATTR####CIDRExcludeThenEqual####azurerm_route_table.route.address_prefix == CIDR####azurerm_route_table.route.address_prefix == CIDR####azurerm_route_table.route.next_hop_in_ip_address == String####azurerm_route_table.route.next_hop_in_ip_address == String",
+            "If the CIDR range of azurerm_route_table.a.route.address_prefix does not overlap with the CIDR range of azurerm_route_table.a.route.address_prefix, Then azurerm_route_table.a.route.next_hop_in_ip_address == azurerm_route_table.a.route.next_hop_in_ip_address",
+            null
+        ]
+    ],
+    "Equal####azurerm_route_table.route.next_hop_type == String####azurerm_route_table.route.next_hop_type == String": [
+        [
+            "ATTR####CIDRExcludeThenEqual####azurerm_route_table.route.address_prefix == CIDR####azurerm_route_table.route.address_prefix == CIDR####azurerm_route_table.route.next_hop_type == String####azurerm_route_table.route.next_hop_type == String",
+            "If the CIDR range of azurerm_route_table.a.route.address_prefix does not overlap with the CIDR range of azurerm_route_table.a.route.address_prefix, Then azurerm_route_table.a.route.next_hop_type == azurerm_route_table.a.route.next_hop_type",
+            null
+        ]
+    ],
+    "Existence####azurerm_route_table.bgp_route_propagation_enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_route_table.route == Existence####azurerm_route_table.bgp_route_propagation_enabled == Existence",
+            "If azurerm_route_table.a.route is not null nor empty, Then azurerm_route_table.a.bgp_route_propagation_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_route_table.route == Existence": [
+        [
+            "ATTR####UnequalThenExistence####azurerm_route_table.route.address_prefix == String####azurerm_route_table.route.address_prefix == String####azurerm_route_table.route == Existence",
+            "If azurerm_route_table.a.route.address_prefix != azurerm_route_table.a.route.address_prefix, Then azurerm_route_table.a.route is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####UnequalThenExistence####azurerm_route_table.route.name == String####azurerm_route_table.route.name == String####azurerm_route_table.route == Existence",
+            "If azurerm_route_table.a.route.name != azurerm_route_table.a.route.name, Then azurerm_route_table.a.route is not null nor empty",
+            null
+        ]
+    ],
+    "Unequal####azurerm_route_table.route.address_prefix == String####azurerm_route_table.route.address_prefix == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_route_table.route.name == String####azurerm_route_table.route.name == String####azurerm_route_table.route.address_prefix == String####azurerm_route_table.route.address_prefix == String",
+            "If azurerm_route_table.a.route.name != azurerm_route_table.a.route.name, Then azurerm_route_table.a.route.address_prefix != azurerm_route_table.a.route.address_prefix",
+            null
+        ]
+    ],
+    "Unequal####azurerm_route_table.route.next_hop_in_ip_address == String####azurerm_route_table.route.next_hop_in_ip_address == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_route_table.route.next_hop_type == String####azurerm_route_table.route.next_hop_type == String####azurerm_route_table.route.next_hop_in_ip_address == String####azurerm_route_table.route.next_hop_in_ip_address == String",
+            "If azurerm_route_table.a.route.next_hop_type != azurerm_route_table.a.route.next_hop_type, Then azurerm_route_table.a.route.next_hop_in_ip_address != azurerm_route_table.a.route.next_hop_in_ip_address",
+            null
+        ]
+    ]
+}

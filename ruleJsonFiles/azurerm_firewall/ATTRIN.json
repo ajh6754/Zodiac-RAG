@@ -1,0 +1,81 @@
+{
+    "ATTR####EnumThenEnum####azurerm_firewall.sku_name == Enum####azurerm_firewall.name == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_name == AZFW_VNet####azurerm_firewall.name == AZFirewall",
+            "If the value of azurerm_firewall.sku_name is AZFW_VNet, then the value of azurerm_firewall.name cannot be AZFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_name == AZFW_VNet####azurerm_firewall.name == ContosoFirewall",
+            "If the value of azurerm_firewall.sku_name is AZFW_VNet, then the value of azurerm_firewall.name cannot be ContosoFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_name == AZFW_VNet####azurerm_firewall.name == AzureFirewall",
+            "If the value of azurerm_firewall.sku_name is AZFW_VNet, then the value of azurerm_firewall.name cannot be AzureFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_name == AZFW_Hub####azurerm_firewall.name == AZFirewall",
+            "If the value of azurerm_firewall.sku_name is AZFW_Hub, then the value of azurerm_firewall.name cannot be AZFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_name == AZFW_Hub####azurerm_firewall.name == ContosoFirewall",
+            "If the value of azurerm_firewall.sku_name is AZFW_Hub, then the value of azurerm_firewall.name cannot be ContosoFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_name == AZFW_Hub####azurerm_firewall.name == AzureFirewall",
+            "If the value of azurerm_firewall.sku_name is AZFW_Hub, then the value of azurerm_firewall.name cannot be AzureFirewall? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_firewall.sku_tier == Enum####azurerm_firewall.name == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Standard####azurerm_firewall.name == AZFirewall",
+            "If the value of azurerm_firewall.sku_tier is Standard, then the value of azurerm_firewall.name cannot be AZFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Standard####azurerm_firewall.name == ContosoFirewall",
+            "If the value of azurerm_firewall.sku_tier is Standard, then the value of azurerm_firewall.name cannot be ContosoFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Standard####azurerm_firewall.name == AzureFirewall",
+            "If the value of azurerm_firewall.sku_tier is Standard, then the value of azurerm_firewall.name cannot be AzureFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Basic####azurerm_firewall.name == AZFirewall",
+            "If the value of azurerm_firewall.sku_tier is Basic, then the value of azurerm_firewall.name cannot be AZFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Basic####azurerm_firewall.name == ContosoFirewall",
+            "If the value of azurerm_firewall.sku_tier is Basic, then the value of azurerm_firewall.name cannot be ContosoFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Basic####azurerm_firewall.name == AzureFirewall",
+            "If the value of azurerm_firewall.sku_tier is Basic, then the value of azurerm_firewall.name cannot be AzureFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Premium####azurerm_firewall.name == AZFirewall",
+            "If the value of azurerm_firewall.sku_tier is Premium, then the value of azurerm_firewall.name cannot be AZFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Premium####azurerm_firewall.name == ContosoFirewall",
+            "If the value of azurerm_firewall.sku_tier is Premium, then the value of azurerm_firewall.name cannot be ContosoFirewall? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_firewall.sku_tier == Premium####azurerm_firewall.name == AzureFirewall",
+            "If the value of azurerm_firewall.sku_tier is Premium, then the value of azurerm_firewall.name cannot be AzureFirewall? Please answer with True or False",
+            null
+        ]
+    ]
+}

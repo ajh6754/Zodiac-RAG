@@ -1,0 +1,58 @@
+{
+    "Associate####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b and azurerm_subnet.c connected or associated with each other via azurerm_network_interface.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_network_interface.resource_group_name == String####azurerm_subnet.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_network_interface.resource_group_name == String####azurerm_subnet.id == String####azurerm_resource_group.name == String",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b and azurerm_resource_group.c connected or associated with each other via azurerm_network_interface.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_network_interface.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_network_interface.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then both azurerm_network_interface.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_network_interface.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_network_interface.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_network_interface.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_network_interface.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_network_interface.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_public_ip.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String####azurerm_public_ip.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.b and azurerm_subnet.c connected or associated with each other via azurerm_network_interface.a, Then both azurerm_public_ip.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_network_interface.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_network_interface.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b could only have a single azurerm_network_interface that is azurerm_network_interface.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_network_interface.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_network_interface.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_network_interface that is azurerm_network_interface.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_network_interface.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_network_interface.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_network_interface.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_network_interface.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_network_interface.a is the only resource that directly depends on azurerm_public_ip.b",
+            null
+        ]
+    ]
+}

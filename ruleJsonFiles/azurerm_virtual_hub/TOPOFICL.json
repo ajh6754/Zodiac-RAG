@@ -1,0 +1,9 @@
+{
+    "Associate####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_resource_group.name == String####azurerm_virtual_wan.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_virtual_hub.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_hub.resource_group_name == String####azurerm_virtual_hub.virtual_wan_id == String####azurerm_resource_group.name == String####azurerm_virtual_wan.id == String",
+            "If azurerm_virtual_hub.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b and azurerm_virtual_wan.c connected or associated with each other via azurerm_virtual_hub.a",
+            null
+        ]
+    ]
+}

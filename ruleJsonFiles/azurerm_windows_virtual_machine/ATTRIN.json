@@ -1,0 +1,1615 @@
+{
+    "ATTR####EnumThenEnum####azurerm_windows_virtual_machine.os_disk.caching == Enum####azurerm_windows_virtual_machine.os_disk.storage_account_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadWrite####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is ReadWrite, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadWrite####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is ReadWrite, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadWrite####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is ReadWrite, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadOnly####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is ReadOnly, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadOnly####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is ReadOnly, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == ReadOnly####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is ReadOnly, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == None####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is None, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == None####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is None, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.os_disk.caching == None####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.os_disk.caching is None, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_windows_virtual_machine.size == Enum####azurerm_windows_virtual_machine.os_disk.storage_account_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2as_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2as_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2as_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS3_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS3_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS3_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS3_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS3_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS3_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1ls####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ls, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1ls####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ls, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1ls####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ls, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4lds_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4lds_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4lds_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4lds_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4lds_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4lds_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1s####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1s, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1s####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1s, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1s####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1s, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS1_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS1_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS1_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS1_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS1_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS1_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_Ds2_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_Ds2_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_Ds2_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_Ds2_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_Ds2_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_Ds2_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B1ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS2_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS2_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS2_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS2_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DS2_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS2_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B4ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B4ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B4ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B4ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B4ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B4ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2ms####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2ms, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DC2as_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC2as_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DC2as_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC2as_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DC2as_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC2as_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2as_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2as_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2as_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2as_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2as_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2as_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_E4s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_E4s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_E4s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_E4s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_E4s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_E4s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D48s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D48s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D48s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DC1s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC1s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DC1s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC1s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_DC1s_v3####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC1s_v3, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2as_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2as_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2as_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v6####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v6, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v6####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v6, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D4s_v6####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v6, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D48as_v7####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48as_v7, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D48as_v7####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48as_v7, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D48as_v7####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48as_v7, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_F2s_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_F2s_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_F2s_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_F2s_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_F2s_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_F2s_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ads_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ads_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ads_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ads_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ads_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ads_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_NV6_Promo####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_NV6_Promo, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_NV6_Promo####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_NV6_Promo, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_NV6_Promo####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_NV6_Promo, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D8s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D8s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D8s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D8s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D8s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D8s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2s_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2s_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2s_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2s_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_B2s_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2s_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ls_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ls_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ls_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ls_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ls_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ls_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ds_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ds_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ds_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ds_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D2ds_v4####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ds_v4, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_A4_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_A4_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_A4_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_A4_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_A4_v2####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_A4_v2, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D16s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D16s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D16s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D16s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.size == Standard_D16s_v5####azurerm_windows_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D16s_v5, then the value of azurerm_windows_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_windows_virtual_machine.source_image_reference.sku == Enum####azurerm_windows_virtual_machine.source_image_reference.offer == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == sqldev-gen2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is sqldev-gen2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == sqldev-gen2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is sqldev-gen2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == sqldev-gen2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is sqldev-gen2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-avd####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-avd####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-avd####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2012-R2-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2012-R2-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2012-R2-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2012-R2-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2012-R2-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2012-R2-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == SQLDEV-GEN2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is SQLDEV-GEN2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == SQLDEV-GEN2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is SQLDEV-GEN2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == SQLDEV-GEN2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is SQLDEV-GEN2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-ent-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-ent-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-ent-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-ent-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-ent-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-ent-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-Datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-ent####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-ent####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-ent####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-datacenter-gensecond####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-datacenter-gensecond, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-datacenter-gensecond####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-datacenter-gensecond, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-datacenter-gensecond####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-datacenter-gensecond, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == server-2019####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is server-2019, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == server-2019####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is server-2019, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == server-2019####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is server-2019, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h1-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h1-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h1-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h1-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h1-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h1-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-avd####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-avd####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-avd####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-ent####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-ent####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-ent####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2016-datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2016-datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2016-datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2016-datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2016-datacenter####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2016-datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == Standard####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is Standard, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == Standard####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is Standard, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == Standard####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is Standard, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-avd-m365-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-avd-m365-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-avd-m365-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-avd-m365-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-avd-m365-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-avd-m365-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h1-pron####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h1-pron, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h1-pron####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h1-pron, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h1-pron####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h1-pron, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure-edition-core####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure-edition-core, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure-edition-core####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure-edition-core, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure-edition-core####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure-edition-core, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 19h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 19h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 19h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 19h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 19h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 19h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h2-evd####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h2-evd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h2-evd####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h2-evd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h2-evd####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h2-evd, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure_edition####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure_edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure_edition####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure_edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure_edition####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure_edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-azure-edition####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-azure-edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-azure-edition####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-azure-edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-azure-edition####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-azure-edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter-Azure-Edition####azurerm_windows_virtual_machine.source_image_reference.offer == WindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter-Azure-Edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be WindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter-Azure-Edition####azurerm_windows_virtual_machine.source_image_reference.offer == windows-11",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter-Azure-Edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be windows-11? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter-Azure-Edition####azurerm_windows_virtual_machine.source_image_reference.offer == Windows-10",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter-Azure-Edition, then the value of azurerm_windows_virtual_machine.source_image_reference.offer cannot be Windows-10? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_windows_virtual_machine.source_image_reference.sku == Enum####azurerm_windows_virtual_machine.source_image_reference.publisher == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == sqldev-gen2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is sqldev-gen2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == sqldev-gen2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is sqldev-gen2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == sqldev-gen2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is sqldev-gen2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-avd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-avd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-avd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2012-R2-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2012-R2-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2012-R2-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2012-R2-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2012-R2-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2012-R2-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == SQLDEV-GEN2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is SQLDEV-GEN2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == SQLDEV-GEN2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is SQLDEV-GEN2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == SQLDEV-GEN2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is SQLDEV-GEN2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-Datacenter-smalldisk-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-Datacenter-smalldisk-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-ent-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-ent-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-ent-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-ent-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-ent-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-ent-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-smalldisk####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-smalldisk, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-Datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-Datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-ent####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-ent####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-ent####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-datacenter-gensecond####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-datacenter-gensecond, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-datacenter-gensecond####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-datacenter-gensecond, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2019-datacenter-gensecond####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2019-datacenter-gensecond, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == server-2019####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is server-2019, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == server-2019####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is server-2019, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == server-2019####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is server-2019, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-22h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-22h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h1-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h1-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h1-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h1-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 20h1-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 20h1-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-avd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-avd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-21h2-avd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-21h2-avd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-23h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-23h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-ent####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-ent####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win11-24h2-ent####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win11-24h2-ent, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2016-datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2016-datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2016-datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2016-datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2016-datacenter####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2016-datacenter, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == Standard####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is Standard, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == Standard####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is Standard, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == Standard####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is Standard, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-avd-m365-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-avd-m365-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-avd-m365-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-avd-m365-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-22h2-avd-m365-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-22h2-avd-m365-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h1-pron####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h1-pron, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h1-pron####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h1-pron, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h1-pron####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h1-pron, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure-edition-core####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure-edition-core, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure-edition-core####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure-edition-core, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure-edition-core####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure-edition-core, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 19h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 19h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 19h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 19h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 19h2-pro-g2####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 19h2-pro-g2, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h2-evd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h2-evd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h2-evd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h2-evd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 21h2-evd####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 21h2-evd, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure_edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure_edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure_edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure_edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-datacenter-azure_edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-datacenter-azure_edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == win10-21h2-pro####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is win10-21h2-pro, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-azure-edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-azure-edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-azure-edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-azure-edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2025-datacenter-azure-edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2025-datacenter-azure-edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter-Azure-Edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter-Azure-Edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter-Azure-Edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftSQLServer",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter-Azure-Edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftSQLServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_windows_virtual_machine.source_image_reference.sku == 2022-Datacenter-Azure-Edition####azurerm_windows_virtual_machine.source_image_reference.publisher == MicrosoftWindowsDesktop",
+            "If the value of azurerm_windows_virtual_machine.source_image_reference.sku is 2022-Datacenter-Azure-Edition, then the value of azurerm_windows_virtual_machine.source_image_reference.publisher cannot be MicrosoftWindowsDesktop? Please answer with True or False",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,993 @@
+{
+    "ATTR####EnumThenEnum####azurerm_linux_virtual_machine.size == Enum####azurerm_linux_virtual_machine.os_disk.storage_account_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2s####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2s####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2s####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_DS1_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS1_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_DS1_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS1_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_DS1_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS1_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2s_v3####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v3, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2s_v3####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v3, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2s_v3####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v3, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1s####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1s####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1s####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1ms####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ms, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1ms####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ms, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1ms####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ms, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_A8_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_A8_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_A8_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_A8_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_A8_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_A8_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2s_v5####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v5, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2s_v5####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v5, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2s_v5####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2s_v5, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B4as_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B4as_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B4as_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B4as_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B4as_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B4as_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1ls####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ls, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1ls####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ls, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B1ls####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B1ls, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F4s_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F4s_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F4s_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F4s_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F4s_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F4s_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2ds_v4####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2ds_v4, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2ds_v4####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2ds_v4, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D2ds_v4####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D2ds_v4, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F1s####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F1s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F1s####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F1s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_F1s####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_F1s, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2MS####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2MS, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2MS####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2MS, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2MS####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2MS, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2ats_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2ats_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2ats_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2ats_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2ats_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2ats_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D4ds_v4####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D4ds_v4, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D4ds_v4####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D4ds_v4, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_D4ds_v4####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_D4ds_v4, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2as_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2as_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2as_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2as_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_B2as_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_B2as_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_DS2_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS2_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_DS2_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS2_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_DS2_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_DS2_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_L8s_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Standard_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_L8s_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Standard_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_L8s_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == Premium_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_L8s_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be Premium_LRS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.size == Standard_L8s_v2####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS",
+            "If the value of azurerm_linux_virtual_machine.size is Standard_L8s_v2, then the value of azurerm_linux_virtual_machine.os_disk.storage_account_type cannot be StandardSSD_LRS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_linux_virtual_machine.source_image_reference.sku == Enum####azurerm_linux_virtual_machine.source_image_reference.offer == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-jammy",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-jammy? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == RHEL",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be RHEL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == 0001-com-ubuntu-server-focal",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be 0001-com-ubuntu-server-focal? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == ubuntu-24_04-lts",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be ubuntu-24_04-lts? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == UbuntuServer",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be UbuntuServer? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.offer == CentOS",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.offer cannot be CentOS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_linux_virtual_machine.source_image_reference.sku == Enum####azurerm_linux_virtual_machine.source_image_reference.publisher == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 83-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 83-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 20_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 20_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 18.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 18.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-lts-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-lts-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == server-gen1####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is server-gen1, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 9_4####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 9_4, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 22_04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 22_04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 19.04####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 19.04, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_5-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_5-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-LVM####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-LVM, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == centos-stream-8-0-free####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is centos-stream-8-0-free, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8_2####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8_2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 8-lvm-gen2####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 8-lvm-gen2, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == Canonical",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be Canonical? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == RedHat",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be RedHat? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == OpenLogic",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be OpenLogic? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_linux_virtual_machine.source_image_reference.sku == 16.04-LTS####azurerm_linux_virtual_machine.source_image_reference.publisher == eurolinuxspzoo1620639373013",
+            "If the value of azurerm_linux_virtual_machine.source_image_reference.sku is 16.04-LTS, then the value of azurerm_linux_virtual_machine.source_image_reference.publisher cannot be eurolinuxspzoo1620639373013? Please answer with True or False",
+            null
+        ]
+    ]
+}

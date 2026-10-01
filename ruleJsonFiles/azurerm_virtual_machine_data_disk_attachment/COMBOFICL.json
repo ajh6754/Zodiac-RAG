@@ -1,0 +1,570 @@
+{
+    "AbsenceComboUp####azurerm_linux_virtual_machine.additional_capabilities == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.custom_data == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.custom_data == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.custom_data is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.edge_zone == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.eviction_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.eviction_policy == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.eviction_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.gallery_application == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.gallery_application == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.gallery_application is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.license_type == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.license_type == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.license_type is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.os_image_notification == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.os_image_notification == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.os_image_notification is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.plan == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.plan is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.reboot_setting == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.reboot_setting == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.reboot_setting is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.secret == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.secret == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.secret is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.user_data == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.user_data is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_linux_virtual_machine.zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.zone == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_managed_disk.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.edge_zone == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_managed_disk.encryption_settings == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.encryption_settings == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.encryption_settings is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_managed_disk.hyper_v_generation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.hyper_v_generation == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.hyper_v_generation is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_managed_disk.os_type == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.os_type == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.os_type is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_managed_disk.security_type == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.security_type == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.security_type is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_managed_disk.upload_size_bytes == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.upload_size_bytes == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.upload_size_bytes is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_machine.additional_capabilities == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_machine.os_profile_secrets == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.os_profile_secrets is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_machine.os_profile_windows_config == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.os_profile_windows_config is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_machine.plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.plan == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.plan is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_machine.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.zones == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.additional_capabilities == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.additional_unattend_content == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.additional_unattend_content == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.additional_unattend_content is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.custom_data == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.custom_data == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.custom_data is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.edge_zone == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.eviction_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.eviction_policy == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.eviction_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.gallery_application == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.gallery_application == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.gallery_application is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.license_type == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.license_type == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.license_type is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.os_image_notification == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.os_image_notification == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.os_image_notification is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.plan == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.plan is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.reboot_setting == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.reboot_setting == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.reboot_setting is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.secret == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.secret == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.secret is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.timezone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.timezone == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.timezone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.user_data == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.user_data == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.user_data is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.winrm_listener == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.winrm_listener == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.winrm_listener is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_windows_virtual_machine.zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.zone == Absence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.zone is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_virtual_machine_data_disk_attachment.caching == ReadWrite": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.caching == ReadWrite",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_virtual_machine_data_disk_attachment.a.caching == ReadWrite",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_linux_virtual_machine.priority == Regular": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.priority == Regular",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then there is azurerm_linux_virtual_machine.b.priority == Regular",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_managed_disk.create_option == Empty": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.create_option == Empty",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then there is azurerm_managed_disk.b.create_option == Empty",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_machine.delete_data_disks_on_termination == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then there is azurerm_virtual_machine.b.delete_data_disks_on_termination == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_virtual_machine.delete_os_disk_on_termination == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.delete_os_disk_on_termination == false",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then there is azurerm_virtual_machine.b.delete_os_disk_on_termination == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_windows_virtual_machine.allow_extension_operations == true": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.allow_extension_operations == true",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_windows_virtual_machine.b.allow_extension_operations == true",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_windows_virtual_machine.enable_automatic_updates == true": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.enable_automatic_updates == true",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_windows_virtual_machine.b.enable_automatic_updates == true",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_windows_virtual_machine.hotpatching_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.hotpatching_enabled == false",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_windows_virtual_machine.b.hotpatching_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.patch_mode == AutomaticByOS",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_windows_virtual_machine.b.patch_mode == AutomaticByOS",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_windows_virtual_machine.priority == Regular": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.priority == Regular",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_windows_virtual_machine.b.priority == Regular",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.vm_agent_platform_updates_enabled == false",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then there is azurerm_windows_virtual_machine.b.vm_agent_platform_updates_enabled == false",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_managed_disk.location == String####azurerm_linux_virtual_machine.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_linux_virtual_machine.id == String####azurerm_managed_disk.location == String####azurerm_linux_virtual_machine.location == String",
+            "If azurerm_managed_disk.b and azurerm_linux_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.location == azurerm_linux_virtual_machine.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_managed_disk.location == String####azurerm_virtual_machine.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_virtual_machine.id == String####azurerm_managed_disk.location == String####azurerm_virtual_machine.location == String",
+            "If azurerm_managed_disk.b and azurerm_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.location == azurerm_virtual_machine.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_managed_disk.location == String####azurerm_windows_virtual_machine.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_windows_virtual_machine.id == String####azurerm_managed_disk.location == String####azurerm_windows_virtual_machine.location == String",
+            "If azurerm_managed_disk.b and azurerm_windows_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.location == azurerm_windows_virtual_machine.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_managed_disk.storage_account_type == String####azurerm_linux_virtual_machine.os_disk.storage_account_type == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_linux_virtual_machine.id == String####azurerm_managed_disk.storage_account_type == String####azurerm_linux_virtual_machine.os_disk.storage_account_type == String",
+            "If azurerm_managed_disk.b and azurerm_linux_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.storage_account_type == azurerm_linux_virtual_machine.b.os_disk.storage_account_type",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_managed_disk.storage_account_type == String####azurerm_windows_virtual_machine.os_disk.storage_account_type == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_windows_virtual_machine.id == String####azurerm_managed_disk.storage_account_type == String####azurerm_windows_virtual_machine.os_disk.storage_account_type == String",
+            "If azurerm_managed_disk.b and azurerm_windows_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.storage_account_type == azurerm_windows_virtual_machine.b.os_disk.storage_account_type",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_network_interface.location == String####azurerm_public_ip.location == String",
+            "If azurerm_network_interface.b and azurerm_public_ip.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_network_interface.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_resource_group.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_resource_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_resource_group.b and azurerm_virtual_network.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_resource_group.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine.storage_os_disk.caching == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine.storage_os_disk.caching == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine_data_disk_attachment.a.caching == azurerm_virtual_machine.b.storage_os_disk.caching",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine_data_disk_attachment.caching == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine_data_disk_attachment.caching == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_windows_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.caching == azurerm_virtual_machine_data_disk_attachment.b.caching",
+            null
+        ],
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine_data_disk_attachment.caching == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_linux_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.caching == azurerm_virtual_machine_data_disk_attachment.b.caching",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_windows_virtual_machine.os_disk.caching == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_windows_virtual_machine.os_disk.caching == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_virtual_machine_data_disk_attachment.a.caching == azurerm_windows_virtual_machine.b.os_disk.caching",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_machine_data_disk_attachment.create_option == String####azurerm_virtual_machine_data_disk_attachment.create_option == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.create_option == String####azurerm_virtual_machine_data_disk_attachment.create_option == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_windows_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.create_option == azurerm_virtual_machine_data_disk_attachment.b.create_option",
+            null
+        ],
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.create_option == String####azurerm_virtual_machine_data_disk_attachment.create_option == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_linux_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.create_option == azurerm_virtual_machine_data_disk_attachment.b.create_option",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_linux_virtual_machine.source_image_reference == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.source_image_reference == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b.source_image_reference is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_managed_disk.disk_iops_read_write == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.disk_iops_read_write == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.disk_iops_read_write is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_managed_disk.disk_mbps_read_write == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.disk_mbps_read_write == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.disk_mbps_read_write is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_managed_disk.disk_size_gb == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.disk_size_gb == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.disk_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_managed_disk.max_shares == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_managed_disk.max_shares == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b.max_shares is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_virtual_machine.os_profile == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.os_profile == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.os_profile is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_virtual_machine.os_profile_linux_config == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.os_profile_linux_config == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.os_profile_linux_config is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_virtual_machine.storage_image_reference == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine.storage_image_reference == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b.storage_image_reference is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_windows_virtual_machine.source_image_reference == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.source_image_reference == Existence",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b.source_image_reference is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_managed_disk.name == String####azurerm_linux_virtual_machine.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_linux_virtual_machine.id == String####azurerm_managed_disk.name == String####azurerm_linux_virtual_machine.name == String",
+            "If azurerm_managed_disk.b and azurerm_linux_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.name != azurerm_linux_virtual_machine.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_managed_disk.name == String####azurerm_virtual_machine.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_virtual_machine.id == String####azurerm_managed_disk.name == String####azurerm_virtual_machine.name == String",
+            "If azurerm_managed_disk.b and azurerm_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.name != azurerm_virtual_machine.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_managed_disk.name == String####azurerm_windows_virtual_machine.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_windows_virtual_machine.id == String####azurerm_managed_disk.name == String####azurerm_windows_virtual_machine.name == String",
+            "If azurerm_managed_disk.b and azurerm_windows_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then azurerm_managed_disk.a.name != azurerm_windows_virtual_machine.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine_data_disk_attachment.caching == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.caching == String####azurerm_virtual_machine_data_disk_attachment.caching == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_windows_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.caching != azurerm_virtual_machine_data_disk_attachment.b.caching",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_machine_data_disk_attachment.lun == String####azurerm_virtual_machine_data_disk_attachment.lun == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_linux_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.lun == String####azurerm_virtual_machine_data_disk_attachment.lun == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_linux_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.lun != azurerm_virtual_machine_data_disk_attachment.b.lun",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.lun == String####azurerm_virtual_machine_data_disk_attachment.lun == String",
+            "If both azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id and azurerm_virtual_machine_data_disk_attachment.b.virtual_machine_id depends on azurerm_windows_virtual_machine.c, Then azurerm_virtual_machine_data_disk_attachment.a.lun != azurerm_virtual_machine_data_disk_attachment.b.lun",
+            null
+        ]
+    ]
+}

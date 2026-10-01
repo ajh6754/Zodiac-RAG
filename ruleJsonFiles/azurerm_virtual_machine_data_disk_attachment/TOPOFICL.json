@@ -1,0 +1,79 @@
+{
+    "Branch####azurerm_managed_disk.resource_group_name == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_linux_virtual_machine.id == String####azurerm_managed_disk.resource_group_name == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_managed_disk.b and azurerm_linux_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then both azurerm_managed_disk.b.resource_group_name and azurerm_linux_virtual_machine.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_managed_disk.resource_group_name == String####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_virtual_machine.id == String####azurerm_managed_disk.resource_group_name == String####azurerm_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_managed_disk.b and azurerm_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then both azurerm_managed_disk.b.resource_group_name and azurerm_virtual_machine.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_managed_disk.resource_group_name == String####azurerm_windows_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_managed_disk.id == String####azurerm_windows_virtual_machine.id == String####azurerm_managed_disk.resource_group_name == String####azurerm_windows_virtual_machine.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_managed_disk.b and azurerm_windows_virtual_machine.c connected or associated with each other via azurerm_virtual_machine_data_disk_attachment.a, Then both azurerm_managed_disk.b.resource_group_name and azurerm_windows_virtual_machine.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_linux_virtual_machine.b could only have a single azurerm_virtual_machine_data_disk_attachment that is azurerm_virtual_machine_data_disk_attachment.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_managed_disk.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_managed_disk.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_managed_disk.b could only have a single azurerm_virtual_machine_data_disk_attachment that is azurerm_virtual_machine_data_disk_attachment.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine.b could only have a single azurerm_virtual_machine_data_disk_attachment that is azurerm_virtual_machine_data_disk_attachment.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_windows_virtual_machine.b could only have a single azurerm_virtual_machine_data_disk_attachment that is azurerm_virtual_machine_data_disk_attachment.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_linux_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_linux_virtual_machine.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_linux_virtual_machine.b.id, Then azurerm_virtual_machine_data_disk_attachment.a is the only resource that directly depends on azurerm_linux_virtual_machine.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_managed_disk.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_virtual_machine_data_disk_attachment.managed_disk_id == String####azurerm_managed_disk.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_managed_disk.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.managed_disk_id depends on azurerm_managed_disk.b.id, Then azurerm_virtual_machine_data_disk_attachment.a is the only resource that directly depends on azurerm_managed_disk.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_virtual_machine.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_virtual_machine.b.id, Then azurerm_virtual_machine_data_disk_attachment.a is the only resource that directly depends on azurerm_virtual_machine.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_virtual_machine_data_disk_attachment.virtual_machine_id == String####azurerm_windows_virtual_machine.id == String####azurerm_virtual_machine_data_disk_attachment.PLACEHOLDER == String####azurerm_windows_virtual_machine.PLACEHOLDER == String",
+            "If azurerm_virtual_machine_data_disk_attachment.a.virtual_machine_id depends on azurerm_windows_virtual_machine.b.id, Then azurerm_virtual_machine_data_disk_attachment.a is the only resource that directly depends on azurerm_windows_virtual_machine.b",
+            null
+        ]
+    ]
+}

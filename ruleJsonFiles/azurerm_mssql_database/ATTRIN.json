@@ -1,0 +1,635 @@
+{
+    "ATTR####EnumThenEnum####azurerm_mssql_database.collation == Enum####azurerm_mssql_database.license_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.collation is SQL_Latin1_General_CP1_CI_AS, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.collation is SQL_Latin1_General_CP1_CI_AS, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Latin1_General_CI_AS####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.collation is Latin1_General_CI_AS, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Latin1_General_CI_AS####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.collation is Latin1_General_CI_AS, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.collation is Japanese_CI_AS, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.collation is Japanese_CI_AS, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.collation == Enum####azurerm_mssql_database.zone_redundant == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.collation is SQL_Latin1_General_CP1_CI_AS, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.collation is SQL_Latin1_General_CP1_CI_AS, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Latin1_General_CI_AS####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.collation is Latin1_General_CI_AS, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Latin1_General_CI_AS####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.collation is Latin1_General_CI_AS, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.collation is Japanese_CI_AS, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.collation == Japanese_CI_AS####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.collation is Japanese_CI_AS, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.license_type == Enum####azurerm_mssql_database.collation == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == LicenseIncluded####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.license_type is LicenseIncluded, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == LicenseIncluded####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.license_type is LicenseIncluded, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == LicenseIncluded####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.license_type is LicenseIncluded, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == BasePrice####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.license_type is BasePrice, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == BasePrice####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.license_type is BasePrice, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == BasePrice####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.license_type is BasePrice, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.license_type == Enum####azurerm_mssql_database.zone_redundant == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == LicenseIncluded####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.license_type is LicenseIncluded, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == LicenseIncluded####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.license_type is LicenseIncluded, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == BasePrice####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.license_type is BasePrice, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.license_type == BasePrice####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.license_type is BasePrice, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.sku_name == Enum####azurerm_mssql_database.collation == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.sku_name == Enum####azurerm_mssql_database.license_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.sku_name == Enum####azurerm_mssql_database.zone_redundant == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S0####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is S0, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Basic####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is Basic, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S3####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is S3, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_1####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_1, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_Gen5_2####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is GP_Gen5_2, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == GP_S_Gen5_2####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is GP_S_Gen5_2, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S1####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is S1, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P2####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is P2, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == BC_Gen5_2####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is BC_Gen5_2, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == S2####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is S2, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == Free####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is Free, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == P1####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is P1, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.zone_redundant == False",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.zone_redundant cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.sku_name == ElasticPool####azurerm_mssql_database.zone_redundant == True",
+            "If the value of azurerm_mssql_database.sku_name is ElasticPool, then the value of azurerm_mssql_database.zone_redundant cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.zone_redundant == Enum####azurerm_mssql_database.collation == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == False####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.zone_redundant is False, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == False####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.zone_redundant is False, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == False####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.zone_redundant is False, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == True####azurerm_mssql_database.collation == SQL_Latin1_General_CP1_CI_AS",
+            "If the value of azurerm_mssql_database.zone_redundant is True, then the value of azurerm_mssql_database.collation cannot be SQL_Latin1_General_CP1_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == True####azurerm_mssql_database.collation == Latin1_General_CI_AS",
+            "If the value of azurerm_mssql_database.zone_redundant is True, then the value of azurerm_mssql_database.collation cannot be Latin1_General_CI_AS? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == True####azurerm_mssql_database.collation == Japanese_CI_AS",
+            "If the value of azurerm_mssql_database.zone_redundant is True, then the value of azurerm_mssql_database.collation cannot be Japanese_CI_AS? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_mssql_database.zone_redundant == Enum####azurerm_mssql_database.license_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == False####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.zone_redundant is False, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == False####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.zone_redundant is False, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == True####azurerm_mssql_database.license_type == LicenseIncluded",
+            "If the value of azurerm_mssql_database.zone_redundant is True, then the value of azurerm_mssql_database.license_type cannot be LicenseIncluded? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_mssql_database.zone_redundant == True####azurerm_mssql_database.license_type == BasePrice",
+            "If the value of azurerm_mssql_database.zone_redundant is True, then the value of azurerm_mssql_database.license_type cannot be BasePrice? Please answer with True or False",
+            null
+        ]
+    ]
+}

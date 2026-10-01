@@ -1,0 +1,19 @@
+{
+    "Negation####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_public_ip.zones == Absence####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.a.zones is null or empty, Then azurerm_public_ip.a.domain_name_label is null (i.e. it does not refer to azurerm_resource_group.name)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String",
+            "If there is azurerm_public_ip.a.ddos_protection_mode == VirtualNetworkInherited, Then azurerm_public_ip.a.domain_name_label is null (i.e. it does not refer to azurerm_resource_group.name)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_public_ip.edge_zone == Absence####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.a.edge_zone is null or empty, Then azurerm_public_ip.a.domain_name_label is null (i.e. it does not refer to azurerm_resource_group.name)",
+            null
+        ]
+    ]
+}

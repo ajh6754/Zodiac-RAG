@@ -1,0 +1,86 @@
+{
+    "AbsenceComboDown####azurerm_managed_disk.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.edge_zone == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_managed_disk.encryption_settings == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.encryption_settings == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.encryption_settings is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_managed_disk.hyper_v_generation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.hyper_v_generation == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.hyper_v_generation is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_managed_disk.os_type == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.os_type == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.os_type is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_managed_disk.security_type == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.security_type == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.security_type is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_managed_disk.upload_size_bytes == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.upload_size_bytes == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.upload_size_bytes is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_managed_disk.create_option == Empty": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.create_option == Empty",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_managed_disk.a.create_option == Empty",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_managed_disk.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.location == String####azurerm_resource_group.location == String",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_managed_disk.disk_size_gb == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.disk_size_gb == Existence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.disk_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_managed_disk.max_shares == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_managed_disk.max_shares == Existence",
+            "If azurerm_managed_disk.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_managed_disk.a.max_shares is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_managed_disk.name == String####azurerm_managed_disk.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_managed_disk.resource_group_name == String####azurerm_managed_disk.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_managed_disk.name == String####azurerm_managed_disk.name == String",
+            "If both azurerm_managed_disk.a.resource_group_name and azurerm_managed_disk.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_managed_disk.a.name != azurerm_managed_disk.b.name",
+            null
+        ]
+    ]
+}

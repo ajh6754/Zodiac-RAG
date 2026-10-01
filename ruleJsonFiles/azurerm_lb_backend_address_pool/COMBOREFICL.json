@@ -1,0 +1,21 @@
+{
+    "CountChild####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_lb.sku == Enum####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb.b.sku is of certain value, Then the number of azurerm_lb_backend_address_pool that could depend on azurerm_lb.b is restricted to certain value",
+            null
+        ]
+    ],
+    "Negation####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String": [
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_lb_backend_address_pool.synchronous_mode == Absence####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If azurerm_lb_backend_address_pool.a.synchronous_mode is null or empty, Then azurerm_lb_backend_address_pool.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_lb_backend_address_pool.tunnel_interface == Absence####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If azurerm_lb_backend_address_pool.a.tunnel_interface is null or empty, Then azurerm_lb_backend_address_pool.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ]
+    ]
+}

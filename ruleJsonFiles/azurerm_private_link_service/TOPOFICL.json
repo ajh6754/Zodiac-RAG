@@ -1,0 +1,30 @@
+{
+    "Branch####azurerm_private_link_service.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_private_link_service.nat_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_private_link_service.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_link_service.a.nat_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then both azurerm_private_link_service.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_private_link_service.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_private_link_service.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_link_service.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_link_service.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_private_link_service.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_private_link_service.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_private_link_service.nat_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_private_link_service.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_private_link_service.a.nat_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_private_link_service that is azurerm_private_link_service.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_private_link_service.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_private_link_service.nat_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_private_link_service.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_private_link_service.a.nat_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_private_link_service.a is the only resource that directly depends on azurerm_subnet.b",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "COMBO####EnumComboDownThenCountParent####azurerm_storage_account_network_rules.default_action == Enum####azurerm_storage_account_network_rules.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_storage_account_network_rules.default_action == Deny####azurerm_storage_account_network_rules.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_storage_account_network_rules.default_action is Deny, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_storage_account_network_rules? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_storage_account_network_rules.default_action == Allow####azurerm_storage_account_network_rules.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_storage_account_network_rules.default_action is Allow, then what is the maximum amount of azurerm_subnet that could directly connect to azurerm_storage_account_network_rules? Please answer with an integer",
+            null
+        ]
+    ]
+}

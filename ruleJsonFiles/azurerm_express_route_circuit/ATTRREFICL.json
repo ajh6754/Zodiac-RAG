@@ -1,0 +1,9 @@
+{
+    "Constant####azurerm_express_route_circuit.name == TestERCircuit": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_express_route_circuit.peering_location == Seattle####azurerm_express_route_circuit.name == TestERCircuit",
+            "If there is azurerm_express_route_circuit.a.peering_location == Seattle, Then there is azurerm_express_route_circuit.a.name == TestERCircuit",
+            null
+        ]
+    ]
+}

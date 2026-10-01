@@ -1,0 +1,222 @@
+{
+    "AbsenceComboDown####azurerm_storage_account_network_rules.ip_rules == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account_network_rules.ip_rules == Absence",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_storage_account_network_rules.a.ip_rules is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_storage_account_network_rules.private_link_access == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account_network_rules.private_link_access == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account_network_rules.a.private_link_access is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account_network_rules.private_link_access == Absence",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_storage_account_network_rules.a.private_link_access is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.allowed_copy_scope == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.allowed_copy_scope == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.allowed_copy_scope is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.azure_files_authentication == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.azure_files_authentication == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.azure_files_authentication is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.custom_domain == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.custom_domain == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.custom_domain is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.customer_managed_key == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.customer_managed_key == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.customer_managed_key is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.edge_zone == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.immutability_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.immutability_policy == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.immutability_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.sas_policy == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.sas_policy == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.sas_policy is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_storage_account.static_website == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.static_website == Absence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.static_website is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####AssociateThenCIDRExcludeCombo####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR####azurerm_subnet.address_prefixes == CIDR",
+            "If both azurerm_subnet.b and azurerm_subnet.c are directly connected to azurerm_storage_account_network_rules.a, Then the CIDR range of azurerm_subnet.b.address_prefixes does not overlap with the CIDR range of azurerm_subnet.a.address_prefixes",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_storage_account_network_rules.default_action == Deny": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account_network_rules.default_action == Deny",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then there is azurerm_storage_account_network_rules.a.default_action == Deny",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_storage_account_network_rules.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_storage_account_network_rules.default_action == Deny",
+            "If azurerm_storage_account_network_rules.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_storage_account_network_rules.a.default_action == Deny",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_storage_account.cross_tenant_replication_enabled == true": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.cross_tenant_replication_enabled == true",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then there is azurerm_storage_account.b.cross_tenant_replication_enabled == true",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_storage_account.infrastructure_encryption_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.infrastructure_encryption_enabled == false",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then there is azurerm_storage_account.b.infrastructure_encryption_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_storage_account.is_hns_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.is_hns_enabled == false",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then there is azurerm_storage_account.b.is_hns_enabled == false",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_storage_account_network_rules.bypass == String####azurerm_storage_account_network_rules.bypass == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_storage_account_network_rules.bypass == String####azurerm_storage_account_network_rules.bypass == String",
+            "If both azurerm_storage_account_network_rules.a.virtual_network_subnet_ids and azurerm_storage_account_network_rules.b.virtual_network_subnet_ids depends on azurerm_subnet.c, Then azurerm_storage_account_network_rules.a.bypass == azurerm_storage_account_network_rules.b.bypass",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_storage_account_network_rules.default_action == String####azurerm_storage_account_network_rules.default_action == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_storage_account_network_rules.default_action == String####azurerm_storage_account_network_rules.default_action == String",
+            "If both azurerm_storage_account_network_rules.a.virtual_network_subnet_ids and azurerm_storage_account_network_rules.b.virtual_network_subnet_ids depends on azurerm_subnet.c, Then azurerm_storage_account_network_rules.a.default_action == azurerm_storage_account_network_rules.b.default_action",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_storage_account_network_rules.ip_rules == String####azurerm_storage_account_network_rules.ip_rules == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_storage_account_network_rules.ip_rules == String####azurerm_storage_account_network_rules.ip_rules == String",
+            "If both azurerm_storage_account_network_rules.a.virtual_network_subnet_ids and azurerm_storage_account_network_rules.b.virtual_network_subnet_ids depends on azurerm_subnet.c, Then azurerm_storage_account_network_rules.a.ip_rules == azurerm_storage_account_network_rules.b.ip_rules",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_storage_account.blob_properties == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.blob_properties == Existence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.blob_properties is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_storage_account.enable_https_traffic_only == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.enable_https_traffic_only == Existence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.enable_https_traffic_only is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_storage_account.large_file_share_enabled == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.large_file_share_enabled == Existence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.large_file_share_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_storage_account.network_rules == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.network_rules == Existence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.network_rules is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_storage_account.share_properties == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account.id == String####azurerm_storage_account.share_properties == Existence",
+            "If azurerm_storage_account_network_rules.a.storage_account_id depends on azurerm_storage_account.b.id, Then azurerm_storage_account.b.share_properties is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_subnet.private_endpoint_network_policies_enabled == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.private_endpoint_network_policies_enabled == Existence",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.private_endpoint_network_policies_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_subnet.service_endpoints == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.service_endpoints == Existence",
+            "If azurerm_storage_account_network_rules.a.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b.service_endpoints is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_storage_account.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_storage_account_network_rules.storage_account_id == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account.id == String####azurerm_subnet.id == String####azurerm_storage_account.name == String####azurerm_subnet.name == String",
+            "If azurerm_storage_account.b and azurerm_subnet.c connected or associated with each other via azurerm_storage_account_network_rules.a, Then azurerm_storage_account.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_subnet.address_prefixes == String####azurerm_subnet.address_prefixes == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == String####azurerm_subnet.address_prefixes == String",
+            "If both azurerm_subnet.b and azurerm_subnet.c are directly connected to azurerm_storage_account_network_rules.a, Then azurerm_subnet.a.address_prefixes != azurerm_subnet.b.address_prefixes",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_subnet.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_storage_account_network_rules.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_subnet.name == String####azurerm_subnet.name == String",
+            "If both azurerm_subnet.b and azurerm_subnet.c are directly connected to azurerm_storage_account_network_rules.a, Then azurerm_subnet.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ]
+}

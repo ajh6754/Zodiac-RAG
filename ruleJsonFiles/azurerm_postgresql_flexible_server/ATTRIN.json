@@ -1,0 +1,1013 @@
+{
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_flexible_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum####azurerm_postgresql_flexible_server.zone == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum####azurerm_postgresql_flexible_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum####azurerm_postgresql_flexible_server.zone == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == True####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is True, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.public_network_access_enabled == False####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.public_network_access_enabled is False, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.sku_name == Enum####azurerm_postgresql_flexible_server.zone == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2s_v3####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B1ms####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B1ms, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4s_v3####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v5####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == MO_Standard_E16s_v3####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is MO_Standard_E16s_v3, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D2ds_v4####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D2ds_v4, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2s####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2s, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == B_Standard_B2ms####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is B_Standard_B2ms, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.zone == None",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be None? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.zone == 1",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be 1? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.zone == 3",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be 3? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.sku_name == GP_Standard_D4ds_v5####azurerm_postgresql_flexible_server.zone == 2",
+            "If the value of azurerm_postgresql_flexible_server.sku_name is GP_Standard_D4ds_v5, then the value of azurerm_postgresql_flexible_server.zone cannot be 2? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.zone == Enum####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.geo_redundant_backup_enabled cannot be True? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.zone == Enum####azurerm_postgresql_flexible_server.public_network_access_enabled == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.public_network_access_enabled == True",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.public_network_access_enabled == False",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.public_network_access_enabled cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_postgresql_flexible_server.zone == Enum####azurerm_postgresql_flexible_server.version == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == None####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.zone is None, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 1####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.zone is 1, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 3####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.zone is 3, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.version == 15",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.version cannot be 15? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.version == 16",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.version cannot be 16? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.version == 14",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.version cannot be 14? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.version == 12",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.version cannot be 12? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_postgresql_flexible_server.zone == 2####azurerm_postgresql_flexible_server.version == 13",
+            "If the value of azurerm_postgresql_flexible_server.zone is 2, then the value of azurerm_postgresql_flexible_server.version cannot be 13? Please answer with True or False",
+            null
+        ]
+    ]
+}

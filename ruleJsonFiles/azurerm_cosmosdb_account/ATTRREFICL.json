@@ -1,0 +1,488 @@
+{
+    "Absence####azurerm_cosmosdb_account.cors_rule == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.backup == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.backup is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_automatic_failover == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.capabilities == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.capabilities is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.capacity == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.capacity is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.analytical_storage == Existence####azurerm_cosmosdb_account.cors_rule == Absence",
+            "If azurerm_cosmosdb_account.a.analytical_storage is not null nor empty, Then azurerm_cosmosdb_account.a.cors_rule is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_cosmosdb_account.ip_range_filter == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.analytical_storage == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.analytical_storage is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.capacity == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.capacity is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.ip_range_filter == Absence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_cosmosdb_account.restore == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_automatic_failover == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.backup == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.backup is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.capabilities == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.capabilities is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.analytical_storage == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.analytical_storage is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.capacity == Existence####azurerm_cosmosdb_account.restore == Absence",
+            "If azurerm_cosmosdb_account.a.capacity is not null nor empty, Then azurerm_cosmosdb_account.a.restore is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_cosmosdb_account.virtual_network_rule == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.virtual_network_rule == Absence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.virtual_network_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.virtual_network_rule == Absence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.virtual_network_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.virtual_network_rule == Absence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.virtual_network_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.virtual_network_rule == Absence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.virtual_network_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence####azurerm_cosmosdb_account.virtual_network_rule == Absence",
+            "If azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.virtual_network_rule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_cosmosdb_account.analytical_storage == Existence####azurerm_cosmosdb_account.virtual_network_rule == Absence",
+            "If azurerm_cosmosdb_account.a.analytical_storage is not null nor empty, Then azurerm_cosmosdb_account.a.virtual_network_rule is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_cosmosdb_account.backup.type == Periodic": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_cosmosdb_account.consistency_policy.consistency_level == Strong####azurerm_cosmosdb_account.backup.type == Periodic",
+            "If there is azurerm_cosmosdb_account.a.consistency_policy.consistency_level == Strong, Then there is azurerm_cosmosdb_account.a.backup.type == Periodic",
+            null
+        ]
+    ],
+    "Constant####azurerm_cosmosdb_account.is_virtual_network_filter_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.is_virtual_network_filter_enabled == false",
+            "If there is azurerm_cosmosdb_account.a.kind == GlobalDocumentDB, Then there is azurerm_cosmosdb_account.a.is_virtual_network_filter_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_cosmosdb_account.is_virtual_network_filter_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_cosmosdb_account.public_network_access_enabled == false####azurerm_cosmosdb_account.is_virtual_network_filter_enabled == true",
+            "If there is azurerm_cosmosdb_account.a.public_network_access_enabled == false, Then there is azurerm_cosmosdb_account.a.is_virtual_network_filter_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_cosmosdb_account.network_acl_bypass_for_azure_services == true####azurerm_cosmosdb_account.is_virtual_network_filter_enabled == true",
+            "If there is azurerm_cosmosdb_account.a.network_acl_bypass_for_azure_services == true, Then there is azurerm_cosmosdb_account.a.is_virtual_network_filter_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_cosmosdb_account.kind == MongoDB": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_cosmosdb_account.public_network_access_enabled == false####azurerm_cosmosdb_account.kind == MongoDB",
+            "If there is azurerm_cosmosdb_account.a.public_network_access_enabled == false, Then there is azurerm_cosmosdb_account.a.kind == MongoDB",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_cosmosdb_account.network_acl_bypass_for_azure_services == true####azurerm_cosmosdb_account.kind == MongoDB",
+            "If there is azurerm_cosmosdb_account.a.network_acl_bypass_for_azure_services == true, Then there is azurerm_cosmosdb_account.a.kind == MongoDB",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.analytical_storage == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.analytical_storage == Existence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.analytical_storage is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence####azurerm_cosmosdb_account.analytical_storage == Existence",
+            "If azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.analytical_storage is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.backup == Existence####azurerm_cosmosdb_account.analytical_storage == Existence",
+            "If azurerm_cosmosdb_account.a.backup is not null nor empty, Then azurerm_cosmosdb_account.a.analytical_storage is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.analytical_storage == Existence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.analytical_storage is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.analytical_storage == Existence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.analytical_storage is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.capabilities == Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.capabilities is not null nor empty, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.capacity == Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.capacity is not null nor empty, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.backup == Existence####azurerm_cosmosdb_account.automatic_failover_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.backup is not null nor empty, Then azurerm_cosmosdb_account.a.automatic_failover_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.backup == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_automatic_failover == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.capabilities == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.capabilities is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.capacity == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.capacity is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.backup == Existence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.backup is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.backup.interval_in_minutes == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.backup.storage_redundancy == Existence####azurerm_cosmosdb_account.backup.interval_in_minutes == Existence",
+            "If azurerm_cosmosdb_account.a.backup.storage_redundancy is not null nor empty, Then azurerm_cosmosdb_account.a.backup.interval_in_minutes is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.backup.retention_in_hours == Existence####azurerm_cosmosdb_account.backup.interval_in_minutes == Existence",
+            "If azurerm_cosmosdb_account.a.backup.retention_in_hours is not null nor empty, Then azurerm_cosmosdb_account.a.backup.interval_in_minutes is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.backup.retention_in_hours == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.backup.storage_redundancy == Existence####azurerm_cosmosdb_account.backup.retention_in_hours == Existence",
+            "If azurerm_cosmosdb_account.a.backup.storage_redundancy is not null nor empty, Then azurerm_cosmosdb_account.a.backup.retention_in_hours is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.capabilities == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####UnequalThenExistence####azurerm_cosmosdb_account.capabilities.name == String####azurerm_cosmosdb_account.capabilities.name == String####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.capabilities.name != azurerm_cosmosdb_account.a.capabilities.name, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.capacity == Existence####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.capacity is not null nor empty, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_automatic_failover == Existence####azurerm_cosmosdb_account.capabilities == Existence",
+            "If azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty, Then azurerm_cosmosdb_account.a.capabilities is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.capacity == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_automatic_failover == Existence####azurerm_cosmosdb_account.capacity == Existence",
+            "If azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty, Then azurerm_cosmosdb_account.a.capacity is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.free_tier_enabled == Existence####azurerm_cosmosdb_account.capacity == Existence",
+            "If azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.capacity is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.enable_automatic_failover == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.enable_automatic_failover == Existence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_free_tier == Existence####azurerm_cosmosdb_account.enable_automatic_failover == Existence",
+            "If azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty, Then azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.enable_automatic_failover == Existence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.enable_automatic_failover is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.enable_free_tier == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence####azurerm_cosmosdb_account.enable_free_tier == Existence",
+            "If azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty, Then azurerm_cosmosdb_account.a.enable_free_tier is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.enable_multiple_write_locations == Existence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.enable_multiple_write_locations is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.free_tier_enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.minimal_tls_version == Existence####azurerm_cosmosdb_account.free_tier_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty, Then azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.free_tier_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.mongo_server_version == Existence####azurerm_cosmosdb_account.free_tier_enabled == Existence",
+            "If azurerm_cosmosdb_account.a.mongo_server_version is not null nor empty, Then azurerm_cosmosdb_account.a.free_tier_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.ip_range_filter == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.virtual_network_rule == Existence####azurerm_cosmosdb_account.ip_range_filter == Existence",
+            "If azurerm_cosmosdb_account.a.virtual_network_rule is not null nor empty, Then azurerm_cosmosdb_account.a.ip_range_filter is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_cosmosdb_account.minimal_tls_version == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_cosmosdb_account.multiple_write_locations_enabled == Existence####azurerm_cosmosdb_account.minimal_tls_version == Existence",
+            "If azurerm_cosmosdb_account.a.multiple_write_locations_enabled is not null nor empty, Then azurerm_cosmosdb_account.a.minimal_tls_version is not null nor empty",
+            null
+        ]
+    ],
+    "Unequal####azurerm_cosmosdb_account.capabilities.name == String####azurerm_cosmosdb_account.capabilities.name == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_cosmosdb_account.geo_location.location == String####azurerm_cosmosdb_account.geo_location.location == String####azurerm_cosmosdb_account.capabilities.name == String####azurerm_cosmosdb_account.capabilities.name == String",
+            "If azurerm_cosmosdb_account.a.geo_location.location != azurerm_cosmosdb_account.a.geo_location.location, Then azurerm_cosmosdb_account.a.capabilities.name != azurerm_cosmosdb_account.a.capabilities.name",
+            null
+        ],
+        [
+            "ATTR####UnequalThenUnequal####azurerm_cosmosdb_account.geo_location.failover_priority == String####azurerm_cosmosdb_account.geo_location.failover_priority == String####azurerm_cosmosdb_account.capabilities.name == String####azurerm_cosmosdb_account.capabilities.name == String",
+            "If azurerm_cosmosdb_account.a.geo_location.failover_priority != azurerm_cosmosdb_account.a.geo_location.failover_priority, Then azurerm_cosmosdb_account.a.capabilities.name != azurerm_cosmosdb_account.a.capabilities.name",
+            null
+        ]
+    ],
+    "Unequal####azurerm_cosmosdb_account.geo_location.failover_priority == String####azurerm_cosmosdb_account.geo_location.failover_priority == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_cosmosdb_account.geo_location.location == String####azurerm_cosmosdb_account.geo_location.location == String####azurerm_cosmosdb_account.geo_location.failover_priority == String####azurerm_cosmosdb_account.geo_location.failover_priority == String",
+            "If azurerm_cosmosdb_account.a.geo_location.location != azurerm_cosmosdb_account.a.geo_location.location, Then azurerm_cosmosdb_account.a.geo_location.failover_priority != azurerm_cosmosdb_account.a.geo_location.failover_priority",
+            null
+        ]
+    ]
+}

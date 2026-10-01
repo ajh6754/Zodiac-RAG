@@ -1,0 +1,16 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_route.resource_group_name == String####azurerm_resource_group.name == String####azurerm_route.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_route.resource_group_name == String####azurerm_resource_group.name == String####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_route.route_table_name == String####azurerm_route_table.name == String####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.route_table_name depends on azurerm_route_table.name, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

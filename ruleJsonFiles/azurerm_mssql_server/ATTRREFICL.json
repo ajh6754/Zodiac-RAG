@@ -1,0 +1,9 @@
+{
+    "Existence####azurerm_mssql_server.administrator_login == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_server.administrator_login_password == Existence####azurerm_mssql_server.administrator_login == Existence",
+            "If azurerm_mssql_server.a.administrator_login_password is not null nor empty, Then azurerm_mssql_server.a.administrator_login is not null nor empty",
+            null
+        ]
+    ]
+}

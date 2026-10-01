@@ -1,0 +1,149 @@
+{
+    "AbsenceComboDown####azurerm_lb.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_lb.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_lb.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_public_ip.zones == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.zones == Absence",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b.zones is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_lb.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.delegation == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Absence",
+            "If azurerm_lb.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_subnet.service_endpoints == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.service_endpoints == Absence",
+            "If azurerm_lb.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.service_endpoints is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_lb.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_lb.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_lb.sku == Standard": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_lb.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_lb.sku == Standard",
+            "If azurerm_lb.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_lb.a.sku == Standard",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_lb.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_lb.sku == Standard",
+            "If azurerm_lb.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then there is azurerm_lb.a.sku == Standard",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_lb.sku_tier == Regional": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_lb.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_lb.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_lb.a.sku_tier == Regional",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_lb.location == String####azurerm_public_ip.location == String",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_lb.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_lb.location == String####azurerm_resource_group.location == String",
+            "If azurerm_lb.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_lb.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_lb.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_lb.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_lb.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_lb.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_lb.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_lb.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_lb.frontend_ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_lb.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_lb.a.frontend_ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_lb.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_lb.a.frontend_ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_lb.a.frontend_ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb.frontend_ip_configuration.name == String####azurerm_lb.frontend_ip_configuration.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb.resource_group_name == String####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_lb.frontend_ip_configuration.name == String####azurerm_lb.frontend_ip_configuration.name == String",
+            "If both azurerm_lb.a.resource_group_name and azurerm_lb.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_lb.a.frontend_ip_configuration.name != azurerm_lb.b.frontend_ip_configuration.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb.name == String####azurerm_lb.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb.resource_group_name == String####azurerm_lb.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_lb.name == String####azurerm_lb.name == String",
+            "If both azurerm_lb.a.resource_group_name and azurerm_lb.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_lb.a.name != azurerm_lb.b.name",
+            null
+        ]
+    ]
+}

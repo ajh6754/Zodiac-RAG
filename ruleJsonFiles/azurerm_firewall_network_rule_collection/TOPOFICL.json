@@ -1,0 +1,23 @@
+{
+    "Branch####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_firewall_network_rule_collection.a has an ancestor resource azurerm_public_ip.b, Then both azurerm_firewall_network_rule_collection.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_firewall_network_rule_collection.a has an ancestor resource azurerm_subnet.b, Then both azurerm_firewall_network_rule_collection.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_firewall_network_rule_collection.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_firewall_network_rule_collection.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_firewall_network_rule_collection.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_firewall_network_rule_collection.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ]
+}

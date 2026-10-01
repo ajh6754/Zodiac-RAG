@@ -1,0 +1,9 @@
+{
+    "CIDRMask####azurerm_virtual_hub.address_prefix == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_virtual_hub.sku == Enum####azurerm_virtual_hub.address_prefix == CIDR",
+            "If azurerm_virtual_hub.a.sku is of certain value, Then azurerm_virtual_hub.a.address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "Associate####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b and azurerm_subnet.c connected or associated with each other via azurerm_bastion_host.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_bastion_host.resource_group_name == String####azurerm_subnet.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_bastion_host.resource_group_name == String####azurerm_subnet.id == String####azurerm_resource_group.name == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b and azurerm_resource_group.c connected or associated with each other via azurerm_bastion_host.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_bastion_host.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_bastion_host.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then both azurerm_bastion_host.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_bastion_host.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then both azurerm_bastion_host.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ],
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_bastion_host.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_bastion_host.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_bastion_host.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_bastion_host.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_public_ip.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_public_ip.id == String####azurerm_subnet.id == String####azurerm_public_ip.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.b and azurerm_subnet.c connected or associated with each other via azurerm_bastion_host.a, Then both azurerm_public_ip.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_bastion_host.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_bastion_host.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_public_ip.b could only have a single azurerm_bastion_host that is azurerm_bastion_host.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_bastion_host.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_bastion_host.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_bastion_host that is azurerm_bastion_host.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_bastion_host.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_bastion_host.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b could only have a single azurerm_bastion_host that is azurerm_bastion_host.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_bastion_host.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_bastion_host.ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String####azurerm_bastion_host.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id, Then azurerm_bastion_host.a is the only resource that directly depends on azurerm_public_ip.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_bastion_host.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_bastion_host.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_bastion_host.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_bastion_host.a.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_bastion_host.a is the only resource that directly depends on azurerm_subnet.b",
+            null
+        ]
+    ]
+}

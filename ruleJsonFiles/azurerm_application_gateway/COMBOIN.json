@@ -1,0 +1,23 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_application_gateway.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.id, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_application_gateway.gateway_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_application_gateway.gateway_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_application_gateway.gateway_ip_configuration.0.subnet_id depends on azurerm_subnet.id, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_application_gateway.private_link_configuration.0.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_application_gateway.private_link_configuration.0.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_application_gateway.private_link_configuration.0.ip_configuration.0.subnet_id depends on azurerm_subnet.id, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "ConstantComboDown####azurerm_virtual_wan.office365_local_breakout_category == None": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_virtual_wan.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_wan.office365_local_breakout_category == None",
+            "If azurerm_virtual_wan.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_virtual_wan.a.office365_local_breakout_category == None",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_virtual_wan.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_virtual_wan.resource_group_name == String####azurerm_resource_group.name == String####azurerm_virtual_wan.location == String####azurerm_resource_group.location == String",
+            "If azurerm_virtual_wan.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_virtual_wan.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_wan.location == String####azurerm_virtual_wan.location == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_wan.resource_group_name == String####azurerm_virtual_wan.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_wan.location == String####azurerm_virtual_wan.location == String",
+            "If both azurerm_virtual_wan.a.resource_group_name and azurerm_virtual_wan.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_wan.a.location != azurerm_virtual_wan.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_virtual_wan.name == String####azurerm_virtual_wan.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_virtual_wan.resource_group_name == String####azurerm_virtual_wan.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_virtual_wan.name == String####azurerm_virtual_wan.name == String",
+            "If both azurerm_virtual_wan.a.resource_group_name and azurerm_virtual_wan.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_virtual_wan.a.name != azurerm_virtual_wan.b.name",
+            null
+        ]
+    ]
+}

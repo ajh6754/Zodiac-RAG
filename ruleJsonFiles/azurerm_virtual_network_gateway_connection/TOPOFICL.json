@@ -1,0 +1,51 @@
+{
+    "Associate####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway.id == String",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_local_network_gateway.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_virtual_network_gateway.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_virtual_network_gateway.id == String####azurerm_resource_group.name == String",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then azurerm_virtual_network_gateway.b and azurerm_resource_group.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a",
+            null
+        ]
+    ],
+    "Associate####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway_connection.peer_virtual_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_virtual_network_gateway.id == String####azurerm_virtual_network_gateway.id == String",
+            "If azurerm_virtual_network_gateway_connection.a.peer_virtual_network_gateway_id depends on azurerm_virtual_network_gateway.b.id, Then both azurerm_virtual_network_gateway.b and azurerm_virtual_network_gateway.c are directly connected to azurerm_virtual_network_gateway_connection.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_local_network_gateway.resource_group_name == String####azurerm_virtual_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_virtual_network_gateway_connection.virtual_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway.id == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_virtual_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_local_network_gateway.b and azurerm_virtual_network_gateway.c connected or associated with each other via azurerm_virtual_network_gateway_connection.a, Then both azurerm_local_network_gateway.b.resource_group_name and azurerm_virtual_network_gateway.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "Branch####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then both azurerm_virtual_network_gateway_connection.a.resource_group_name and azurerm_local_network_gateway.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_local_network_gateway.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_local_network_gateway.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_local_network_gateway.b could only have a single azurerm_virtual_network_gateway_connection that is azurerm_virtual_network_gateway_connection.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_local_network_gateway.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_virtual_network_gateway_connection.local_network_gateway_id == String####azurerm_local_network_gateway.id == String####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_local_network_gateway.PLACEHOLDER == String",
+            "If azurerm_virtual_network_gateway_connection.a.local_network_gateway_id depends on azurerm_local_network_gateway.b.id, Then azurerm_virtual_network_gateway_connection.a is the only resource that directly depends on azurerm_local_network_gateway.b",
+            null
+        ]
+    ]
+}

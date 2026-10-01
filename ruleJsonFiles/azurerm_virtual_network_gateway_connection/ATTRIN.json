@@ -1,0 +1,46 @@
+{
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway_connection.enable_bgp == Enum####azurerm_virtual_network_gateway_connection.type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.enable_bgp == True####azurerm_virtual_network_gateway_connection.type == IPsec",
+            "If the value of azurerm_virtual_network_gateway_connection.enable_bgp is True, then the value of azurerm_virtual_network_gateway_connection.type cannot be IPsec? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.enable_bgp == True####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet",
+            "If the value of azurerm_virtual_network_gateway_connection.enable_bgp is True, then the value of azurerm_virtual_network_gateway_connection.type cannot be Vnet2Vnet? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.enable_bgp == False####azurerm_virtual_network_gateway_connection.type == IPsec",
+            "If the value of azurerm_virtual_network_gateway_connection.enable_bgp is False, then the value of azurerm_virtual_network_gateway_connection.type cannot be IPsec? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.enable_bgp == False####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet",
+            "If the value of azurerm_virtual_network_gateway_connection.enable_bgp is False, then the value of azurerm_virtual_network_gateway_connection.type cannot be Vnet2Vnet? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway_connection.type == Enum####azurerm_virtual_network_gateway_connection.enable_bgp == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.type == IPsec####azurerm_virtual_network_gateway_connection.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway_connection.type is IPsec, then the value of azurerm_virtual_network_gateway_connection.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.type == IPsec####azurerm_virtual_network_gateway_connection.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway_connection.type is IPsec, then the value of azurerm_virtual_network_gateway_connection.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet####azurerm_virtual_network_gateway_connection.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway_connection.type is Vnet2Vnet, then the value of azurerm_virtual_network_gateway_connection.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet####azurerm_virtual_network_gateway_connection.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway_connection.type is Vnet2Vnet, then the value of azurerm_virtual_network_gateway_connection.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ]
+    ]
+}

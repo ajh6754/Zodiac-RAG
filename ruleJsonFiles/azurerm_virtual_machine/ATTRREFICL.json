@@ -1,0 +1,304 @@
+{
+    "Absence####azurerm_virtual_machine.additional_capabilities == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.storage_image_reference == Existence####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine.a.storage_image_reference is not null nor empty, Then azurerm_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.storage_data_disk == Existence####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine.a.storage_data_disk is not null nor empty, Then azurerm_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile == Existence####azurerm_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_virtual_machine.a.os_profile is not null nor empty, Then azurerm_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile_windows_config == Existence####azurerm_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_virtual_machine.a.os_profile_windows_config is not null nor empty, Then azurerm_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_machine.os_profile_linux_config == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile_windows_config == Existence####azurerm_virtual_machine.os_profile_linux_config == Absence",
+            "If azurerm_virtual_machine.a.os_profile_windows_config is not null nor empty, Then azurerm_virtual_machine.a.os_profile_linux_config is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_machine.os_profile_secrets == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.storage_data_disk == Existence####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine.a.storage_data_disk is not null nor empty, Then azurerm_virtual_machine.a.os_profile_secrets is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.storage_image_reference == Existence####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine.a.storage_image_reference is not null nor empty, Then azurerm_virtual_machine.a.os_profile_secrets is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile == Existence####azurerm_virtual_machine.os_profile_secrets == Absence",
+            "If azurerm_virtual_machine.a.os_profile is not null nor empty, Then azurerm_virtual_machine.a.os_profile_secrets is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_machine.os_profile_windows_config == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.zones == Existence####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine.a.zones is not null nor empty, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.storage_data_disk == Existence####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine.a.storage_data_disk is not null nor empty, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.plan == Existence####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine.a.plan is not null nor empty, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile_linux_config == Existence####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.boot_diagnostics == Existence####azurerm_virtual_machine.os_profile_windows_config == Absence",
+            "If azurerm_virtual_machine.a.boot_diagnostics is not null nor empty, Then azurerm_virtual_machine.a.os_profile_windows_config is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_machine.plan == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile_windows_config == Existence####azurerm_virtual_machine.plan == Absence",
+            "If azurerm_virtual_machine.a.os_profile_windows_config is not null nor empty, Then azurerm_virtual_machine.a.plan is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_virtual_machine.zones == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_virtual_machine.os_profile_windows_config == Existence####azurerm_virtual_machine.zones == Absence",
+            "If azurerm_virtual_machine.a.os_profile_windows_config is not null nor empty, Then azurerm_virtual_machine.a.zones is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.delete_data_disks_on_termination == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == StandardSSD_LRS, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_data_disk.create_option == Attach####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If there is azurerm_virtual_machine.a.storage_data_disk.create_option == Attach, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == true####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If there is azurerm_virtual_machine.a.os_profile_windows_config.enable_automatic_upgrades == true, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == Premium_LRS, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.delete_os_disk_on_termination == false####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If there is azurerm_virtual_machine.a.delete_os_disk_on_termination == false, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == false####azurerm_virtual_machine.delete_data_disks_on_termination == false",
+            "If there is azurerm_virtual_machine.a.os_profile_windows_config.provision_vm_agent == false, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.delete_data_disks_on_termination == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_data_disk.create_option == Empty####azurerm_virtual_machine.delete_data_disks_on_termination == true",
+            "If there is azurerm_virtual_machine.a.storage_data_disk.create_option == Empty, Then there is azurerm_virtual_machine.a.delete_data_disks_on_termination == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.delete_os_disk_on_termination == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_data_disk.create_option == Attach####azurerm_virtual_machine.delete_os_disk_on_termination == false",
+            "If there is azurerm_virtual_machine.a.storage_data_disk.create_option == Attach, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == true####azurerm_virtual_machine.delete_os_disk_on_termination == false",
+            "If there is azurerm_virtual_machine.a.os_profile_windows_config.enable_automatic_upgrades == true, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS####azurerm_virtual_machine.delete_os_disk_on_termination == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == StandardSSD_LRS, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS####azurerm_virtual_machine.delete_os_disk_on_termination == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == Premium_LRS, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == false####azurerm_virtual_machine.delete_os_disk_on_termination == false",
+            "If there is azurerm_virtual_machine.a.os_profile_windows_config.provision_vm_agent == false, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.delete_os_disk_on_termination == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_data_disk.create_option == Empty####azurerm_virtual_machine.delete_os_disk_on_termination == true",
+            "If there is azurerm_virtual_machine.a.storage_data_disk.create_option == Empty, Then there is azurerm_virtual_machine.a.delete_os_disk_on_termination == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Standard_LRS####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == Standard_LRS, Then there is azurerm_virtual_machine.a.os_profile_windows_config.enable_automatic_upgrades == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == false####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == false",
+            "If there is azurerm_virtual_machine.a.os_profile_windows_config.provision_vm_agent == false, Then there is azurerm_virtual_machine.a.os_profile_windows_config.enable_automatic_upgrades == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == StandardSSD_LRS, Then there is azurerm_virtual_machine.a.os_profile_windows_config.enable_automatic_upgrades == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS####azurerm_virtual_machine.os_profile_windows_config.enable_automatic_upgrades == true",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == Premium_LRS, Then there is azurerm_virtual_machine.a.os_profile_windows_config.enable_automatic_upgrades == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == Premium_LRS####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == false",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == Premium_LRS, Then there is azurerm_virtual_machine.a.os_profile_windows_config.provision_vm_agent == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_machine.storage_os_disk.managed_disk_type == StandardSSD_LRS####azurerm_virtual_machine.os_profile_windows_config.provision_vm_agent == true",
+            "If there is azurerm_virtual_machine.a.storage_os_disk.managed_disk_type == StandardSSD_LRS, Then there is azurerm_virtual_machine.a.os_profile_windows_config.provision_vm_agent == true",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.boot_diagnostics == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.plan == Existence####azurerm_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_virtual_machine.a.plan is not null nor empty, Then azurerm_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.zones == Existence####azurerm_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_virtual_machine.a.zones is not null nor empty, Then azurerm_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.os_profile == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_image_reference == Existence####azurerm_virtual_machine.os_profile == Existence",
+            "If azurerm_virtual_machine.a.storage_image_reference is not null nor empty, Then azurerm_virtual_machine.a.os_profile is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_data_disk == Existence####azurerm_virtual_machine.os_profile == Existence",
+            "If azurerm_virtual_machine.a.storage_data_disk is not null nor empty, Then azurerm_virtual_machine.a.os_profile is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.os_profile.admin_password == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.os_profile.custom_data == Existence####azurerm_virtual_machine.os_profile.admin_password == Existence",
+            "If azurerm_virtual_machine.a.os_profile.custom_data is not null nor empty, Then azurerm_virtual_machine.a.os_profile.admin_password is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.os_profile_linux_config == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.plan == Existence####azurerm_virtual_machine.os_profile_linux_config == Existence",
+            "If azurerm_virtual_machine.a.plan is not null nor empty, Then azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.zones == Existence####azurerm_virtual_machine.os_profile_linux_config == Existence",
+            "If azurerm_virtual_machine.a.zones is not null nor empty, Then azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_data_disk == Existence####azurerm_virtual_machine.os_profile_linux_config == Existence",
+            "If azurerm_virtual_machine.a.storage_data_disk is not null nor empty, Then azurerm_virtual_machine.a.os_profile_linux_config is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.os_profile_windows_config.additional_unattend_config == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.os_profile_windows_config.winrm == Existence####azurerm_virtual_machine.os_profile_windows_config.additional_unattend_config == Existence",
+            "If azurerm_virtual_machine.a.os_profile_windows_config.winrm is not null nor empty, Then azurerm_virtual_machine.a.os_profile_windows_config.additional_unattend_config is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.plan == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.zones == Existence####azurerm_virtual_machine.plan == Existence",
+            "If azurerm_virtual_machine.a.zones is not null nor empty, Then azurerm_virtual_machine.a.plan is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.storage_data_disk == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_image_reference == Existence####azurerm_virtual_machine.storage_data_disk == Existence",
+            "If azurerm_virtual_machine.a.storage_image_reference is not null nor empty, Then azurerm_virtual_machine.a.storage_data_disk is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.storage_data_disk.caching == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_data_disk.disk_size_gb == Existence####azurerm_virtual_machine.storage_data_disk.caching == Existence",
+            "If azurerm_virtual_machine.a.storage_data_disk.disk_size_gb is not null nor empty, Then azurerm_virtual_machine.a.storage_data_disk.caching is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.storage_data_disk.disk_size_gb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_data_disk.managed_disk_type == Existence####azurerm_virtual_machine.storage_data_disk.disk_size_gb == Existence",
+            "If azurerm_virtual_machine.a.storage_data_disk.managed_disk_type is not null nor empty, Then azurerm_virtual_machine.a.storage_data_disk.disk_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.storage_os_disk.caching == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_os_disk.os_type == Existence####azurerm_virtual_machine.storage_os_disk.caching == Existence",
+            "If azurerm_virtual_machine.a.storage_os_disk.os_type is not null nor empty, Then azurerm_virtual_machine.a.storage_os_disk.caching is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_os_disk.disk_size_gb == Existence####azurerm_virtual_machine.storage_os_disk.caching == Existence",
+            "If azurerm_virtual_machine.a.storage_os_disk.disk_size_gb is not null nor empty, Then azurerm_virtual_machine.a.storage_os_disk.caching is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_machine.storage_os_disk.disk_size_gb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_machine.storage_os_disk.os_type == Existence####azurerm_virtual_machine.storage_os_disk.disk_size_gb == Existence",
+            "If azurerm_virtual_machine.a.storage_os_disk.os_type is not null nor empty, Then azurerm_virtual_machine.a.storage_os_disk.disk_size_gb is not null nor empty",
+            null
+        ]
+    ]
+}

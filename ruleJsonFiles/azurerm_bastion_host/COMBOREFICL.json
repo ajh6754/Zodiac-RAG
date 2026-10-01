@@ -1,0 +1,46 @@
+{
+    "Negation####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_bastion_host.ip_configuration == Existence####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If azurerm_bastion_host.a.ip_configuration is not null nor empty, Then azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_bastion_host.tunneling_enabled == false####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If there is azurerm_bastion_host.a.tunneling_enabled == false, Then azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_bastion_host.file_copy_enabled == false####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If there is azurerm_bastion_host.a.file_copy_enabled == false, Then azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_bastion_host.shareable_link_enabled == false####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If there is azurerm_bastion_host.a.shareable_link_enabled == false, Then azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_bastion_host.ip_connect_enabled == false####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If there is azurerm_bastion_host.a.ip_connect_enabled == false, Then azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenNegation####azurerm_bastion_host.sku == Basic####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If there is azurerm_bastion_host.a.sku == Basic, Then azurerm_bastion_host.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id)",
+            null
+        ]
+    ],
+    "Reference####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String": [
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_bastion_host.sku == Developer####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If there is azurerm_bastion_host.a.sku == Developer, Then azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_bastion_host.ip_configuration == Absence####azurerm_bastion_host.virtual_network_id == String####azurerm_virtual_network.id == String",
+            "If azurerm_bastion_host.a.ip_configuration is null or empty, Then azurerm_bastion_host.a.virtual_network_id depends on azurerm_virtual_network.b.id",
+            null
+        ]
+    ]
+}

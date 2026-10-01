@@ -1,0 +1,111 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_storage_account.account_replication_type == Enum####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_storage_account.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_storage_account.account_replication_type == LRS####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_storage_account.PLACEHOLDER == String",
+            "If the value of azurerm_storage_account.account_replication_type is LRS, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_storage_account? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_storage_account.account_replication_type == GRS####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_storage_account.PLACEHOLDER == String",
+            "If the value of azurerm_storage_account.account_replication_type is GRS, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_storage_account? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_storage_account.account_replication_type == GZRS####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_storage_account.PLACEHOLDER == String",
+            "If the value of azurerm_storage_account.account_replication_type is GZRS, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_storage_account? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_subnet.name == Enum####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == AzureFirewallSubnet####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is AzureFirewallSubnet, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == GatewaySubnet####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is GatewaySubnet, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet02####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet02, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet03####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet03, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet04####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet04, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == AzureBastionSubnet####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is AzureBastionSubnet, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == DatabaseSubnet####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is DatabaseSubnet, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SharedServicesSubnet####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SharedServicesSubnet, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SensorSubnet2####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SensorSubnet2, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetA####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetA, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet2####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet2, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet3####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet3, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet05####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet05, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet06####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet06, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetAPPGW####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetAPPGW, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetApp####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetApp, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetLB####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetLB, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetWeb####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetWeb, then what is the maximum amount of azurerm_private_endpoint that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ]
+    ]
+}

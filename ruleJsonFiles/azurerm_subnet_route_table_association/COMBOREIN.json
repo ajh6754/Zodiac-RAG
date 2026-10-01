@@ -1,0 +1,26 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_route_table.disable_bgp_route_propagation == Enum####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_route_table.disable_bgp_route_propagation == True####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If the value of azurerm_route_table.disable_bgp_route_propagation is True, then what is the maximum amount of azurerm_subnet_route_table_association that could depend on azurerm_route_table? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_route_table.disable_bgp_route_propagation == False####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If the value of azurerm_route_table.disable_bgp_route_propagation is False, then what is the maximum amount of azurerm_subnet_route_table_association that could depend on azurerm_route_table? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_route_table.name == Enum####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_route_table.name == RouteTable####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If the value of azurerm_route_table.name is RouteTable, then what is the maximum amount of azurerm_subnet_route_table_association that could depend on azurerm_route_table? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then what is the maximum amount of azurerm_subnet_route_table_association that could depend on azurerm_route_table? Please answer with an integer",
+            null
+        ]
+    ]
+}

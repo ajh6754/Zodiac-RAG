@@ -1,0 +1,16 @@
+{
+    "ConflictChild####azurerm_subnet_network_security_group_association.PLACEHOLDER == String####azurerm_network_security_group.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_subnet_network_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_subnet_network_security_group_association.PLACEHOLDER == String####azurerm_network_security_group.PLACEHOLDER == String",
+            "If azurerm_subnet_network_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b could only have a single azurerm_subnet_network_security_group_association that is azurerm_subnet_network_security_group_association.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_subnet_network_security_group_association.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_subnet_network_security_group_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet_network_security_group_association.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_subnet_network_security_group_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_subnet_network_security_group_association that is azurerm_subnet_network_security_group_association.a",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_private_dns_resolver.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver.id == String####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_private_dns_resolver.location == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.private_dns_resolver_id depends on azurerm_private_dns_resolver.b.id, Then azurerm_private_dns_resolver_outbound_endpoint.a.location == azurerm_private_dns_resolver.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_resource_group.location == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a has an ancestor resource azurerm_resource_group.b, Then azurerm_private_dns_resolver_outbound_endpoint.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_private_dns_resolver_outbound_endpoint.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_private_dns_resolver_outbound_endpoint.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_subnet.delegation == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Existence",
+            "If azurerm_private_dns_resolver_outbound_endpoint.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_private_dns_resolver.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_private_dns_resolver_outbound_endpoint.private_dns_resolver_id == String####azurerm_private_dns_resolver_outbound_endpoint.subnet_id == String####azurerm_private_dns_resolver.id == String####azurerm_subnet.id == String####azurerm_private_dns_resolver.name == String####azurerm_subnet.name == String",
+            "If azurerm_private_dns_resolver.b and azurerm_subnet.c connected or associated with each other via azurerm_private_dns_resolver_outbound_endpoint.a, Then azurerm_private_dns_resolver.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ]
+}

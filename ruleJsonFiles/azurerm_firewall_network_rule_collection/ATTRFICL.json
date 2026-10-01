@@ -1,0 +1,93 @@
+{
+    "CIDRExclude####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR": [
+        [
+            "ATTR####UnequalThenCIDRExclude####azurerm_firewall_network_rule_collection.rule.name == String####azurerm_firewall_network_rule_collection.rule.name == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.name != azurerm_firewall_network_rule_collection.a.rule.name, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRExclude####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.source_addresses != azurerm_firewall_network_rule_collection.a.rule.source_addresses, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRExclude####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.protocols == azurerm_firewall_network_rule_collection.a.rule.protocols, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses",
+            null
+        ]
+    ],
+    "CIDRExclude####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "ATTR####CIDRExcludeThenCIDRExclude####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.destination_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.destination_addresses, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRExclude####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.destination_addresses != azurerm_firewall_network_rule_collection.a.rule.destination_addresses, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRExclude####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.protocols == azurerm_firewall_network_rule_collection.a.rule.protocols, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses does not overlap with the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ],
+    "CIDRInclude####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR": [
+        [
+            "ATTR####UnequalThenCIDRInclude####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.protocols == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.protocols != azurerm_firewall_network_rule_collection.a.rule.protocols, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses contains the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ],
+        [
+            "ATTR####EqualThenCIDRInclude####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.destination_addresses == azurerm_firewall_network_rule_collection.a.rule.destination_addresses, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses contains the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ],
+        [
+            "ATTR####UnequalThenCIDRInclude####azurerm_firewall_network_rule_collection.rule.destination_ports == String####azurerm_firewall_network_rule_collection.rule.destination_ports == String####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR####azurerm_firewall_network_rule_collection.rule.source_addresses == CIDR",
+            "If azurerm_firewall_network_rule_collection.a.rule.destination_ports != azurerm_firewall_network_rule_collection.a.rule.destination_ports, Then the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses contains the CIDR range of azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ],
+    "Equal####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String": [
+        [
+            "ATTR####EqualThenEqual####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String",
+            "If azurerm_firewall_network_rule_collection.a.rule.destination_addresses == azurerm_firewall_network_rule_collection.a.rule.destination_addresses, Then azurerm_firewall_network_rule_collection.a.rule.source_addresses == azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ],
+    "Existence####azurerm_firewall_network_rule_collection.rule.destination_addresses == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_firewall_network_rule_collection.rule.description == Existence####azurerm_firewall_network_rule_collection.rule.destination_addresses == Existence",
+            "If azurerm_firewall_network_rule_collection.a.rule.description is not null nor empty, Then azurerm_firewall_network_rule_collection.a.rule.destination_addresses is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_firewall_network_rule_collection.rule.source_addresses == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_firewall_network_rule_collection.rule.description == Existence####azurerm_firewall_network_rule_collection.rule.source_addresses == Existence",
+            "If azurerm_firewall_network_rule_collection.a.rule.description is not null nor empty, Then azurerm_firewall_network_rule_collection.a.rule.source_addresses is not null nor empty",
+            null
+        ]
+    ],
+    "Unequal####azurerm_firewall_network_rule_collection.rule.destination_ports == String####azurerm_firewall_network_rule_collection.rule.destination_ports == String": [
+        [
+            "ATTR####EqualThenUnequal####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_ports == String####azurerm_firewall_network_rule_collection.rule.destination_ports == String",
+            "If azurerm_firewall_network_rule_collection.a.rule.source_addresses == azurerm_firewall_network_rule_collection.a.rule.source_addresses, Then azurerm_firewall_network_rule_collection.a.rule.destination_ports != azurerm_firewall_network_rule_collection.a.rule.destination_ports",
+            null
+        ],
+        [
+            "ATTR####EqualThenUnequal####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_ports == String####azurerm_firewall_network_rule_collection.rule.destination_ports == String",
+            "If azurerm_firewall_network_rule_collection.a.rule.destination_addresses == azurerm_firewall_network_rule_collection.a.rule.destination_addresses, Then azurerm_firewall_network_rule_collection.a.rule.destination_ports != azurerm_firewall_network_rule_collection.a.rule.destination_ports",
+            null
+        ]
+    ],
+    "Unequal####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.destination_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String####azurerm_firewall_network_rule_collection.rule.source_addresses == String",
+            "If azurerm_firewall_network_rule_collection.a.rule.destination_addresses != azurerm_firewall_network_rule_collection.a.rule.destination_addresses, Then azurerm_firewall_network_rule_collection.a.rule.source_addresses != azurerm_firewall_network_rule_collection.a.rule.source_addresses",
+            null
+        ]
+    ]
+}

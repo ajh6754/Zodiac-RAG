@@ -1,0 +1,65 @@
+{
+    "AbsenceComboUp####azurerm_lb.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_nat_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb_nat_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_nat_pool.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_lb_nat_pool.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_lb.sku_tier == Regional": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb_nat_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb_nat_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then there is azurerm_lb.b.sku_tier == Regional",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_lb_nat_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_lb_nat_pool.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_lb_nat_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited",
+            "If azurerm_lb_nat_pool.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.ddos_protection_mode == VirtualNetworkInherited",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_nat_pool.frontend_ip_configuration_name == String####azurerm_lb.frontend_ip_configuration.name == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_lb_nat_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_nat_pool.frontend_ip_configuration_name == String####azurerm_lb.frontend_ip_configuration.name == String",
+            "If azurerm_lb_nat_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb_nat_pool.a.frontend_ip_configuration_name == azurerm_lb.b.frontend_ip_configuration.name",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_lb.frontend_ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_lb_nat_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb_nat_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.frontend_ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_nat_pool.backend_port == String####azurerm_lb_nat_pool.backend_port == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_pool.resource_group_name == String####azurerm_lb_nat_pool.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_lb_nat_pool.backend_port == String####azurerm_lb_nat_pool.backend_port == String",
+            "If both azurerm_lb_nat_pool.a.resource_group_name and azurerm_lb_nat_pool.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_lb_nat_pool.a.backend_port != azurerm_lb_nat_pool.b.backend_port",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_nat_pool.name == String####azurerm_lb_nat_pool.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_pool.resource_group_name == String####azurerm_lb_nat_pool.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_lb_nat_pool.name == String####azurerm_lb_nat_pool.name == String",
+            "If both azurerm_lb_nat_pool.a.resource_group_name and azurerm_lb_nat_pool.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_lb_nat_pool.a.name != azurerm_lb_nat_pool.b.name",
+            null
+        ]
+    ]
+}

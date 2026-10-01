@@ -1,0 +1,14 @@
+{
+    "Reference####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_subnet.service_endpoints == Existence####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String",
+            "If azurerm_subnet.b.service_endpoints is not null nor empty, Then azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_storage_account.network_rules == Existence####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String",
+            "If azurerm_storage_account.a.network_rules is not null nor empty, Then azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id",
+            null
+        ]
+    ]
+}

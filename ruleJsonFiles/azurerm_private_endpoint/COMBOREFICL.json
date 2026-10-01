@@ -1,0 +1,345 @@
+{
+    "CountChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_storage_account.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_storage_account.account_replication_type == Enum####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_storage_account.PLACEHOLDER == String",
+            "If azurerm_storage_account.b.account_replication_type is of certain value, Then the number of azurerm_private_endpoint that could depend on azurerm_storage_account.b is restricted to certain value",
+            null
+        ]
+    ],
+    "CountChild####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_subnet.name == Enum####azurerm_private_endpoint.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_subnet.b.name is of certain value, Then the number of azurerm_private_endpoint that could depend on azurerm_subnet.b is restricted to certain value",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String": [
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If there is azurerm_cosmosdb_account.b.kind == GlobalDocumentDB, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_cosmosdb_account.virtual_network_rule == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If azurerm_cosmosdb_account.b.virtual_network_rule is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_cosmosdb_account.is_virtual_network_filter_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If there is azurerm_cosmosdb_account.b.is_virtual_network_filter_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_cosmosdb_account.cors_rule == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If azurerm_cosmosdb_account.b.cors_rule is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_cosmosdb_account.restore == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If azurerm_cosmosdb_account.b.restore is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_cosmosdb_account.ip_range_filter == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If azurerm_cosmosdb_account.b.ip_range_filter is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_cosmosdb_account.network_acl_bypass_for_azure_services == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If there is azurerm_cosmosdb_account.b.network_acl_bypass_for_azure_services == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_cosmosdb_account.public_network_access_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_cosmosdb_account.id == String",
+            "If there is azurerm_cosmosdb_account.b.public_network_access_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_cosmosdb_account.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String": [
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_mssql_server.azuread_administrator == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If azurerm_mssql_server.b.azuread_administrator is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_mssql_server.public_network_access_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If there is azurerm_mssql_server.b.public_network_access_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_mssql_server.administrator_login_password == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If azurerm_mssql_server.b.administrator_login_password is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_mssql_server.outbound_network_restriction_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If there is azurerm_mssql_server.b.outbound_network_restriction_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_mssql_server.public_network_access_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If there is azurerm_mssql_server.b.public_network_access_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_mssql_server.azuread_administrator == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If azurerm_mssql_server.b.azuread_administrator is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_mssql_server.administrator_login == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_mssql_server.id == String",
+            "If azurerm_mssql_server.b.administrator_login is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_mssql_server.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String": [
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If there is azurerm_postgresql_flexible_server.b.geo_redundant_backup_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_flexible_server.storage_tier == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.storage_tier is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_flexible_server.version == 12####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If there is azurerm_postgresql_flexible_server.b.version == 12, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_flexible_server.administrator_password == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.administrator_password is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_flexible_server.backup_retention_days == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.backup_retention_days is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_flexible_server.create_mode == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.create_mode is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_flexible_server.storage_mb == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.storage_mb is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_flexible_server.maintenance_window == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.maintenance_window is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_flexible_server.version == 13####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If there is azurerm_postgresql_flexible_server.b.version == 13, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_flexible_server.public_network_access_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If there is azurerm_postgresql_flexible_server.b.public_network_access_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_flexible_server.customer_managed_key == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.customer_managed_key is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If there is azurerm_postgresql_flexible_server.b.geo_redundant_backup_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_flexible_server.replication_role == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.replication_role is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_flexible_server.authentication == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.authentication is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_flexible_server.high_availability == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.high_availability is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_flexible_server.auto_grow_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If there is azurerm_postgresql_flexible_server.b.auto_grow_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_flexible_server.administrator_login == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.administrator_login is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_flexible_server.id == String",
+            "If azurerm_postgresql_flexible_server.b.point_in_time_restore_time_in_utc is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_flexible_server.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String": [
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.ssl_minimal_tls_version_enforced == TLS1_2####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.ssl_minimal_tls_version_enforced == TLS1_2, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.public_network_access_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.public_network_access_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_server.restore_point_in_time == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If azurerm_postgresql_server.b.restore_point_in_time is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.geo_redundant_backup_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.geo_redundant_backup_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.auto_grow_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.auto_grow_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_server.administrator_login_password == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If azurerm_postgresql_server.b.administrator_login_password is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_server.backup_retention_days == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If azurerm_postgresql_server.b.backup_retention_days is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_postgresql_server.threat_detection_policy == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If azurerm_postgresql_server.b.threat_detection_policy is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_server.storage_mb == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If azurerm_postgresql_server.b.storage_mb is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.geo_redundant_backup_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.geo_redundant_backup_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.ssl_enforcement_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.ssl_enforcement_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_postgresql_server.administrator_login == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If azurerm_postgresql_server.b.administrator_login is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_postgresql_server.version == 11####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_postgresql_server.id == String",
+            "If there is azurerm_postgresql_server.b.version == 11, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_postgresql_server.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_link_service.id == String": [
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_private_link_service.name == oaaksdemoprivatelinkservice####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_private_link_service.id == String",
+            "If there is azurerm_private_link_service.b.name == oaaksdemoprivatelinkservice, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_private_link_service.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String": [
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_redis_cache.public_network_access_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If there is azurerm_redis_cache.b.public_network_access_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_redis_cache.shard_count == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If azurerm_redis_cache.b.shard_count is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_redis_cache.family == C####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If there is azurerm_redis_cache.b.family == C, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_redis_cache.tenant_settings == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If azurerm_redis_cache.b.tenant_settings is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_redis_cache.enable_non_ssl_port == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If there is azurerm_redis_cache.b.enable_non_ssl_port == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_redis_cache.zones == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If azurerm_redis_cache.b.zones is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboUpThenReference####azurerm_redis_cache.patch_schedule == Absence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_redis_cache.id == String",
+            "If azurerm_redis_cache.b.patch_schedule is null or empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_redis_cache.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String": [
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_storage_account.public_network_access_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If there is azurerm_storage_account.b.public_network_access_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_storage_account.access_tier == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If azurerm_storage_account.b.access_tier is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_storage_account.large_file_share_enabled == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If azurerm_storage_account.b.large_file_share_enabled is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_storage_account.enable_https_traffic_only == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If azurerm_storage_account.b.enable_https_traffic_only is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_storage_account.infrastructure_encryption_enabled == true####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If there is azurerm_storage_account.b.infrastructure_encryption_enabled == true, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_storage_account.network_rules == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If azurerm_storage_account.b.network_rules is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_storage_account.blob_properties == Existence####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If azurerm_storage_account.b.blob_properties is not null nor empty, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_storage_account.allow_nested_items_to_be_public == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If there is azurerm_storage_account.b.allow_nested_items_to_be_public == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_storage_account.cross_tenant_replication_enabled == false####azurerm_private_endpoint.private_service_connection.0.private_connection_resource_id == String####azurerm_storage_account.id == String",
+            "If there is azurerm_storage_account.b.cross_tenant_replication_enabled == false, Then azurerm_private_endpoint.a.private_service_connection.0.private_connection_resource_id depends on azurerm_storage_account.b.id",
+            null
+        ]
+    ]
+}

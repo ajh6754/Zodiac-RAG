@@ -1,0 +1,44 @@
+{
+    "AbsenceComboDown####azurerm_express_route_circuit.authorization_key == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_express_route_circuit.authorization_key == Absence",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_express_route_circuit.a.authorization_key is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_express_route_circuit.name == TestERCircuit": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_express_route_circuit.name == TestERCircuit",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_express_route_circuit.a.name == TestERCircuit",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_express_route_circuit.name == my-expressroute": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_express_route_circuit.name == my-expressroute",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_express_route_circuit.a.name == my-expressroute",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_express_route_circuit.peering_location == Seattle": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_express_route_circuit.peering_location == Seattle",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_express_route_circuit.a.peering_location == Seattle",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_express_route_circuit.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_express_route_circuit.resource_group_name == String####azurerm_resource_group.name == String####azurerm_express_route_circuit.location == String####azurerm_resource_group.location == String",
+            "If azurerm_express_route_circuit.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_express_route_circuit.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ]
+}

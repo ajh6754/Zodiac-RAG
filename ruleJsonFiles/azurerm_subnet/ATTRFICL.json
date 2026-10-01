@@ -1,0 +1,9 @@
+{
+    "CIDRMask####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "ATTR####EnumThenCIDRMask####azurerm_subnet.name == Enum####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet.a.name is of certain value, Then azurerm_subnet.a.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ]
+}

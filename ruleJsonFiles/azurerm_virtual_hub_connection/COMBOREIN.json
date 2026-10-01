@@ -1,0 +1,14 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_virtual_hub.sku == Enum####azurerm_virtual_hub_connection.PLACEHOLDER == String####azurerm_virtual_hub.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_hub.sku == None####azurerm_virtual_hub_connection.PLACEHOLDER == String####azurerm_virtual_hub.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_hub.sku is None, then what is the maximum amount of azurerm_virtual_hub_connection that could depend on azurerm_virtual_hub? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_hub.sku == Standard####azurerm_virtual_hub_connection.PLACEHOLDER == String####azurerm_virtual_hub.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_hub.sku is Standard, then what is the maximum amount of azurerm_virtual_hub_connection that could depend on azurerm_virtual_hub? Please answer with an integer",
+            null
+        ]
+    ]
+}

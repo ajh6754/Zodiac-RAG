@@ -1,0 +1,174 @@
+{
+    "COMBO####EnumComboDownThenCountParent####azurerm_windows_virtual_machine.size == Enum####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2as_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_DS3_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS3_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2s_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B1ls####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ls, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D4lds_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4lds_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B1s####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1s, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_DS1_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS1_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2s_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2s_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_Ds2_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_Ds2_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B1ms####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B1ms, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D4s_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_DS2_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DS2_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B4ms####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B4ms, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B2ms####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2ms, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_DC2as_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC2as_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B2as_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2as_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_E4s_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_E4s_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D4s_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D48s_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48s_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_DC1s_v3####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_DC1s_v3, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2as_v4####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2as_v4, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D4s_v6####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D4s_v6, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D48as_v7####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D48as_v7, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_F2s_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_F2s_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2ads_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ads_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2_v4####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2_v4, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_NV6_Promo####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_NV6_Promo, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D8s_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D8s_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_B2s_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_B2s_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2ls_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ls_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D2ds_v4####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D2ds_v4, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_A4_v2####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_A4_v2, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_windows_virtual_machine.size == Standard_D16s_v5####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If the value of azurerm_windows_virtual_machine.size is Standard_D16s_v5, then what is the maximum amount of azurerm_network_interface that could directly connect to azurerm_windows_virtual_machine? Please answer with an integer",
+            null
+        ]
+    ]
+}

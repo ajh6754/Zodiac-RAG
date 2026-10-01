@@ -1,0 +1,23 @@
+{
+    "Branch####azurerm_lb_outbound_rule.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_lb_outbound_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_outbound_rule.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String",
+            "If azurerm_lb_outbound_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id, Then both azurerm_lb_outbound_rule.a.loadbalancer_id and azurerm_lb_backend_address_pool.b.loadbalancer_id depends on azurerm_lb.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_outbound_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_outbound_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_outbound_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb_outbound_rule.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b could only have a single azurerm_lb_outbound_rule that is azurerm_lb_outbound_rule.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_outbound_rule.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_outbound_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_outbound_rule.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String",
+            "If azurerm_lb_outbound_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id, Then azurerm_lb_backend_address_pool.b could only have a single azurerm_lb_outbound_rule that is azurerm_lb_outbound_rule.a",
+            null
+        ]
+    ]
+}

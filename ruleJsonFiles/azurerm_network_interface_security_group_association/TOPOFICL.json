@@ -1,0 +1,30 @@
+{
+    "Associate####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_interface.id == String####azurerm_network_security_group.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_interface.id == String####azurerm_network_security_group.id == String",
+            "If azurerm_network_interface_security_group_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b and azurerm_network_security_group.c connected or associated with each other via azurerm_network_interface_security_group_association.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_network_interface.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_interface.id == String####azurerm_network_security_group.id == String####azurerm_network_interface.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_network_interface.b and azurerm_network_security_group.c connected or associated with each other via azurerm_network_interface_security_group_association.a, Then both azurerm_network_interface.b.resource_group_name and azurerm_network_security_group.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If azurerm_network_interface_security_group_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b could only have a single azurerm_network_interface_security_group_association that is azurerm_network_interface_security_group_association.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_network_security_group.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_network_security_group.PLACEHOLDER == String",
+            "If azurerm_network_interface_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b could only have a single azurerm_network_interface_security_group_association that is azurerm_network_interface_security_group_association.a",
+            null
+        ]
+    ]
+}

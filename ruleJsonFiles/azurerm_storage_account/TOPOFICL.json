@@ -1,0 +1,30 @@
+{
+    "Branch####azurerm_storage_account.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then both azurerm_storage_account.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_storage_account.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_storage_account.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_storage_account.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_storage_account.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_storage_account.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_storage_account.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_storage_account that is azurerm_storage_account.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_storage_account.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_storage_account.network_rules.0.virtual_network_subnet_ids == String####azurerm_subnet.id == String####azurerm_storage_account.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_storage_account.a.network_rules.0.virtual_network_subnet_ids depends on azurerm_subnet.b.id, Then azurerm_storage_account.a is the only resource that directly depends on azurerm_subnet.b",
+            null
+        ]
+    ]
+}

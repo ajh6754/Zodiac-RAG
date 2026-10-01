@@ -1,0 +1,30 @@
+{
+    "Associate####azurerm_subnet_nat_gateway_association.nat_gateway_id == String####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_nat_gateway.id == String####azurerm_subnet.id == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_subnet_nat_gateway_association.nat_gateway_id == String####azurerm_nat_gateway.id == String####azurerm_subnet_nat_gateway_association.nat_gateway_id == String####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_nat_gateway.id == String####azurerm_subnet.id == String",
+            "If azurerm_subnet_nat_gateway_association.a.nat_gateway_id depends on azurerm_nat_gateway.b.id, Then azurerm_nat_gateway.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_nat_gateway_association.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_nat_gateway.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_subnet_nat_gateway_association.nat_gateway_id == String####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_nat_gateway.id == String####azurerm_subnet.id == String####azurerm_nat_gateway.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_nat_gateway.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_nat_gateway_association.a, Then both azurerm_nat_gateway.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_nat_gateway.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_subnet_nat_gateway_association.nat_gateway_id == String####azurerm_nat_gateway.id == String####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_nat_gateway.PLACEHOLDER == String",
+            "If azurerm_subnet_nat_gateway_association.a.nat_gateway_id depends on azurerm_nat_gateway.b.id, Then azurerm_nat_gateway.b could only have a single azurerm_subnet_nat_gateway_association that is azurerm_subnet_nat_gateway_association.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_subnet_nat_gateway_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet_nat_gateway_association.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_subnet_nat_gateway_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_subnet_nat_gateway_association that is azurerm_subnet_nat_gateway_association.a",
+            null
+        ]
+    ]
+}

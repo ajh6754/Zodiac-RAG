@@ -1,0 +1,28 @@
+{
+    "Associate####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.a.domain_name_label depends on azurerm_resource_group.b.name, Then both azurerm_resource_group.b and azurerm_resource_group.c are directly connected to azurerm_public_ip.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_public_ip.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String",
+            "If azurerm_public_ip.a.domain_name_label depends on azurerm_resource_group.b.name, Then azurerm_public_ip.a is the only resource that directly depends on azurerm_resource_group.b",
+            null
+        ]
+    ],
+    "Intra####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenIntra####azurerm_public_ip.domain_name_label == String####azurerm_resource_group.name == String####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_public_ip.a.domain_name_label depends on azurerm_resource_group.b.name, Then both azurerm_public_ip.a.domain_name_label and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ],
+        [
+            "TOPO####AssociateThenIntra####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_public_ip.domain_name_label == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If both azurerm_resource_group.b and azurerm_resource_group.c are directly connected to azurerm_public_ip.a, Then both azurerm_public_ip.a.domain_name_label and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ]
+}

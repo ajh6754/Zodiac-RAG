@@ -1,0 +1,335 @@
+{
+    "AbsenceComboDown####azurerm_postgresql_flexible_server.create_mode == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.create_mode == Absence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.create_mode is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_postgresql_flexible_server.customer_managed_key == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.customer_managed_key == Absence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.customer_managed_key == Absence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.customer_managed_key == Absence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.customer_managed_key is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_postgresql_flexible_server.maintenance_window == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.maintenance_window == Absence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.maintenance_window is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.point_in_time_restore_time_in_utc == Absence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.point_in_time_restore_time_in_utc is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_postgresql_flexible_server.replication_role == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.replication_role == Absence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.replication_role is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.replication_role == Absence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.replication_role is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.replication_role == Absence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.replication_role is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_postgresql_flexible_server.create_mode == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.create_mode == Absence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.b.create_mode is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_postgresql_flexible_server.auto_grow_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.auto_grow_enabled == false",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_postgresql_flexible_server.a.auto_grow_enabled == false",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == false": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == false",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled == false",
+            null
+        ],
+        [
+            "COMBO####NegationThenConstantComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.geo_redundant_backup_enabled == false",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then there is azurerm_postgresql_flexible_server.a.geo_redundant_backup_enabled == false",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.administrator_login == String####azurerm_postgresql_flexible_server.administrator_login == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.administrator_login == String####azurerm_postgresql_flexible_server.administrator_login == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.administrator_login == azurerm_postgresql_flexible_server.b.administrator_login",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.administrator_login == String####azurerm_postgresql_flexible_server.administrator_login == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a.administrator_login == azurerm_postgresql_flexible_server.b.administrator_login",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.administrator_password == String####azurerm_postgresql_flexible_server.administrator_password == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.administrator_password == String####azurerm_postgresql_flexible_server.administrator_password == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.administrator_password == azurerm_postgresql_flexible_server.b.administrator_password",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.location == String####azurerm_postgresql_flexible_server.location == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.location == String####azurerm_postgresql_flexible_server.location == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.location == azurerm_postgresql_flexible_server.b.location",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.location == String####azurerm_postgresql_flexible_server.location == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a.location == azurerm_postgresql_flexible_server.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_postgresql_flexible_server.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_postgresql_flexible_server.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_postgresql_flexible_server.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.sku_name == String####azurerm_postgresql_flexible_server.sku_name == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.sku_name == String####azurerm_postgresql_flexible_server.sku_name == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.sku_name == azurerm_postgresql_flexible_server.b.sku_name",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.sku_name == String####azurerm_postgresql_flexible_server.sku_name == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a.sku_name == azurerm_postgresql_flexible_server.b.sku_name",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.storage_mb == String####azurerm_postgresql_flexible_server.storage_mb == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.storage_mb == String####azurerm_postgresql_flexible_server.storage_mb == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a.storage_mb == azurerm_postgresql_flexible_server.b.storage_mb",
+            null
+        ],
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.storage_mb == String####azurerm_postgresql_flexible_server.storage_mb == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.storage_mb == azurerm_postgresql_flexible_server.b.storage_mb",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.version == String####azurerm_postgresql_flexible_server.version == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.version == String####azurerm_postgresql_flexible_server.version == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.version == azurerm_postgresql_flexible_server.b.version",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.version == String####azurerm_postgresql_flexible_server.version == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a.version == azurerm_postgresql_flexible_server.b.version",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_postgresql_flexible_server.zone == String####azurerm_postgresql_flexible_server.zone == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.zone == String####azurerm_postgresql_flexible_server.zone == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.zone == azurerm_postgresql_flexible_server.b.zone",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.administrator_login == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.administrator_login == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.administrator_login == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.administrator_login == Existence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.administrator_login is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.administrator_password == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.administrator_password == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.administrator_password is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.administrator_password == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id depends on azurerm_subnet.b.id, Then azurerm_postgresql_flexible_server.a.administrator_password is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.administrator_password == Existence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.administrator_password is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.administrator_password == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.administrator_password is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.authentication == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.authentication == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.authentication is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.backup_retention_days == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.backup_retention_days == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.backup_retention_days is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.create_mode == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.create_mode == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a.create_mode is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.storage_mb == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.storage_mb == Existence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.storage_mb is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_postgresql_flexible_server.storage_tier == Existence": [
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id is null (i.e. it does not refer to azurerm_subnet.id), Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenExistenceComboDown####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.source_server_id is null (i.e. it does not refer to azurerm_postgresql_flexible_server.id), Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.storage_tier == Existence",
+            "If azurerm_postgresql_flexible_server.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_postgresql_flexible_server.a.storage_tier is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_subnet.delegation == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.delegation == Existence",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.delegation is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_postgresql_flexible_server.administrator_password == String####azurerm_postgresql_flexible_server.administrator_password == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.administrator_password == String####azurerm_postgresql_flexible_server.administrator_password == String",
+            "If both azurerm_postgresql_flexible_server.a.resource_group_name and azurerm_postgresql_flexible_server.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_postgresql_flexible_server.a.administrator_password != azurerm_postgresql_flexible_server.b.administrator_password",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_postgresql_flexible_server.name == String####azurerm_postgresql_flexible_server.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.name == String####azurerm_postgresql_flexible_server.name == String",
+            "If both azurerm_postgresql_flexible_server.a.resource_group_name and azurerm_postgresql_flexible_server.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_postgresql_flexible_server.a.name != azurerm_postgresql_flexible_server.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.name == String####azurerm_postgresql_flexible_server.name == String",
+            "If both azurerm_postgresql_flexible_server.a.delegated_subnet_id and azurerm_postgresql_flexible_server.b.delegated_subnet_id depends on azurerm_subnet.c, Then azurerm_postgresql_flexible_server.a.name != azurerm_postgresql_flexible_server.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_postgresql_flexible_server.zone == String####azurerm_postgresql_flexible_server.zone == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_postgresql_flexible_server.zone == String####azurerm_postgresql_flexible_server.zone == String",
+            "If both azurerm_postgresql_flexible_server.a.resource_group_name and azurerm_postgresql_flexible_server.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_postgresql_flexible_server.a.zone != azurerm_postgresql_flexible_server.b.zone",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "Absence####azurerm_lb.edge_zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_lb.frontend_ip_configuration == Existence####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb.a.frontend_ip_configuration is not null nor empty, Then azurerm_lb.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_lb.sku_tier == Regional####azurerm_lb.edge_zone == Absence",
+            "If there is azurerm_lb.a.sku_tier == Regional, Then azurerm_lb.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_lb.sku == Standard": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb.sku_tier == Global####azurerm_lb.sku == Standard",
+            "If there is azurerm_lb.a.sku_tier == Global, Then there is azurerm_lb.a.sku == Standard",
+            null
+        ]
+    ],
+    "Existence####azurerm_lb.frontend_ip_configuration == Existence": [
+        [
+            "ATTR####UnequalThenExistence####azurerm_lb.frontend_ip_configuration.name == String####azurerm_lb.frontend_ip_configuration.name == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb.a.frontend_ip_configuration.name != azurerm_lb.a.frontend_ip_configuration.name, Then azurerm_lb.a.frontend_ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_lb.sku_tier == Global####azurerm_lb.frontend_ip_configuration == Existence",
+            "If there is azurerm_lb.a.sku_tier == Global, Then azurerm_lb.a.frontend_ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_lb.sku_tier == Regional####azurerm_lb.frontend_ip_configuration == Existence",
+            "If there is azurerm_lb.a.sku_tier == Regional, Then azurerm_lb.a.frontend_ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_lb.frontend_ip_configuration.private_ip_address == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_lb.frontend_ip_configuration.private_ip_address_allocation == Existence####azurerm_lb.frontend_ip_configuration.private_ip_address == Existence",
+            "If azurerm_lb.a.frontend_ip_configuration.private_ip_address_allocation is not null nor empty, Then azurerm_lb.a.frontend_ip_configuration.private_ip_address is not null nor empty",
+            null
+        ]
+    ]
+}

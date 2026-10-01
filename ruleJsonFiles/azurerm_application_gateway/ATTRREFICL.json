@@ -1,0 +1,541 @@
+{
+    "Absence####azurerm_application_gateway.autoscale_configuration == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.autoscale_configuration == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.autoscale_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.autoscale_configuration == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.autoscale_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.url_path_map == Existence####azurerm_application_gateway.autoscale_configuration == Absence",
+            "If azurerm_application_gateway.a.url_path_map is not null nor empty, Then azurerm_application_gateway.a.autoscale_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.custom_error_configuration == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.custom_error_configuration == Absence",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.custom_error_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.global == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.global == Absence",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.global is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.private_link_configuration == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.private_link_configuration == Absence",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.private_link_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.probe == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.probe == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.probe is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.redirect_configuration == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.rewrite_rule_set == Existence####azurerm_application_gateway.redirect_configuration == Absence",
+            "If azurerm_application_gateway.a.rewrite_rule_set is not null nor empty, Then azurerm_application_gateway.a.redirect_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.redirect_configuration == Absence",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.redirect_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.redirect_configuration == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.redirect_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.waf_configuration == Existence####azurerm_application_gateway.redirect_configuration == Absence",
+            "If azurerm_application_gateway.a.waf_configuration is not null nor empty, Then azurerm_application_gateway.a.redirect_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.redirect_configuration == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.redirect_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.rewrite_rule_set == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.enable_http2 == Existence####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If azurerm_application_gateway.a.enable_http2 is not null nor empty, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.waf_configuration == Existence####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If azurerm_application_gateway.a.waf_configuration is not null nor empty, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.tier == WAF_v2####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If there is azurerm_application_gateway.a.sku.tier == WAF_v2, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == WAF_v2####azurerm_application_gateway.rewrite_rule_set == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == WAF_v2, Then azurerm_application_gateway.a.rewrite_rule_set is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.ssl_profile == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.ssl_profile == Absence",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.ssl_profile is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.url_path_map == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.url_path_map == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.url_path_map is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.waf_configuration == Existence####azurerm_application_gateway.url_path_map == Absence",
+            "If azurerm_application_gateway.a.waf_configuration is not null nor empty, Then azurerm_application_gateway.a.url_path_map is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.url_path_map == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.url_path_map is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.autoscale_configuration == Existence####azurerm_application_gateway.url_path_map == Absence",
+            "If azurerm_application_gateway.a.autoscale_configuration is not null nor empty, Then azurerm_application_gateway.a.url_path_map is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == WAF_v2####azurerm_application_gateway.url_path_map == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == WAF_v2, Then azurerm_application_gateway.a.url_path_map is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.tier == WAF_v2####azurerm_application_gateway.url_path_map == Absence",
+            "If there is azurerm_application_gateway.a.sku.tier == WAF_v2, Then azurerm_application_gateway.a.url_path_map is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.waf_configuration == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.enable_http2 == Existence####azurerm_application_gateway.waf_configuration == Absence",
+            "If azurerm_application_gateway.a.enable_http2 is not null nor empty, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.waf_configuration == Absence",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.waf_configuration == Absence",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.waf_configuration == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.url_path_map == Existence####azurerm_application_gateway.waf_configuration == Absence",
+            "If azurerm_application_gateway.a.url_path_map is not null nor empty, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.waf_configuration == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.rewrite_rule_set == Existence####azurerm_application_gateway.waf_configuration == Absence",
+            "If azurerm_application_gateway.a.rewrite_rule_set is not null nor empty, Then azurerm_application_gateway.a.waf_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_application_gateway.zones == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.zones == Absence",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then azurerm_application_gateway.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.zones == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.zones == Absence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then azurerm_application_gateway.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.zones == Absence",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.zones is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.backend_http_settings.cookie_based_affinity == Disabled": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.probe.protocol == Https####azurerm_application_gateway.backend_http_settings.cookie_based_affinity == Disabled",
+            "If there is azurerm_application_gateway.a.probe.protocol == Https, Then there is azurerm_application_gateway.a.backend_http_settings.cookie_based_affinity == Disabled",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.backend_http_settings.protocol == Http": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.backend_http_settings.protocol == Http",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.probe.protocol == Http####azurerm_application_gateway.backend_http_settings.protocol == Http",
+            "If there is azurerm_application_gateway.a.probe.protocol == Http, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.enabled == false####azurerm_application_gateway.backend_http_settings.protocol == Http",
+            "If there is azurerm_application_gateway.a.waf_configuration.enabled == false, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Prevention####azurerm_application_gateway.backend_http_settings.protocol == Http",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Prevention, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Http",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.backend_http_settings.protocol == Https": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.http_listener.protocol == Https####azurerm_application_gateway.backend_http_settings.protocol == Https",
+            "If there is azurerm_application_gateway.a.http_listener.protocol == Https, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Https",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Static####azurerm_application_gateway.backend_http_settings.protocol == Https",
+            "If there is azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation == Static, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Https",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Detection####azurerm_application_gateway.backend_http_settings.protocol == Https",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Detection, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Https",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.probe.protocol == Https####azurerm_application_gateway.backend_http_settings.protocol == Https",
+            "If there is azurerm_application_gateway.a.probe.protocol == Https, Then there is azurerm_application_gateway.a.backend_http_settings.protocol == Https",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Dynamic": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.request_routing_rule.rule_type == PathBasedRouting####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            "If there is azurerm_application_gateway.a.request_routing_rule.rule_type == PathBasedRouting, Then there is azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == WAF_v2####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            "If there is azurerm_application_gateway.a.sku.name == WAF_v2, Then there is azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.tier == WAF_v2####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            "If there is azurerm_application_gateway.a.sku.tier == WAF_v2, Then there is azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.http_listener.protocol == Https####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            "If there is azurerm_application_gateway.a.http_listener.protocol == Https, Then there is azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then there is azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation == Dynamic",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.http_listener.protocol == Http": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.probe.protocol == Https####azurerm_application_gateway.http_listener.protocol == Http",
+            "If there is azurerm_application_gateway.a.probe.protocol == Https, Then there is azurerm_application_gateway.a.http_listener.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.http_listener.protocol == Http",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then there is azurerm_application_gateway.a.http_listener.protocol == Http",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.probe.protocol == Http": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.probe.protocol == Http",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then there is azurerm_application_gateway.a.probe.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.probe.protocol == Http",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then there is azurerm_application_gateway.a.probe.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.probe.protocol == Http",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then there is azurerm_application_gateway.a.probe.protocol == Http",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Prevention####azurerm_application_gateway.probe.protocol == Http",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Prevention, Then there is azurerm_application_gateway.a.probe.protocol == Http",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.probe.protocol == Https": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Detection####azurerm_application_gateway.probe.protocol == Https",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Detection, Then there is azurerm_application_gateway.a.probe.protocol == Https",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.request_routing_rule.rule_type == Basic": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == WAF_v2####azurerm_application_gateway.request_routing_rule.rule_type == Basic",
+            "If there is azurerm_application_gateway.a.sku.name == WAF_v2, Then there is azurerm_application_gateway.a.request_routing_rule.rule_type == Basic",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.tier == WAF_v2####azurerm_application_gateway.request_routing_rule.rule_type == Basic",
+            "If there is azurerm_application_gateway.a.sku.tier == WAF_v2, Then there is azurerm_application_gateway.a.request_routing_rule.rule_type == Basic",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.request_routing_rule.rule_type == Basic",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then there is azurerm_application_gateway.a.request_routing_rule.rule_type == Basic",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.sku.name == Standard_Small": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.enabled == false####azurerm_application_gateway.sku.name == Standard_Small",
+            "If there is azurerm_application_gateway.a.waf_configuration.enabled == false, Then there is azurerm_application_gateway.a.sku.name == Standard_Small",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.sku.name == Standard_v2": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.sku.name == Standard_v2",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then there is azurerm_application_gateway.a.sku.name == Standard_v2",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.sku.name == WAF_v2": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Detection####azurerm_application_gateway.sku.name == WAF_v2",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Detection, Then there is azurerm_application_gateway.a.sku.name == WAF_v2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.enabled == true####azurerm_application_gateway.sku.name == WAF_v2",
+            "If there is azurerm_application_gateway.a.waf_configuration.enabled == true, Then there is azurerm_application_gateway.a.sku.name == WAF_v2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.sku.tier == WAF_v2####azurerm_application_gateway.sku.name == WAF_v2",
+            "If there is azurerm_application_gateway.a.sku.tier == WAF_v2, Then there is azurerm_application_gateway.a.sku.name == WAF_v2",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.sku.tier == WAF_v2": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.enabled == true####azurerm_application_gateway.sku.tier == WAF_v2",
+            "If there is azurerm_application_gateway.a.waf_configuration.enabled == true, Then there is azurerm_application_gateway.a.sku.tier == WAF_v2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Detection####azurerm_application_gateway.sku.tier == WAF_v2",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Detection, Then there is azurerm_application_gateway.a.sku.tier == WAF_v2",
+            null
+        ]
+    ],
+    "Constant####azurerm_application_gateway.waf_configuration.enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_application_gateway.waf_configuration.firewall_mode == Detection####azurerm_application_gateway.waf_configuration.enabled == true",
+            "If there is azurerm_application_gateway.a.waf_configuration.firewall_mode == Detection, Then there is azurerm_application_gateway.a.waf_configuration.enabled == true",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.autoscale_configuration == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.enable_http2 == Existence####azurerm_application_gateway.autoscale_configuration == Existence",
+            "If azurerm_application_gateway.a.enable_http2 is not null nor empty, Then azurerm_application_gateway.a.autoscale_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.zones == Existence####azurerm_application_gateway.autoscale_configuration == Existence",
+            "If azurerm_application_gateway.a.zones is not null nor empty, Then azurerm_application_gateway.a.autoscale_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.rewrite_rule_set == Existence####azurerm_application_gateway.autoscale_configuration == Existence",
+            "If azurerm_application_gateway.a.rewrite_rule_set is not null nor empty, Then azurerm_application_gateway.a.autoscale_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.autoscale_configuration == Existence",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.autoscale_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.enable_http2 == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.enable_http2 == Existence",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.enable_http2 is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.frontend_ip_configuration.private_ip_address == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.frontend_ip_configuration.private_ip_address == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.frontend_ip_configuration.private_ip_address == Existence",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####UnequalThenExistence####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == String####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == String####azurerm_application_gateway.frontend_ip_configuration.private_ip_address == Existence",
+            "If azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation != azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation, Then azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.probe == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.zones == Existence####azurerm_application_gateway.probe == Existence",
+            "If azurerm_application_gateway.a.zones is not null nor empty, Then azurerm_application_gateway.a.probe is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.probe == Existence",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.probe is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.rewrite_rule_set == Existence####azurerm_application_gateway.probe == Existence",
+            "If azurerm_application_gateway.a.rewrite_rule_set is not null nor empty, Then azurerm_application_gateway.a.probe is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.probe == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.probe is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.probe.match == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.probe.match == Existence",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then azurerm_application_gateway.a.probe.match is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.probe.match == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then azurerm_application_gateway.a.probe.match is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.request_routing_rule.priority == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.request_routing_rule.priority == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then azurerm_application_gateway.a.request_routing_rule.priority is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.request_routing_rule.priority == Existence",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then azurerm_application_gateway.a.request_routing_rule.priority is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.rewrite_rule_set.rewrite_rule == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.tier == Standard_v2####azurerm_application_gateway.rewrite_rule_set.rewrite_rule == Existence",
+            "If there is azurerm_application_gateway.a.sku.tier == Standard_v2, Then azurerm_application_gateway.a.rewrite_rule_set.rewrite_rule is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_v2####azurerm_application_gateway.rewrite_rule_set.rewrite_rule == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_v2, Then azurerm_application_gateway.a.rewrite_rule_set.rewrite_rule is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.sku.capacity == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.sku.capacity == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.sku.capacity is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.ssl_policy.cipher_suites == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_application_gateway.ssl_policy.min_protocol_version == Existence####azurerm_application_gateway.ssl_policy.cipher_suites == Existence",
+            "If azurerm_application_gateway.a.ssl_policy.min_protocol_version is not null nor empty, Then azurerm_application_gateway.a.ssl_policy.cipher_suites is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.waf_configuration == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.waf_configuration == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.waf_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_application_gateway.waf_configuration.disabled_rule_group == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_application_gateway.sku.name == Standard_Small####azurerm_application_gateway.waf_configuration.disabled_rule_group == Existence",
+            "If there is azurerm_application_gateway.a.sku.name == Standard_Small, Then azurerm_application_gateway.a.waf_configuration.disabled_rule_group is not null nor empty",
+            null
+        ]
+    ],
+    "Unequal####azurerm_application_gateway.frontend_ip_configuration.name == String####azurerm_application_gateway.frontend_ip_configuration.name == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == String####azurerm_application_gateway.frontend_ip_configuration.private_ip_address_allocation == String####azurerm_application_gateway.frontend_ip_configuration.name == String####azurerm_application_gateway.frontend_ip_configuration.name == String",
+            "If azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation != azurerm_application_gateway.a.frontend_ip_configuration.private_ip_address_allocation, Then azurerm_application_gateway.a.frontend_ip_configuration.name != azurerm_application_gateway.a.frontend_ip_configuration.name",
+            null
+        ]
+    ],
+    "Unequal####azurerm_application_gateway.frontend_port.name == String####azurerm_application_gateway.frontend_port.name == String": [
+        [
+            "ATTR####UnequalThenUnequal####azurerm_application_gateway.frontend_port.port == String####azurerm_application_gateway.frontend_port.port == String####azurerm_application_gateway.frontend_port.name == String####azurerm_application_gateway.frontend_port.name == String",
+            "If azurerm_application_gateway.a.frontend_port.port != azurerm_application_gateway.a.frontend_port.port, Then azurerm_application_gateway.a.frontend_port.name != azurerm_application_gateway.a.frontend_port.name",
+            null
+        ]
+    ]
+}

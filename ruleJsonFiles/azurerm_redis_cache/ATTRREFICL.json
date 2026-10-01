@@ -1,0 +1,234 @@
+{
+    "Absence####azurerm_redis_cache.patch_schedule == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.replicas_per_primary == Existence####azurerm_redis_cache.patch_schedule == Absence",
+            "If azurerm_redis_cache.a.replicas_per_primary is not null nor empty, Then azurerm_redis_cache.a.patch_schedule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.shard_count == Existence####azurerm_redis_cache.patch_schedule == Absence",
+            "If azurerm_redis_cache.a.shard_count is not null nor empty, Then azurerm_redis_cache.a.patch_schedule is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.replicas_per_master == Existence####azurerm_redis_cache.patch_schedule == Absence",
+            "If azurerm_redis_cache.a.replicas_per_master is not null nor empty, Then azurerm_redis_cache.a.patch_schedule is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_redis_cache.shard_count == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.patch_schedule == Existence####azurerm_redis_cache.shard_count == Absence",
+            "If azurerm_redis_cache.a.patch_schedule is not null nor empty, Then azurerm_redis_cache.a.shard_count is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.zones == Existence####azurerm_redis_cache.shard_count == Absence",
+            "If azurerm_redis_cache.a.zones is not null nor empty, Then azurerm_redis_cache.a.shard_count is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_redis_cache.tenant_settings == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.redis_configuration == Existence####azurerm_redis_cache.tenant_settings == Absence",
+            "If azurerm_redis_cache.a.redis_configuration is not null nor empty, Then azurerm_redis_cache.a.tenant_settings is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.replicas_per_primary == Existence####azurerm_redis_cache.tenant_settings == Absence",
+            "If azurerm_redis_cache.a.replicas_per_primary is not null nor empty, Then azurerm_redis_cache.a.tenant_settings is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.replicas_per_master == Existence####azurerm_redis_cache.tenant_settings == Absence",
+            "If azurerm_redis_cache.a.replicas_per_master is not null nor empty, Then azurerm_redis_cache.a.tenant_settings is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_redis_cache.zones == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.shard_count == Existence####azurerm_redis_cache.zones == Absence",
+            "If azurerm_redis_cache.a.shard_count is not null nor empty, Then azurerm_redis_cache.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.replicas_per_master == Existence####azurerm_redis_cache.zones == Absence",
+            "If azurerm_redis_cache.a.replicas_per_master is not null nor empty, Then azurerm_redis_cache.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_redis_cache.replicas_per_primary == Existence####azurerm_redis_cache.zones == Absence",
+            "If azurerm_redis_cache.a.replicas_per_primary is not null nor empty, Then azurerm_redis_cache.a.zones is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.enable_non_ssl_port == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday####azurerm_redis_cache.enable_non_ssl_port == false",
+            "If there is azurerm_redis_cache.a.patch_schedule.day_of_week == Tuesday, Then there is azurerm_redis_cache.a.enable_non_ssl_port == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.public_network_access_enabled == false####azurerm_redis_cache.enable_non_ssl_port == false",
+            "If there is azurerm_redis_cache.a.public_network_access_enabled == false, Then there is azurerm_redis_cache.a.enable_non_ssl_port == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.family == P####azurerm_redis_cache.enable_non_ssl_port == false",
+            "If there is azurerm_redis_cache.a.family == P, Then there is azurerm_redis_cache.a.enable_non_ssl_port == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.family == C": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.public_network_access_enabled == true####azurerm_redis_cache.family == C",
+            "If there is azurerm_redis_cache.a.public_network_access_enabled == true, Then there is azurerm_redis_cache.a.family == C",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.non_ssl_port_enabled == true####azurerm_redis_cache.family == C",
+            "If there is azurerm_redis_cache.a.non_ssl_port_enabled == true, Then there is azurerm_redis_cache.a.family == C",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == allkeys-lru####azurerm_redis_cache.family == C",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == allkeys-lru, Then there is azurerm_redis_cache.a.family == C",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS####azurerm_redis_cache.family == C",
+            "If there is azurerm_redis_cache.a.redis_configuration.data_persistence_authentication_method == SAS, Then there is azurerm_redis_cache.a.family == C",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == noeviction####azurerm_redis_cache.family == C",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == noeviction, Then there is azurerm_redis_cache.a.family == C",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.family == P": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday####azurerm_redis_cache.family == P",
+            "If there is azurerm_redis_cache.a.patch_schedule.day_of_week == Tuesday, Then there is azurerm_redis_cache.a.family == P",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.non_ssl_port_enabled == false": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == allkeys-lru####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == allkeys-lru, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.public_network_access_enabled == false####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If there is azurerm_redis_cache.a.public_network_access_enabled == false, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If there is azurerm_redis_cache.a.patch_schedule.day_of_week == Tuesday, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == noeviction####azurerm_redis_cache.non_ssl_port_enabled == false",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == noeviction, Then there is azurerm_redis_cache.a.non_ssl_port_enabled == false",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday",
+            "If there is azurerm_redis_cache.a.redis_configuration.data_persistence_authentication_method == SAS, Then there is azurerm_redis_cache.a.patch_schedule.day_of_week == Tuesday",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == allkeys-lru####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == allkeys-lru, Then there is azurerm_redis_cache.a.patch_schedule.day_of_week == Tuesday",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.public_network_access_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == allkeys-lru####azurerm_redis_cache.public_network_access_enabled == true",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == allkeys-lru, Then there is azurerm_redis_cache.a.public_network_access_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS####azurerm_redis_cache.public_network_access_enabled == true",
+            "If there is azurerm_redis_cache.a.redis_configuration.data_persistence_authentication_method == SAS, Then there is azurerm_redis_cache.a.public_network_access_enabled == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == noeviction####azurerm_redis_cache.public_network_access_enabled == true",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == noeviction, Then there is azurerm_redis_cache.a.public_network_access_enabled == true",
+            null
+        ]
+    ],
+    "Constant####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == volatile-lru####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == volatile-lru, Then there is azurerm_redis_cache.a.redis_configuration.data_persistence_authentication_method == SAS",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_redis_cache.redis_configuration.maxmemory_policy == allkeys-lru####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS",
+            "If there is azurerm_redis_cache.a.redis_configuration.maxmemory_policy == allkeys-lru, Then there is azurerm_redis_cache.a.redis_configuration.data_persistence_authentication_method == SAS",
+            null
+        ]
+    ],
+    "Existence####azurerm_redis_cache.patch_schedule == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.zones == Existence####azurerm_redis_cache.patch_schedule == Existence",
+            "If azurerm_redis_cache.a.zones is not null nor empty, Then azurerm_redis_cache.a.patch_schedule is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_redis_cache.patch_schedule.day_of_week == Tuesday####azurerm_redis_cache.patch_schedule == Existence",
+            "If there is azurerm_redis_cache.a.patch_schedule.day_of_week == Tuesday, Then azurerm_redis_cache.a.patch_schedule is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_redis_cache.redis_configuration == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.replicas_per_primary == Existence####azurerm_redis_cache.redis_configuration == Existence",
+            "If azurerm_redis_cache.a.replicas_per_primary is not null nor empty, Then azurerm_redis_cache.a.redis_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_redis_cache.redis_configuration.data_persistence_authentication_method == SAS####azurerm_redis_cache.redis_configuration == Existence",
+            "If there is azurerm_redis_cache.a.redis_configuration.data_persistence_authentication_method == SAS, Then azurerm_redis_cache.a.redis_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.replicas_per_master == Existence####azurerm_redis_cache.redis_configuration == Existence",
+            "If azurerm_redis_cache.a.replicas_per_master is not null nor empty, Then azurerm_redis_cache.a.redis_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_redis_cache.redis_configuration.maxmemory_delta == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.redis_configuration.maxmemory_reserved == Existence####azurerm_redis_cache.redis_configuration.maxmemory_delta == Existence",
+            "If azurerm_redis_cache.a.redis_configuration.maxmemory_reserved is not null nor empty, Then azurerm_redis_cache.a.redis_configuration.maxmemory_delta is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_redis_cache.replicas_per_master == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.shard_count == Existence####azurerm_redis_cache.replicas_per_master == Existence",
+            "If azurerm_redis_cache.a.shard_count is not null nor empty, Then azurerm_redis_cache.a.replicas_per_master is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.replicas_per_primary == Existence####azurerm_redis_cache.replicas_per_master == Existence",
+            "If azurerm_redis_cache.a.replicas_per_primary is not null nor empty, Then azurerm_redis_cache.a.replicas_per_master is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_redis_cache.replicas_per_primary == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_redis_cache.shard_count == Existence####azurerm_redis_cache.replicas_per_primary == Existence",
+            "If azurerm_redis_cache.a.shard_count is not null nor empty, Then azurerm_redis_cache.a.replicas_per_primary is not null nor empty",
+            null
+        ]
+    ]
+}

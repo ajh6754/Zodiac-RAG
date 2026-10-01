@@ -1,0 +1,167 @@
+{
+    "Absence####azurerm_managed_disk.edge_zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.edge_zone == Absence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.edge_zone == Absence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_iops_read_write == Existence####azurerm_managed_disk.edge_zone == Absence",
+            "If azurerm_managed_disk.a.disk_iops_read_write is not null nor empty, Then azurerm_managed_disk.a.edge_zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.edge_zone == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_managed_disk.encryption_settings == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.encryption_settings == Absence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.encryption_settings is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.encryption_settings == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.encryption_settings is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_iops_read_write == Existence####azurerm_managed_disk.encryption_settings == Absence",
+            "If azurerm_managed_disk.a.disk_iops_read_write is not null nor empty, Then azurerm_managed_disk.a.encryption_settings is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.encryption_settings == Absence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.encryption_settings is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_managed_disk.hyper_v_generation == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.hyper_v_generation == Absence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.hyper_v_generation is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.hyper_v_generation == Absence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.hyper_v_generation is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.hyper_v_generation == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.hyper_v_generation is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_iops_read_write == Existence####azurerm_managed_disk.hyper_v_generation == Absence",
+            "If azurerm_managed_disk.a.disk_iops_read_write is not null nor empty, Then azurerm_managed_disk.a.hyper_v_generation is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_managed_disk.os_type == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.os_type == Absence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.os_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.os_type == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.os_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_iops_read_write == Existence####azurerm_managed_disk.os_type == Absence",
+            "If azurerm_managed_disk.a.disk_iops_read_write is not null nor empty, Then azurerm_managed_disk.a.os_type is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_managed_disk.security_type == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_iops_read_write == Existence####azurerm_managed_disk.security_type == Absence",
+            "If azurerm_managed_disk.a.disk_iops_read_write is not null nor empty, Then azurerm_managed_disk.a.security_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.security_type == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.security_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.security_type == Absence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.security_type is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.security_type == Absence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.security_type is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_managed_disk.upload_size_bytes == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_iops_read_write == Existence####azurerm_managed_disk.upload_size_bytes == Absence",
+            "If azurerm_managed_disk.a.disk_iops_read_write is not null nor empty, Then azurerm_managed_disk.a.upload_size_bytes is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.upload_size_bytes == Absence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.upload_size_bytes is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.upload_size_bytes == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.upload_size_bytes is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.upload_size_bytes == Absence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.upload_size_bytes is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_managed_disk.zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.os_type == Existence####azurerm_managed_disk.zone == Absence",
+            "If azurerm_managed_disk.a.os_type is not null nor empty, Then azurerm_managed_disk.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.zone == Absence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.zone is null or empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_managed_disk.disk_iops_read_write == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_managed_disk.disk_mbps_read_write == Existence####azurerm_managed_disk.disk_iops_read_write == Existence",
+            "If azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty, Then azurerm_managed_disk.a.disk_iops_read_write is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.disk_iops_read_write == Existence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.disk_iops_read_write is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_managed_disk.disk_mbps_read_write == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_managed_disk.disk_size_gb == Existence####azurerm_managed_disk.disk_mbps_read_write == Existence",
+            "If azurerm_managed_disk.a.disk_size_gb is not null nor empty, Then azurerm_managed_disk.a.disk_mbps_read_write is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_managed_disk.disk_size_gb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_managed_disk.max_shares == Existence####azurerm_managed_disk.disk_size_gb == Existence",
+            "If azurerm_managed_disk.a.max_shares is not null nor empty, Then azurerm_managed_disk.a.disk_size_gb is not null nor empty",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "CountChild####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_lb.sku == Enum####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb.b.sku is of certain value, Then the number of azurerm_lb_rule that could depend on azurerm_lb.b is restricted to certain value",
+            null
+        ]
+    ],
+    "CountChild####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenCountChild####azurerm_lb_probe.protocol == Enum####azurerm_lb_rule.PLACEHOLDER == String####azurerm_lb_probe.PLACEHOLDER == String",
+            "If azurerm_lb_probe.b.protocol is of certain value, Then the number of azurerm_lb_rule that could depend on azurerm_lb_probe.b is restricted to certain value",
+            null
+        ]
+    ],
+    "Reference####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String": [
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb_rule.protocol == All####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String",
+            "If there is azurerm_lb_rule.a.protocol == All, Then azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb_rule.protocol == Udp####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String",
+            "If there is azurerm_lb_rule.a.protocol == Udp, Then azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb_rule.enable_floating_ip == true####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String",
+            "If there is azurerm_lb_rule.a.enable_floating_ip == true, Then azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_lb_rule.enable_tcp_reset == Existence####azurerm_lb_rule.backend_address_pool_ids == String####azurerm_lb_backend_address_pool.id == String",
+            "If azurerm_lb_rule.a.enable_tcp_reset is not null nor empty, Then azurerm_lb_rule.a.backend_address_pool_ids depends on azurerm_lb_backend_address_pool.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String": [
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb_rule.protocol == Udp####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String",
+            "If there is azurerm_lb_rule.a.protocol == Udp, Then azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_lb_rule.enable_tcp_reset == Existence####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String",
+            "If azurerm_lb_rule.a.enable_tcp_reset is not null nor empty, Then azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb_rule.protocol == All####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String",
+            "If there is azurerm_lb_rule.a.protocol == All, Then azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboDownThenReference####azurerm_lb_rule.enable_floating_ip == true####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String",
+            "If there is azurerm_lb_rule.a.enable_floating_ip == true, Then azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id",
+            null
+        ],
+        [
+            "COMBO####ConstantComboUpThenReference####azurerm_lb_probe.protocol == Http####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String",
+            "If there is azurerm_lb_probe.b.protocol == Http, Then azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboUpThenReference####azurerm_lb_probe.request_path == Existence####azurerm_lb_rule.probe_id == String####azurerm_lb_probe.id == String",
+            "If azurerm_lb_probe.b.request_path is not null nor empty, Then azurerm_lb_rule.a.probe_id depends on azurerm_lb_probe.b.id",
+            null
+        ]
+    ]
+}

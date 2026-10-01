@@ -1,0 +1,65 @@
+{
+    "CIDRMaskComboUp####azurerm_route_table.route.address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet_route_table_association.route_table_id == String####azurerm_route_table.id == String####azurerm_route_table.route.address_prefix == CIDR",
+            "If azurerm_subnet_route_table_association.a.route_table_id depends on azurerm_route_table.b.id, Then azurerm_route_table.b.route.address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_subnet_route_table_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_subnet_route_table_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_resource_group.b and azurerm_resource_group.c connected or associated with each other via azurerm_subnet_route_table_association.a, Then azurerm_resource_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_route_table.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_route_table.location == String",
+            "If azurerm_resource_group.b and azurerm_route_table.c connected or associated with each other via azurerm_subnet_route_table_association.a, Then azurerm_resource_group.a.location == azurerm_route_table.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_resource_group.b and azurerm_virtual_network.c connected or associated with each other via azurerm_subnet_route_table_association.a, Then azurerm_resource_group.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_route_table.bgp_route_propagation_enabled == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_subnet_route_table_association.route_table_id == String####azurerm_route_table.id == String####azurerm_route_table.bgp_route_propagation_enabled == Existence",
+            "If azurerm_subnet_route_table_association.a.route_table_id depends on azurerm_route_table.b.id, Then azurerm_route_table.b.bgp_route_propagation_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_route_table.route == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_subnet_route_table_association.route_table_id == String####azurerm_route_table.id == String####azurerm_route_table.route == Existence",
+            "If azurerm_subnet_route_table_association.a.route_table_id depends on azurerm_route_table.b.id, Then azurerm_route_table.b.route is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_subnet.enforce_private_link_endpoint_network_policies == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_subnet_route_table_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.enforce_private_link_endpoint_network_policies == Existence",
+            "If azurerm_subnet_route_table_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.enforce_private_link_endpoint_network_policies is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_route_table.name == String####azurerm_subnet.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_subnet_route_table_association.route_table_id == String####azurerm_subnet_route_table_association.subnet_id == String####azurerm_route_table.id == String####azurerm_subnet.id == String####azurerm_route_table.name == String####azurerm_subnet.name == String",
+            "If azurerm_route_table.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_route_table_association.a, Then azurerm_route_table.a.name != azurerm_subnet.b.name",
+            null
+        ]
+    ]
+}

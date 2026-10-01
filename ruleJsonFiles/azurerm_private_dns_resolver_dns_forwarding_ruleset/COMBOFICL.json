@@ -1,0 +1,119 @@
+{
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == rslv-forwarding-ruleset",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_subnet.b, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == rslv-forwarding-ruleset",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == rslv-forwarding-ruleset",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_private_dns_resolver.b, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == rslv-forwarding-ruleset",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == rslv-forwarding-ruleset",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == rslv-forwarding-ruleset",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == ruleset-lab-corp-tf",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == ruleset-lab-corp-tf",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_private_dns_resolver.b, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == ruleset-lab-corp-tf",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_virtual_network.b, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == ruleset-lab-corp-tf",
+            null
+        ],
+        [
+            "COMBO####AncestorReferenceThenConstantComboDown####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.name == ruleset-lab-corp-tf",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_subnet.b, Then there is azurerm_private_dns_resolver_dns_forwarding_ruleset.a.name == ruleset-lab-corp-tf",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_private_dns_resolver_outbound_endpoint.name == outbound-lab-tf": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_outbound_endpoint.name == outbound-lab-tf",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then there is azurerm_private_dns_resolver_outbound_endpoint.b.name == outbound-lab-tf",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_private_dns_resolver_outbound_endpoint.name == rslv-outbound-endpoint": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_outbound_endpoint.name == rslv-outbound-endpoint",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then there is azurerm_private_dns_resolver_outbound_endpoint.b.name == rslv-outbound-endpoint",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_private_dns_resolver.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_private_dns_resolver.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_private_dns_resolver.location == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_private_dns_resolver.b, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a.location == azurerm_private_dns_resolver.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_private_dns_resolver_outbound_endpoint.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_private_dns_resolver_outbound_endpoint.location == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.private_dns_resolver_outbound_endpoint_ids depends on azurerm_private_dns_resolver_outbound_endpoint.b.id, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a.location == azurerm_private_dns_resolver_outbound_endpoint.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_resource_group.location == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_dns_resolver_dns_forwarding_ruleset.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_private_dns_resolver_dns_forwarding_ruleset.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_resource_group.name == String####azurerm_private_dns_resolver_outbound_endpoint.location == String####azurerm_resource_group.location == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.b and azurerm_resource_group.c connected or associated with each other via azurerm_private_dns_resolver_dns_forwarding_ruleset.a, Then azurerm_private_dns_resolver_outbound_endpoint.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_private_dns_resolver_outbound_endpoint.name == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_private_dns_resolver_dns_forwarding_ruleset.private_dns_resolver_outbound_endpoint_ids == String####azurerm_private_dns_resolver_dns_forwarding_ruleset.resource_group_name == String####azurerm_private_dns_resolver_outbound_endpoint.id == String####azurerm_resource_group.name == String####azurerm_private_dns_resolver_outbound_endpoint.name == String####azurerm_resource_group.name == String",
+            "If azurerm_private_dns_resolver_outbound_endpoint.b and azurerm_resource_group.c connected or associated with each other via azurerm_private_dns_resolver_dns_forwarding_ruleset.a, Then azurerm_private_dns_resolver_outbound_endpoint.a.name != azurerm_resource_group.b.name",
+            null
+        ]
+    ]
+}

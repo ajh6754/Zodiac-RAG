@@ -1,0 +1,38 @@
+{
+    "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_peering.allow_forwarded_traffic == Enum####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_peering.allow_forwarded_traffic == True####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_peering.allow_forwarded_traffic is True, then what is the maximum amount of azurerm_virtual_network that could directly connect to azurerm_virtual_network_peering? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_peering.allow_forwarded_traffic == False####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_peering.allow_forwarded_traffic is False, then what is the maximum amount of azurerm_virtual_network that could directly connect to azurerm_virtual_network_peering? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_peering.allow_gateway_transit == Enum####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_peering.allow_gateway_transit == False####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_peering.allow_gateway_transit is False, then what is the maximum amount of azurerm_virtual_network that could directly connect to azurerm_virtual_network_peering? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_peering.allow_gateway_transit == True####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_peering.allow_gateway_transit is True, then what is the maximum amount of azurerm_virtual_network that could directly connect to azurerm_virtual_network_peering? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_peering.use_remote_gateways == Enum####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_peering.use_remote_gateways == False####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_peering.use_remote_gateways is False, then what is the maximum amount of azurerm_virtual_network that could directly connect to azurerm_virtual_network_peering? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_peering.use_remote_gateways == True####azurerm_virtual_network_peering.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_peering.use_remote_gateways is True, then what is the maximum amount of azurerm_virtual_network that could directly connect to azurerm_virtual_network_peering? Please answer with an integer",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "Absence####azurerm_firewall.dns_servers == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Premium####azurerm_firewall.dns_servers == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.dns_servers == Absence",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.management_ip_configuration == Existence####azurerm_firewall.dns_servers == Absence",
+            "If azurerm_firewall.a.management_ip_configuration is not null nor empty, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.zones == Existence####azurerm_firewall.dns_servers == Absence",
+            "If azurerm_firewall.a.zones is not null nor empty, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.virtual_hub == Existence####azurerm_firewall.dns_servers == Absence",
+            "If azurerm_firewall.a.virtual_hub is not null nor empty, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Basic####azurerm_firewall.dns_servers == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.dns_servers == Absence",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.dns_servers is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_firewall.ip_configuration == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.virtual_hub == Existence####azurerm_firewall.ip_configuration == Absence",
+            "If azurerm_firewall.a.virtual_hub is not null nor empty, Then azurerm_firewall.a.ip_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_firewall.management_ip_configuration == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.management_ip_configuration == Absence",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.management_ip_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.virtual_hub == Existence####azurerm_firewall.management_ip_configuration == Absence",
+            "If azurerm_firewall.a.virtual_hub is not null nor empty, Then azurerm_firewall.a.management_ip_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.zones == Existence####azurerm_firewall.management_ip_configuration == Absence",
+            "If azurerm_firewall.a.zones is not null nor empty, Then azurerm_firewall.a.management_ip_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.dns_servers == Existence####azurerm_firewall.management_ip_configuration == Absence",
+            "If azurerm_firewall.a.dns_servers is not null nor empty, Then azurerm_firewall.a.management_ip_configuration is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Premium####azurerm_firewall.management_ip_configuration == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.management_ip_configuration is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_firewall.private_ip_ranges == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Basic####azurerm_firewall.private_ip_ranges == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.private_ip_ranges is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.zones == Existence####azurerm_firewall.private_ip_ranges == Absence",
+            "If azurerm_firewall.a.zones is not null nor empty, Then azurerm_firewall.a.private_ip_ranges is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.virtual_hub == Existence####azurerm_firewall.private_ip_ranges == Absence",
+            "If azurerm_firewall.a.virtual_hub is not null nor empty, Then azurerm_firewall.a.private_ip_ranges is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.private_ip_ranges == Absence",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.private_ip_ranges is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Premium####azurerm_firewall.private_ip_ranges == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.private_ip_ranges is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.dns_servers == Existence####azurerm_firewall.private_ip_ranges == Absence",
+            "If azurerm_firewall.a.dns_servers is not null nor empty, Then azurerm_firewall.a.private_ip_ranges is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_firewall.virtual_hub == Absence": [
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Basic####azurerm_firewall.virtual_hub == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Premium####azurerm_firewall.virtual_hub == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.virtual_hub == Absence",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.ip_configuration == Existence####azurerm_firewall.virtual_hub == Absence",
+            "If azurerm_firewall.a.ip_configuration is not null nor empty, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.management_ip_configuration == Existence####azurerm_firewall.virtual_hub == Absence",
+            "If azurerm_firewall.a.management_ip_configuration is not null nor empty, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.dns_servers == Existence####azurerm_firewall.virtual_hub == Absence",
+            "If azurerm_firewall.a.dns_servers is not null nor empty, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.virtual_hub == Absence",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.virtual_hub is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_firewall.zones == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.management_ip_configuration == Existence####azurerm_firewall.zones == Absence",
+            "If azurerm_firewall.a.management_ip_configuration is not null nor empty, Then azurerm_firewall.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.zones == Absence",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenAbsence####azurerm_firewall.sku_tier == Basic####azurerm_firewall.zones == Absence",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.zones is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_firewall.dns_servers == Existence####azurerm_firewall.zones == Absence",
+            "If azurerm_firewall.a.dns_servers is not null nor empty, Then azurerm_firewall.a.zones is null or empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_firewall.ip_configuration == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_firewall.threat_intel_mode == Existence####azurerm_firewall.ip_configuration == Existence",
+            "If azurerm_firewall.a.threat_intel_mode is not null nor empty, Then azurerm_firewall.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_firewall.management_ip_configuration == Existence####azurerm_firewall.ip_configuration == Existence",
+            "If azurerm_firewall.a.management_ip_configuration is not null nor empty, Then azurerm_firewall.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_firewall.sku_tier == Premium####azurerm_firewall.ip_configuration == Existence",
+            "If there is azurerm_firewall.a.sku_tier == Premium, Then azurerm_firewall.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.ip_configuration == Existence",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ConstantThenExistence####azurerm_firewall.sku_tier == Basic####azurerm_firewall.ip_configuration == Existence",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_firewall.management_ip_configuration == Existence": [
+        [
+            "ATTR####ConstantThenExistence####azurerm_firewall.sku_tier == Basic####azurerm_firewall.management_ip_configuration == Existence",
+            "If there is azurerm_firewall.a.sku_tier == Basic, Then azurerm_firewall.a.management_ip_configuration is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_firewall.private_ip_ranges == Existence####azurerm_firewall.management_ip_configuration == Existence",
+            "If azurerm_firewall.a.private_ip_ranges is not null nor empty, Then azurerm_firewall.a.management_ip_configuration is not null nor empty",
+            null
+        ]
+    ]
+}

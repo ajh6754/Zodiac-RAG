@@ -1,0 +1,37 @@
+{
+    "CIDRMaskComboUp####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_private_link_service.nat_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet.address_prefixes == CIDR",
+            "If azurerm_private_link_service.a.nat_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b.address_prefixes has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_private_link_service.name == oaaksdemoprivatelinkservice": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_link_service.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_link_service.name == oaaksdemoprivatelinkservice",
+            "If azurerm_private_link_service.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_private_link_service.a.name == oaaksdemoprivatelinkservice",
+            null
+        ]
+    ],
+    "ConstantComboDown####azurerm_private_link_service.name == west-us-pl-service": [
+        [
+            "COMBO####ReferenceThenConstantComboDown####azurerm_private_link_service.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_link_service.name == west-us-pl-service",
+            "If azurerm_private_link_service.a.resource_group_name depends on azurerm_resource_group.b.name, Then there is azurerm_private_link_service.a.name == west-us-pl-service",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_link_service.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_private_link_service.resource_group_name == String####azurerm_resource_group.name == String####azurerm_private_link_service.location == String####azurerm_resource_group.location == String",
+            "If azurerm_private_link_service.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_private_link_service.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_private_link_service.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorReferenceThenEqualCombo####azurerm_private_link_service.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_private_link_service.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_private_link_service.a has an ancestor resource azurerm_virtual_network.b, Then azurerm_private_link_service.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "AbsenceComboUp####azurerm_network_interface.auxiliary_mode == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.auxiliary_mode == Absence",
+            "If azurerm_network_interface_security_group_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.auxiliary_mode is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_network_interface.auxiliary_sku == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.auxiliary_sku == Absence",
+            "If azurerm_network_interface_security_group_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.auxiliary_sku is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_network_interface.dns_servers == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.dns_servers == Absence",
+            "If azurerm_network_interface_security_group_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.dns_servers is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_network_interface.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface.id == String####azurerm_network_interface.edge_zone == Absence",
+            "If azurerm_network_interface_security_group_association.a.network_interface_id depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_interface_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b.security_rule.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_interface_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b.security_rule.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == VirtualNetworkInherited",
+            "If azurerm_network_interface_security_group_association.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.ddos_protection_mode == VirtualNetworkInherited",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_interface.location == String####azurerm_network_security_group.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_network_interface_security_group_association.network_interface_id == String####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_interface.id == String####azurerm_network_security_group.id == String####azurerm_network_interface.location == String####azurerm_network_security_group.location == String",
+            "If azurerm_network_interface.b and azurerm_network_security_group.c connected or associated with each other via azurerm_network_interface_security_group_association.a, Then azurerm_network_interface.a.location == azurerm_network_security_group.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_network_interface_security_group_association.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_resource_group.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_network_interface_security_group_association.PLACEHOLDER == String####azurerm_resource_group.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_resource_group.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_resource_group.b and azurerm_virtual_network.c connected or associated with each other via azurerm_network_interface_security_group_association.a, Then azurerm_resource_group.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_network_security_group.security_rule == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_network_interface_security_group_association.network_security_group_id == String####azurerm_network_security_group.id == String####azurerm_network_security_group.security_rule == Existence",
+            "If azurerm_network_interface_security_group_association.a.network_security_group_id depends on azurerm_network_security_group.b.id, Then azurerm_network_security_group.b.security_rule is not null nor empty",
+            null
+        ]
+    ]
+}

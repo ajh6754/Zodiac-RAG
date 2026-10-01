@@ -1,0 +1,9 @@
+{
+    "CountParent####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenCountParent####azurerm_windows_virtual_machine.size == Enum####azurerm_windows_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If azurerm_windows_virtual_machine.a.size is of certain value, Then the number of azurerm_network_interface that azurerm_windows_virtual_machine.a could depend on is restricted to certain value",
+            null
+        ]
+    ]
+}

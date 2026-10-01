@@ -1,0 +1,202 @@
+{
+    "Negation####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id is null (i.e. it does not refer to azurerm_public_ip.id)",
+            null
+        ]
+    ],
+    "Negation####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.rewrite_rule_set == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.rewrite_rule_set is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.autoscale_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.autoscale_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.zones == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.zones is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.custom_error_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.custom_error_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.probe == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.probe is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.waf_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.waf_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.global == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.global is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.url_path_map == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.url_path_map is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.autoscale_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.autoscale_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.url_path_map == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.url_path_map is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.ssl_profile == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.ssl_profile is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.rewrite_rule_set == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.rewrite_rule_set is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.private_link_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.private_link_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenNegation####azurerm_application_gateway.redirect_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.redirect_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.waf_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.waf_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenNegation####azurerm_application_gateway.enable_http2 == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.enable_http2 is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id is null (i.e. it does not refer to azurerm_subnet.id)",
+            null
+        ]
+    ],
+    "Reference####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.redirect_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.redirect_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.ssl_profile == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.ssl_profile is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.enable_http2 == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.enable_http2 is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.waf_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.waf_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.private_link_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.private_link_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.rewrite_rule_set == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.rewrite_rule_set is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.global == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.global is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.redirect_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.redirect_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.custom_error_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.custom_error_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.url_path_map == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.url_path_map is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.zones == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.zones is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.url_path_map == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.url_path_map is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.waf_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.waf_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.autoscale_configuration == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.autoscale_configuration is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.probe == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.probe is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####AbsenceComboDownThenReference####azurerm_application_gateway.rewrite_rule_set == Absence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.rewrite_rule_set is null or empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ],
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.ssl_policy == Existence####azurerm_application_gateway.frontend_ip_configuration.0.public_ip_address_id == String####azurerm_public_ip.id == String",
+            "If azurerm_application_gateway.a.ssl_policy is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.public_ip_address_id depends on azurerm_public_ip.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.frontend_ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.frontend_ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ]
+    ],
+    "Reference####azurerm_application_gateway.private_link_configuration.0.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String": [
+        [
+            "COMBO####ExistenceComboDownThenReference####azurerm_application_gateway.private_link_configuration == Existence####azurerm_application_gateway.private_link_configuration.0.ip_configuration.0.subnet_id == String####azurerm_subnet.id == String",
+            "If azurerm_application_gateway.a.private_link_configuration is not null nor empty, Then azurerm_application_gateway.a.private_link_configuration.0.ip_configuration.0.subnet_id depends on azurerm_subnet.b.id",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "AbsenceComboDown####azurerm_lb_backend_address_pool.synchronous_mode == Absence": [
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_lb_backend_address_pool.synchronous_mode == Absence",
+            "If azurerm_lb_backend_address_pool.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id), Then azurerm_lb_backend_address_pool.a.synchronous_mode is null or empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_backend_address_pool.synchronous_mode == Absence",
+            "If azurerm_lb_backend_address_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb_backend_address_pool.a.synchronous_mode is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboDown####azurerm_lb_backend_address_pool.tunnel_interface == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_backend_address_pool.tunnel_interface == Absence",
+            "If azurerm_lb_backend_address_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb_backend_address_pool.a.tunnel_interface is null or empty",
+            null
+        ],
+        [
+            "COMBO####NegationThenAbsenceComboDown####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_lb_backend_address_pool.tunnel_interface == Absence",
+            "If azurerm_lb_backend_address_pool.a.virtual_network_id is null (i.e. it does not refer to azurerm_virtual_network.id), Then azurerm_lb_backend_address_pool.a.tunnel_interface is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_lb.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb_backend_address_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_virtual_network.ddos_protection_plan == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.ddos_protection_plan == Absence",
+            "If azurerm_lb_backend_address_pool.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.ddos_protection_plan is null or empty",
+            null
+        ]
+    ],
+    "CIDRMaskComboUp####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboUp####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_virtual_network.address_space == CIDR",
+            "If azurerm_lb_backend_address_pool.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_lb.sku_tier == Regional": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb_backend_address_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then there is azurerm_lb.b.sku_tier == Regional",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####AncestorReferenceThenConstantComboUp####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_lb_backend_address_pool.a has an ancestor resource azurerm_public_ip.b, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AssociateThenEqualCombo####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_lb.id == String####azurerm_virtual_network.id == String####azurerm_lb.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_lb.b and azurerm_virtual_network.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_lb.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.allocation_method == azurerm_public_ip.b.allocation_method",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.ddos_protection_mode == azurerm_public_ip.b.ddos_protection_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ip_version == String####azurerm_public_ip.ip_version == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.ip_version == azurerm_public_ip.b.ip_version",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_public_ip.location == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_virtual_network.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_virtual_network.location == String",
+            "If azurerm_public_ip.b and azurerm_virtual_network.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.location == azurerm_virtual_network.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.sku == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_public_ip.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_lb.frontend_ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb_backend_address_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.frontend_ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb.name == String####azurerm_virtual_network.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_lb.id == String####azurerm_virtual_network.id == String####azurerm_lb.name == String####azurerm_virtual_network.name == String",
+            "If azurerm_lb.b and azurerm_virtual_network.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then azurerm_lb.a.name != azurerm_virtual_network.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_backend_address_pool.name == String####azurerm_lb_backend_address_pool.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_backend_address_pool.name == String####azurerm_lb_backend_address_pool.name == String",
+            "If both azurerm_lb_backend_address_pool.a.loadbalancer_id and azurerm_lb_backend_address_pool.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_backend_address_pool.a.name != azurerm_lb_backend_address_pool.b.name",
+            null
+        ]
+    ]
+}

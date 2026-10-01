@@ -1,0 +1,72 @@
+{
+    "AbsenceComboDown####azurerm_local_network_gateway.bgp_settings == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.bgp_settings == Absence",
+            "If azurerm_local_network_gateway.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_local_network_gateway.a.bgp_settings is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_local_network_gateway.address_space == CIDR####azurerm_local_network_gateway.address_space == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_local_network_gateway.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.address_space == CIDR####azurerm_local_network_gateway.address_space == CIDR",
+            "If both azurerm_local_network_gateway.a.resource_group_name and azurerm_local_network_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then the CIDR range of azurerm_local_network_gateway.b.address_space does not overlap with the CIDR range of azurerm_local_network_gateway.a.address_space",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_local_network_gateway.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.address_space == CIDR",
+            "If azurerm_local_network_gateway.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_local_network_gateway.a.address_space has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_local_network_gateway.gateway_address == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.gateway_address == CIDR",
+            "If azurerm_local_network_gateway.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_local_network_gateway.a.gateway_address has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_local_network_gateway.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.location == String####azurerm_resource_group.location == String",
+            "If azurerm_local_network_gateway.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_local_network_gateway.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_local_network_gateway.gateway_address == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.gateway_address == Existence",
+            "If azurerm_local_network_gateway.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_local_network_gateway.a.gateway_address is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_local_network_gateway.address_space == String####azurerm_local_network_gateway.address_space == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_local_network_gateway.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.address_space == String####azurerm_local_network_gateway.address_space == String",
+            "If both azurerm_local_network_gateway.a.resource_group_name and azurerm_local_network_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_local_network_gateway.a.address_space != azurerm_local_network_gateway.b.address_space",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_local_network_gateway.bgp_settings.asn == String####azurerm_local_network_gateway.bgp_settings.asn == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_local_network_gateway.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.bgp_settings.asn == String####azurerm_local_network_gateway.bgp_settings.asn == String",
+            "If both azurerm_local_network_gateway.a.resource_group_name and azurerm_local_network_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_local_network_gateway.a.bgp_settings.asn != azurerm_local_network_gateway.b.bgp_settings.asn",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_local_network_gateway.bgp_settings.bgp_peering_address == String####azurerm_local_network_gateway.bgp_settings.bgp_peering_address == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_local_network_gateway.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.bgp_settings.bgp_peering_address == String####azurerm_local_network_gateway.bgp_settings.bgp_peering_address == String",
+            "If both azurerm_local_network_gateway.a.resource_group_name and azurerm_local_network_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_local_network_gateway.a.bgp_settings.bgp_peering_address != azurerm_local_network_gateway.b.bgp_settings.bgp_peering_address",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_local_network_gateway.name == String####azurerm_local_network_gateway.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_local_network_gateway.resource_group_name == String####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.name == String####azurerm_local_network_gateway.name == String",
+            "If both azurerm_local_network_gateway.a.resource_group_name and azurerm_local_network_gateway.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_local_network_gateway.a.name != azurerm_local_network_gateway.b.name",
+            null
+        ]
+    ]
+}

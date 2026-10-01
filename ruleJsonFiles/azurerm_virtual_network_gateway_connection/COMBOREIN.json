@@ -1,0 +1,111 @@
+{
+    "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway_connection.enable_bgp == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_gateway_connection.enable_bgp == True####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway_connection.enable_bgp is True, then what is the maximum amount of azurerm_virtual_network_gateway that could directly connect to azurerm_virtual_network_gateway_connection? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_gateway_connection.enable_bgp == False####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway_connection.enable_bgp is False, then what is the maximum amount of azurerm_virtual_network_gateway that could directly connect to azurerm_virtual_network_gateway_connection? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboDownThenCountParent####azurerm_virtual_network_gateway_connection.type == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_gateway_connection.type == IPsec####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway_connection.type is IPsec, then what is the maximum amount of azurerm_virtual_network_gateway that could directly connect to azurerm_virtual_network_gateway_connection? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboDownThenAggParent####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway_connection.type is Vnet2Vnet, then what is the maximum amount of azurerm_virtual_network_gateway that could directly connect to azurerm_virtual_network_gateway_connection? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_virtual_network_gateway.active_active == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_virtual_network_gateway.enable_bgp == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.enable_bgp == True####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is True, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.enable_bgp == False####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is False, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_virtual_network_gateway.sku == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_virtual_network_gateway.type == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.type == Vpn####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.type is Vpn, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.type is ExpressRoute, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_virtual_network_gateway.vpn_type == Enum####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is RouteBased, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway_connection.PLACEHOLDER == String####azurerm_virtual_network_gateway.PLACEHOLDER == String",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is PolicyBased, then what is the maximum amount of azurerm_virtual_network_gateway_connection that could depend on azurerm_virtual_network_gateway? Please answer with an integer",
+            null
+        ]
+    ]
+}

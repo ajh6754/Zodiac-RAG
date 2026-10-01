@@ -1,0 +1,94 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_subnet.name == Enum####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == AzureFirewallSubnet####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is AzureFirewallSubnet, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == GatewaySubnet####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is GatewaySubnet, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet02####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet02, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet03####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet03, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet04####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet04, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == AzureBastionSubnet####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is AzureBastionSubnet, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == DatabaseSubnet####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is DatabaseSubnet, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SharedServicesSubnet####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SharedServicesSubnet, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SensorSubnet2####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SensorSubnet2, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetA####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetA, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet2####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet2, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet3####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet3, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet05####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet05, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == Subnet06####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is Subnet06, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetAPPGW####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetAPPGW, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetApp####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetApp, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetLB####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetLB, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_subnet.name == SubnetWeb####azurerm_network_interface.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If the value of azurerm_subnet.name is SubnetWeb, then what is the maximum amount of azurerm_network_interface that could depend on azurerm_subnet? Please answer with an integer",
+            null
+        ]
+    ]
+}

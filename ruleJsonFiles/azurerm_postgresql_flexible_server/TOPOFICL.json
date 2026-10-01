@@ -1,0 +1,51 @@
+{
+    "Branch####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then both azurerm_postgresql_flexible_server.a.resource_group_name and azurerm_postgresql_flexible_server.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id depends on azurerm_subnet.b.id, Then both azurerm_postgresql_flexible_server.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_postgresql_flexible_server.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_postgresql_flexible_server.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_postgresql_flexible_server.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.b could only have a single azurerm_postgresql_flexible_server that is azurerm_postgresql_flexible_server.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_postgresql_flexible_server that is azurerm_postgresql_flexible_server.a",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_postgresql_flexible_server.source_server_id == String####azurerm_postgresql_flexible_server.id == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String",
+            "If azurerm_postgresql_flexible_server.a.source_server_id depends on azurerm_postgresql_flexible_server.b.id, Then azurerm_postgresql_flexible_server.a is the only resource that directly depends on azurerm_postgresql_flexible_server.b",
+            null
+        ]
+    ],
+    "Exclusive####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenExclusive####azurerm_postgresql_flexible_server.delegated_subnet_id == String####azurerm_subnet.id == String####azurerm_postgresql_flexible_server.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_postgresql_flexible_server.a.delegated_subnet_id depends on azurerm_subnet.b.id, Then azurerm_postgresql_flexible_server.a is the only resource that directly depends on azurerm_subnet.b",
+            null
+        ]
+    ]
+}

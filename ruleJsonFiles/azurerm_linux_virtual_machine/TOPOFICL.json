@@ -1,0 +1,44 @@
+{
+    "Associate####azurerm_linux_virtual_machine.network_interface_ids == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_network_interface.id == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenAssociate####azurerm_linux_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_linux_virtual_machine.network_interface_ids == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_network_interface.id == String####azurerm_resource_group.name == String",
+            "If azurerm_linux_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b and azurerm_resource_group.c connected or associated with each other via azurerm_linux_virtual_machine.a",
+            null
+        ]
+    ],
+    "Branch####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####ReferenceThenBranch####azurerm_linux_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_network_interface.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_linux_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then both azurerm_linux_virtual_machine.a.resource_group_name and azurerm_network_interface.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_linux_virtual_machine.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_public_ip.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_linux_virtual_machine.a has an ancestor resource azurerm_public_ip.b, Then both azurerm_linux_virtual_machine.a.resource_group_name and azurerm_public_ip.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_linux_virtual_machine.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_linux_virtual_machine.a has an ancestor resource azurerm_subnet.b, Then both azurerm_linux_virtual_machine.a.resource_group_name and azurerm_subnet.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "Branch####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AncestorReferenceThenBranch####azurerm_linux_virtual_machine.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String####azurerm_linux_virtual_machine.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_linux_virtual_machine.a has an ancestor resource azurerm_virtual_network.b, Then both azurerm_linux_virtual_machine.a.resource_group_name and azurerm_virtual_network.b.resource_group_name depends on azurerm_resource_group.c",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_linux_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_linux_virtual_machine.network_interface_ids == String####azurerm_network_interface.id == String####azurerm_linux_virtual_machine.PLACEHOLDER == String####azurerm_network_interface.PLACEHOLDER == String",
+            "If azurerm_linux_virtual_machine.a.network_interface_ids depends on azurerm_network_interface.b.id, Then azurerm_network_interface.b could only have a single azurerm_linux_virtual_machine that is azurerm_linux_virtual_machine.a",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,397 @@
+{
+    "Absence####azurerm_linux_virtual_machine.additional_capabilities == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.additional_capabilities == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.additional_capabilities is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.admin_password == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.admin_ssh_key == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.additional_capabilities == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.additional_capabilities is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.custom_data == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.custom_data is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.eviction_policy == Existence####azurerm_linux_virtual_machine.admin_password == Absence",
+            "If azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.admin_ssh_key == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Absence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.admin_password == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Absence",
+            "If azurerm_linux_virtual_machine.a.admin_password is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.boot_diagnostics == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.custom_data == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_linux_virtual_machine.a.custom_data is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.user_data == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Absence",
+            "If azurerm_linux_virtual_machine.a.user_data is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.custom_data == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.custom_data == Absence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.user_data == Existence####azurerm_linux_virtual_machine.custom_data == Absence",
+            "If azurerm_linux_virtual_machine.a.user_data is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.boot_diagnostics == Existence####azurerm_linux_virtual_machine.custom_data == Absence",
+            "If azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.admin_password == Existence####azurerm_linux_virtual_machine.custom_data == Absence",
+            "If azurerm_linux_virtual_machine.a.admin_password is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.edge_zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.edge_zone == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.eviction_policy == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.eviction_policy == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.user_data == Existence####azurerm_linux_virtual_machine.eviction_policy == Absence",
+            "If azurerm_linux_virtual_machine.a.user_data is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.eviction_policy == Absence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.admin_password == Existence####azurerm_linux_virtual_machine.eviction_policy == Absence",
+            "If azurerm_linux_virtual_machine.a.admin_password is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.gallery_application == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.gallery_application == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.gallery_application is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.license_type == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.license_type == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.license_type is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.os_image_notification == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.os_image_notification == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.os_image_notification is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.plan == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.plan == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.plan is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.reboot_setting == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.reboot_setting == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.reboot_setting is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.secret == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.secret == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.secret is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.user_data == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.boot_diagnostics == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.additional_capabilities == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.additional_capabilities is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.eviction_policy == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.custom_data == Existence####azurerm_linux_virtual_machine.user_data == Absence",
+            "If azurerm_linux_virtual_machine.a.custom_data is not null nor empty, Then azurerm_linux_virtual_machine.a.user_data is null or empty",
+            null
+        ]
+    ],
+    "Absence####azurerm_linux_virtual_machine.zone == Absence": [
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.source_image_reference == Existence####azurerm_linux_virtual_machine.zone == Absence",
+            "If azurerm_linux_virtual_machine.a.source_image_reference is not null nor empty, Then azurerm_linux_virtual_machine.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.user_data == Existence####azurerm_linux_virtual_machine.zone == Absence",
+            "If azurerm_linux_virtual_machine.a.user_data is not null nor empty, Then azurerm_linux_virtual_machine.a.zone is null or empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenAbsence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.zone == Absence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.zone is null or empty",
+            null
+        ]
+    ],
+    "Constant####azurerm_linux_virtual_machine.disable_password_authentication == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_linux_virtual_machine.priority == Spot####azurerm_linux_virtual_machine.disable_password_authentication == true",
+            "If there is azurerm_linux_virtual_machine.a.priority == Spot, Then there is azurerm_linux_virtual_machine.a.disable_password_authentication == true",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_linux_virtual_machine.os_disk.storage_account_type == StandardSSD_LRS####azurerm_linux_virtual_machine.disable_password_authentication == true",
+            "If there is azurerm_linux_virtual_machine.a.os_disk.storage_account_type == StandardSSD_LRS, Then there is azurerm_linux_virtual_machine.a.disable_password_authentication == true",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.additional_capabilities == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.additional_capabilities == Existence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.additional_capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.additional_capabilities == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.additional_capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.additional_capabilities == Existence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.additional_capabilities is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.eviction_policy == Existence####azurerm_linux_virtual_machine.additional_capabilities == Existence",
+            "If azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_linux_virtual_machine.a.additional_capabilities is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.admin_password == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.admin_password == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.user_data == Existence####azurerm_linux_virtual_machine.admin_password == Existence",
+            "If azurerm_linux_virtual_machine.a.user_data is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_password is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.eviction_policy == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence",
+            "If azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.user_data == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence",
+            "If azurerm_linux_virtual_machine.a.user_data is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.custom_data == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence",
+            "If azurerm_linux_virtual_machine.a.custom_data is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.admin_ssh_key == Existence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.admin_ssh_key is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.boot_diagnostics == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.eviction_policy == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.plan == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_linux_virtual_machine.a.plan is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.boot_diagnostics == Existence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.boot_diagnostics is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.custom_data == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.eviction_policy == Existence####azurerm_linux_virtual_machine.custom_data == Existence",
+            "If azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.custom_data == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.custom_data == Existence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.custom_data == Existence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.custom_data is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.eviction_policy == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.eviction_policy == Existence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.eviction_policy == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence####azurerm_linux_virtual_machine.eviction_policy == Existence",
+            "If azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.eviction_policy is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.os_disk.disk_size_gb == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.os_disk.name == Existence####azurerm_linux_virtual_machine.os_disk.disk_size_gb == Existence",
+            "If azurerm_linux_virtual_machine.a.os_disk.name is not null nor empty, Then azurerm_linux_virtual_machine.a.os_disk.disk_size_gb is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.vtpm_enabled == Existence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence",
+            "If azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty, Then azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.secure_boot_enabled == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.secure_boot_enabled is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_linux_virtual_machine.vtpm_enabled == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_linux_virtual_machine.zone == Existence####azurerm_linux_virtual_machine.vtpm_enabled == Existence",
+            "If azurerm_linux_virtual_machine.a.zone is not null nor empty, Then azurerm_linux_virtual_machine.a.vtpm_enabled is not null nor empty",
+            null
+        ]
+    ]
+}

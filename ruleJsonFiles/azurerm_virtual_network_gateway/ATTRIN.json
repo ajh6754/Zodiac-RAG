@@ -1,0 +1,501 @@
+{
+    "ATTR####EnumThenCIDRMask####azurerm_virtual_network_gateway.active_active == Enum####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_virtual_network_gateway.enable_bgp == Enum####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.enable_bgp == True####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is True, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.enable_bgp == False####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is False, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_virtual_network_gateway.sku == Enum####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_virtual_network_gateway.type == Enum####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.type == Vpn####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.type is Vpn, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.type is ExpressRoute, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenCIDRMask####azurerm_virtual_network_gateway.vpn_type == Enum####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is RouteBased, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.vpn_client_configuration.address_space == CIDR",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is PolicyBased, then what is the maximum CIDR mask length azurerm_virtual_network_gateway.vpn_client_configuration.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.active_active == Enum####azurerm_virtual_network_gateway.enable_bgp == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.active_active == Enum####azurerm_virtual_network_gateway.type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.active_active == Enum####azurerm_virtual_network_gateway.vpn_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == False####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.active_active is False, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.active_active == True####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.active_active is True, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.enable_bgp == Enum####azurerm_virtual_network_gateway.type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == True####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is True, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == True####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is True, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == False####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is False, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == False####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is False, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.enable_bgp == Enum####azurerm_virtual_network_gateway.vpn_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == True####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is True, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == True####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is True, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == False####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is False, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.enable_bgp == False####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.enable_bgp is False, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.sku == Enum####azurerm_virtual_network_gateway.enable_bgp == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.sku == Enum####azurerm_virtual_network_gateway.type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.sku == Enum####azurerm_virtual_network_gateway.vpn_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1AZ####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1AZ, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Standard####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is Standard, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == Basic####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is Basic, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw1####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw1, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2AZ####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2AZ, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw2####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw2, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.sku == VpnGw3####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.sku is VpnGw3, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.type == Enum####azurerm_virtual_network_gateway.enable_bgp == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == Vpn####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.type is Vpn, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == Vpn####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.type is Vpn, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.type is ExpressRoute, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.type is ExpressRoute, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.type == Enum####azurerm_virtual_network_gateway.vpn_type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == Vpn####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.type is Vpn, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == Vpn####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.type is Vpn, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.vpn_type == RouteBased",
+            "If the value of azurerm_virtual_network_gateway.type is ExpressRoute, then the value of azurerm_virtual_network_gateway.vpn_type cannot be RouteBased? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.type == ExpressRoute####azurerm_virtual_network_gateway.vpn_type == PolicyBased",
+            "If the value of azurerm_virtual_network_gateway.type is ExpressRoute, then the value of azurerm_virtual_network_gateway.vpn_type cannot be PolicyBased? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.vpn_type == Enum####azurerm_virtual_network_gateway.enable_bgp == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is RouteBased, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is RouteBased, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.enable_bgp == True",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is PolicyBased, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.enable_bgp == False",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is PolicyBased, then the value of azurerm_virtual_network_gateway.enable_bgp cannot be False? Please answer with True or False",
+            null
+        ]
+    ],
+    "ATTR####EnumThenEnum####azurerm_virtual_network_gateway.vpn_type == Enum####azurerm_virtual_network_gateway.type == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is RouteBased, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == RouteBased####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is RouteBased, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.type == Vpn",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is PolicyBased, then the value of azurerm_virtual_network_gateway.type cannot be Vpn? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_virtual_network_gateway.vpn_type == PolicyBased####azurerm_virtual_network_gateway.type == ExpressRoute",
+            "If the value of azurerm_virtual_network_gateway.vpn_type is PolicyBased, then the value of azurerm_virtual_network_gateway.type cannot be ExpressRoute? Please answer with True or False",
+            null
+        ]
+    ]
+}

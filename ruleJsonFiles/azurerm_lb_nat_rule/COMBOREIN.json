@@ -1,0 +1,26 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_lb.sku == Enum####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_lb.sku == Basic####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If the value of azurerm_lb.sku is Basic, then what is the maximum amount of azurerm_lb_nat_rule that could depend on azurerm_lb? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_lb.sku == Standard####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If the value of azurerm_lb.sku is Standard, then what is the maximum amount of azurerm_lb_nat_rule that could depend on azurerm_lb? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####EnumComboUpThenCountChild####azurerm_public_ip.sku == Enum####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_public_ip.sku == Standard####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_public_ip.sku is Standard, then what is the maximum amount of azurerm_lb_nat_rule that could depend on azurerm_public_ip? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_public_ip.sku == Basic####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String",
+            "If the value of azurerm_public_ip.sku is Basic, then what is the maximum amount of azurerm_lb_nat_rule that could depend on azurerm_public_ip? Please answer with an integer",
+            null
+        ]
+    ]
+}

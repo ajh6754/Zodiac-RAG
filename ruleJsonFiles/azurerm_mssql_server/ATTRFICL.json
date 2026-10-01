@@ -1,0 +1,28 @@
+{
+    "Constant####azurerm_mssql_server.public_network_access_enabled == true": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_mssql_server.outbound_network_restriction_enabled == true####azurerm_mssql_server.public_network_access_enabled == true",
+            "If there is azurerm_mssql_server.a.outbound_network_restriction_enabled == true, Then there is azurerm_mssql_server.a.public_network_access_enabled == true",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_server.administrator_login_password == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_mssql_server.azuread_administrator == Absence####azurerm_mssql_server.administrator_login_password == Existence",
+            "If azurerm_mssql_server.a.azuread_administrator is null or empty, Then azurerm_mssql_server.a.administrator_login_password is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_mssql_server.administrator_login == Existence####azurerm_mssql_server.administrator_login_password == Existence",
+            "If azurerm_mssql_server.a.administrator_login is not null nor empty, Then azurerm_mssql_server.a.administrator_login_password is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_mssql_server.azuread_administrator == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_mssql_server.administrator_login_password == Absence####azurerm_mssql_server.azuread_administrator == Existence",
+            "If azurerm_mssql_server.a.administrator_login_password is null or empty, Then azurerm_mssql_server.a.azuread_administrator is not null nor empty",
+            null
+        ]
+    ]
+}

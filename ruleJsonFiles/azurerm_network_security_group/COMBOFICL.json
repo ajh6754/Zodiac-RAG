@@ -1,0 +1,58 @@
+{
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_network_security_group.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "CIDRExcludeCombo####azurerm_network_security_group.security_rule.source_address_prefix == CIDR####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "COMBO####BranchThenCIDRExcludeCombo####azurerm_network_security_group.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If both azurerm_network_security_group.a.resource_group_name and azurerm_network_security_group.b.resource_group_name depends on azurerm_resource_group.c, Then the CIDR range of azurerm_network_security_group.b.security_rule.source_address_prefix does not overlap with the CIDR range of azurerm_network_security_group.a.security_rule.source_address_prefix",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_security_group.a.security_rule.destination_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "CIDRMaskComboDown####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRMaskComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If azurerm_network_security_group.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_security_group.a.security_rule.source_address_prefix has certain CIDR mask length restrictions",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_network_security_group.location == String####azurerm_resource_group.location == String": [
+        [
+            "COMBO####ReferenceThenEqualCombo####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.location == String####azurerm_resource_group.location == String",
+            "If azurerm_network_security_group.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_security_group.a.location == azurerm_resource_group.b.location",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_network_security_group.security_rule == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule == Existence",
+            "If azurerm_network_security_group.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_network_security_group.a.security_rule is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_security_group.name == String####azurerm_network_security_group.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_network_security_group.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_network_security_group.name == String####azurerm_network_security_group.name == String",
+            "If both azurerm_network_security_group.a.resource_group_name and azurerm_network_security_group.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_network_security_group.a.name != azurerm_network_security_group.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_network_security_group.resource_group_name == String####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.destination_port_range == String####azurerm_network_security_group.security_rule.destination_port_range == String",
+            "If both azurerm_network_security_group.a.resource_group_name and azurerm_network_security_group.b.resource_group_name depends on azurerm_resource_group.c, Then azurerm_network_security_group.a.security_rule.destination_port_range != azurerm_network_security_group.b.security_rule.destination_port_range",
+            null
+        ]
+    ]
+}

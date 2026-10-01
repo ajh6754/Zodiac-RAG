@@ -1,0 +1,14 @@
+{
+    "COMBO####EnumComboUpThenCountChild####azurerm_route_table.name == Enum####azurerm_route.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String": [
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_route_table.name == RouteTable####azurerm_route.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If the value of azurerm_route_table.name is RouteTable, then what is the maximum amount of azurerm_route that could depend on azurerm_route_table? Please answer with an integer",
+            null
+        ],
+        [
+            "COMBO####EnumComboUpThenAggChild####azurerm_route_table.name == AzfwRouteTableMasters####azurerm_route.PLACEHOLDER == String####azurerm_route_table.PLACEHOLDER == String",
+            "If the value of azurerm_route_table.name is AzfwRouteTableMasters, then what is the maximum amount of azurerm_route that could depend on azurerm_route_table? Please answer with an integer",
+            null
+        ]
+    ]
+}

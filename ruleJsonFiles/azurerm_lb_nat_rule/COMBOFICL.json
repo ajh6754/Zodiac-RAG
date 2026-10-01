@@ -1,0 +1,177 @@
+{
+    "AbsenceComboUp####azurerm_lb.edge_zone == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.edge_zone == Absence",
+            "If azurerm_lb_nat_rule.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.edge_zone is null or empty",
+            null
+        ]
+    ],
+    "AbsenceComboUp####azurerm_resource_group.managed_by == Absence": [
+        [
+            "COMBO####ReferenceThenAbsenceComboUp####azurerm_lb_nat_rule.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.managed_by == Absence",
+            "If azurerm_lb_nat_rule.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_resource_group.b.managed_by is null or empty",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_lb.sku_tier == Regional": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.sku_tier == Regional",
+            "If azurerm_lb_nat_rule.a.loadbalancer_id depends on azurerm_lb.b.id, Then there is azurerm_lb.b.sku_tier == Regional",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.allocation_method == Static": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.allocation_method == Static",
+            "If azurerm_lb_nat_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then there is azurerm_public_ip.b.allocation_method == Static",
+            null
+        ]
+    ],
+    "ConstantComboUp####azurerm_public_ip.sku == Standard": [
+        [
+            "COMBO####ReferenceThenConstantComboUp####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.sku == Standard",
+            "If azurerm_lb_nat_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then there is azurerm_public_ip.b.sku == Standard",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_nat_rule.backend_port == String####azurerm_lb_nat_rule.backend_port == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.backend_port == String####azurerm_lb_nat_rule.backend_port == String",
+            "If both azurerm_lb_nat_rule.a.backend_address_pool_id and azurerm_lb_nat_rule.b.backend_address_pool_id depends on azurerm_lb_backend_address_pool.c, Then azurerm_lb_nat_rule.a.backend_port == azurerm_lb_nat_rule.b.backend_port",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_lb_nat_rule.protocol == String####azurerm_lb_nat_rule.protocol == String": [
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_nat_rule.protocol == String####azurerm_lb_nat_rule.protocol == String",
+            "If both azurerm_lb_nat_rule.a.loadbalancer_id and azurerm_lb_nat_rule.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_nat_rule.a.protocol == azurerm_lb_nat_rule.b.protocol",
+            null
+        ],
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.name == String####azurerm_lb_nat_rule.protocol == String####azurerm_lb_nat_rule.protocol == String",
+            "If both azurerm_lb_nat_rule.a.frontend_ip_configuration_name and azurerm_lb_nat_rule.b.frontend_ip_configuration_name depends on azurerm_public_ip.c, Then azurerm_lb_nat_rule.a.protocol == azurerm_lb_nat_rule.b.protocol",
+            null
+        ],
+        [
+            "COMBO####BranchThenEqualCombo####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.protocol == String####azurerm_lb_nat_rule.protocol == String",
+            "If both azurerm_lb_nat_rule.a.backend_address_pool_id and azurerm_lb_nat_rule.b.backend_address_pool_id depends on azurerm_lb_backend_address_pool.c, Then azurerm_lb_nat_rule.a.protocol == azurerm_lb_nat_rule.b.protocol",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.allocation_method == String####azurerm_public_ip.allocation_method == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_public_ip.a.allocation_method == azurerm_public_ip.b.allocation_method",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.ddos_protection_mode == String####azurerm_public_ip.ddos_protection_mode == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_public_ip.a.ddos_protection_mode == azurerm_public_ip.b.ddos_protection_mode",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.location == String####azurerm_public_ip.location == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.location == String####azurerm_public_ip.location == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_public_ip.a.location == azurerm_public_ip.b.location",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku == String####azurerm_public_ip.sku == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_public_ip.a.sku == azurerm_public_ip.b.sku",
+            null
+        ]
+    ],
+    "EqualCombo####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String": [
+        [
+            "COMBO####AncestorAssociateThenEqualCombo####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_lb_nat_rule.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.PLACEHOLDER == String####azurerm_public_ip.sku_tier == String####azurerm_public_ip.sku_tier == String",
+            "If azurerm_public_ip.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_public_ip.a.sku_tier == azurerm_public_ip.b.sku_tier",
+            null
+        ]
+    ],
+    "ExistenceComboDown####azurerm_lb_nat_rule.enable_floating_ip == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_lb_nat_rule.resource_group_name == String####azurerm_resource_group.name == String####azurerm_lb_nat_rule.enable_floating_ip == Existence",
+            "If azurerm_lb_nat_rule.a.resource_group_name depends on azurerm_resource_group.b.name, Then azurerm_lb_nat_rule.a.enable_floating_ip is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.enable_floating_ip == Existence",
+            "If azurerm_lb_nat_rule.a.backend_address_pool_id depends on azurerm_lb_backend_address_pool.b.id, Then azurerm_lb_nat_rule.a.enable_floating_ip is not null nor empty",
+            null
+        ],
+        [
+            "COMBO####ReferenceThenExistenceComboDown####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_nat_rule.enable_floating_ip == Existence",
+            "If azurerm_lb_nat_rule.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb_nat_rule.a.enable_floating_ip is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_lb.frontend_ip_configuration == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.frontend_ip_configuration == Existence",
+            "If azurerm_lb_nat_rule.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b.frontend_ip_configuration is not null nor empty",
+            null
+        ]
+    ],
+    "ExistenceComboUp####azurerm_public_ip.zones == Existence": [
+        [
+            "COMBO####ReferenceThenExistenceComboUp####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.zones == Existence",
+            "If azurerm_lb_nat_rule.a.frontend_ip_configuration_name depends on azurerm_public_ip.b.name, Then azurerm_public_ip.b.zones is not null nor empty",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_backend_address_pool.name == String####azurerm_public_ip.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_lb_backend_address_pool.id == String####azurerm_public_ip.name == String####azurerm_lb_backend_address_pool.name == String####azurerm_public_ip.name == String",
+            "If azurerm_lb_backend_address_pool.b and azurerm_public_ip.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_lb_backend_address_pool.a.name != azurerm_public_ip.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_backend_address_pool.name == String####azurerm_resource_group.name == String": [
+        [
+            "COMBO####AssociateThenUnequalCombo####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.resource_group_name == String####azurerm_lb_backend_address_pool.id == String####azurerm_resource_group.name == String####azurerm_lb_backend_address_pool.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb_backend_address_pool.b and azurerm_resource_group.c connected or associated with each other via azurerm_lb_nat_rule.a, Then azurerm_lb_backend_address_pool.a.name != azurerm_resource_group.b.name",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_nat_rule.backend_port == String####azurerm_lb_nat_rule.backend_port == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.name == String####azurerm_lb_nat_rule.backend_port == String####azurerm_lb_nat_rule.backend_port == String",
+            "If both azurerm_lb_nat_rule.a.frontend_ip_configuration_name and azurerm_lb_nat_rule.b.frontend_ip_configuration_name depends on azurerm_public_ip.c, Then azurerm_lb_nat_rule.a.backend_port != azurerm_lb_nat_rule.b.backend_port",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_nat_rule.frontend_port == String####azurerm_lb_nat_rule.frontend_port == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_nat_rule.frontend_port == String####azurerm_lb_nat_rule.frontend_port == String",
+            "If both azurerm_lb_nat_rule.a.loadbalancer_id and azurerm_lb_nat_rule.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_nat_rule.a.frontend_port != azurerm_lb_nat_rule.b.frontend_port",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.name == String####azurerm_lb_nat_rule.frontend_port == String####azurerm_lb_nat_rule.frontend_port == String",
+            "If both azurerm_lb_nat_rule.a.frontend_ip_configuration_name and azurerm_lb_nat_rule.b.frontend_ip_configuration_name depends on azurerm_public_ip.c, Then azurerm_lb_nat_rule.a.frontend_port != azurerm_lb_nat_rule.b.frontend_port",
+            null
+        ]
+    ],
+    "UnequalCombo####azurerm_lb_nat_rule.name == String####azurerm_lb_nat_rule.name == String": [
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_lb_nat_rule.frontend_ip_configuration_name == String####azurerm_public_ip.name == String####azurerm_public_ip.name == String####azurerm_lb_nat_rule.name == String####azurerm_lb_nat_rule.name == String",
+            "If both azurerm_lb_nat_rule.a.frontend_ip_configuration_name and azurerm_lb_nat_rule.b.frontend_ip_configuration_name depends on azurerm_public_ip.c, Then azurerm_lb_nat_rule.a.name != azurerm_lb_nat_rule.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_nat_rule.backend_address_pool_id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_backend_address_pool.id == String####azurerm_lb_nat_rule.name == String####azurerm_lb_nat_rule.name == String",
+            "If both azurerm_lb_nat_rule.a.backend_address_pool_id and azurerm_lb_nat_rule.b.backend_address_pool_id depends on azurerm_lb_backend_address_pool.c, Then azurerm_lb_nat_rule.a.name != azurerm_lb_nat_rule.b.name",
+            null
+        ],
+        [
+            "COMBO####BranchThenUnequalCombo####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb_nat_rule.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb.id == String####azurerm_lb_nat_rule.name == String####azurerm_lb_nat_rule.name == String",
+            "If both azurerm_lb_nat_rule.a.loadbalancer_id and azurerm_lb_nat_rule.b.loadbalancer_id depends on azurerm_lb.c, Then azurerm_lb_nat_rule.a.name != azurerm_lb_nat_rule.b.name",
+            null
+        ]
+    ]
+}

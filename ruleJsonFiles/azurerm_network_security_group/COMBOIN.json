@@ -1,0 +1,16 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.destination_address_prefix == CIDR",
+            "If the value of azurerm_network_security_group.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_network_security_group.security_rule.destination_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_network_security_group.resource_group_name == String####azurerm_resource_group.name == String####azurerm_network_security_group.security_rule.source_address_prefix == CIDR",
+            "If the value of azurerm_network_security_group.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_network_security_group.security_rule.source_address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

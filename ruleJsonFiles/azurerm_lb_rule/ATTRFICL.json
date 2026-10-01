@@ -1,0 +1,14 @@
+{
+    "Constant####azurerm_lb_rule.protocol == Tcp": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_rule.enable_floating_ip == false####azurerm_lb_rule.protocol == Tcp",
+            "If there is azurerm_lb_rule.a.enable_floating_ip == false, Then there is azurerm_lb_rule.a.protocol == Tcp",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_rule.enable_floating_ip == true####azurerm_lb_rule.protocol == Tcp",
+            "If there is azurerm_lb_rule.a.enable_floating_ip == true, Then there is azurerm_lb_rule.a.protocol == Tcp",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.address_space == CIDR",
+            "If the value of azurerm_local_network_gateway.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_local_network_gateway.address_space could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.gateway_address == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_local_network_gateway.resource_group_name == String####azurerm_resource_group.name == String####azurerm_local_network_gateway.gateway_address == CIDR",
+            "If the value of azurerm_local_network_gateway.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_local_network_gateway.gateway_address could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

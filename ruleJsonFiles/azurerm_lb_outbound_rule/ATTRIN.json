@@ -1,0 +1,24 @@
+{
+    "ATTR####EnumThenEnum####azurerm_lb_outbound_rule.protocol == Enum####azurerm_lb_outbound_rule.enable_tcp_reset == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_lb_outbound_rule.protocol == All####azurerm_lb_outbound_rule.enable_tcp_reset == True",
+            "If the value of azurerm_lb_outbound_rule.protocol is All, then the value of azurerm_lb_outbound_rule.enable_tcp_reset cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_lb_outbound_rule.protocol == All####azurerm_lb_outbound_rule.enable_tcp_reset == False",
+            "If the value of azurerm_lb_outbound_rule.protocol is All, then the value of azurerm_lb_outbound_rule.enable_tcp_reset cannot be False? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_lb_outbound_rule.protocol == Tcp####azurerm_lb_outbound_rule.enable_tcp_reset == True",
+            "If the value of azurerm_lb_outbound_rule.protocol is Tcp, then the value of azurerm_lb_outbound_rule.enable_tcp_reset cannot be True? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_lb_outbound_rule.protocol == Tcp####azurerm_lb_outbound_rule.enable_tcp_reset == False",
+            "If the value of azurerm_lb_outbound_rule.protocol is Tcp, then the value of azurerm_lb_outbound_rule.enable_tcp_reset cannot be False? Please answer with True or False",
+            null
+        ]
+    ]
+}

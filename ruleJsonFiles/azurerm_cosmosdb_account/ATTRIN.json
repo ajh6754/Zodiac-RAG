@@ -1,0 +1,104 @@
+{
+    "ATTR####EnumThenEnum####azurerm_cosmosdb_account.kind == Enum####azurerm_cosmosdb_account.capabilities.name == Enum": [
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableAggregationPipeline",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableAggregationPipeline? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableMongo",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableMongo? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == MongoDBv3.4",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be MongoDBv3.4? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == mongoEnableDocLevelTTL",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be mongoEnableDocLevelTTL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableServerless",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableServerless? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableGremlin",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableGremlin? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableTable",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableTable? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableCassandra",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableCassandra? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == DisableRateLimitingResponses",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be DisableRateLimitingResponses? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == MongoDB####azurerm_cosmosdb_account.capabilities.name == EnableMongoRetryableWrites",
+            "If the value of azurerm_cosmosdb_account.kind is MongoDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableMongoRetryableWrites? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableAggregationPipeline",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableAggregationPipeline? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableMongo",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableMongo? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == MongoDBv3.4",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be MongoDBv3.4? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == mongoEnableDocLevelTTL",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be mongoEnableDocLevelTTL? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableServerless",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableServerless? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableGremlin",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableGremlin? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableTable",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableTable? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableCassandra",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableCassandra? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == DisableRateLimitingResponses",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be DisableRateLimitingResponses? Please answer with True or False",
+            null
+        ],
+        [
+            "ATTR####ConstantThenNonConstant####azurerm_cosmosdb_account.kind == GlobalDocumentDB####azurerm_cosmosdb_account.capabilities.name == EnableMongoRetryableWrites",
+            "If the value of azurerm_cosmosdb_account.kind is GlobalDocumentDB, then the value of azurerm_cosmosdb_account.capabilities.name cannot be EnableMongoRetryableWrites? Please answer with True or False",
+            null
+        ]
+    ]
+}

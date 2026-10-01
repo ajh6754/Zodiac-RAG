@@ -1,0 +1,16 @@
+{
+    "Branch####azurerm_route_table.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_subnet_route_table_association.route_table_id == String####azurerm_subnet_route_table_association.subnet_id == String####azurerm_route_table.id == String####azurerm_subnet.id == String####azurerm_route_table.resource_group_name == String####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_route_table.b and azurerm_subnet.c connected or associated with each other via azurerm_subnet_route_table_association.a, Then both azurerm_route_table.b.resource_group_name and azurerm_subnet.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_subnet_route_table_association.subnet_id == String####azurerm_subnet.id == String####azurerm_subnet_route_table_association.PLACEHOLDER == String####azurerm_subnet.PLACEHOLDER == String",
+            "If azurerm_subnet_route_table_association.a.subnet_id depends on azurerm_subnet.b.id, Then azurerm_subnet.b could only have a single azurerm_subnet_route_table_association that is azurerm_subnet_route_table_association.a",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,273 @@
+{
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES128": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup2####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES128",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup2, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES128",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES256": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup14####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup14, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES256",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA1": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES128####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA1",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES128, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA1",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup2####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA1",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup2, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA1",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA256": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES256####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA256",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup14####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup14, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA256",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES128": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA1####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES128",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA1, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES128",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup2####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES128",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup2, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES128",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES128####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES128",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES128, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES128",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES256": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA256####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES256",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES256####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES256",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup14####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup14, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES256",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA1": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES128####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA1",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES128, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA1",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup2####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA1",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup2, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA1",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES128####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA1",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES128, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA1",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA1####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA1",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA1, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA1",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA256": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES256####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA256",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA256####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA256",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup14####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup14, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA256",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES256####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA256",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA256",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS14": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES256####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS14",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS14",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA256####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS14",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS14",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES256####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS14",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS14",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup14####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS14",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup14, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS14",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA256####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS14",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA256, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS14",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS2": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_encryption == AES128####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS2",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_encryption == AES128, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_encryption == AES128####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS2",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_encryption == AES128, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ike_integrity == SHA1####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS2",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ike_integrity == SHA1, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.dh_group == DHGroup2####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS2",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.dh_group == DHGroup2, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS2",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.ipsec_policy.ipsec_integrity == SHA1####azurerm_virtual_network_gateway_connection.ipsec_policy.pfs_group == PFS2",
+            "If there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.ipsec_integrity == SHA1, Then there is azurerm_virtual_network_gateway_connection.a.ipsec_policy.pfs_group == PFS2",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.type == IPsec": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.enable_bgp == true####azurerm_virtual_network_gateway_connection.type == IPsec",
+            "If there is azurerm_virtual_network_gateway_connection.a.enable_bgp == true, Then there is azurerm_virtual_network_gateway_connection.a.type == IPsec",
+            null
+        ]
+    ],
+    "Constant####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_virtual_network_gateway_connection.enable_bgp == false####azurerm_virtual_network_gateway_connection.type == Vnet2Vnet",
+            "If there is azurerm_virtual_network_gateway_connection.a.enable_bgp == false, Then there is azurerm_virtual_network_gateway_connection.a.type == Vnet2Vnet",
+            null
+        ]
+    ],
+    "Enum####azurerm_virtual_network_gateway_connection.enable_bgp == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_virtual_network_gateway_connection.type == Enum####azurerm_virtual_network_gateway_connection.enable_bgp == Enum",
+            "If azurerm_virtual_network_gateway_connection.a.type is of certain value, Then azurerm_virtual_network_gateway_connection.a.enable_bgp cannot use certain value",
+            null
+        ]
+    ],
+    "Enum####azurerm_virtual_network_gateway_connection.type == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_virtual_network_gateway_connection.enable_bgp == Enum####azurerm_virtual_network_gateway_connection.type == Enum",
+            "If azurerm_virtual_network_gateway_connection.a.enable_bgp is of certain value, Then azurerm_virtual_network_gateway_connection.a.type cannot use certain value",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway_connection.connection_protocol == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence####azurerm_virtual_network_gateway_connection.connection_protocol == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.custom_bgp_addresses is null or empty, Then azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.authorization_key == Absence####azurerm_virtual_network_gateway_connection.connection_protocol == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.authorization_key is null or empty, Then azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence####azurerm_virtual_network_gateway_connection.connection_protocol == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.traffic_selector_policy is null or empty, Then azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway_connection.ipsec_policy.sa_lifetime == Existence": [
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway_connection.ipsec_policy.sa_datasize == Existence####azurerm_virtual_network_gateway_connection.ipsec_policy.sa_lifetime == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.ipsec_policy.sa_datasize is not null nor empty, Then azurerm_virtual_network_gateway_connection.a.ipsec_policy.sa_lifetime is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway_connection.routing_weight == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.traffic_selector_policy is null or empty, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.authorization_key == Absence####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.authorization_key is null or empty, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.custom_bgp_addresses is null or empty, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.ipsec_policy == Absence####azurerm_virtual_network_gateway_connection.routing_weight == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.ipsec_policy is null or empty, Then azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty",
+            null
+        ]
+    ],
+    "Existence####azurerm_virtual_network_gateway_connection.shared_key == Existence": [
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.authorization_key == Absence####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.authorization_key is null or empty, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.traffic_selector_policy == Absence####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.traffic_selector_policy is null or empty, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway_connection.routing_weight == Existence####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.routing_weight is not null nor empty, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####AbsenceThenExistence####azurerm_virtual_network_gateway_connection.custom_bgp_addresses == Absence####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.custom_bgp_addresses is null or empty, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ],
+        [
+            "ATTR####ExistenceThenExistence####azurerm_virtual_network_gateway_connection.connection_protocol == Existence####azurerm_virtual_network_gateway_connection.shared_key == Existence",
+            "If azurerm_virtual_network_gateway_connection.a.connection_protocol is not null nor empty, Then azurerm_virtual_network_gateway_connection.a.shared_key is not null nor empty",
+            null
+        ]
+    ]
+}

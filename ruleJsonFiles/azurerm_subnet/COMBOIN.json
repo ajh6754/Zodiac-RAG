@@ -1,0 +1,23 @@
+{
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_subnet.resource_group_name == String####azurerm_resource_group.name == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_subnet.resource_group_name depends on azurerm_resource_group.name, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_subnet.address_prefixes == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboDown####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_subnet.address_prefixes == CIDR",
+            "If the value of azurerm_subnet.virtual_network_name depends on azurerm_virtual_network.name, then what is the maximum CIDR mask length azurerm_subnet.address_prefixes could use? Please answer with an integer",
+            null
+        ]
+    ],
+    "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.address_space == CIDR": [
+        [
+            "COMBO####ReferenceThenCIDRRangeComboUp####azurerm_subnet.virtual_network_name == String####azurerm_virtual_network.name == String####azurerm_virtual_network.address_space == CIDR",
+            "If the value of azurerm_subnet.virtual_network_name depends on azurerm_virtual_network.name, then what is the maximum CIDR mask length azurerm_virtual_network.address_space could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

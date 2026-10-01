@@ -1,0 +1,23 @@
+{
+    "Branch####azurerm_lb.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String": [
+        [
+            "TOPO####AssociateThenBranch####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_lb.id == String####azurerm_virtual_network.id == String####azurerm_lb.resource_group_name == String####azurerm_virtual_network.resource_group_name == String####azurerm_resource_group.name == String####azurerm_resource_group.name == String",
+            "If azurerm_lb.b and azurerm_virtual_network.c connected or associated with each other via azurerm_lb_backend_address_pool.a, Then both azurerm_lb.b.resource_group_name and azurerm_virtual_network.c.resource_group_name depends on azurerm_resource_group.d",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_backend_address_pool.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb_backend_address_pool.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b could only have a single azurerm_lb_backend_address_pool that is azurerm_lb_backend_address_pool.a",
+            null
+        ]
+    ],
+    "ConflictChild####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_backend_address_pool.virtual_network_id == String####azurerm_virtual_network.id == String####azurerm_lb_backend_address_pool.PLACEHOLDER == String####azurerm_virtual_network.PLACEHOLDER == String",
+            "If azurerm_lb_backend_address_pool.a.virtual_network_id depends on azurerm_virtual_network.b.id, Then azurerm_virtual_network.b could only have a single azurerm_lb_backend_address_pool that is azurerm_lb_backend_address_pool.a",
+            null
+        ]
+    ]
+}

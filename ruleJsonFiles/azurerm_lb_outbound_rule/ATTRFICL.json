@@ -1,0 +1,16 @@
+{
+    "Constant####azurerm_lb_outbound_rule.protocol == All": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_lb_outbound_rule.enable_tcp_reset == true####azurerm_lb_outbound_rule.protocol == All",
+            "If there is azurerm_lb_outbound_rule.a.enable_tcp_reset == true, Then there is azurerm_lb_outbound_rule.a.protocol == All",
+            null
+        ]
+    ],
+    "Enum####azurerm_lb_outbound_rule.enable_tcp_reset == Enum": [
+        [
+            "ATTR####EnumThenEnum####azurerm_lb_outbound_rule.protocol == Enum####azurerm_lb_outbound_rule.enable_tcp_reset == Enum",
+            "If azurerm_lb_outbound_rule.a.protocol is of certain value, Then azurerm_lb_outbound_rule.a.enable_tcp_reset cannot use certain value",
+            null
+        ]
+    ]
+}

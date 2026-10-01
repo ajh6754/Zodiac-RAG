@@ -1,0 +1,29 @@
+{
+    "ATTR####EnumThenCIDRMask####azurerm_route.next_hop_type == Enum####azurerm_route.address_prefix == CIDR": [
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route.next_hop_type == Internet####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.next_hop_type is Internet, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route.next_hop_type == VirtualAppliance####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.next_hop_type is VirtualAppliance, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route.next_hop_type == VirtualNetworkGateway####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.next_hop_type is VirtualNetworkGateway, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route.next_hop_type == None####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.next_hop_type is None, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ],
+        [
+            "ATTR####ConstantThenCIDRRange####azurerm_route.next_hop_type == VnetLocal####azurerm_route.address_prefix == CIDR",
+            "If the value of azurerm_route.next_hop_type is VnetLocal, then what is the maximum CIDR mask length azurerm_route.address_prefix could use? Please answer with an integer",
+            null
+        ]
+    ]
+}

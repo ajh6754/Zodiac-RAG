@@ -1,0 +1,9 @@
+{
+    "ConflictChild####azurerm_lb_probe.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String": [
+        [
+            "TOPO####ReferenceThenConflictChild####azurerm_lb_probe.loadbalancer_id == String####azurerm_lb.id == String####azurerm_lb_probe.PLACEHOLDER == String####azurerm_lb.PLACEHOLDER == String",
+            "If azurerm_lb_probe.a.loadbalancer_id depends on azurerm_lb.b.id, Then azurerm_lb.b could only have a single azurerm_lb_probe that is azurerm_lb_probe.a",
+            null
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "Constant####azurerm_network_security_rule.access == Allow": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_security_rule.protocol == Udp####azurerm_network_security_rule.access == Allow",
+            "If there is azurerm_network_security_rule.a.protocol == Udp, Then there is azurerm_network_security_rule.a.access == Allow",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_security_rule.protocol == Icmp####azurerm_network_security_rule.access == Allow",
+            "If there is azurerm_network_security_rule.a.protocol == Icmp, Then there is azurerm_network_security_rule.a.access == Allow",
+            null
+        ],
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_security_rule.protocol == Tcp####azurerm_network_security_rule.access == Allow",
+            "If there is azurerm_network_security_rule.a.protocol == Tcp, Then there is azurerm_network_security_rule.a.access == Allow",
+            null
+        ]
+    ],
+    "Constant####azurerm_network_security_rule.direction == Outbound": [
+        [
+            "ATTR####ConstantThenConstant####azurerm_network_security_rule.protocol == Udp####azurerm_network_security_rule.direction == Outbound",
+            "If there is azurerm_network_security_rule.a.protocol == Udp, Then there is azurerm_network_security_rule.a.direction == Outbound",
+            null
+        ]
+    ]
+}
