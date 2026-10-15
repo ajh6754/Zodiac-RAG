@@ -17,3 +17,5 @@ __pycache__
 */terraform-provider-*
 */output*
 */*.json
+.env
+!poc/tasks.json

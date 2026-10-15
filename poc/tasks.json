@@ -1,0 +1,112 @@
+[
+  {
+    "id": "storage_account",
+    "prompt": "Create an Azure storage account for application file uploads, in its own resource group.",
+    "resources": [
+      "azurerm_storage_account"
+    ]
+  },
+  {
+    "id": "linux_vm",
+    "prompt": "Create a Linux virtual machine in a new virtual network and subnet, with a network interface and a public IP so an administrator can SSH in.",
+    "resources": [
+      "azurerm_linux_virtual_machine",
+      "azurerm_network_interface",
+      "azurerm_public_ip",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "windows_vm",
+    "prompt": "Create a Windows Server virtual machine in a new virtual network with a network security group that allows RDP.",
+    "resources": [
+      "azurerm_windows_virtual_machine",
+      "azurerm_network_interface",
+      "azurerm_network_security_group",
+      "azurerm_network_security_rule",
+      "azurerm_subnet"
+    ]
+  },
+  {
+    "id": "app_gateway",
+    "prompt": "Create an Azure application gateway (WAF_v2) with a public frontend, in its own subnet and virtual network, routing HTTP to a backend pool of two private IPs.",
+    "resources": [
+      "azurerm_application_gateway",
+      "azurerm_public_ip",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "postgres_flexible",
+    "prompt": "Create an Azure PostgreSQL flexible server and a database for a web application.",
+    "resources": [
+      "azurerm_postgresql_flexible_server"
+    ]
+  },
+  {
+    "id": "mssql_database",
+    "prompt": "Create an Azure SQL server and a SQL database for a reporting application.",
+    "resources": [
+      "azurerm_mssql_server",
+      "azurerm_mssql_database"
+    ]
+  },
+  {
+    "id": "redis_cache",
+    "prompt": "Create an Azure Cache for Redis instance for session storage.",
+    "resources": [
+      "azurerm_redis_cache"
+    ]
+  },
+  {
+    "id": "cosmosdb",
+    "prompt": "Create an Azure Cosmos DB account for a document database.",
+    "resources": [
+      "azurerm_cosmosdb_account"
+    ]
+  },
+  {
+    "id": "load_balancer",
+    "prompt": "Create a public Azure load balancer with a backend pool, a health probe, and a rule forwarding TCP port 80.",
+    "resources": [
+      "azurerm_lb",
+      "azurerm_lb_backend_address_pool",
+      "azurerm_lb_probe",
+      "azurerm_lb_rule",
+      "azurerm_public_ip"
+    ]
+  },
+  {
+    "id": "firewall",
+    "prompt": "Create an Azure Firewall in a hub virtual network with the required subnet and a public IP.",
+    "resources": [
+      "azurerm_firewall",
+      "azurerm_public_ip",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "vpn_gateway",
+    "prompt": "Create a site-to-site VPN: a virtual network gateway, a local network gateway for the on-premises site, and the connection between them.",
+    "resources": [
+      "azurerm_virtual_network_gateway",
+      "azurerm_local_network_gateway",
+      "azurerm_virtual_network_gateway_connection",
+      "azurerm_public_ip",
+      "azurerm_subnet"
+    ]
+  },
+  {
+    "id": "private_endpoint",
+    "prompt": "Create a storage account that is reachable only through a private endpoint in a virtual network subnet.",
+    "resources": [
+      "azurerm_private_endpoint",
+      "azurerm_storage_account",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  }
+]

@@ -4,3 +4,4 @@ dotenv
 chromadb 
 langchain-text-splitters
 pypdf
+checkov

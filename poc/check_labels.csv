@@ -1,0 +1,61 @@
+check_id,label,task,times_failed,name,why
+CKV_AZURE_190,core,,7,Ensure that Storage blobs restrict public access,anonymous blob access
+CKV2_AZURE_47,core,,7,Ensure storage account is configured without blob anonymous access,anonymous blob access
+CKV_AZURE_44,core,,5,Ensure Storage Account is using the latest version of TLS encryption,storage minimum TLS 1.2
+CKV_AZURE_9,core,,4,Ensure that RDP access is restricted from the internet,RDP open to the internet
+CKV_AZURE_10,core,,3,Ensure that SSH access is restricted from the internet,SSH open to the internet
+CKV_AZURE_52,core,,2,Ensure MSSQL is using the latest version of TLS encryption,SQL minimum TLS 1.2
+CKV_AZURE_148,core,,1,Ensure Redis Cache is using the latest version of TLS encryption,Redis minimum TLS 1.2
+CKV_AZURE_1,core,,1,Ensure Azure Instance does not use basic authentication(Use SSH Key Instead),password login on a VM
+CKV_AZURE_178,core,,1,Ensure linux VM enables SSH with keys for secure communication,no SSH key on a VM
+CKV2_AZURE_34,core,,1,Ensure Azure SQL server firewall is not overly permissive,SQL open to all of Azure
+CKV2_AZURE_26,core,,1,Ensure Azure PostgreSQL Flexible server is not configured with overly permissive network access,PostgreSQL open to all of Azure
+CKV_AZURE_3,core,,0,Ensure that 'enable_https_traffic_only' is enabled,storage HTTPS only
+CKV_AZURE_91,core,,0,Ensure that only SSL are enabled for Cache for Redis,Redis plain-text port
+CKV_AZURE_34,core,,0,Ensure that 'Public access level' is set to Private for blob containers,blob containers not public
+CKV_AZURE_59,task,private_endpoint,7,Ensure that Storage accounts disallow public access,task says private only
+CKV2_AZURE_33,task,private_endpoint,6,Ensure storage account is configured with private endpoint,task says private only
+CKV_AZURE_120,task,app_gateway,2,Ensure that Application Gateway enables WAF,task asks for WAF
+CKV_AZURE_35,task,private_endpoint,1,Ensure default network access rule for Storage Accounts is set to deny,task says private only
+CKV_AZURE_122,task,app_gateway,0,"Ensure that Application Gateway uses WAF in ""Detection"" or ""Prevention"" modes",task asks for WAF
+CKV_AZURE_43,false_positive,,2,Ensure Storage Accounts adhere to the naming rules,name built from variables
+CKV_AZURE_119,task_conflict,,12,Ensure that Network Interfaces don't use public IPs,task asks for a public IP
+CKV_AZURE_217,task_conflict,,6,Ensure Azure Application gateways listener that allow connection requests over HTTP,task asks for HTTP
+CKV_AZURE_218,task_conflict,,6,Ensure Application Gateway defines secure protocols for in transit communication,task is HTTP only
+CKV_AZURE_160,task_conflict,,2,Ensure that HTTP (port 80) access is restricted from the internet,task forwards port 80
+CKV2_AZURE_31,not_asked,,27,Ensure VNET subnet is configured with a Network Security Group (NSG),firewall and gateway subnets can't have one
+CKV2_AZURE_1,not_asked,,11,Ensure storage for critical data are encrypted with Customer Managed Key,customer-managed keys
+CKV2_AZURE_40,not_asked,,11,Ensure storage account is not configured with Shared Key authorization,stricter login
+CKV2_AZURE_41,not_asked,,11,Ensure storage account is configured with SAS expiration policy,SAS expiration policy
+CKV_AZURE_33,not_asked,,11,"Ensure Storage logging is enabled for Queue service for read, write and delete requests",diagnostic logging
+CKV_AZURE_50,not_asked,,10,Ensure Virtual Machine Extensions are not Installed,no VM extensions
+CKV_AZURE_206,not_asked,,10,Ensure that Storage Accounts use replication,availability not security
+CKV2_AZURE_38,not_asked,,8,Ensure soft-delete is enabled on Azure storage account,soft delete
+CKV_AZURE_100,not_asked,,6,Ensure that Cosmos DB accounts have customer-managed keys to encrypt data at rest,customer-managed keys
+CKV_AZURE_140,not_asked,,6,Ensure that Local Authentication is disabled on CosmosDB,stricter login
+CKV_AZURE_23,not_asked,,6,Ensure that 'Auditing' is set to 'On' for SQL servers,auditing
+CKV_AZURE_24,not_asked,,6,Ensure that 'Auditing' Retention is 'greater than 90 days' for SQL servers,auditing retention
+CKV2_AZURE_2,not_asked,,6,Ensure that Vulnerability Assessment (VA) is enabled on a SQL server by setting a Storage Account,vulnerability assessment
+CKV_AZURE_101,not_asked,,6,Ensure that Azure Cosmos DB disables public network access,not asked to be private
+CKV_AZURE_99,not_asked,,6,Ensure Cosmos DB accounts have restricted access,not asked to be private
+CKV_AZURE_132,not_asked,,6,Ensure cosmosdb does not allow privileged escalation by restricting management plane changes,Cosmos management plane lock
+CKV_AZURE_216,not_asked,,6,Ensure DenyIntelMode is set to Deny for Azure Firewalls,firewall threat intel set to deny
+CKV_AZURE_89,not_asked,,5,Ensure that Azure Cache for Redis disables public network access,not asked to be private
+CKV_AZURE_136,not_asked,,4,Ensure that PostgreSQL Flexible server enables geo-redundant backups,geo-redundant backups
+CKV_AZURE_229,not_asked,,4,Ensure the Azure SQL Database Namespace is zone redundant,zone redundancy
+CKV_AZURE_224,not_asked,,4,Ensure that the Ledger feature is enabled on database that requires cryptographic proof and nonrepudiation of data integrity,ledger tables
+CKV_AZURE_151,not_asked,,4,Ensure Windows VM enables encryption,encryption at host
+CKV_AZURE_113,not_asked,,4,Ensure that SQL server disables public network access,not asked to be private
+CKV2_AZURE_45,not_asked,,4,Ensure Microsoft SQL server is configured with private endpoint,not asked to be private
+CKV2_AZURE_57,not_asked,,4,Ensure PostgreSQL Flexible Server is configured with private endpoint,not asked to be private
+CKV_AZURE_220,not_asked,,4,Ensure Firewall policy has IDPS mode as deny,IDPS needs Premium SKU
+CKV2_AZURE_27,not_asked,,3,Ensure Azure AD authentication is enabled for Azure SQL (MSSQL),stricter login
+CKV_AZURE_244,not_asked,,3,Avoid the use of local users for Azure Storage unless necessary,stricter login
+CKV2_AZURE_21,not_asked,,3,Ensure Storage logging is enabled for Blob service for read requests,diagnostic logging
+CKV2_AZURE_10,not_asked,,3,Ensure that Microsoft Antimalware is configured to automatically updates for Virtual Machines,antimalware extension
+CKV2_AZURE_12,not_asked,,3,Ensure that virtual machines are backed up using Azure Backup,backups
+CKV_AZURE_230,not_asked,,3,Standard Replication should be enabled,replication
+CKV2_AZURE_7,not_asked,,2,Ensure that Azure Active Directory Admin is configured,stricter login
+CKV_AZURE_36,not_asked,,2,Ensure 'Trusted Microsoft Services' is enabled for Storage Account access,trusted services bypass
+CKV_AZURE_219,not_asked,,2,Ensure Firewall defines a firewall policy,firewall policy
+CKV2_AZURE_9,not_asked,,1,Ensure Virtual Machines are utilizing Managed Disks,old VM resource
