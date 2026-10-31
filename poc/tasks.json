@@ -108,5 +108,72 @@
       "azurerm_subnet",
       "azurerm_virtual_network"
     ]
+  },
+  {
+    "id": "vnet_peering",
+    "prompt": "Create two virtual networks in different regions and connect them using global virtual network peering.",
+    "resources": [
+      "azurerm_virtual_network",
+      "azurerm_virtual_network_peering"
+    ]
+  },
+  {
+    "id": "bastion_host",
+    "prompt": "Create an Azure Bastion host in a dedicated subnet to provide secure RDP/SSH access to VMs without using public IP addresses on the VMs.",
+    "resources": [
+      "azurerm_bastion_host",
+      "azurerm_public_ip",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "route_table",
+    "prompt": "Create a route table with a user-defined route that forces internet-bound traffic to a virtual appliance, and associate it with a subnet.",
+    "resources": [
+      "azurerm_route_table",
+      "azurerm_subnet_route_table_association",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "vm_data_disk",
+    "prompt": "Create a Linux virtual machine and provision an empty managed data disk, then attach the data disk to the virtual machine.",
+    "resources": [
+      "azurerm_linux_virtual_machine",
+      "azurerm_managed_disk",
+      "azurerm_virtual_machine_data_disk_attachment",
+      "azurerm_network_interface",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "virtual_wan_hub",
+    "prompt": "Create an Azure Virtual WAN, deploy a virtual hub inside it, and connect an existing virtual network to the hub.",
+    "resources": [
+      "azurerm_virtual_wan",
+      "azurerm_virtual_hub",
+      "azurerm_virtual_hub_connection",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "private_dns_resolver",
+    "prompt": "Create a private DNS resolver in a virtual network with an inbound endpoint to allow on-premises DNS queries to resolve Azure private DNS zones.",
+    "resources": [
+      "azurerm_private_dns_resolver",
+      "azurerm_private_dns_resolver_inbound_endpoint",
+      "azurerm_subnet",
+      "azurerm_virtual_network"
+    ]
+  },
+  {
+    "id": "express_route",
+    "prompt": "Create an ExpressRoute circuit with a specified service provider, peering location, and bandwidth tier to connect on-premises infrastructure to Azure.",
+    "resources": [
+      "azurerm_express_route_circuit"
+    ]
   }
 ]
