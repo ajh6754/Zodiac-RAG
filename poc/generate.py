@@ -99,6 +99,49 @@ def ask_claude(model: str, prompt: str, args) -> dict:
     "finish_reason": data.get("stop_reason")
   }
 
+def ask_codex(model: str, prompt: str, args) -> dict:
+  """Asks Codex through the Codex CLI."""
+  model = model.removeprefix("codex:")
+  codex_path = shutil.which("codex")
+  if not codex_path:
+    raise RuntimeError("Codex CLI not found on PATH")
+  command = [codex_path, "exec", "--model", model, "--json", "--ephemeral",
+             "--skip-git-repo-check", "--ignore-user-config", "--sandbox", "read-only",
+             "-c", "developer_instructions=" + json.dumps(SYSTEM_PROMPT),
+             "-c", "features.shell_tool=false", "-"]
+  if args.reasoning != "default":
+    command += ["-c", "model_reasoning_effort=" + json.dumps(args.reasoning)]
+
+  env = {k: v for k, v in os.environ.items()
+         if not k.startswith("CODEX_") or k == "CODEX_HOME"}
+  drive_root = os.path.splitdrive(HERE)[0] + os.sep
+  result = subprocess.run(command, input=SYSTEM_PROMPT + "\n\n" + prompt, capture_output=True, text=True,
+                          encoding="utf-8", cwd=drive_root, env=env)
+  if result.returncode:
+    raise RuntimeError(result.stderr or result.stdout)
+
+  text = ""
+  usage = None
+  for line in result.stdout.splitlines():
+    event = json.loads(line)
+    if event["type"] in ("error", "turn.failed"):
+      raise RuntimeError(event.get("error", event.get("message")))
+    if event["type"] == "item.completed":
+      item = event["item"]
+      if item["type"] == "agent_message":
+        text = item["text"]
+    elif event["type"] == "turn.completed":
+      usage = event["usage"]
+  if usage is None or not text:
+    raise RuntimeError("Codex returned no completed response")
+
+  return {
+    "text": text,
+    "prompt_tokens": usage["input_tokens"],
+    "output_tokens": usage["output_tokens"],
+    "finish_reason": "completed"
+  }
+
 def main():
   parser = argparse.ArgumentParser()
   parser.add_argument("--models", nargs="+", default=["qwen3.8:27b"])
@@ -124,7 +167,7 @@ def main():
     base_url="https://api.genai.gccis.rit.edu/v1",
     api_key=rit_api_key,
     timeout=900
-  )
+  ) if any(not m.startswith("claude-") and "codex" not in m for m in args.models) else None
   store = RuleStore(args.kb) if "zodiac" in args.conditions else None
 
   run_dir = os.path.join(HERE, "results", args.run)
@@ -145,6 +188,8 @@ def main():
           start = time.time()
           if model.startswith("claude-"):
             answer = ask_claude(model, prompt, args)
+          elif "codex" in model:
+            answer = ask_codex(model, prompt, args)
           else:
             answer = ask_gccis(client, model, prompt, args)
           seconds = round(time.time() - start, 1)
