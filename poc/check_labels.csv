@@ -59,3 +59,8 @@ CKV2_AZURE_7,not_asked,,2,Ensure that Azure Active Directory Admin is configured
 CKV_AZURE_36,not_asked,,2,Ensure 'Trusted Microsoft Services' is enabled for Storage Account access,trusted services bypass
 CKV_AZURE_219,not_asked,,2,Ensure Firewall defines a firewall policy,firewall policy
 CKV2_AZURE_9,not_asked,,1,Ensure Virtual Machines are utilizing Managed Disks,old VM resource
+CKV_AZURE_77,core,,1,Ensure that UDP Services are restricted from the Internet,UDP open to the internet
+CKV_AZURE_251,not_asked,,6,Ensure Azure Virtual Machine disks are configured without public network access,not asked to be private
+CKV_AZURE_93,not_asked,,6,Ensure that managed disks use a specific set of disk encryption sets for the customer-managed key encryption,customer-managed keys
+CKV_AZURE_149,core,,0,Ensure that Virtual machine does not enable password authentication,password login on a VM
+CKV2_AZURE_6,core,,0,Ensure 'Allow access to Azure services' for PostgreSQL Database Server is disabled,database open to all of Azure

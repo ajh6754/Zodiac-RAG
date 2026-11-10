@@ -124,7 +124,8 @@ def ask_codex(model: str, prompt: str, args) -> dict:
   usage = None
   for line in result.stdout.splitlines():
     event = json.loads(line)
-    if event["type"] in ("error", "turn.failed"):
+    # "error" events also include retries ("Reconnecting... 2/5"), we should only exit on a true failed turn
+    if event["type"] == "turn.failed":
       raise RuntimeError(event.get("error", event.get("message")))
     if event["type"] == "item.completed":
       item = event["item"]
