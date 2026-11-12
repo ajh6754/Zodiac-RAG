@@ -1,0 +1,115 @@
+model,task,condition,rep,parsed,plan,plan_error,failed,core_failed,failed_ids,core_failed_ids
+qwen3.8_27b,app_gateway,baseline,rep1,True,fail,Required plugins are not installed,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+qwen3.8_27b,app_gateway,baseline,rep2,True,fail,Required plugins are not installed,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+qwen3.8_27b,app_gateway,baseline,rep3,True,fail,Invalid resource type,4,1,CKV2_AZURE_31 CKV_AZURE_120 CKV_AZURE_217 CKV_AZURE_218,CKV_AZURE_120
+qwen3.8_27b,app_gateway,zodiac,rep1,True,fail,Cannot index a set value,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+qwen3.8_27b,app_gateway,zodiac,rep2,True,fail,"expected delegation.0.service_delegation.0.actions.0 to be one of [""Microsoft.Network/networkinterfaces/*"" ""Microsoft.Network/publicIPAddresses/join/action"" ""Microsoft.Network/publicIPAddresses/read"" ""Microsoft.Network/virtualNetworks/read"" ""Microsoft.Network/virtualNetworks/subnets/action"" ""Microsoft.Network/virtualNetworks/subnets/join/action"" ""Microsoft.Network/virtualNetworks/subnets/prepareNetworkPolicies/action"" ""Microsoft.Network/virtualNetworks/subnets/unprepareNetworkPolicies/action""], got Microsoft.Network/networkSecurityRules/action",3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+qwen3.8_27b,app_gateway,zodiac,rep3,True,fail,"expected delegation.0.service_delegation.0.actions.0 to be one of [""Microsoft.Network/networkinterfaces/*"" ""Microsoft.Network/publicIPAddresses/join/action"" ""Microsoft.Network/publicIPAddresses/read"" ""Microsoft.Network/virtualNetworks/read"" ""Microsoft.Network/virtualNetworks/subnets/action"" ""Microsoft.Network/virtualNetworks/subnets/join/action"" ""Microsoft.Network/virtualNetworks/subnets/prepareNetworkPolicies/action"" ""Microsoft.Network/virtualNetworks/subnets/unprepareNetworkPolicies/action""], got Microsoft.Network/networkWatchers/join/action",3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+qwen3.8_27b,bastion_host,baseline,rep1,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,bastion_host,baseline,rep2,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,bastion_host,baseline,rep3,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,bastion_host,zodiac,rep1,True,fail,"expected security_rule.1.protocol to be one of [""*"" ""Tcp"" ""Udp"" ""Icmp"" ""Ah"" ""Esp""], got All",1,0,CKV2_AZURE_31,
+qwen3.8_27b,bastion_host,zodiac,rep2,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,bastion_host,zodiac,rep3,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,cosmosdb,baseline,rep1,True,fail,Insufficient geo_location blocks,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+qwen3.8_27b,cosmosdb,baseline,rep2,True,fail,Failed to install provider,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+qwen3.8_27b,cosmosdb,baseline,rep3,True,fail,Failed to query available provider packages,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+qwen3.8_27b,cosmosdb,zodiac,rep1,True,fail,Insufficient geo_location blocks,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+qwen3.8_27b,cosmosdb,zodiac,rep2,True,fail,Insufficient geo_location blocks,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+qwen3.8_27b,cosmosdb,zodiac,rep3,True,fail,Required plugins are not installed,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+qwen3.8_27b,express_route,baseline,rep1,True,needs_input,,0,0,,
+qwen3.8_27b,express_route,baseline,rep2,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,express_route,baseline,rep3,True,fail,Insufficient sku blocks,0,0,,
+qwen3.8_27b,express_route,zodiac,rep1,True,fail,Failed to load plugin schemas,0,0,,
+qwen3.8_27b,express_route,zodiac,rep2,True,fail,Unsupported argument,0,0,,
+qwen3.8_27b,express_route,zodiac,rep3,True,fail,Insufficient sku blocks,0,0,,
+qwen3.8_27b,firewall,baseline,rep1,True,fail,Unsupported argument,2,0,CKV_AZURE_216 CKV_AZURE_220,
+qwen3.8_27b,firewall,baseline,rep2,True,fail,Failed to query available provider packages,2,0,CKV_AZURE_216 CKV_AZURE_220,
+qwen3.8_27b,firewall,baseline,rep3,True,fail,Unsupported argument,2,0,CKV_AZURE_216 CKV_AZURE_220,
+qwen3.8_27b,firewall,zodiac,rep1,True,fail,Failed to install provider,3,0,CKV2_AZURE_31 CKV_AZURE_216 CKV_AZURE_219,
+qwen3.8_27b,firewall,zodiac,rep2,True,fail,Missing required argument,2,0,CKV_AZURE_216 CKV_AZURE_219,
+qwen3.8_27b,firewall,zodiac,rep3,True,fail,Required plugins are not installed,2,0,CKV_AZURE_216 CKV_AZURE_219,
+qwen3.8_27b,linux_vm,baseline,rep1,True,fail,Required plugins are not installed,4,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_50,CKV_AZURE_10
+qwen3.8_27b,linux_vm,baseline,rep2,True,fail,Invalid function argument,4,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_50,CKV_AZURE_10
+qwen3.8_27b,linux_vm,baseline,rep3,True,fail,Unsupported argument,5,2,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_178 CKV_AZURE_50,CKV_AZURE_10 CKV_AZURE_178
+qwen3.8_27b,linux_vm,zodiac,rep1,True,fail,Required plugins are not installed,3,0,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_50,
+qwen3.8_27b,linux_vm,zodiac,rep2,True,fail,Required plugins are not installed,6,2,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_160 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_10 CKV_AZURE_9
+qwen3.8_27b,linux_vm,zodiac,rep3,True,fail,Required plugins are not installed,3,0,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_50,
+qwen3.8_27b,load_balancer,baseline,rep1,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,load_balancer,baseline,rep2,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,load_balancer,baseline,rep3,True,fail,Unsupported block type,0,0,,
+qwen3.8_27b,load_balancer,zodiac,rep1,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,load_balancer,zodiac,rep2,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,load_balancer,zodiac,rep3,True,fail,Unsupported argument,0,0,,
+qwen3.8_27b,mssql_database,baseline,rep1,True,fail,Required plugins are not installed,8,0,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,
+qwen3.8_27b,mssql_database,baseline,rep2,True,fail,Required plugins are not installed,10,2,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_34 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24 CKV_AZURE_52,CKV2_AZURE_34 CKV_AZURE_52
+qwen3.8_27b,mssql_database,baseline,rep3,True,fail,Required plugins are not installed,8,0,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,
+qwen3.8_27b,mssql_database,zodiac,rep1,True,fail,Invalid resource type,4,0,CKV2_AZURE_2 CKV2_AZURE_7 CKV_AZURE_23 CKV_AZURE_24,
+qwen3.8_27b,mssql_database,zodiac,rep2,True,fail,Unsupported argument,9,1,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24 CKV_AZURE_52,CKV_AZURE_52
+qwen3.8_27b,mssql_database,zodiac,rep3,True,needs_input,,9,1,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24 CKV_AZURE_52,CKV_AZURE_52
+qwen3.8_27b,postgres_flexible,baseline,rep1,True,fail,Unsupported argument,2,0,CKV2_AZURE_57 CKV_AZURE_136,
+qwen3.8_27b,postgres_flexible,baseline,rep2,True,needs_input,,2,0,CKV2_AZURE_57 CKV_AZURE_136,
+qwen3.8_27b,postgres_flexible,baseline,rep3,True,fail,Required plugins are not installed,2,0,CKV2_AZURE_57 CKV_AZURE_136,
+qwen3.8_27b,postgres_flexible,zodiac,rep1,True,fail,Unsupported argument,2,0,CKV2_AZURE_57 CKV_AZURE_136,
+qwen3.8_27b,postgres_flexible,zodiac,rep2,True,fail,Required plugins are not installed,3,0,CKV2_AZURE_31 CKV2_AZURE_57 CKV_AZURE_136,
+qwen3.8_27b,postgres_flexible,zodiac,rep3,True,fail,Failed to install provider,2,0,CKV2_AZURE_57 CKV_AZURE_136,
+qwen3.8_27b,private_dns_resolver,baseline,rep1,True,fail,Failed to query available provider packages,1,0,CKV2_AZURE_31,
+qwen3.8_27b,private_dns_resolver,baseline,rep2,True,fail,Failed to query available provider packages,1,0,CKV2_AZURE_31,
+qwen3.8_27b,private_dns_resolver,baseline,rep3,True,fail,Missing required argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,private_dns_resolver,zodiac,rep1,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,private_dns_resolver,zodiac,rep2,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,private_dns_resolver,zodiac,rep3,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,private_endpoint,baseline,rep1,True,fail,Required plugins are not installed,11,3,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_43 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_59
+qwen3.8_27b,private_endpoint,baseline,rep2,True,fail,Insufficient service_delegation blocks,9,2,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33,CKV2_AZURE_47 CKV_AZURE_190
+qwen3.8_27b,private_endpoint,baseline,rep3,True,fail,Insufficient private_service_connection blocks,10,3,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_59
+qwen3.8_27b,private_endpoint,zodiac,rep1,True,fail,Required plugins are not installed,10,2,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_244 CKV_AZURE_33,CKV2_AZURE_47 CKV_AZURE_190
+qwen3.8_27b,private_endpoint,zodiac,rep2,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,private_endpoint,zodiac,rep3,True,fail,Unsupported argument,9,2,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_244 CKV_AZURE_33,CKV2_AZURE_47 CKV_AZURE_190
+qwen3.8_27b,redis_cache,baseline,rep1,True,fail,Missing required argument,2,0,CKV_AZURE_230 CKV_AZURE_89,
+qwen3.8_27b,redis_cache,baseline,rep2,True,fail,Required plugins are not installed,3,0,CKV2_AZURE_31 CKV_AZURE_230 CKV_AZURE_89,
+qwen3.8_27b,redis_cache,baseline,rep3,True,fail,"expected delegation.0.service_delegation.0.name to be one of [""GitHub.Network/networkSettings"" ""Informatica.DataManagement/organizations"" ""Microsoft.ApiManagement/service"" ""Microsoft.Apollo/npu"" ""Microsoft.App/environments"" ""Microsoft.App/testClients"" ""Microsoft.AVS/PrivateClouds"" ""Microsoft.AzureCosmosDB/clusters"" ""Microsoft.BareMetal/AzureHostedService"" ""Microsoft.BareMetal/AzureHPC"" ""Microsoft.BareMetal/AzurePaymentHSM"" ""Microsoft.BareMetal/AzureVMware"" ""Microsoft.BareMetal/CrayServers"" ""Microsoft.BareMetal/MonitoringServers"" ""Microsoft.Batch/batchAccounts"" ""Microsoft.CloudTest/hostedpools"" ""Microsoft.CloudTest/images"" ""Microsoft.CloudTest/pools"" ""Microsoft.Codespaces/plans"" ""Microsoft.ContainerInstance/containerGroups"" ""Microsoft.ContainerService/managedClusters"" ""Microsoft.ContainerService/TestClients"" ""Microsoft.Databricks/workspaces"" ""Microsoft.DBforMySQL/flexibleServers"" ""Microsoft.DBforMySQL/servers"" ""Microsoft.DBforMySQL/serversv2"" ""Microsoft.DBforPostgreSQL/flexibleServers"" ""Microsoft.DBforPostgreSQL/serversv2"" ""Microsoft.DBforPostgreSQL/singleServers"" ""Microsoft.DelegatedNetwork/controller"" ""Microsoft.DevCenter/networkConnection"" ""Microsoft.DevOpsInfrastructure/pools"" ""Microsoft.DocumentDB/cassandraClusters"" ""Microsoft.Fidalgo/networkSettings"" ""Microsoft.HardwareSecurityModules/dedicatedHSMs"" ""Microsoft.Kusto/clusters"" ""Microsoft.LabServices/labplans"" ""Microsoft.Logic/integrationServiceEnvironments"" ""Microsoft.MachineLearningServices/workspaces"" ""Microsoft.MessagingConnectors/connectors"" ""Microsoft.Netapp/volumes"" ""Microsoft.Network/applicationGateways"" ""Microsoft.Network/dnsResolvers"" ""Microsoft.Network/managedResolvers"" ""Microsoft.Network/fpgaNetworkInterfaces"" ""Microsoft.Network/networkWatchers."" ""Microsoft.Network/virtualNetworkGateways"" ""Microsoft.Orbital/orbitalGateways"" ""Microsoft.PowerAutomate/hostedRpa"" ""Microsoft.PowerPlatform/enterprisePolicies"" ""Microsoft.PowerPlatform/vnetaccesslinks"" ""Microsoft.ServiceFabricMesh/networks"" ""Microsoft.ServiceNetworking/trafficControllers"" ""Microsoft.Singularity/accounts/networks"" ""Microsoft.Singularity/accounts/npu"" ""Microsoft.Sql/managedInstances"" ""Microsoft.Sql/managedInstancesOnebox"" ""Microsoft.Sql/managedInstancesStage"" ""Microsoft.Sql/managedInstancesTest"" ""Microsoft.Sql/servers"" ""Microsoft.StoragePool/diskPools"" ""Microsoft.StreamAnalytics/streamingJobs"" ""Microsoft.Synapse/workspaces"" ""Microsoft.Web/hostingEnvironments"" ""Microsoft.Web/serverFarms"" ""NGINX.NGINXPLUS/nginxDeployments"" ""Oracle.Database/networkAttachments"" ""PaloAltoNetworks.Cloudngfw/firewalls"" ""Qumulo.Storage/fileSystems"" ""PureStorage.Block/storagePools""], got Microsoft.Cache/redis",1,0,CKV_AZURE_89,
+qwen3.8_27b,redis_cache,zodiac,rep1,True,fail,Failed to install provider,1,0,CKV_AZURE_89,
+qwen3.8_27b,redis_cache,zodiac,rep2,True,fail,Required plugins are not installed,1,0,CKV_AZURE_89,
+qwen3.8_27b,redis_cache,zodiac,rep3,True,fail,Missing required argument,2,0,CKV_AZURE_230 CKV_AZURE_89,
+qwen3.8_27b,route_table,baseline,rep1,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,route_table,baseline,rep2,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,route_table,baseline,rep3,True,fail,Failed to install provider,2,0,CKV2_AZURE_31 CKV_AZURE_50,
+qwen3.8_27b,route_table,zodiac,rep1,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,route_table,zodiac,rep2,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,route_table,zodiac,rep3,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,storage_account,baseline,rep1,True,fail,Required plugins are not installed,9,0,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_59,
+qwen3.8_27b,storage_account,baseline,rep2,True,fail,Required plugins are not installed,9,0,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_59,
+qwen3.8_27b,storage_account,baseline,rep3,True,fail,"Terraform encountered problems during initialisation, including problems",13,3,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_43 CKV_AZURE_44 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_44
+qwen3.8_27b,storage_account,zodiac,rep1,True,fail,Unsupported argument,12,3,CKV2_AZURE_1 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_35 CKV_AZURE_44 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_44
+qwen3.8_27b,storage_account,zodiac,rep2,True,fail,Unsupported argument,12,3,CKV2_AZURE_1 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_35 CKV_AZURE_44 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_44
+qwen3.8_27b,storage_account,zodiac,rep3,True,fail,Unsupported argument,12,3,CKV2_AZURE_1 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_35 CKV_AZURE_44 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_44
+qwen3.8_27b,virtual_wan_hub,baseline,rep1,True,fail,Missing required argument,0,0,,
+qwen3.8_27b,virtual_wan_hub,baseline,rep2,True,needs_input,,0,0,,
+qwen3.8_27b,virtual_wan_hub,baseline,rep3,True,needs_input,,0,0,,
+qwen3.8_27b,virtual_wan_hub,zodiac,rep1,True,fail,Missing required argument,0,0,,
+qwen3.8_27b,virtual_wan_hub,zodiac,rep2,True,fail,Unsupported argument,0,0,,
+qwen3.8_27b,virtual_wan_hub,zodiac,rep3,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,vm_data_disk,baseline,rep1,True,fail,Invalid function argument,6,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_10
+qwen3.8_27b,vm_data_disk,baseline,rep2,True,fail,Missing required argument,8,4,CKV2_AZURE_31 CKV_AZURE_1 CKV_AZURE_10 CKV_AZURE_149 CKV_AZURE_178 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_1 CKV_AZURE_10 CKV_AZURE_149 CKV_AZURE_178
+qwen3.8_27b,vm_data_disk,baseline,rep3,True,fail,Unsupported argument,4,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_50,CKV_AZURE_10
+qwen3.8_27b,vm_data_disk,zodiac,rep1,True,fail,Missing required argument,7,3,CKV2_AZURE_31 CKV_AZURE_1 CKV_AZURE_149 CKV_AZURE_178 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_1 CKV_AZURE_149 CKV_AZURE_178
+qwen3.8_27b,vm_data_disk,zodiac,rep2,True,fail,Unsupported argument,11,5,CKV2_AZURE_31 CKV_AZURE_1 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_149 CKV_AZURE_160 CKV_AZURE_178 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_9 CKV_AZURE_93,CKV_AZURE_1 CKV_AZURE_10 CKV_AZURE_149 CKV_AZURE_178 CKV_AZURE_9
+qwen3.8_27b,vm_data_disk,zodiac,rep3,True,fail,Missing required argument,9,4,CKV2_AZURE_31 CKV_AZURE_1 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_149 CKV_AZURE_178 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_1 CKV_AZURE_10 CKV_AZURE_149 CKV_AZURE_178
+qwen3.8_27b,vnet_peering,baseline,rep1,True,fail,Unsupported argument,0,0,,
+qwen3.8_27b,vnet_peering,baseline,rep2,True,fail,Required plugins are not installed,1,0,CKV2_AZURE_31,
+qwen3.8_27b,vnet_peering,baseline,rep3,True,fail,Missing required argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,vnet_peering,zodiac,rep1,True,pass,,0,0,,
+qwen3.8_27b,vnet_peering,zodiac,rep2,True,pass,,0,0,,
+qwen3.8_27b,vnet_peering,zodiac,rep3,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,vpn_gateway,baseline,rep1,True,fail,Unsupported attribute,0,0,,
+qwen3.8_27b,vpn_gateway,baseline,rep2,True,needs_input,,0,0,,
+qwen3.8_27b,vpn_gateway,baseline,rep3,True,fail,Missing required argument,0,0,,
+qwen3.8_27b,vpn_gateway,zodiac,rep1,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,vpn_gateway,zodiac,rep2,True,fail,Unsupported argument,1,0,CKV2_AZURE_31,
+qwen3.8_27b,vpn_gateway,zodiac,rep3,True,fail,Required plugins are not installed,0,0,,
+qwen3.8_27b,windows_vm,baseline,rep1,True,fail,Required plugins are not installed,5,1,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+qwen3.8_27b,windows_vm,baseline,rep2,True,fail,Failed to query available provider packages,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+qwen3.8_27b,windows_vm,baseline,rep3,True,fail,"Terraform encountered problems during initialisation, including problems",16,4,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_151 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_43 CKV_AZURE_44 CKV_AZURE_50 CKV_AZURE_59 CKV_AZURE_9,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_44 CKV_AZURE_9
+qwen3.8_27b,windows_vm,zodiac,rep1,True,fail,Missing required argument,5,2,CKV2_AZURE_31 CKV_AZURE_151 CKV_AZURE_178 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_178 CKV_AZURE_9
+qwen3.8_27b,windows_vm,zodiac,rep2,True,fail,Unsupported argument,5,1,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+qwen3.8_27b,windows_vm,zodiac,rep3,True,needs_input,,16,3,CKV2_AZURE_1 CKV2_AZURE_10 CKV2_AZURE_12 CKV2_AZURE_31 CKV2_AZURE_33 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV2_AZURE_9 CKV_AZURE_119 CKV_AZURE_190 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_44 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_44

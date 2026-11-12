@@ -1,0 +1,115 @@
+model,task,condition,rep,parsed,plan,plan_error,failed,core_failed,failed_ids,core_failed_ids
+claude-opus-5-5,app_gateway,baseline,rep1,True,pass,,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+claude-opus-5-5,app_gateway,baseline,rep2,True,needs_input,,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+claude-opus-5-5,app_gateway,baseline,rep3,True,needs_input,,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+claude-opus-5-5,app_gateway,zodiac,rep1,True,pass,,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+claude-opus-5-5,app_gateway,zodiac,rep2,True,pass,,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+claude-opus-5-5,app_gateway,zodiac,rep3,True,pass,,3,0,CKV2_AZURE_31 CKV_AZURE_217 CKV_AZURE_218,
+claude-opus-5-5,bastion_host,baseline,rep1,True,pass,,0,0,,
+claude-opus-5-5,bastion_host,baseline,rep2,True,pass,,1,0,CKV_AZURE_50,
+claude-opus-5-5,bastion_host,baseline,rep3,True,pass,,2,0,CKV2_AZURE_31 CKV_AZURE_50,
+claude-opus-5-5,bastion_host,zodiac,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,bastion_host,zodiac,rep2,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,bastion_host,zodiac,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,cosmosdb,baseline,rep1,True,pass,,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+claude-opus-5-5,cosmosdb,baseline,rep2,True,pass,,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+claude-opus-5-5,cosmosdb,baseline,rep3,True,needs_input,,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+claude-opus-5-5,cosmosdb,zodiac,rep1,True,pass,,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+claude-opus-5-5,cosmosdb,zodiac,rep2,True,pass,,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+claude-opus-5-5,cosmosdb,zodiac,rep3,True,pass,,5,0,CKV_AZURE_100 CKV_AZURE_101 CKV_AZURE_132 CKV_AZURE_140 CKV_AZURE_99,
+claude-opus-5-5,express_route,baseline,rep1,True,pass,,0,0,,
+claude-opus-5-5,express_route,baseline,rep2,True,pass,,0,0,,
+claude-opus-5-5,express_route,baseline,rep3,True,pass,,0,0,,
+claude-opus-5-5,express_route,zodiac,rep1,True,pass,,0,0,,
+claude-opus-5-5,express_route,zodiac,rep2,True,pass,,0,0,,
+claude-opus-5-5,express_route,zodiac,rep3,True,pass,,0,0,,
+claude-opus-5-5,firewall,baseline,rep1,True,pass,,2,0,CKV_AZURE_216 CKV_AZURE_220,
+claude-opus-5-5,firewall,baseline,rep2,True,pass,,2,0,CKV_AZURE_216 CKV_AZURE_220,
+claude-opus-5-5,firewall,baseline,rep3,True,pass,,2,0,CKV_AZURE_216 CKV_AZURE_220,
+claude-opus-5-5,firewall,zodiac,rep1,True,pass,,2,0,CKV_AZURE_216 CKV_AZURE_220,
+claude-opus-5-5,firewall,zodiac,rep2,True,pass,,2,0,CKV_AZURE_216 CKV_AZURE_219,
+claude-opus-5-5,firewall,zodiac,rep3,True,pass,,2,0,CKV_AZURE_216 CKV_AZURE_219,
+claude-opus-5-5,linux_vm,baseline,rep1,True,needs_input,,3,0,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_50,
+claude-opus-5-5,linux_vm,baseline,rep2,True,pass,,3,0,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_50,
+claude-opus-5-5,linux_vm,baseline,rep3,True,needs_input,,3,0,CKV2_AZURE_31 CKV_AZURE_119 CKV_AZURE_50,
+claude-opus-5-5,linux_vm,zodiac,rep1,True,needs_input,,4,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_50,CKV_AZURE_10
+claude-opus-5-5,linux_vm,zodiac,rep2,True,needs_input,,4,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_50,CKV_AZURE_10
+claude-opus-5-5,linux_vm,zodiac,rep3,True,pass,,4,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_50,CKV_AZURE_10
+claude-opus-5-5,load_balancer,baseline,rep1,True,pass,,0,0,,
+claude-opus-5-5,load_balancer,baseline,rep2,True,pass,,0,0,,
+claude-opus-5-5,load_balancer,baseline,rep3,True,pass,,0,0,,
+claude-opus-5-5,load_balancer,zodiac,rep1,True,pass,,0,0,,
+claude-opus-5-5,load_balancer,zodiac,rep2,True,pass,,0,0,,
+claude-opus-5-5,load_balancer,zodiac,rep3,True,pass,,0,0,,
+claude-opus-5-5,mssql_database,baseline,rep1,True,needs_input,,9,1,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_34 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,CKV2_AZURE_34
+claude-opus-5-5,mssql_database,baseline,rep2,True,pass,,9,1,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_34 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,CKV2_AZURE_34
+claude-opus-5-5,mssql_database,baseline,rep3,True,pass,,9,1,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_34 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,CKV2_AZURE_34
+claude-opus-5-5,mssql_database,zodiac,rep1,True,pass,,8,0,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,
+claude-opus-5-5,mssql_database,zodiac,rep2,True,pass,,8,0,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,
+claude-opus-5-5,mssql_database,zodiac,rep3,True,pass,,8,0,CKV2_AZURE_2 CKV2_AZURE_27 CKV2_AZURE_45 CKV_AZURE_113 CKV_AZURE_224 CKV_AZURE_229 CKV_AZURE_23 CKV_AZURE_24,
+claude-opus-5-5,postgres_flexible,baseline,rep1,True,pass,,3,1,CKV2_AZURE_26 CKV2_AZURE_57 CKV_AZURE_136,CKV2_AZURE_26
+claude-opus-5-5,postgres_flexible,baseline,rep2,True,pass,,3,1,CKV2_AZURE_26 CKV2_AZURE_57 CKV_AZURE_136,CKV2_AZURE_26
+claude-opus-5-5,postgres_flexible,baseline,rep3,True,pass,,3,1,CKV2_AZURE_26 CKV2_AZURE_57 CKV_AZURE_136,CKV2_AZURE_26
+claude-opus-5-5,postgres_flexible,zodiac,rep1,True,pass,,3,0,CKV2_AZURE_31 CKV2_AZURE_57 CKV_AZURE_136,
+claude-opus-5-5,postgres_flexible,zodiac,rep2,True,pass,,3,0,CKV2_AZURE_31 CKV2_AZURE_57 CKV_AZURE_136,
+claude-opus-5-5,postgres_flexible,zodiac,rep3,True,pass,,3,1,CKV2_AZURE_26 CKV2_AZURE_57 CKV_AZURE_136,CKV2_AZURE_26
+claude-opus-5-5,private_dns_resolver,baseline,rep1,True,needs_input,,2,1,CKV2_AZURE_31 CKV_AZURE_77,CKV_AZURE_77
+claude-opus-5-5,private_dns_resolver,baseline,rep2,True,needs_input,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,private_dns_resolver,baseline,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,private_dns_resolver,zodiac,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,private_dns_resolver,zodiac,rep2,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,private_dns_resolver,zodiac,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,private_endpoint,baseline,rep1,True,pass,,7,0,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33,
+claude-opus-5-5,private_endpoint,baseline,rep2,True,pass,,8,0,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_36,
+claude-opus-5-5,private_endpoint,baseline,rep3,True,needs_input,,8,0,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_36,
+claude-opus-5-5,private_endpoint,zodiac,rep1,True,pass,,8,0,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_244 CKV_AZURE_33,
+claude-opus-5-5,private_endpoint,zodiac,rep2,True,pass,,8,0,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_244 CKV_AZURE_33,
+claude-opus-5-5,private_endpoint,zodiac,rep3,True,pass,,8,0,CKV2_AZURE_1 CKV2_AZURE_31 CKV2_AZURE_38 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_244 CKV_AZURE_33,
+claude-opus-5-5,redis_cache,baseline,rep1,True,pass,,1,0,CKV_AZURE_89,
+claude-opus-5-5,redis_cache,baseline,rep2,True,pass,,1,0,CKV_AZURE_89,
+claude-opus-5-5,redis_cache,baseline,rep3,True,pass,,1,0,CKV_AZURE_89,
+claude-opus-5-5,redis_cache,zodiac,rep1,True,pass,,1,0,CKV_AZURE_89,
+claude-opus-5-5,redis_cache,zodiac,rep2,True,pass,,1,0,CKV_AZURE_89,
+claude-opus-5-5,redis_cache,zodiac,rep3,True,pass,,1,0,CKV_AZURE_89,
+claude-opus-5-5,route_table,baseline,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,route_table,baseline,rep2,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,route_table,baseline,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,route_table,zodiac,rep1,True,needs_input,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,route_table,zodiac,rep2,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,route_table,zodiac,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,storage_account,baseline,rep1,True,pass,,7,0,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_33 CKV_AZURE_59,
+claude-opus-5-5,storage_account,baseline,rep2,True,pass,,9,0,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_43 CKV_AZURE_59,
+claude-opus-5-5,storage_account,baseline,rep3,True,pass,,9,0,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_40 CKV2_AZURE_41 CKV_AZURE_206 CKV_AZURE_33 CKV_AZURE_43 CKV_AZURE_59,
+claude-opus-5-5,storage_account,zodiac,rep1,True,pass,,9,2,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_33 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190
+claude-opus-5-5,storage_account,zodiac,rep2,True,pass,,9,2,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_33 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190
+claude-opus-5-5,storage_account,zodiac,rep3,True,pass,,9,2,CKV2_AZURE_1 CKV2_AZURE_21 CKV2_AZURE_33 CKV2_AZURE_40 CKV2_AZURE_41 CKV2_AZURE_47 CKV_AZURE_190 CKV_AZURE_33 CKV_AZURE_59,CKV2_AZURE_47 CKV_AZURE_190
+claude-opus-5-5,virtual_wan_hub,baseline,rep1,True,needs_input,,0,0,,
+claude-opus-5-5,virtual_wan_hub,baseline,rep2,True,needs_input,,0,0,,
+claude-opus-5-5,virtual_wan_hub,baseline,rep3,True,needs_input,,0,0,,
+claude-opus-5-5,virtual_wan_hub,zodiac,rep1,True,needs_input,,0,0,,
+claude-opus-5-5,virtual_wan_hub,zodiac,rep2,True,needs_input,,0,0,,
+claude-opus-5-5,virtual_wan_hub,zodiac,rep3,True,needs_input,,0,0,,
+claude-opus-5-5,vm_data_disk,baseline,rep1,True,pass,,6,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_10
+claude-opus-5-5,vm_data_disk,baseline,rep2,True,pass,,6,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_10
+claude-opus-5-5,vm_data_disk,baseline,rep3,True,pass,,6,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_10
+claude-opus-5-5,vm_data_disk,zodiac,rep1,True,pass,,6,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_10
+claude-opus-5-5,vm_data_disk,zodiac,rep2,True,pass,,6,1,CKV2_AZURE_31 CKV_AZURE_10 CKV_AZURE_119 CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,CKV_AZURE_10
+claude-opus-5-5,vm_data_disk,zodiac,rep3,True,pass,,3,0,CKV_AZURE_251 CKV_AZURE_50 CKV_AZURE_93,
+claude-opus-5-5,vnet_peering,baseline,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vnet_peering,baseline,rep2,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vnet_peering,baseline,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vnet_peering,zodiac,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vnet_peering,zodiac,rep2,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vnet_peering,zodiac,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vpn_gateway,baseline,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vpn_gateway,baseline,rep2,True,needs_input,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vpn_gateway,baseline,rep3,True,needs_input,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vpn_gateway,zodiac,rep1,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vpn_gateway,zodiac,rep2,True,needs_input,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,vpn_gateway,zodiac,rep3,True,pass,,1,0,CKV2_AZURE_31,
+claude-opus-5-5,windows_vm,baseline,rep1,True,pass,,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+claude-opus-5-5,windows_vm,baseline,rep2,True,pass,,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+claude-opus-5-5,windows_vm,baseline,rep3,True,pass,,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+claude-opus-5-5,windows_vm,zodiac,rep1,True,pass,,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+claude-opus-5-5,windows_vm,zodiac,rep2,True,needs_input,,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9
+claude-opus-5-5,windows_vm,zodiac,rep3,True,pass,,4,1,CKV_AZURE_119 CKV_AZURE_151 CKV_AZURE_50 CKV_AZURE_9,CKV_AZURE_9

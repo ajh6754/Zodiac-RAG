@@ -1,0 +1,17 @@
+{
+  "models": [
+    "codex:gpt-6.1-sol"
+  ],
+  "conditions": [
+    "baseline",
+    "zodiac"
+  ],
+  "tasks": null,
+  "reps": 3,
+  "top_k": 15,
+  "kb": "mined",
+  "reasoning": "high",
+  "temperature": null,
+  "max_tokens": 8000,
+  "run": "codex-sol-high"
+}

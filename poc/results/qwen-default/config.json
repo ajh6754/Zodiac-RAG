@@ -1,0 +1,17 @@
+{
+  "models": [
+    "qwen3.8:27b"
+  ],
+  "conditions": [
+    "baseline",
+    "zodiac"
+  ],
+  "tasks": null,
+  "reps": 3,
+  "top_k": 15,
+  "kb": "mined",
+  "reasoning": "default",
+  "temperature": null,
+  "max_tokens": 8000,
+  "run": "default_reason"
+}
